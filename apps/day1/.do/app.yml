@@ -1,6 +1,6 @@
 name: ai2050-dd-workshop
 services:
-- dockerfile_path: Dockerfile
+- dockerfile_path: apps/day1/Dockerfile
   github:
     branch: main
     deploy_on_push: true
