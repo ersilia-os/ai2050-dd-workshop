@@ -36,6 +36,7 @@ def get_client(model_id):
 
 @st.cache_data
 def read_library(library_filename):
+    print(os.path.join(data_dir, library_filename))
     return list(pd.read_csv(os.path.join(data_dir, library_filename))["smiles"])
 
 clients = {model_id: get_client(model_id) for model_id in model_urls.keys()}
