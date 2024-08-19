@@ -19,3 +19,12 @@ spec:
     source_dir: apps/day2
     routes:
     - path: /apps/day2
+
+  - name: ai2050-dd-workshop-d3
+    environment_slug: day3
+    git:
+      branch: main
+      repo_clone_url: https://github.com/ersilia-os/ai2050-dd-workshop.git
+    source_dir: apps/day3
+    routes:
+    - path: /apps/day3
