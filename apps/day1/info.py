@@ -7,7 +7,7 @@ about = [
 
 intro = """
 <div style="background-color: lightgray; padding: 10px; border-radius: 5px;">
-    <p>Intro to the day's activity</p>
+    <p>Intro to the day's activity DAY 1</p>
 </div>
 """
 
