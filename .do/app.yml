@@ -1,8 +1,12 @@
 name: ai2050-dd-workshop
+
 services:
 - name: ai2050-dd-workshop-d1
-  dockerfile_path: apps/day1/Dockerfile
+  environment_slug: day1
   github:
+    repo: ersilia-os/ai2050-dd-workshop
     branch: main
     deploy_on_push: true
-    repo: ersilia-os/ai2050-dd-workshop
+  source_dir: apps/day1
+  routes:
+  - path: /apps/day1

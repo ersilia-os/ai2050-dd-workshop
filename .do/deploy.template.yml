@@ -1,9 +1,11 @@
 spec:
-  name: ai2050-dd-workshop
+  name: sample-monorepo
   services:
   - name: ai2050-dd-workshop-d1
-    dockerfile_path: apps/day1/Dockerfile
+    environment_slug: day1
     git:
       branch: main
       repo_clone_url: https://github.com/ersilia-os/ai2050-dd-workshop.git
-    
+    source_dir: apps/day1
+    routes:
+    - path: /apps/day1
