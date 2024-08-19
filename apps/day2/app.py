@@ -8,7 +8,7 @@ from ersilia_client import ErsiliaClient
 
 root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
-data_dir = os.path.abspath(os.path.join(root, "..", "..", "data", "day1"))
+data_dir = os.path.abspath(os.path.join(root, "data"))
 
 from info import about, intro, library_filenames
 from info import model_urls as model_urls_list
