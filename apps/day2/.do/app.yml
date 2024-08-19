@@ -5,4 +5,4 @@ services:
     branch: main
     deploy_on_push: true
     repo: ersilia-os/ai2050-dd-workshop
-  name: ai2050-dd-workshop-d2
+  name: ai2050-dd-workshop-d1
