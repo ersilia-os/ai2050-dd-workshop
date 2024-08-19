@@ -10,3 +10,13 @@ services:
   source_dir: apps/day1
   routes:
   - path: /apps/day1
+
+- name: ai2050-dd-workshop-d2
+  environment_slug: day2
+  github:
+    repo: ersilia-os/ai2050-dd-workshop
+    branch: main
+    deploy_on_push: true
+  source_dir: apps/day2
+  routes:
+  - path: /apps/day2
