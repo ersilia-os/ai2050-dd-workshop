@@ -1,8 +1,9 @@
 spec:
-  name: ai2050-dd-workshop-d1
+  name: ai2050-dd-workshop
   services:
-  - dockerfile_path: DockerfileDay1
+  - name: ai2050-dd-workshop-d1
+    dockerfile_path: apps/day1/Dockerfile
     git:
       branch: main
       repo_clone_url: https://github.com/ersilia-os/ai2050-dd-workshop.git
-    name: ai2050-dd-workshop-d1
+    
