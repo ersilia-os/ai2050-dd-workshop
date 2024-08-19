@@ -1,8 +1,8 @@
-name: ai2050-dd-workshop
+name: ai2050-dd-workshop-d1
 services:
-- dockerfile_path: Dockerfile
+- dockerfile_path: DockerfileDay1
   github:
     branch: main
     deploy_on_push: true
     repo: ersilia-os/ai2050-dd-workshop
-  name: ai2050-dd-workshop-d2
+  name: ai2050-dd-workshop-d1
