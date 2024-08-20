@@ -6,19 +6,21 @@ about = [
 ]
 
 intro = """
-<div style="background-color: lightgray; padding: 10px; border-radius: 5px;">
-    <p>Intro to the day's activity DAY 3</p>
-</div>
-"""
+In this workshop, we will explore sampling methods to expand the chemical space around a seed (hit) molecule. We will try and critically assess a few exemplary methods, both for generative chemistry and for querying (ultra) large scale chemical libraries.
+""".strip()
 
 model_urls = {
-    "eos9ei3": ["https://eos9ei3-tkreo.ondigitalocean.app/"
-                ],
-                
-    "eos43at": ["https://eos43at-zqx9x.ondigitalocean.app/"
-                ]
+    "eos8fma": None,
+    "eos4q1a": None,
+    "eos6ost": None,
+    "eos9ueu": None,
+    "eos1d7r": None,
+    "eos3kcw": None,
 }
 
-library_filenames = {
-    "Example library": "example.csv",
+seed_molecules = {
+    "Molecule 1": "CC1=CC(=O)C(=C(C1=O)O)C",
+    "Molecule 2": "C1=CC=C(C=C1)C(=O)O",
+    "Molecule 3": "CC(C)C1=CC(=C(C=C1)O)C",
+    "Molecule 4": "C1=CC=C(C=C1)C(=O)O",
 }

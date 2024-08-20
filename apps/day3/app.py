@@ -10,11 +10,13 @@ root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
 data_dir = os.path.abspath(os.path.join(root, "data"))
 
-from info import about, intro, library_filenames
+from info import about, intro
 from info import model_urls as model_urls_list
+from info import seed_molecules
+from utils import get_model_info_from_github, random_molecules
+from plots import markdown_card, plot_single_molecule
 
-
-st.set_page_config(layout="wide", page_title='AI/ML DD Workshop', page_icon=':microbe:', initial_sidebar_state='collapsed')
+st.set_page_config(layout="wide", page_title='AI/ML DD Workshop DAY 3', page_icon=':microbe:', initial_sidebar_state='collapsed')
 
 if "random_seed" not in st.session_state:
     st.session_state.random_seed = random.randint(0, 10000)
@@ -22,38 +24,33 @@ if "random_seed" not in st.session_state:
 @st.cache_data
 def sample_model_urls():
     random.seed(st.session_state.random_seed)
-    model_urls = {
-        "eos9ei3": random.choice(model_urls_list["eos9ei3"]),
-        "eos43at": random.choice(model_urls_list["eos43at"])
-    }
+    model_urls = {}
+    for k, v in model_urls_list.items():
+        if v is None:
+            model_urls[k] = None
+        else:
+            model_urls[k] = random.choice(v)
     return model_urls
 
 model_urls = sample_model_urls()
 
 @st.cache_resource
 def get_client(model_id):
-    return ErsiliaClient(model_urls[model_id])
-
-@st.cache_data
-def read_library(library_filename):
-    print(os.path.join(data_dir, library_filename))
-    return list(pd.read_csv(os.path.join(data_dir, library_filename))["smiles"])
+    url = model_urls[model_id]
+    if url is None:
+        return None
+    return ErsiliaClient(url)
 
 clients = {model_id: get_client(model_id) for model_id in model_urls.keys()}
 
-@st.cache_data(show_spinner=False)
-def run_predictive_models(model_ids, smiles_list):
-    results = {}
-    for  model_id in model_ids:
-        client = clients[model_id]
-        result = client.run(smiles_list)
-        results[model_id] = result
-    df = pd.DataFrame({"SMILES": smiles_list})
-    for model_id, result in results.items():
-        columns = list(result.columns)
-        columns = [column for column in columns if column != "input"]
-        df = pd.concat([df, result[columns]], axis=1)
-    return df
+@st.cache_data
+def get_models_info():
+    models_info = {}
+    for k, _ in model_urls_list.items():
+        models_info[k] = get_model_info_from_github(k)
+    return models_info
+
+models_info = get_models_info()
 
 # ABOUT
 st.sidebar.title("About")
@@ -62,27 +59,25 @@ for i in range(4):
     
 # MAIN
 st.title(":microbe: AI2050 - AI/ML for Drug Discovery Workshop :pill:")
-st.markdown(intro, unsafe_allow_html=True)
+st.info(intro)
 
-# Section 1: 
-st.header("Section 1")
-cols = st.columns(2)
-smiles = read_library(library_filenames["Example library"])
-cols[0].write(smiles)
-if cols[0].button("Run predictions"):
-    df = run_predictive_models(["eos9ei3", "eos43at"], smiles)
-    st.session_state["preds_ready"] = df
-if "preds_ready" in st.session_state:
-    cols[1].write(st.session_state["preds_ready"])
+# Step 1
+st.header("Step 1: Sample the chemical space around a seed molecule")
+cols = st.columns(3)
+long_seed_molecules = sorted(["{0}: {1}".format(k, v) for k, v in seed_molecules.items()])
+sel_smiles = cols[0].radio(label="Seed molecules", options=long_seed_molecules).split(": ")[1]
+plot_single_molecule(cols[0], sel_smiles)
 
-if 'mock_button' not in st.session_state:
-    st.session_state['mock_button'] = False
-def toggle_mock():
-    st.session_state['mock_button'] = not st.session_state['mock_button']
-if st.button('Move to next example', on_click=toggle_mock):
-        pass
+long_model_ids = sorted(["{0}: {1}".format(k, v["Title"]) for k, v in models_info.items()])
+sel_model = cols[0].radio(label="Ersilia Model Hub identifiers", options=long_model_ids).split(":")[0]
 
-# Section 2: 
-if st.session_state['mock_button']:
-    st.divider()
-    st.header("Section 2")
+markdown_card(cols[0], sel_model, models_info)
+
+button_sample_chemspace = cols[0].button("Sample molecules!")
+
+if button_sample_chemspace:
+    client = clients[sel_model]
+    if client is None:
+        sampled_smiles = random_molecules(100)
+    df = pd.DataFrame({"SMILES": sampled_smiles})
+    cols[1].dataframe(df)
