@@ -6,7 +6,6 @@ This folder contains a day-by-day app-based guided activity. Briefly, each subfo
 - `utils.py`: contains specific functions to be called by the app
 - `plots.py`: contains plotting functions to ensure standard aspect of the apps across different days
 - `/data`: all data files necessaary must be here. Remember to use Git LFS if your files exceed the limit on GitHub repositories.
-- `./do`: files for Digital Ocean Deployment. Do not modify
 - `requirements.txt`: please list requirements for your app in this folder.
 
 
