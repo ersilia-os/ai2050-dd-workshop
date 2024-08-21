@@ -1,5 +1,8 @@
 from rdkit import Chem
 from rdkit.Chem import Draw
+import mols2grid
+import streamlit as st
+
 
 def markdown_card(container, model_id, models_info):
     model_info = models_info[model_id]
@@ -26,3 +29,9 @@ def plot_single_molecule(container, smiles):
     mol = Chem.MolFromSmiles(smiles)
     img = Draw.MolToImage(mol)
     container.image(img)
+
+
+def basic_mols2grid_plot(df):
+    html_str = mols2grid.display(df, selection=False, template="interactive")._repr_html_()
+    mols2grid.get_selection()
+    st.components.v1.html(html_str, height=350, scrolling=True)
