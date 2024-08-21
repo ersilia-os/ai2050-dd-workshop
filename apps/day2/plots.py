@@ -5,7 +5,7 @@ import numpy as np
 
 def plot_act_inact(df): 
     #needs a datagrame with Molecule index, Mean value and Binary
-    color_mapping = alt.Color('Binary:N', scale=alt.Scale(domain=[1, 0], range=['#FF0000', '#0000FF']), legend=alt.Legend(title='Molecule Activity', labelExpr="if(datum.label == '1', 'Active', 'Inactive')"))
+    color_mapping = alt.Color('Binary:N', scale=alt.Scale(domain=[1, 0], range=['#FF0000', '#0000FF']), legend=alt.Legend(title='Molecule Activity', labelExpr="if(datum.label == '1', 'Active', 'Inactive')", orient="bottom"))
     scatter_plot = alt.Chart(df).mark_circle(size=60).encode(
         x=alt.X('Molecule index:Q', title='Molecule Index'),
         y=alt.Y('Mean:Q', title='Mean growth (OD)'),
@@ -48,7 +48,7 @@ def plot_lolp(X,y):
     y=alt.Y('LolP2', title='LolP2'),
     color=alt.Color('Binary:N', scale=alt.Scale(domain=[0, 1], range=['#0000FF', '#FF0000']), legend=None)
     ).properties(
-        title='2D Chemical Space (1)'
+        title='2D Chemical Space'
     ).configure_title(
         anchor='middle'
     ).interactive()
