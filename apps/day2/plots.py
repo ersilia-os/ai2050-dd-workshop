@@ -1,7 +1,5 @@
 import pandas as pd
-import umap
 import altair as alt
-import numpy as np
 
 def plot_act_inact(df): 
     #needs a datagrame with Molecule index, Mean value and Binary
