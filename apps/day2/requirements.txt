@@ -3,5 +3,5 @@ rdkit
 git+https://github.com/ersilia-os/ersilia-client.git
 pandas
 numpy==2.0.0
-umap-learn
 altair
+scikit-learn

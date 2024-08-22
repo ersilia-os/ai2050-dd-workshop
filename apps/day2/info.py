@@ -20,7 +20,10 @@ model_urls = {
 }
 
 library_filenames = {
-    "Abaumannii": "eos3804.csv",
+    "Compound library 1": "abaumannii_subset250_0.csv",
+    "Compound library 2": "abaumannii_subset250_1.csv",
+    "Compound library 3": "abaumannii_subset250_2.csv",
+    "Compound library 4": "abaumannii_subset250_3.csv",
 }
 
 q1 = [
@@ -47,4 +50,25 @@ q3 = [
     "- What do Morgan Fingerprints represent?",
     "- What do Chemical Checker signatures represent?",
     "- Which one would be most appropriate for this case?",
+]
+
+q4 = [
+    "- Why do we use a train/test split?",
+    "- What could be a good ratio  train:test?",
+    "- What do we have to watch out for in this particular dataset",
+    "- Which metric will we use to evaluate model performance?",
+]
+
+q4_followup = [
+    "- Are these good performances?",
+    "- Which descriptors seem to work better?",
+    "- What would happen if we increase or decrease the cut-off?",
+    "- How does our quick modelling compare to the author's work?",
+    "- What else would you do now?"
+]
+
+q5 = [
+    "- What is the output of a classifier?",
+    "- What do we consider an Active in the predictions?",
+    "- Are these results expected?"
 ]

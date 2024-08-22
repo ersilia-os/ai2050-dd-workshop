@@ -2,6 +2,9 @@ import os
 import sys
 import random
 import pandas as pd
+import numpy as np
+from sklearn import metrics
+import altair as alt
 import streamlit as st
 
 from ersilia_client import ErsiliaClient
@@ -10,12 +13,13 @@ root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
 data_dir = os.path.abspath(os.path.join(root, "data"))
 
-from info import about, intro, exp, q1, q2, q3, library_filenames
+from info import about, intro, exp, q1, q2, q3, q4, q4_followup, q5, library_filenames
 from info import model_urls as model_urls_list
 
-from utils import load_acinetobacter_training_data, binarize_acinetobacter_data, lolp_reducer
+from utils import load_acinetobacter_training_data, binarize_acinetobacter_data, lolp_reducer, train_acinetobacter_ml_model, predict_acinetobacter_ml_model 
+from utils import filter_valid_smiles, draw_molecule
 
-from plots import plot_act_inact, plot_lolp
+from plots import plot_act_inact, plot_lolp, plot_roc_curve
 
 st.set_page_config(layout="wide", page_title='AI/ML DD Workshop', page_icon=':microbe:', initial_sidebar_state='collapsed')
 
@@ -88,6 +92,7 @@ if st.session_state['step1_button']:
     if st.button("Cut-off selected", on_click=set_cutoff):
         st.write(f"Cut-off value saved: {st.session_state['cutoff']}")
     if st.session_state["cutoff"]!= None:
+        y = [1 if x <= st.session_state["cutoff"] else 0 for x in df["Mean"]] # INSTANTIATE ONLY ONE TIME; DO NOT SUBSCRIBE!
     # Section 3: Featurisation of molecules
         st.divider()
         st.header("Step 3: Featurise molecules")
@@ -121,48 +126,216 @@ if st.session_state['step1_button']:
                 columns = [column for column in columns if column != "input"]
                 df = pd.concat([df, result[columns]], axis=1)
             return df
+    
+        @st.cache_data(show_spinner=False)
+        def do_plot_lolp(X, y):
+            return plot_lolp(X, y)
         
         smiles_list = df["SMILES"]
-        cols = st.columns([1,1,1])
-        cols[0].text("1D Descriptor: Morgan Fingerpringts")
-        if 'morgan_active' not in st.session_state:
-            st.session_state.dp = None
-            st.session_state['morgan_active'] = False
-        def toggle_model_predictions_state():
-            st.session_state['morgan_active'] = not st.session_state['morgan_active']
-        if cols[0].button(":rocket: Calculate Morgan descriptors", on_click=toggle_model_predictions_state):
-            if not st.session_state["morgan_active"]:
-                pass
-            else:
-                with st.spinner("Running models..."):
-                    #morgan = run_predictive_models(["eos4wt0"], smiles_list)
-                    morgan = pd.read_csv(os.path.join(data_dir, "eos4wt0_preds.csv"))
-                    cols[0].write(morgan)
-                    X = morgan.iloc[:, 2:]
-                    y = [1 if x <= st.session_state["cutoff"] else 0 for x in df["Mean"]]
-                    st.session_state["lolp_morgan"] = lolp_reducer(X, y)
-                    X_lolp = st.session_state["lolp_morgan"]["X"]
-                    @st.cache_data(show_spinner=False)
-                    def do_plot_lolp(X, y):
-                        return plot_lolp(X, y)
-                    fig1 = do_plot_lolp(X_lolp, y)
-                    cols[0].altair_chart(fig1, use_container_width=True)
-
-
-        cols[1].text("3D Descriptor: Chemical Checker")
-        if 'cc_active' not in st.session_state:
-            st.session_state.dp = None
-            st.session_state['cc_active'] = False
-        def toggle_model_predictions_state():
-            st.session_state['cc_active'] = not st.session_state['cc_active']
-        if cols[1].button(":rocket: Calculate Chemical Checker signatures", on_click=toggle_model_predictions_state):
-            if not st.session_state["cc_active"]:
-                pass
-            else:
-                with st.spinner("Running models..."):
-                    #dp = run_predictive_models(["eos4u6p"], smiles_list)
-                    cc  = pd.read_csv(os.path.join(data_dir, "eos4u6p_preds.csv"))
-                    cols[1].write(cc)
-        
+        cols = st.columns([0.35,0.35,0.3])
         q3_comb = '  \n'.join(q3)
         cols[2].info(q3_comb,icon=":material/quiz:")
+
+        if 'desc1_active' not in st.session_state:
+            st.session_state['desc1_active'] = False
+        def toggle_desc1_state():
+            st.session_state['desc1_active'] = not st.session_state['desc1_active']
+        if 'desc1_results' not in st.session_state:
+            st.session_state['desc1_results'] = None
+        if 'desc1_lolp' not in st.session_state:
+            st.session_state['desc1_lolp'] = None
+        if cols[0].button(":rocket: Calculate Morgan descriptors", on_click=toggle_desc1_state):
+            if not st.session_state["desc1_active"]:
+                pass
+            else:
+                with st.spinner("Running Ersilia model..."):
+                    desc1 = pd.read_csv(os.path.join(data_dir, "eos4wt0_preds.csv"))  
+                    st.session_state['desc1_results'] = desc1
+                    X = desc1.iloc[:, 2:]
+                    st.session_state["desc1_lolp"] = lolp_reducer(X, y)
+        if st.session_state['desc1_results'] is not None:
+            cols[0].write(st.session_state['desc1_results'])
+            fig1 = do_plot_lolp(st.session_state["desc1_lolp"]["X"], y)
+            cols[1].altair_chart(fig1, use_container_width=True)
+
+        cols = st.columns([0.35,0.35,0.3])
+        if 'desc2_active' not in st.session_state:
+            st.session_state['desc2_active'] = False
+        def toggle_desc2_state():
+            st.session_state['desc2_active'] = not st.session_state['desc2_active']
+        if 'desc2_results' not in st.session_state:
+            st.session_state['desc2_results'] = None
+        if 'desc2_lolp' not in st.session_state:
+            st.session_state['desc2_lolp'] = None
+        if cols[0].button(":rocket: Calculate Chemical Checker signatures", on_click=toggle_desc2_state):
+            if not st.session_state["desc2_active"]:
+                pass
+            else:
+                with st.spinner("Running Ersilia model..."):
+                    #dp = run_predictive_models(["eos4u6p"], smiles_list)
+                    desc2 = pd.read_csv(os.path.join(data_dir, "eos4u6p_preds.csv"))
+                    st.session_state['desc2_results'] = desc2
+                    X = desc2.iloc[:, 2:]
+                    st.session_state['desc2_lolp'] = lolp_reducer(X, y)
+        if st.session_state['desc2_results'] is not None:
+            cols[0].write(st.session_state['desc2_results'])
+            fig1 = do_plot_lolp(st.session_state["desc2_lolp"]["X"], y)
+            cols[1].altair_chart(fig1, use_container_width=True)
+
+            st.divider()
+            st.header("Step 4: Train a classifier")
+            cols = st.columns([0.3, 0.35, 0.35])
+            q4_comb = '  \n'.join(q4)
+            cols[0].info(q4_comb,icon=":material/quiz:")
+
+            @st.cache_data(show_spinner=False)
+            def do_plot_roc_curve(tprs_df):
+                return plot_roc_curve(tprs_df)
+
+            if 'train_desc1_model_active' not in st.session_state:
+                st.session_state['train_desc1_model_active'] = False
+            def toggle_train_desc1_model_state():
+                st.session_state['train_desc1_model_active'] = not st.session_state['train_desc2_model_active']
+            if cols[1].button('🤖 Train a classifier using Morgan FPS!', on_click=toggle_train_desc1_model_state):
+                if not st.session_state["train_desc1_model_active"]:
+                    pass
+                else:
+                    with st.spinner("Training the model..."):
+                        st.session_state.model_results_desc1 = train_acinetobacter_ml_model(st.session_state['desc1_results'].iloc[:, 2:], y)
+            if st.session_state["train_desc1_model_active"]:
+                if "model_results_desc1" in st.session_state:
+                    aurocs = st.session_state.model_results_desc1["aurocs"]
+                    std_auroc = np.std(aurocs)
+                    tprs = []
+                    mean_fpr = np.linspace(0,1,100)
+                    for i in st.session_state.model_results_desc1["cv_data"]:
+                        fpr, tpr, _ = metrics.roc_curve(i[0],i[1])
+                        interp_tpr = np.interp(mean_fpr, fpr, tpr)
+                        interp_tpr[0] = 0.0
+                        tprs.append(interp_tpr)
+                    mean_tpr = np.mean(tprs, axis=0)
+                    mean_tpr[-1] = 1.0
+                tprs_df = pd.DataFrame({
+                    'tpr_cv1': tprs[0],
+                    'tpr_cv2': tprs[1],
+                    'tpr_cv3': tprs[2],
+                    'tpr_cv4': tprs[3],
+                    'tpr_cv5': tprs[4],
+                    'Mean TPR': mean_tpr,
+                    'FPR': mean_fpr,     
+                })
+                X = st.session_state.model_results_desc1["X"]
+                y = st.session_state.model_results_desc1["y"]
+                fig1 = do_plot_roc_curve(tprs_df)
+                cols[1].metric("AUROC ± Std", f"{np.mean(aurocs):.3f} ± {std_auroc:.3f}")
+                cols[1].success('Model trained!')
+                cols[1].altair_chart(fig1, use_container_width=True)
+
+            if 'train_desc2_model_active' not in st.session_state:
+                st.session_state['train_desc2_model_active'] = False
+            def toggle_train_desc2_model_state():
+                st.session_state['train_desc2_model_active'] = not st.session_state['train_desc2_model_active']
+            if cols[2].button('🤖 Train a classifier using CC Signatures!', on_click=toggle_train_desc2_model_state):
+                if not st.session_state["train_desc2_model_active"]:
+                    pass
+                else:
+                    with st.spinner("Training the model..."):
+                        st.session_state.model_results_desc2 = train_acinetobacter_ml_model(st.session_state['desc2_results'].iloc[:, 2:], y)
+            if st.session_state["train_desc2_model_active"]:
+                if "model_results_desc2" in st.session_state:
+                    aurocs = st.session_state.model_results_desc2["aurocs"]
+                    std_auroc = np.std(aurocs)
+                    tprs = []
+                    mean_fpr = np.linspace(0,1,100)
+                    for i in st.session_state.model_results_desc2["cv_data"]:
+                        fpr, tpr, _ = metrics.roc_curve(i[0],i[1])
+                        interp_tpr = np.interp(mean_fpr, fpr, tpr)
+                        interp_tpr[0] = 0.0
+                        tprs.append(interp_tpr)
+                    mean_tpr = np.mean(tprs, axis=0)
+                    mean_tpr[-1] = 1.0
+                tprs_df = pd.DataFrame({
+                    'tpr_cv1': tprs[0],
+                    'tpr_cv2': tprs[1],
+                    'tpr_cv3': tprs[2],
+                    'tpr_cv4': tprs[3],
+                    'tpr_cv5': tprs[4],
+                    'Mean TPR': mean_tpr,
+                    'FPR': mean_fpr,     
+                })
+                X = st.session_state.model_results_desc2["X"]
+                y = st.session_state.model_results_desc2["y"]
+                fig1 = do_plot_roc_curve(tprs_df)
+                cols[2].metric("AUROC ± Std", f"{np.mean(aurocs):.3f} ± {std_auroc:.3f}")
+                cols[2].success('Model trained!')
+                cols[2].altair_chart(fig1, use_container_width=True)
+                q4f_comb = '  \n'.join(q4_followup)
+                cols[0].info(q4f_comb,icon=":material/quiz:")            
+
+                if 'final_model' not in st.session_state:
+                    st.session_state['final_model'] = False
+                def toggle_final_model():
+                    st.session_state['final_model'] = not st.session_state['final_model']
+                if cols[0].button('💾 Save the model and use it!', on_click=toggle_final_model):
+                    pass
+                if st.session_state["final_model"]:
+                    @st.cache_data
+                    def read_library(library_filename):
+                        return list(pd.read_csv(os.path.join(data_dir, library_filename))["smiles"])
+
+                    st.divider()
+                    st.header("Library selection for prediction")
+                    cols = st.columns(5)
+                    smiles_list = read_library(library_filenames["Compound library 1"])
+                    cols[0].metric("Number of molecules", len(smiles_list))
+                    library_molecules_list = [(i, smiles) for i, smiles in enumerate(smiles_list)]
+                    num_molecules = len(library_molecules_list)
+                    num_chunks_of_4 = (num_molecules + 3) // 4
+                    chunk_of_4_index = st.session_state.get('chunk_of_4_index', 0)
+                    start_index = chunk_of_4_index * 4
+                    end_index = min(start_index + 4, num_molecules)
+                    current_chunk_of_4 = library_molecules_list[start_index:end_index]
+                    def draw_molecules_in_chunk_of_4(cols, current_chunk):
+                        i = 0
+                        for m in current_chunk:
+                            cols[i+1].image(draw_molecule(m[1]), caption=f"Molecule {m[0]}")
+                            i += 1
+                    draw_molecules_in_chunk_of_4(cols, current_chunk_of_4)
+                    if cols[1].button("View more molecules"):
+                        chunk_of_4_index = (chunk_of_4_index + 1) % num_chunks_of_4
+                    st.session_state['chunk_of_4_index'] = chunk_of_4_index
+
+                    
+                    descriptor_choice = st.radio("Select descriptor for model predictions", ("Morgan", "Chemical Checker"))
+                    if 'model_predictions_active' not in st.session_state:
+                        st.session_state.dp = None
+                        st.session_state['model_predictions_active'] = False
+                    def toggle_model_predictions_state():
+                        st.session_state['model_predictions_active'] = not st.session_state['model_predictions_active']
+                    if st.button(":rocket: Run predictions!", on_click=toggle_model_predictions_state):
+                        if not st.session_state["model_predictions_active"]:
+                            pass
+                        else:
+                            with st.spinner("Running model..."):
+                                if descriptor_choice == "Morgan":
+                                    st.toast("Running the Acinetobacter model")
+                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos4wt0.csv"))
+                                    X = descs.iloc[:, 2:]
+                                    mdl = st.session_state.model_results_desc1["model"]
+                                    abau_preds = predict_acinetobacter_ml_model(X, mdl)
+                                elif descriptor_choice == "Chemical Checker":
+                                    st.toast("Running the Acinetobacter model")
+                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos4u6p.csv"))
+                                    X = descs.iloc[:, 2:]
+                                    mdl = st.session_state.model_results_desc2["model"]
+                                    abau_preds = predict_acinetobacter_ml_model(X, mdl)
+                                abau_df = pd.DataFrame({"smiles": smiles_list, "proba1": abau_preds})
+                                cols = st.columns([0.3,0.35,0.35])
+                                cols[0].write(abau_df)
+                                chart = alt.Chart(abau_df).mark_bar(color="#1D6996").encode(
+                                    alt.X("proba1", bin=alt.Bin(maxbins=30), axis=alt.Axis(title="proba1")),
+                                    y=alt.Y('count()', axis=alt.Axis(title='Counts'))
+                                )
+                                cols[1].altair_chart(chart, use_container_width=True)
+                                q5_comb = '  \n'.join(q5)
+                                cols[2].info(q5_comb, icon=":material/quiz:")
