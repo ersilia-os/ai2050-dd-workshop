@@ -1,3 +1,6 @@
 streamlit
 rdkit
+umap-learn
+pca
+scikit-image
 git+https://github.com/ersilia-os/ersilia-client.git

@@ -4,7 +4,8 @@ import random
 import pandas as pd
 import streamlit as st
 
-from ersilia_client import ErsiliaClient
+from utils import create_umap, image_formatter, featurize_morgan, clean_df
+from plots import plot_umap
 
 root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
@@ -20,39 +21,33 @@ if "random_seed" not in st.session_state:
     st.session_state.random_seed = random.randint(0, 10000)
 
 @st.cache_data
-def sample_model_urls():
-    random.seed(st.session_state.random_seed)
-    model_urls = {
-        "eos9ei3": random.choice(model_urls_list["eos9ei3"]),
-        "eos43at": random.choice(model_urls_list["eos43at"])
-    }
-    return model_urls
-
-model_urls = sample_model_urls()
-
-@st.cache_resource
-def get_client(model_id):
-    return ErsiliaClient(model_urls[model_id])
-
-@st.cache_data
 def read_library(library_filename):
     print(os.path.join(data_dir, library_filename))
-    return list(pd.read_csv(os.path.join(data_dir, library_filename))["smiles"])
+    return pd.read_csv(os.path.join(data_dir, library_filename), names=["SMILES"])
 
-clients = {model_id: get_client(model_id) for model_id in model_urls.keys()}
+def process_csv_files(filename_list):
+    filenames, df_list = [], []
+    for i, file in enumerate(filename_list):
+        filenames.append(file.name.split(".csv")[0])
+        df = pd.read_csv(file, sep=None)
+        for col in df.columns:
+            if "SMILES" in col.upper():
+                df.rename(columns = {col : "SMILES"}, inplace=True)
+        df = df.loc[:,~df.columns.duplicated()].copy()
+        df_list.append(df)
+    return filenames, df_list
+        
+@st.cache_data
+def process_umap(df):
+    df["fp"] = featurize_morgan(df["SMILES"])
+    df = clean_df(df)
+    
+    transformed_data = create_umap(df["fp"].tolist())
+    df['UMAP1'] = transformed_data.T[0]
+    df['UMAP2'] = transformed_data.T[1]
 
-@st.cache_data(show_spinner=False)
-def run_predictive_models(model_ids, smiles_list):
-    results = {}
-    for  model_id in model_ids:
-        client = clients[model_id]
-        result = client.run(smiles_list)
-        results[model_id] = result
-    df = pd.DataFrame({"SMILES": smiles_list})
-    for model_id, result in results.items():
-        columns = list(result.columns)
-        columns = [column for column in columns if column != "input"]
-        df = pd.concat([df, result[columns]], axis=1)
+    df['image'] = [image_formatter(s) for s in df['SMILES']]
+    df["source_filenames"] = df.index #df["ID"]
     return df
 
 # ABOUT
@@ -65,24 +60,44 @@ st.title(":microbe: AI2050 - AI/ML for Drug Discovery Workshop :pill:")
 st.markdown(intro, unsafe_allow_html=True)
 
 # Section 1: 
-st.header("Section 1")
+st.header("Upload Data")
 cols = st.columns(2)
-smiles = read_library(library_filenames["Example library"])
-cols[0].write(smiles)
-if cols[0].button("Run predictions"):
-    df = run_predictive_models(["eos9ei3", "eos43at"], smiles)
-    st.session_state["preds_ready"] = df
-if "preds_ready" in st.session_state:
-    cols[1].write(st.session_state["preds_ready"])
 
-if 'mock_button' not in st.session_state:
-    st.session_state['mock_button'] = False
-def toggle_mock():
-    st.session_state['mock_button'] = not st.session_state['mock_button']
-if st.button('Move to next example', on_click=toggle_mock):
-        pass
+file_list = cols[0].file_uploader("Upload chemical datasets as CSV files. Ensure they have a 'SMILES' column", accept_multiple_files=True)
+if cols[0].button("Upload"):
+    with st.spinner():
+        filenames, df_list = process_csv_files(file_list)
+        st.session_state["filenames"] = filenames
+        st.session_state["df_list"] = df_list
 
-# Section 2: 
-if st.session_state['mock_button']:
-    st.divider()
-    st.header("Section 2")
+        for i, file in enumerate(filenames):
+            cols[0].write(file + " length:" + str(df_list[i].shape[0]))
+    
+
+if 'chem_space_button' not in st.session_state:
+    st.session_state['chem_space_button'] = True
+def toggle_chem_space():
+    st.session_state['chem_space_button'] = not st.session_state['chem_space_button']
+if st.button('View Chemical Space', on_click=toggle_chem_space):
+    # Section 2: 
+    if st.session_state['chem_space_button']:
+        st.divider()
+        st.header("Chemical Space Plots")
+        cols2 = st.columns(2)
+    
+        if 'umap_points' not in st.session_state:
+            umap_list = []
+            df_list = st.session_state["df_list"]
+            for df in df_list:
+                umap_list = process_umap(df)
+        
+            fig = plot_umap(umap_list)
+            cols2[0].write(fig)
+            st.session_state['umap_points'] = umap_list
+            st.session_state['plot_avail'] = True
+            
+        elif st.session_state['chem_space_button'] and 'plot_avail' in st.session_state:
+            fig = plot_umap(st.session_state['umap_points'])
+            cols2[0].write(fig)
+        
+
