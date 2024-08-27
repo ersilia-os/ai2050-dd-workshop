@@ -2,13 +2,13 @@ import collections
 
 about = [
     "This app is part of the Schmidt Futures AI2050 program.",
-    "The workshop been jointly developed by the [Ersilia Open Source Initiative](https://ersilia.io) and the [H3D Foundation](https://h3dfoundation.org/).",
+    "The workshop has been jointly developed by the [Ersilia Open Source Initiative](https://ersilia.io) and the [H3D Foundation](https://h3dfoundation.org/).",
     "For more information about this workshop, please see code and data in this [GitHub repository](https://github.com/ersilia-os/ai2050-dd-workshop).",
-    "If you have a more advanced dataset in mind or a use case for your research, please contact us at: [hello@ersilia.io](mailto:hello@ersilia.io)."
+    "The app is intended for educational purposes only. If you have a more advanced dataset in mind or a use case for your research, please contact us at: [hello@ersilia.io](mailto:hello@ersilia.io)."
 ]
 
 intro = """
-In this workshop, we will explore sampling methods to expand the chemical space around a seed (hit) molecule. We will try and critically assess a few exemplary methods, both for generative chemistry and for querying (ultra) large scale chemical libraries.
+In this session, we will explore sampling methods to expand the chemical space around a seed (hit) molecule. We will try and critically assess a few exemplary methods, both for generative chemistry and for querying (ultra) large scale chemical libraries.
 """.strip()
 
 step_1_explanation = """
@@ -17,16 +17,34 @@ step_1_explanation = """
 - **Sample molecules!**: Click this button to sample molecules from the selected model.
 """.strip()
 
+step_1_questions = """
+- What is the chemical space around the seed molecule?
+- How diverse are the generated molecules?
+- How do the generated molecules compare to the seed molecule?
+""".strip()
+
 step_2_explanation = """
 - **Seed molecules**: Select a seed molecule from the list of seed molecules.
 - **Ersilia Model Hub identifiers**: Select a model from the list of models.
 - **Sample molecules!**: Click this button to sample molecules from the selected model.
 """.strip()
 
+step_2_questions = """
+- What is the chemical space around the seed molecule?
+- How diverse are the generated molecules?
+- How do the generated molecules compare to the seed molecule?
+""".strip()
+
 step_3_explanation = """
 - **Seed molecules**: Select a seed molecule from the list of seed molecules.
 - **Ersilia Model Hub identifiers**: Select a model from the list of models.
 - **Sample molecules!**: Click this button to sample molecules from the selected model.
+""".strip()
+
+step_3_questions = """
+- What is the chemical space around the seed molecule?
+- How diverse are the generated molecules?
+- How do the generated molecules compare to the seed molecule?
 """.strip()
 
 adme_warning_message = """
@@ -40,6 +58,7 @@ model_urls = {
     "eos9ueu": None,
     "eos1d7r": None,
     "eos3kcw": None,
+    "eos694w": None,
 }
 
 activity_models_urls = {

@@ -10,14 +10,14 @@ root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
 data_dir = os.path.abspath(os.path.join(root, "data"))
 
-from info import about, intro, step_1_explanation, step_2_explanation, step_3_explanation, adme_warning_message
+from info import about, intro, step_1_explanation, step_2_explanation, step_3_explanation, adme_warning_message, step_1_questions, step_2_questions, step_3_questions
 from info import model_urls as model_urls_list
 from info import activity_models_urls as activity_models_urls_list
 from info import adme_models_urls as adme_models_urls_list
 from info import seed_molecules
 from info import adme_col_new2old
 from utils import get_model_info_from_github, random_molecules, basic_molecules_dataframe
-from plots import markdown_card, plot_single_molecule, basic_mols2grid_plot
+from plots import markdown_card, plot_single_molecule, basic_mols2grid_plot, histogram, molecule_card
 
 st.set_page_config(layout="wide", page_title='AI/ML DD Workshop Day 3', page_icon=':microbe:', initial_sidebar_state='collapsed')
 
@@ -134,7 +134,8 @@ sel_model = cols[1].radio(label="Ersilia Model Hub identifiers", options=long_mo
 
 markdown_card(cols[2], sel_model, models_info)
 
-cols[3].info(step_1_explanation)
+cols[3].success(step_1_explanation)
+cols[3].info(step_1_questions)
 
 client = clients[sel_model]
 if client is None:
@@ -181,8 +182,8 @@ cols[0].warning(adme_warning_message)
 markdown_card(cols[1], sel_activity_model, activity_models_info)
 markdown_card(cols[2], sel_adme_model, adme_models_info)
 
-cols[3].info(step_2_explanation)
-
+cols[3].success(step_2_explanation)
+cols[3].info(step_2_questions)
 
 # Calculate activity
 activity_client = activity_clients[sel_activity_model]
@@ -213,8 +214,19 @@ da = pd.DataFrame(adme_percentiles, columns=[sel_adme_prop_1, sel_adme_prop_2, s
 dl = pd.concat([dl[["InChIKey", "SMILES", "Tanimoto Coeff", "Activity"]], da], axis=1)
 
 st.subheader(":star: Here are your molecules with some predicted properties!")
-cols = st.columns(2)
+cols = st.columns([1/2, 1/4, 1/4, 1/4])
 
+cols[0].success("These are your selected molecules with their calculated properties. Feel free to explore them further!")
 cols[0].dataframe(dl)
-cols[-1].info(step_3_explanation)
+
+explore_smiles = cols[1].text_input("Explore molecule structures. Copy-paste the SMILES from the table", value=dl.iloc[0]["SMILES"])
+molecule_card(cols[1], explore_smiles, dl)
+
+
+column = cols[2].selectbox("Explore the distribution of column values", options=list(dl.columns)[2:])
+
+histogram(cols[2], dl, column)
+
+cols[3].success(step_3_explanation)
+cols[3].info(step_3_questions)
 

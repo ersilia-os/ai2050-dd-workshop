@@ -1,6 +1,7 @@
 from rdkit import Chem
 from rdkit.Chem import Draw
 import mols2grid
+import plotly.express as px
 import streamlit as st
 
 
@@ -24,14 +25,30 @@ def markdown_card(container, model_id, models_info):
     markdown_text += model_info['Description'] + "\n"
     container.markdown(markdown_text)
 
-
 def plot_single_molecule(container, smiles):
     mol = Chem.MolFromSmiles(smiles)
     img = Draw.MolToImage(mol)
     container.image(img)
 
+def molecule_card(container, smiles, df):
+    plot_single_molecule(container, smiles)
+    df = df[df["SMILES"] == smiles]
+    if df.shape[0] == 0:
+        return
+    text = "- **InChIKey**: {0}\n".format(df["InChIKey"].values[0])
+    text += "- **SMILES**: {0}\n".format(df["SMILES"].values[0])
+    text += "- **Tanimoto Coeff**: {0}\n".format(df["Tanimoto Coeff"].values[0])
+    text += "- **Activity**: {0}\n".format(df["Activity"].values[0])
+    cols = list(df.columns)[4:]
+    for col in cols:
+        text += "- **{0}**: {1}\n".format(col, df[col].values[0])
+    container.markdown(text)
 
 def basic_mols2grid_plot(df):
     html_str = mols2grid.display(df, selection=False, template="interactive")._repr_html_()
     mols2grid.get_selection()
     st.components.v1.html(html_str, height=350, scrolling=True)
+
+def histogram(container, df, column):
+    fig = px.histogram(df, x=column)
+    container.plotly_chart(fig, theme="streamlit")
