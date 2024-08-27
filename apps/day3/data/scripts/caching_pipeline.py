@@ -3,9 +3,10 @@ import os
 import subprocess
 import tempfile
 import pandas as pd
-from rdkit import Chem
 import json
 import csv
+import shutil
+from rdkit import Chem
 
 input_smiles = sys.argv[1]
 input_inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(input_smiles))
@@ -148,3 +149,7 @@ for model_id in adme_models:
         continue
     output_file = ersilia_prediction_runner(model_id, smiles_list)
     keep_tmp_prediction_output(output_file, model_id)
+
+print("All done!")
+print("Cleaning up")
+shutil.rmtree(tmp_dir)
