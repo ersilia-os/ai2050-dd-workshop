@@ -7,6 +7,7 @@ from rdkit.Chem import Draw
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix
 from lol import LOL
 
 
@@ -74,3 +75,17 @@ def filter_valid_smiles(smiles_list):
 def draw_molecule(smiles):
     mol = Chem.MolFromSmiles(smiles)
     return Draw.MolToImage(mol, size=(200, 200))
+
+def calculate_sensitivity_recall(y_true, y_pred, cutoff=0.5):
+    y_pred_bin = (y_pred >= cutoff).astype(int)
+    cm = confusion_matrix(y_true, y_pred_bin)
+    TP = cm[1, 1]
+    TN = cm[0, 0]
+    FP = cm[0, 1]
+    FN = cm[1, 0]
+    sensitivity = TP/(TP + FN) if (TP + FN) > 0 else 0.0
+    specificity = TN/(TN + FP) if (TN + FP) > 0 else 0.0
+    sensitivity = round(sensitivity, 3)
+    specificity = round(specificity, 3)
+    return sensitivity, specificity
+    

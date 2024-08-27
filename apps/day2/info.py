@@ -16,7 +16,8 @@ model_urls = {
                 ],
                 
     "eos4u6p": ["https://eos43at-zqx9x.ondigitalocean.app/"
-                ]
+                ],
+    "eos3804": ["https://eos3894-gz5nz.ondigitalocean.app/"]
 }
 
 library_filenames = {
@@ -41,7 +42,7 @@ q2 = [
     "- Why to we want to know the Mean OD of the dataset?",
     "- What else do we need to take into account to define a cut-off?",
     "- What would be a good cut-off in this case?",
-    "- Is it a balanced dataset? Why ot why not?",
+    "- Is it a balanced dataset? Why or why not?",
     "- What is the author's defined activity cut-off?",
 ]
 
@@ -53,10 +54,11 @@ q3 = [
 ]
 
 q4 = [
-    "- Why do we use a train/test split?",
-    "- What could be a good ratio  train:test?",
-    "- What do we have to watch out for in this particular dataset",
-    "- Which metric will we use to evaluate model performance?",
+    "- What is a cross-validation experiment?"
+    "- Why do we need a train/test split?",
+    "- What could be a good ratio for the train/test split?",
+    "- What do we have to watch out for in this particular dataset?",
+    "- Which metrics can we use to evaluate model performance?",
 ]
 
 q4_followup = [
@@ -64,11 +66,12 @@ q4_followup = [
     "- Which descriptors seem to work better?",
     "- What would happen if we increase or decrease the cut-off?",
     "- How does our quick modelling compare to the author's work?",
-    "- What else would you do now?"
+    "- What else could we do now?"
 ]
 
 q5 = [
     "- What is the output of a classifier?",
     "- What do we consider an Active in the predictions?",
+    "- What did the authors consider an Active in their predictions?",
     "- Are these results expected?"
 ]

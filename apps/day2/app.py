@@ -17,9 +17,9 @@ from info import about, intro, exp, q1, q2, q3, q4, q4_followup, q5, library_fil
 from info import model_urls as model_urls_list
 
 from utils import load_acinetobacter_training_data, binarize_acinetobacter_data, lolp_reducer, train_acinetobacter_ml_model, predict_acinetobacter_ml_model 
-from utils import filter_valid_smiles, draw_molecule
+from utils import draw_molecule, calculate_sensitivity_recall
 
-from plots import plot_act_inact, plot_lolp, plot_roc_curve
+from plots import plot_act_inact, plot_lolp, plot_roc_curve, plot_contingency_table
 
 st.set_page_config(layout="wide", page_title='AI/ML DD Workshop', page_icon=':microbe:', initial_sidebar_state='collapsed')
 
@@ -195,7 +195,7 @@ if st.session_state['step1_button']:
             if 'train_desc1_model_active' not in st.session_state:
                 st.session_state['train_desc1_model_active'] = False
             def toggle_train_desc1_model_state():
-                st.session_state['train_desc1_model_active'] = not st.session_state['train_desc2_model_active']
+                st.session_state['train_desc1_model_active'] = not st.session_state['train_desc1_model_active']
             if cols[1].button('🤖 Train a classifier using Morgan FPS!', on_click=toggle_train_desc1_model_state):
                 if not st.session_state["train_desc1_model_active"]:
                     pass
@@ -270,7 +270,29 @@ if st.session_state['step1_button']:
                 cols[2].success('Model trained!')
                 cols[2].altair_chart(fig1, use_container_width=True)
                 q4f_comb = '  \n'.join(q4_followup)
-                cols[0].info(q4f_comb,icon=":material/quiz:")            
+                cols[0].info(q4f_comb,icon=":material/quiz:")
+                st.subheader("Let's dig a bit deeper...")
+                cols = st.columns([1,1,1])
+                cv_data = st.session_state.model_results_desc2["cv_data"][0]
+                cv_data = pd.DataFrame({"ytest":cv_data[0], "ypred": cv_data[1]})
+                cols[0].success("Model prediction on test set")
+                chart = alt.Chart(cv_data).mark_bar(color="#1D6996").encode(
+                    alt.X("ypred", bin=alt.Bin(maxbins=30), axis=alt.Axis(title="Prediction")),
+                    y=alt.Y('count()', axis=alt.Axis(title='Counts'))
+                    )
+                cols[0].altair_chart(chart, use_container_width=True)
+                cols[1].success("Threshold of probability")
+                proba_cutoff = cols[1].slider("Proba cutoff", min_value=0.1, max_value=1., value=0.5, step=0.001, format="%.2f")
+                st.session_state.proba_cutoff = proba_cutoff
+                sensitivity, specificity = calculate_sensitivity_recall(cv_data["ytest"], cv_data["ypred"], cutoff = proba_cutoff)
+                cols[1].write("Sensitivity: ")
+                cols[1].write(sensitivity)
+                cols[1].write("Specficity: ")
+                cols[1].write(specificity)
+
+                cols[2].success("Contingency table")
+                chart = plot_contingency_table(cv_data["ytest"], cv_data["ypred"], cutoff = proba_cutoff)
+                cols[2].altair_chart(chart, use_container_width=True)
 
                 if 'final_model' not in st.session_state:
                     st.session_state['final_model'] = False
