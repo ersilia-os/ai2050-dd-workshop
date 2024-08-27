@@ -123,24 +123,25 @@ st.info(intro)
 # Step 1
 st.header("Sample the chemical space around a seed molecule")
 cols = st.columns(4)
-long_seed_molecules = sorted(["{0}: {1}".format(k, v) for k, v in seed_molecules.items()])
+long_seed_molecules = sorted(["`{0}`: {1}".format(k, v) for k, v in seed_molecules.items()])
 cols[0].subheader("Select a seed molecule")
 sel_smiles = cols[0].radio(label="Seed molecules", options=long_seed_molecules).split(": ")[1]
 plot_single_molecule(cols[0], sel_smiles)
 
-long_model_ids = sorted(["{0}: {1}".format(k, v["Title"]) for k, v in models_info.items()])
+long_model_ids = sorted(["`{0}`: {1}".format(k, v["Title"]) for k, v in models_info.items()])
 cols[1].subheader("Select a model")
-sel_model = cols[1].radio(label="Ersilia Model Hub identifiers", options=long_model_ids).split(":")[0]
+sel_model = cols[1].radio(label="Ersilia Model Hub identifiers", options=long_model_ids).split("`:")[0].split("`")[1]
 
 markdown_card(cols[2], sel_model, models_info)
 
 cols[3].success(step_1_explanation)
 cols[3].info(step_1_questions)
 
+sample_models_button = cols[3].button("Sample molecules!")
+
 client = clients[sel_model]
 if client is None:
     sampled_smiles = random_molecules(100)
-
 
 df = basic_molecules_dataframe(sampled_smiles, sel_smiles)
 
@@ -161,9 +162,13 @@ basic_mols2grid_plot(dl)
 
 st.header(":pill: Predict properties of your molecules wishlist")
 
+# Step 2
+
 # Select models
 cols = st.columns(4)
-sel_activity_model = cols[0].radio(label="Select an activity model", options=list(activity_models_urls.keys()), index=0)
+activity_model_keys = sorted(activity_models_urls.keys())
+activity_model_labels = ["`{0}`: {1}".format(k, activity_models_info[k]["Title"]) for k in activity_model_keys]
+sel_activity_model = cols[0].radio(label="Select an activity model", options=activity_model_labels, index=0).split("`:")[0].split("`")[1]
 sel_adme_model = [k for k in adme_models_urls.keys()][0]
 adme_columns = list(adme_col_new2old.keys())
 _adme_columns = [k for k in adme_columns]
@@ -221,7 +226,6 @@ cols[0].dataframe(dl)
 
 explore_smiles = cols[1].text_input("Explore molecule structures. Copy-paste the SMILES from the table", value=dl.iloc[0]["SMILES"])
 molecule_card(cols[1], explore_smiles, dl)
-
 
 column = cols[2].selectbox("Explore the distribution of column values", options=list(dl.columns)[2:])
 

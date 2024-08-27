@@ -1,0 +1,1 @@
+Precalculations were run on Ersilia's workstation (`raluy`). All models need to be priorly fetched before running these scripts.
