@@ -81,6 +81,12 @@ adme_models_urls = {
     "eos7d58": None
 }
 
+deterministic_models = [
+    "eos9ueu",
+    "eos1d7r",
+    "eos3kcw",
+]
+
 ds = pd.read_csv(os.path.join(root, "data", "atb_screening_data_top100.csv")).head(4)
 seed_molecules = collections.OrderedDict()
 for v in ds.values:
