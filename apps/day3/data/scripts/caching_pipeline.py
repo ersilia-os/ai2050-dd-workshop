@@ -164,6 +164,8 @@ R = []
 for fn in os.listdir(cache_folder):
     if not fn.startswith("sampling"):
         continue
+    if not input_inchikey in fn:
+        continue
     with open(os.path.join(cache_folder, fn), "r") as f:
         data = json.load(f)
         _, input_inchikey, model_id, round = fn.split(".json")[0].split("_")
@@ -186,6 +188,8 @@ model_molecule = []
 for fn in os.listdir(cache_folder):
     if not fn.startswith("prediction"):
         continue
+    if not input_inchikey in fn:
+        continue
     df = pd.read_csv(os.path.join(cache_folder, fn))
     _, input_inchikey, model_id = fn.split(".csv")[0].split("_")
     dfs += [df]
@@ -193,23 +197,18 @@ for fn in os.listdir(cache_folder):
 
 inchikeys = dfs[0]["key"].tolist()
 smiles = dfs[0]["input"].tolist()
-for df in dfs:
+for i, df in enumerate(dfs):
     assert inchikeys == df["key"].tolist(), "Fatal error! Molecules are not the same between models."
 
 df = pd.DataFrame({"inchikey": inchikeys, "smiles": smiles})
 
 for i, df_ in enumerate(dfs):
-    print(df)
     columns = list(df_.columns)[2:]
     df_ = df_[columns]
     model_id = model_molecule[i][0]
     rename = dict((c, model_id + "_" + c) for c in columns)
     df_ = df_.rename(columns=rename, inplace=False)
     df = pd.concat([df, df_], axis=1)
-    columns = ["inchikey", "smiles"]
-    columns += [x for x in columns if x in activity_models]
-    columns += [x for x in columns if x in adme_models]
-    df = df[columns]
 
 df.to_csv(os.path.join(root, "..", "cache_lite", f"predictions_{input_inchikey}.csv"), index=False)
     
