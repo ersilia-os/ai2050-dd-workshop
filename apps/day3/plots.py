@@ -30,7 +30,7 @@ def plot_single_molecule(container, smiles):
     img = Draw.MolToImage(mol)
     container.image(img)
 
-def molecule_card(container, smiles, df):
+def basic_molecule_card(container, smiles, df):
     plot_single_molecule(container, smiles)
     df = df[df["SMILES"] == smiles]
     if df.shape[0] == 0:
@@ -38,7 +38,23 @@ def molecule_card(container, smiles, df):
     text = "- **InChIKey**: {0}\n".format(df["InChIKey"].values[0])
     text += "- **SMILES**: {0}\n".format(df["SMILES"].values[0])
     text += "- **Tanimoto Coeff**: {0}\n".format(df["Tanimoto Coeff"].values[0])
-    text += "- **Activity**: {0}\n".format(df["Activity"].values[0])
+    text += "- **MolWeight**: {0}\n".format(df["MolWeight"].values[0])
+    text += "- **LogP**: {0}\n".format(df["LogP"].values[0])
+    text += "- **QED**: {0}\n".format(df["QED"].values[0])
+    container.markdown(text)
+
+def molecule_card(container, smiles, df, activity_column=None):
+    plot_single_molecule(container, smiles)
+    df = df[df["SMILES"] == smiles]
+    if df.shape[0] == 0:
+        return
+    text = "- **InChIKey**: {0}\n".format(df["InChIKey"].values[0])
+    text += "- **SMILES**: {0}\n".format(df["SMILES"].values[0])
+    text += "- **Tanimoto Coeff**: {0}\n".format(df["Tanimoto Coeff"].values[0])
+    if activity_column is None:
+        text += "- **Activity**: {0}\n".format(df["Activity"].values[0])
+    else:
+        text += "- **{0}**: {1:.3f}\n".format(activity_column, df[activity_column].values[0])
     cols = list(df.columns)[4:]
     for col in cols:
         text += "- **{0}**: {1}\n".format(col, df[col].values[0])
