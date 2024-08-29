@@ -53,7 +53,7 @@ q1_header = "Let's first think about..."
 col2.write(q1_header)
 q_comb = '  \n'.join(q1)
 col2.info(q_comb, icon=":material/quiz:")
-col2.success("Read more about this dataset in its source publication [Liu et al, 2023](https://www.nature.com/articles/s41589-023-01349-8)", icon=":material/help_clinic:")
+col2.success("Read more about this dataset in its source publication [Liu et al, 2023](https://drive.google.com/file/d/1_EwSEDzbjtqpLMGA8EIrxkxxJRsTrE0r/view?usp=sharing)", icon=":material/help_clinic:")
 
 if 'step1_button' not in st.session_state:
     st.session_state['step1_button'] = False
