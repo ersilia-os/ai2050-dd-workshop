@@ -5,12 +5,17 @@ about = [
     "If you have a more advanced dataset in mind or a use case for your research, please contact us at: [hello@ersilia.io](mailto:hello@ersilia.io)."
 ]
 
-intro = """
-<div style="background-color: lightgray; padding: 10px; border-radius: 5px;">
-    <p>Intro to the day's activity DAY 1</p>
-</div>
-"""
+intro = "DAY 1 Activity: We will focus on plotting and comparing the chemical space of different datasets from literature."
 
-library_filenames = {
-    "Example library": "example.csv",
-}
+questions = [
+    "- Do the datasets overlap?",
+    "- How similar are the nearest compounds to the chemical space we're interested in?",
+    "- Are the trends consistent between the UMAP and PCA plots?", 
+    "- How clustered is each dataset?",
+    "- Are our observations what we expect to see?",
+    "- Do we expect that a model produced from the data will be predictive for our chemical space of interest?"
+]
+
+#library_filenames = {
+#    "Example library": "example.csv",
+#}

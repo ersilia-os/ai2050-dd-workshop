@@ -4,4 +4,5 @@ umap-learn
 pca
 scikit-learn
 scikit-image
+altair
 git+https://github.com/ersilia-os/ersilia-client.git

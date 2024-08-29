@@ -5,8 +5,8 @@ import numpy as np
 def plot_umap(df):
     # Create the Altair scatter plot
     fig = alt.Chart(df).mark_circle(size=60).properties(
-    width = 700,
-    height = 700,
+    width = 600,
+    height = 600,
     ).encode(
         x=alt.X('UMAP1', title='UMAP 1'),
         y=alt.Y('UMAP2', title='UMAP 2'),
@@ -22,8 +22,8 @@ def plot_umap(df):
 def plot_pca(df):
     # Create the Altair scatter plot
     fig = alt.Chart(df).mark_circle(size=60).properties(
-    width = 700,
-    height = 700,
+    width = 600,
+    height = 600,
     ).encode(
         x=alt.X('PCA1', title='PCA 1'),
         y=alt.Y('PCA2', title='PCA 2'),

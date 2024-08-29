@@ -3,40 +3,28 @@ import sys
 import random
 import pandas as pd
 import streamlit as st
-import copy
 
-from utils import create_umap, create_pca, image_formatter, featurize_morgan, clean_df
+from utils import *
 from plots import plot_umap, plot_pca
 
 root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
 data_dir = os.path.abspath(os.path.join(root, "data"))
 
-from info import about, intro, library_filenames
+from info import about, intro, questions
 
 st.set_page_config(layout="wide", page_title='AI/ML DD Workshop', page_icon=':microbe:', initial_sidebar_state='collapsed')
 
 if "random_seed" not in st.session_state:
     st.session_state.random_seed = random.randint(0, 10000)
 
-def process_csv_files(filename_list):
-    filenames, df_list = [], []
-    for i, file in enumerate(filename_list):
-        filenames.append(file.name.split(".csv")[0])
-        df = pd.read_csv(file, sep=None)
-        for col in df.columns:
-            if "SMILES" in col.upper():
-                df.rename(columns = {col : "SMILES"}, inplace=True)
-        df = df.loc[:,~df.columns.duplicated()].copy()
-        df_list.append(df)
-    return filenames, df_list
-        
-@st.cache_data
-def process_smiles(df):
-    tmp_df = copy.copy(df)
-    tmp_df["fp"] = featurize_morgan(tmp_df["SMILES"])
-    tmp_df = clean_df(tmp_df[["SMILES", "fp"]])
-    return tmp_df
+def describe_mols(df_list, filenames):
+    prepared_dfs = []
+    for i, df in enumerate(df_list):
+        tmp_df = process_smiles(df)
+        tmp_df["file_name"] = filenames[i]
+        prepared_dfs.append(tmp_df)
+    return prepared_dfs    
 
 def process_umap(df_list):
     combined_df = pd.DataFrame(columns=["SMILES", "fp", "file_name", "molecule_index"])
@@ -69,25 +57,33 @@ for i in range(4):
     
 # MAIN
 st.title(":microbe: AI2050 - AI/ML for Drug Discovery Workshop :pill:")
-st.markdown(intro, unsafe_allow_html=True)
+st.info(intro)
 
 # Section 1: 
 st.header("Upload Data")
 cols = st.columns(2)
 
 file_list = cols[0].file_uploader("Upload chemical datasets as CSV files. Ensure they have a 'SMILES' column", accept_multiple_files=True)
-if cols[0].button("Check Files"):
+if cols[0].button("Check Files and Featurize"):
     with st.spinner():
+        st.toast("Loading files")
         filenames, df_list = process_csv_files(file_list)
-        st.session_state["filenames"] = filenames
-        st.session_state["df_list"] = df_list
-        st.session_state['chem_space_button'] = False
+        st.toast("Describing molecules")
+        prepared_dfs = describe_mols(df_list, filenames)
 
-        filesizes = [df.shape[0] for df in df_list]
-        files_df = pd.DataFrame(zip(filenames, filesizes), columns=["File Name", "Total SMILES"])
-        with cols[0]:
-            st.subheader("File Summary")
-            st.write(files_df)
+        st.session_state["filenames"] = filenames
+        st.session_state["raw_dfs"] = df_list
+        st.session_state["prepared_dfs"] = prepared_dfs
+
+if "filenames" in st.session_state:
+    filenames = st.session_state["filenames"]
+    filesizes_raw = [df.shape[0] for df in st.session_state["raw_dfs"]]
+    filesizes_processed = [df.shape[0] for df in st.session_state["prepared_dfs"]]
+    files_summary_df = pd.DataFrame(zip(filenames, filesizes_raw, filesizes_processed), columns=["File Name", "Total SMILES", "Featurized SMILES"])
+    
+    with cols[0]:
+        st.subheader("File Summary")
+        st.write(files_summary_df)
 
 def toggle_chem_space():
     st.session_state['chem_space_button'] = not st.session_state['chem_space_button']
@@ -101,28 +97,25 @@ if "filenames" in st.session_state:
             st.divider()
             st.header("Chemical Space Plots")
 
-            df_list = st.session_state["df_list"]
-            plot_dfs = []
-            for i, df in enumerate(df_list):
-                tmp_df = process_smiles(df)
-                tmp_df["file_name"] = st.session_state["filenames"][i]
-                plot_dfs.append(tmp_df)
-            
-            umap_df = process_umap(plot_dfs)
-            fig_umap = plot_umap(umap_df)
-
-            pca_df = process_pca(plot_dfs)
-            fig_pca = plot_pca(pca_df)
-            
-            cols2 = st.columns(2)
-            with cols2[0]:
-                st.subheader("UMAP")
-                st.altair_chart(fig_umap)
-            with cols2[1]:
-                st.subheader("PCA")
-                st.altair_chart(fig_pca)            
-            
-
-
-        
+            with st.spinner():
+                plot_dfs = st.session_state["prepared_dfs"]
+    
+                st.toast("Preparing UMAP plot")
+                umap_df = process_umap(plot_dfs)
+                fig_umap = plot_umap(umap_df)
+    
+                st.toast("Preparing PCA plot")
+                pca_df = process_pca(plot_dfs)
+                fig_pca = plot_pca(pca_df)
+                
+                cols2 = st.columns([3,3,2])
+                with cols2[0]:
+                    st.subheader("UMAP")
+                    st.altair_chart(fig_umap)
+                with cols2[1]:
+                    st.subheader("PCA")
+                    st.altair_chart(fig_pca)
+                with cols2[2]:
+                    questions_comb = '  \n'.join(questions)
+                    st.info(questions_comb, icon=":material/quiz:")
 

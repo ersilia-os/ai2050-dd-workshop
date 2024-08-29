@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import os
+import copy
+
 from io import BytesIO
 from PIL import Image
 from rdkit import Chem
@@ -33,6 +35,24 @@ def featurize_morgan(smiles_list):
         except:
             X.append(None)
     return X
+
+def process_csv_files(filename_list):
+    filenames, df_list = [], []
+    for i, file in enumerate(filename_list):
+        filenames.append(file.name.split(".csv")[0])
+        df = pd.read_csv(file, sep=None)
+        for col in df.columns:
+            if "SMILES" in col.upper():
+                df.rename(columns = {col : "SMILES"}, inplace=True)
+        df = df.loc[:,~df.columns.duplicated()].copy()
+        df_list.append(df)
+    return filenames, df_list
+        
+def process_smiles(df):
+    tmp_df = copy.copy(df)
+    tmp_df["fp"] = featurize_morgan(tmp_df["SMILES"])
+    tmp_df = clean_df(tmp_df[["SMILES", "fp"]])
+    return tmp_df
 
 def create_umap(fp_list):
     umap_transformer = umap.UMAP(a=0.001, b=1.5, min_dist=0.1)
