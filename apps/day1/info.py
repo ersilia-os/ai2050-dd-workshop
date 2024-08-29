@@ -11,14 +11,6 @@ intro = """
 </div>
 """
 
-model_urls = {
-    "eos9ei3": ["https://eos9ei3-tkreo.ondigitalocean.app/"
-                ],
-                
-    "eos43at": ["https://eos43at-zqx9x.ondigitalocean.app/"
-                ]
-}
-
 library_filenames = {
     "Example library": "example.csv",
 }

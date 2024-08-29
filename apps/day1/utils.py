@@ -4,18 +4,18 @@ import os
 from io import BytesIO
 from PIL import Image
 from rdkit import Chem
-from rdkit.Chem import AllChem, DataStructs, Draw
+from rdkit.Chem import AllChem, DataStructs, Draw, rdFingerprintGenerator
 from skimage import img_as_ubyte
 import base64
 import umap
+from sklearn.decomposition import PCA
 
 def clean_df(df):
     """
     df: a Pandas dataframe with a column "SMILES"
     """
     
-    #df["CAN_SMILES"] = [Chem.MolToSmiles(Chem.MolFromSmiles(s)) if s is not np.nan else None for s in df["SMILES"]]
-
+    df["molecule_index"] = df.index
     df.drop_duplicates(subset ="SMILES", keep = 'first', inplace = True)
     df = df.dropna()
     df.reset_index(level=None, drop=True, inplace=True, col_level=0, col_fill='')
@@ -23,22 +23,24 @@ def clean_df(df):
     return df
 
 def featurize_morgan(smiles_list):
+    mfpgen = rdFingerprintGenerator.GetMorganGenerator(radius=3, fpSize=2048)
     X = []
     for s in smiles_list:
-        mol = Chem.MolFromSmiles(s)
-        if mol is not None:
-            fp = AllChem.GetMorganFingerprintAsBitVect(mol, radius=3, nBits=2048)
-            if fp is not None:
-                X.append(fp)
-            else:
-                X.append(None)
-        else:
+        try:
+            mol = Chem.MolFromSmiles(s)
+            fp = mfpgen.GetFingerprint(mol)
+            X.append(fp)
+        except:
             X.append(None)
     return X
 
 def create_umap(fp_list):
     umap_transformer = umap.UMAP(a=0.001, b=1.5, min_dist=0.1)
     return umap_transformer.fit_transform(fp_list)
+
+def create_pca(fp_list):
+    pca_transformer = PCA(n_components = 2)
+    return pca_transformer.fit_transform(fp_list)
 
 def image_formatter(smiles):
     mol = Chem.MolFromSmiles(smiles)

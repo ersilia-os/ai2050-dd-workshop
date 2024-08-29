@@ -3,27 +3,21 @@ import sys
 import random
 import pandas as pd
 import streamlit as st
+import copy
 
-from utils import create_umap, image_formatter, featurize_morgan, clean_df
-from plots import plot_umap
+from utils import create_umap, create_pca, image_formatter, featurize_morgan, clean_df
+from plots import plot_umap, plot_pca
 
 root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
 data_dir = os.path.abspath(os.path.join(root, "data"))
 
 from info import about, intro, library_filenames
-from info import model_urls as model_urls_list
-
 
 st.set_page_config(layout="wide", page_title='AI/ML DD Workshop', page_icon=':microbe:', initial_sidebar_state='collapsed')
 
 if "random_seed" not in st.session_state:
     st.session_state.random_seed = random.randint(0, 10000)
-
-@st.cache_data
-def read_library(library_filename):
-    print(os.path.join(data_dir, library_filename))
-    return pd.read_csv(os.path.join(data_dir, library_filename), names=["SMILES"])
 
 def process_csv_files(filename_list):
     filenames, df_list = [], []
@@ -38,17 +32,35 @@ def process_csv_files(filename_list):
     return filenames, df_list
         
 @st.cache_data
-def process_umap(df):
-    df["fp"] = featurize_morgan(df["SMILES"])
-    df = clean_df(df)
-    
-    transformed_data = create_umap(df["fp"].tolist())
-    df['UMAP1'] = transformed_data.T[0]
-    df['UMAP2'] = transformed_data.T[1]
+def process_smiles(df):
+    tmp_df = copy.copy(df)
+    tmp_df["fp"] = featurize_morgan(tmp_df["SMILES"])
+    tmp_df = clean_df(tmp_df[["SMILES", "fp"]])
+    return tmp_df
 
-    df['image'] = [image_formatter(s) for s in df['SMILES']]
-    df["source_filenames"] = df.index #df["ID"]
-    return df
+def process_umap(df_list):
+    combined_df = pd.DataFrame(columns=["SMILES", "fp", "file_name", "molecule_index"])
+    for df in df_list:
+        combined_df = pd.concat([combined_df, df[["SMILES", "fp", "file_name", "molecule_index"]]], axis=0)
+    
+    transformed_data = create_umap(combined_df["fp"].tolist())
+    combined_df['UMAP1'] = transformed_data.T[0]
+    combined_df['UMAP2'] = transformed_data.T[1]
+    combined_df['image'] = [image_formatter(s) for s in combined_df['SMILES']]
+    
+    return combined_df
+
+def process_pca(df_list):
+    combined_df = pd.DataFrame(columns=["SMILES", "fp", "file_name", "molecule_index"])
+    for df in df_list:
+        combined_df = pd.concat([combined_df, df[["SMILES", "fp", "file_name", "molecule_index"]]], axis=0)
+    
+    transformed_data = create_pca(combined_df["fp"].tolist())
+    combined_df['PCA1'] = transformed_data.T[0]
+    combined_df['PCA2'] = transformed_data.T[1]
+    combined_df['image'] = [image_formatter(s) for s in combined_df['SMILES']]
+    
+    return combined_df
 
 # ABOUT
 st.sidebar.title("About")
@@ -64,40 +76,53 @@ st.header("Upload Data")
 cols = st.columns(2)
 
 file_list = cols[0].file_uploader("Upload chemical datasets as CSV files. Ensure they have a 'SMILES' column", accept_multiple_files=True)
-if cols[0].button("Upload"):
+if cols[0].button("Check Files"):
     with st.spinner():
         filenames, df_list = process_csv_files(file_list)
         st.session_state["filenames"] = filenames
         st.session_state["df_list"] = df_list
+        st.session_state['chem_space_button'] = False
 
-        for i, file in enumerate(filenames):
-            cols[0].write(file + " length:" + str(df_list[i].shape[0]))
-    
+        filesizes = [df.shape[0] for df in df_list]
+        files_df = pd.DataFrame(zip(filenames, filesizes), columns=["File Name", "Total SMILES"])
+        with cols[0]:
+            st.subheader("File Summary")
+            st.write(files_df)
 
-if 'chem_space_button' not in st.session_state:
-    st.session_state['chem_space_button'] = True
 def toggle_chem_space():
     st.session_state['chem_space_button'] = not st.session_state['chem_space_button']
-if st.button('View Chemical Space', on_click=toggle_chem_space):
-    # Section 2: 
-    if st.session_state['chem_space_button']:
-        st.divider()
-        st.header("Chemical Space Plots")
-        cols2 = st.columns(2)
-    
-        if 'umap_points' not in st.session_state:
-            umap_list = []
+
+if 'chem_space_button' not in st.session_state:
+    st.session_state['chem_space_button'] = False
+if "filenames" in st.session_state:
+    if st.button('View Chemical Space', on_click=toggle_chem_space) and st.session_state['chem_space_button']:
+        # Section 2: 
+        if st.session_state['chem_space_button']:
+            st.divider()
+            st.header("Chemical Space Plots")
+
             df_list = st.session_state["df_list"]
-            for df in df_list:
-                umap_list = process_umap(df)
-        
-            fig = plot_umap(umap_list)
-            cols2[0].write(fig)
-            st.session_state['umap_points'] = umap_list
-            st.session_state['plot_avail'] = True
+            plot_dfs = []
+            for i, df in enumerate(df_list):
+                tmp_df = process_smiles(df)
+                tmp_df["file_name"] = st.session_state["filenames"][i]
+                plot_dfs.append(tmp_df)
             
-        elif st.session_state['chem_space_button'] and 'plot_avail' in st.session_state:
-            fig = plot_umap(st.session_state['umap_points'])
-            cols2[0].write(fig)
+            umap_df = process_umap(plot_dfs)
+            fig_umap = plot_umap(umap_df)
+
+            pca_df = process_pca(plot_dfs)
+            fig_pca = plot_pca(pca_df)
+            
+            cols2 = st.columns(2)
+            with cols2[0]:
+                st.subheader("UMAP")
+                st.altair_chart(fig_umap)
+            with cols2[1]:
+                st.subheader("PCA")
+                st.altair_chart(fig_pca)            
+            
+
+
         
 
