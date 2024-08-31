@@ -35,3 +35,37 @@ def plot_pca(df):
         anchor='middle'
     ).interactive()
     return fig
+
+def plot_mol_weights(df):
+    fig = alt.Chart(df).transform_density('mol weight', as_=['MOL WEIGHT', 'DENSITY'], groupby=['file_name']).mark_area(opacity=0, line=True).encode(
+        x=alt.X('MOL WEIGHT:Q', title="Mol. Weight"),
+        y=alt.Y('DENSITY:Q', title="Density"),
+        color=alt.Color('file_name:N', scale=alt.Scale(scheme="category10"), legend=None)
+    ).interactive()
+    return fig
+
+def plot_logp(df):
+    fig = alt.Chart(df).transform_density('logp', as_=['LOGP', 'DENSITY'], groupby=['file_name']).mark_area(opacity=0, line=True).encode(
+        x=alt.X('LOGP:Q', title="LogP"),
+        y=alt.Y('DENSITY:Q', title="Density"),
+        color=alt.Color('file_name:N', scale=alt.Scale(scheme="category10"), legend=None)
+    ).interactive()
+    return fig
+
+def plot_qed(df):
+    fig = alt.Chart(df).transform_density('qed', as_=['QED', 'DENSITY'], groupby=['file_name']).mark_area(opacity=0, line=True).encode(
+        x=alt.X('QED:Q', title="QED"),
+        y=alt.Y('DENSITY:Q', title="Density"),
+        color=alt.Color('file_name:N', scale=alt.Scale(scheme="category10"), legend=None)
+    ).interactive()
+    return fig
+
+def plot_legend(df):
+    fig = alt.Chart(df).mark_point(size=0).properties(
+    width = 200,
+    height = 200,
+    ).encode(
+        color=alt.Color('file_name:N', scale=alt.Scale(scheme="category10"))
+    )
+    return fig
+    

@@ -16,6 +16,14 @@ questions = [
     "- Do we expect that a model produced from the data will be predictive for our chemical space of interest?"
 ]
 
-#library_filenames = {
-#    "Example library": "example.csv",
-#}
+library_checkbox_names = [
+    "ChEMBL Malaria Subset", 
+    "COCONUT Natural Product Subset", 
+    "Open Source Malaria"
+]
+
+library_filenames = [
+    "chembl_selected.csv",
+    "coconut_selected.csv",
+    "osm.csv",
+]

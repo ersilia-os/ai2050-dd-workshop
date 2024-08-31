@@ -6,7 +6,7 @@ import copy
 from io import BytesIO
 from PIL import Image
 from rdkit import Chem
-from rdkit.Chem import AllChem, DataStructs, Draw, rdFingerprintGenerator
+from rdkit.Chem import AllChem, DataStructs, Draw, rdFingerprintGenerator, Descriptors, QED, Crippen
 from skimage import img_as_ubyte
 import base64
 import umap
@@ -39,7 +39,10 @@ def featurize_morgan(smiles_list):
 def process_csv_files(filename_list):
     filenames, df_list = [], []
     for i, file in enumerate(filename_list):
-        filenames.append(file.name.split(".csv")[0])
+        try:
+            filenames.append(file.name.split(".csv")[0])
+        except:
+            filenames.append(file[5:].split(".csv")[0])
         df = pd.read_csv(file, sep=None)
         for col in df.columns:
             if "SMILES" in col.upper():
@@ -53,6 +56,12 @@ def process_smiles(df):
     tmp_df["fp"] = featurize_morgan(tmp_df["SMILES"])
     tmp_df = clean_df(tmp_df[["SMILES", "fp"]])
     return tmp_df
+
+def combine_dfs(df_list):
+    combined_df = pd.DataFrame(columns=["SMILES", "fp", "file_name", "molecule_index"])
+    for df in df_list:
+        combined_df = pd.concat([combined_df, df[["SMILES", "fp", "file_name", "molecule_index"]]], axis=0)
+    return combined_df
 
 def create_umap(fp_list):
     umap_transformer = umap.UMAP(a=0.001, b=1.5, min_dist=0.1)
@@ -69,3 +78,10 @@ def image_formatter(smiles):
         image.save(buffer, 'png')
         data = base64.encodebytes(buffer.getvalue()).decode('utf-8')
     return f"data:image/png;base64,{data}"
+
+def calc_mol_props(df):
+    mols = [Chem.MolFromSmiles(smi) for smi in df["SMILES"]]
+    df['mol weight'] = [Descriptors.ExactMolWt(m) for m in mols]
+    df['logp'] = [Crippen.MolLogP(m) for m in mols]
+    df['qed'] = [QED.default(m) for m in mols]
+    return df
