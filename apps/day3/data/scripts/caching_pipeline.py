@@ -6,6 +6,7 @@ import pandas as pd
 import json
 import csv
 import shutil
+from standardiser import standardise
 from rdkit import Chem
 from rdkit import RDLogger
 
@@ -87,10 +88,23 @@ def ersilia_prediction_runner(model_id, smiles_list):
     print("Output file:", output_file)
     return output_file
 
+def remove_atom_map_labels(smiles):
+    mol = Chem.MolFromSmiles(smiles)
+    for atom in mol.GetAtoms():
+        atom.SetAtomMapNum(0)
+    return Chem.MolToSmiles(mol)
+    
+def standardise_mol(mol):
+    try:
+        mol = standardise.run(mol)
+        return mol
+    except:
+        return None
+
 def convert_tmp_sampling_output_to_json(output_file, model_id, round):
     json_file = get_sampling_json_filename(model_id, round)
     print("Converting output to JSON:", output_file)
-    df = pd.read_csv(output_file)
+    df = pd.read_csv(output_file, sep="\t")
     for v in df.values:
         v = v[2:]
     smiles_list = []
@@ -99,16 +113,31 @@ def convert_tmp_sampling_output_to_json(output_file, model_id, round):
         mol = Chem.MolFromSmiles(x)
         if mol is None:
             continue
-        smiles_list.append(x)
+        smiles = Chem.MolToSmiles(mol)
+        smiles = remove_atom_map_labels(smiles)
+        mol = Chem.MolFromSmiles(smiles)
+        mol = standardise_mol(mol)
+        if mol is None:
+            continue
+        smiles = Chem.MolToSmiles(mol)
+        smiles_list.append(smiles)
+    inchikeys = [Chem.MolToInchiKey(Chem.MolFromSmiles(smiles)) for smiles in smiles_list]
+    ik2smi = dict((ik, smi) for ik, smi in zip(inchikeys, smiles_list))
+    smiles_list_ = []
+    inchikeys_set = set()
+    for ik in inchikeys:
+        if ik not in inchikeys_set:
+            smiles_list_ += [ik2smi[ik]]
+            inchikeys_set.add(ik)
+    smiles_list = [smi for smi in smiles_list_]
     with open(json_file, "w") as f:
         json.dump(smiles_list, f, indent=4)
-
 
 def keep_tmp_prediction_output(output_file, model_id):
     csv_file = get_prediction_csv_filename(model_id)
     print("Keeping output in:", output_file)
-    df = pd.read_csv(output_file)
-    df.to_csv(csv_file, index=False)
+    df = pd.read_csv(output_file, sep="\t")
+    df.to_csv(csv_file, sep="\t", index=False)
 
 print("Running sampling models")
 for model_id in sampling_models:
@@ -131,6 +160,9 @@ for model_id in sampling_models:
         with open(json_file, "r") as f:
             smiles_list += json.load(f)
         print(len(smiles_list))
+smiles_list = sorted(set(smiles_list))
+print(len(smiles_list))
+print(smiles_list[:10])
 
 print("Running activity models")
 for model_id in activity_models:
@@ -166,6 +198,7 @@ for fn in os.listdir(cache_folder):
         continue
     if not input_inchikey in fn:
         continue
+    print(fn)
     with open(os.path.join(cache_folder, fn), "r") as f:
         data = json.load(f)
         _, input_inchikey, model_id, round = fn.split(".json")[0].split("_")
@@ -177,12 +210,11 @@ for fn in os.listdir(cache_folder):
 df = pd.DataFrame(R, columns = ["model_id", "round", "inchikey", "smiles"])
 file_name = os.path.join(root, "..", "cache_lite", f"sampling_{input_inchikey}.csv")
 if os.path.exists(file_name):
-    df_0 = pd.read_csv(file_name)
-    df = pd.concat([df_0, df]).reset_index(drop=True)
+    os.remove(file_name)
 df = df.drop_duplicates(inplace=False)
 df.to_csv(file_name, index=False)
 
-print("Finishing with the predition results")
+print("Finishing with the prediction results")
 dfs = []
 model_molecule = []
 for fn in os.listdir(cache_folder):
@@ -210,5 +242,8 @@ for i, df_ in enumerate(dfs):
     df_ = df_.rename(columns=rename, inplace=False)
     df = pd.concat([df, df_], axis=1)
 
-df.to_csv(os.path.join(root, "..", "cache_lite", f"predictions_{input_inchikey}.csv"), index=False)
+file_name = os.path.join(root, "..", "cache_lite", f"predictions_{input_inchikey}.csv")
+if os.path.exists(file_name):
+    os.remove(file_name)
+df.to_csv(file_name, index=False)
     
