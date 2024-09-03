@@ -43,7 +43,10 @@ def process_csv_files(filename_list):
             filenames.append(file.name.split(".csv")[0])
         except:
             filenames.append(file[5:].split(".csv")[0])
-        df = pd.read_csv(file, sep=None)
+        try:
+            df = pd.read_csv(file, sep=None)
+        except:
+            df = pd.read_csv(file, sep=",")
         for col in df.columns:
             if "SMILES" in col.upper():
                 df.rename(columns = {col : "SMILES"}, inplace=True)

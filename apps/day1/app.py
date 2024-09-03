@@ -75,13 +75,23 @@ if cols[0].button("Check Files and Featurize"):
 
         st.session_state["filenames"] = filenames
         st.session_state["raw_dfs"] = df_list
-        st.session_state["prepared_dfs"] = prepared_dfs
+        st.session_state["cleaned_dfs"] = prepared_dfs
 
-if "prepared_dfs" in st.session_state:
+        if "prepared_dfs" in st.session_state:
+            del st.session_state["prepared_dfs"]
+        if "umap" in st.session_state:
+            del st.session_state['umap']
+            del st.session_state['pca']
+            st.session_state['chem_space_button'] = False
+
+if "cleaned_dfs" in st.session_state:
     filenames = st.session_state["filenames"]
     filesizes_raw = [df.shape[0] for df in st.session_state["raw_dfs"]]
-    filesizes_processed = [df.shape[0] for df in st.session_state["prepared_dfs"]]
-    files_summary_df = pd.DataFrame(zip(filenames, filesizes_raw, filesizes_processed), columns=["File Name", "Total SMILES", "Featurized SMILES"])
+    filesizes_processed = [df.shape[0] for df in st.session_state["cleaned_dfs"]]
+    final_prepared_dfs = [df.sample(n=2000) if df.shape[0] > 2000 else df for df in st.session_state["cleaned_dfs"]]
+    filesizes_final = [df.shape[0] for df in final_prepared_dfs]
+    st.session_state["prepared_dfs"] = final_prepared_dfs
+    files_summary_df = pd.DataFrame(zip(filenames, filesizes_raw, filesizes_processed, filesizes_final), columns=["File Name", "Total SMILES", "Featurized SMILES", "Final Number"])
     
     with cols[0]:
         st.subheader("File Summary")

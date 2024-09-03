@@ -18,12 +18,14 @@ questions = [
 
 library_checkbox_names = [
     "ChEMBL Malaria Subset", 
-    "COCONUT Natural Product Subset", 
+    "COCONUT Natural Product Subset",
+    "MMV Malaria Box",
     "Open Source Malaria"
 ]
 
 library_filenames = [
     "chembl_selected.csv",
     "coconut_selected.csv",
+    "mmv_malariabox.csv",
     "osm.csv",
 ]
