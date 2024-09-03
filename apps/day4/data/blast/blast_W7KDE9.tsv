@@ -249,3 +249,753 @@ Hit	DB	Accession	Description	Organism	Length	Score(Bits)	Identities(%)	Positives
 248	TR	A0A0D3F8W8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oryza barthii OX=65489 PE=3 SV=1	Oryza barthii	275	298	36.0	58.9	4.2e-29
 249	TR	A0A9K3M3S4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nitzschia inconspicua OX=303405 GN=IV203_034021 PE=3 SV=1	Nitzschia inconspicua	276	298	33.0	59.2	4.3e-29
 250	TR	A0A7J0FRK1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Actinidia rufa OX=165716 GN=Acr_14g0009710 PE=3 SV=1	Actinidia rufa	233	295	37.1	60.0	4.4e-29
+251	TR	A0A1H7IWG2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudobutyrivibrio ruminis OX=46206 GN=ispF PE=3 SV=1	Pseudobutyrivibrio ruminis	181	291	38.7	54.3	4.5e-29
+252	TR	A0A1X1QJ77	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cycloclasticus sp. symbiont of Poecilosclerida sp. N OX=1840472 GN=ispF PE=3 SV=1	Cycloclasticus sp. symbiont of Poecilosclerida sp. N	158	289	39.3	56.6	4.7e-29
+253	TR	D1AKV1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sebaldella termitidis (strain ATCC 33386 / NCTC 11300) OX=526218 GN=ispF PE=3 SV=1	Sebaldella termitidis (strain ATCC 33386 / NCTC 11300)	158	289	40.0	56.0	4.7e-29
+254	TR	A0A852UM15	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina sp. JAI121 OX=2723064 GN=ispF PE=3 SV=1	Sporosarcina sp. JAI121	158	289	37.4	57.5	4.7e-29
+255	TR	M1VMN6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cyanidioschyzon merolae (strain NIES-3377 / 10D) OX=280699 GN=CYME_CMT435C PE=3 SV=1	Cyanidioschyzon merolae (strain NIES-3377 / 10D)	368	303	36.6	59.4	4.7e-29
+256	TR	A0A8K0INH7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cocos nucifera OX=13894 GN=COCNU_10G005920 PE=3 SV=1	Cocos nucifera	236	295	36.6	59.4	4.7e-29
+257	TR	A0A6I9S608	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Elaeis guineensis var. tenera OX=51953 GN=LOC105054207 PE=3 SV=1	Elaeis guineensis var. tenera	236	295	36.6	59.4	4.7e-29
+258	TR	A0A7W2J0S8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sp. cel8 OX=2663123 GN=ispF PE=3 SV=1	Clostridium sp. cel8	159	289	41.6	56.1	4.8e-29
+259	TR	A0A5C6UZJ1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Luteibaculum oceani OX=1294296 GN=ispF PE=3 SV=1	Luteibaculum oceani	159	289	36.6	59.4	4.8e-29
+260	TR	A0A1C0YLQ0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caryophanon tenue OX=33978 GN=ispF PE=3 SV=1	Caryophanon tenue	159	289	38.9	57.7	4.8e-29
+261	SP	B4F226	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Proteus mirabilis (strain HI4320) OX=529507 GN=ispF PE=3 SV=1	Proteus mirabilis (strain HI4320)	160	289	38.4	54.8	5e-29
+262	TR	A0A8J6RY12	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Trichocoleus sp. FACHB-832 OX=2692875 GN=ispF PE=3 SV=1	Trichocoleus sp. FACHB-832	160	289	38.4	54.8	5e-29
+263	SP	Q72UP7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptospira interrogans serogroup Icterohaemorrhagiae serovar copenhageni (strain Fiocruz L1-130) OX=267671 GN=ispF PE=3 SV=1	Leptospira interrogans serogroup Icterohaemorrhagiae serovar copenhageni (strain Fiocruz L1-130)	161	289	40.7	57.0	5.1e-29
+264	SP	Q8F0A5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601) OX=189518 GN=ispF PE=3 SV=1	Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601)	161	289	40.7	57.0	5.1e-29
+265	TR	D3EP36	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Atelocyanobacterium thalassa (isolate ALOHA) OX=1453429 GN=ispF PE=3 SV=1	Atelocyanobacterium thalassa (isolate ALOHA)	161	289	39.3	57.8	5.1e-29
+266	TR	A0A540V2Q4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ureibacillus terrenus OX=118246 GN=ispF PE=3 SV=1	Ureibacillus terrenus	161	289	36.2	54.8	5.1e-29
+267	TR	A0A1X8WR26	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptospira interrogans serovar Canicola OX=211880 GN=ispF PE=3 SV=1	Leptospira interrogans serovar Canicola	161	289	40.7	57.0	5.1e-29
+268	TR	M3GYU6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptospira weilii serovar Topaz str. LT2116 OX=1088540 GN=ispF PE=3 SV=1	Leptospira weilii serovar Topaz str. LT2116	161	289	39.2	56.8	5.1e-29
+269	TR	A0A285BGK7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thermoanaerobacterium sp. RBIITD OX=1550240 GN=ispF PE=3 SV=1	Thermoanaerobacterium sp. RBIITD	162	289	38.4	58.2	5.3e-29
+270	TR	J1F8Y1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (Fragment) OS=Thiovulum sp. ES OX=1177931 GN=ThvES_00012030 PE=3 SV=1	Thiovulum sp. ES	255	296	38.7	55.5	5.3e-29
+271	TR	A0A5J4ZQZ4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nyssa sinensis OX=561372 GN=F0562_011543 PE=3 SV=1	Nyssa sinensis	241	295	37.1	60.0	5.3e-29
+272	TR	A0A5E4FVA0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Prunus dulcis OX=3755 GN=ALMOND_2B029676 PE=3 SV=1	Prunus dulcis	241	295	36.6	60.6	5.3e-29
+273	TR	A0A8T2UAK2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ceratopteris richardii OX=49495 GN=KP509_09G095200 PE=3 SV=1	Ceratopteris richardii	241	295	36.6	58.9	5.3e-29
+274	TR	A0A8T1P4I6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Carya illinoinensis OX=32201 GN=CIPAW_11G130000 PE=3 SV=1	Carya illinoinensis	257	296	37.1	60.0	5.5e-29
+275	TR	A0A2P5FJ12	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Trema orientale OX=63057 GN=TorRG33x02_063620 PE=3 SV=1	Trema orientale	246	295	37.1	59.4	6e-29
+276	TR	A0A7J7MRU4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Kingdonia uniflora OX=39325 GN=GIB67_037169 PE=3 SV=1	Kingdonia uniflora	232	294	38.3	58.9	6e-29
+277	TR	A0A8T3BJS0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dendrobium nobile OX=94219 GN=KFK09_010339 PE=3 SV=1	Dendrobium nobile	234	294	37.1	59.4	6.3e-29
+278	SP	A4XJU4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caldicellulosiruptor saccharolyticus (strain ATCC 43494 / DSM 8903 / Tp8T 6331) OX=351627 GN=ispF PE=3 SV=1	Caldicellulosiruptor saccharolyticus (strain ATCC 43494 / DSM 8903 / Tp8T 6331)	157	288	37.2	59.3	6.4e-29
+279	SP	Q8D224	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Wigglesworthia glossinidia brevipalpis OX=36870 GN=ispF PE=3 SV=1	Wigglesworthia glossinidia brevipalpis	157	288	42.5	54.6	6.4e-29
+280	TR	A0A8T2ZWU2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Populus deltoides OX=3696 GN=H0E87_002880 PE=3 SV=1	Populus deltoides	235	294	36.6	60.0	6.5e-29
+281	TR	A0A835PJI4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Vanilla planifolia OX=51239 GN=HPP92_025411 PE=3 SV=1	Vanilla planifolia	235	294	37.1	59.4	6.5e-29
+282	TR	A0A4V6A7E6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Populus alba OX=43335 GN=D5086_0000211800 PE=3 SV=1	Populus alba	235	294	36.6	60.0	6.5e-29
+283	TR	B9GKD1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Populus trichocarpa OX=3694 GN=POPTR_001G099300 PE=3 SV=2	Populus trichocarpa	235	294	36.6	60.0	6.5e-29
+284	TR	A0A5B8MN89	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Chloropicon primus OX=1764295 GN=A3770_07p46360 PE=3 SV=1	Chloropicon primus	171	289	35.8	58.0	6.7e-29
+285	TR	A0A918DIS7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bowmanella pacifica OX=502051 GN=ispF PE=3 SV=1	Bowmanella pacifica	159	288	39.3	56.6	6.8e-29
+286	TR	A0A7X9MS55	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacillus sp. BL-248-WT-3 OX=2725306 GN=ispF PE=3 SV=1	Psychrobacillus sp. BL-248-WT-3	159	288	37.3	57.1	6.8e-29
+287	TR	A0A6P5WX91	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Durio zibethinus OX=66656 GN=LOC111278362 PE=3 SV=1	Durio zibethinus	240	294	37.7	60.0	7.3e-29
+288	TR	A0A1U8A4N8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nelumbo nucifera OX=4432 GN=LOC104600215 PE=3 SV=1	Nelumbo nucifera	240	294	37.1	60.0	7.3e-29
+289	TR	A0A7G8VYH3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax sp. PAMC28562 OX=2762323 GN=ispF PE=3 SV=1	Variovorax sp. PAMC28562	162	288	37.6	59.0	7.4e-29
+290	TR	A0A7J6WV44	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thalictrum thalictroides OX=46969 GN=FRX31_009638 PE=3 SV=1	Thalictrum thalictroides	241	294	37.7	59.4	7.5e-29
+291	TR	A0A9E8M0J6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fervidibacillus halotolerans OX=2980027 GN=ispF PE=3 SV=1	Fervidibacillus halotolerans	163	288	38.4	57.6	7.6e-29
+292	TR	A0A5C8Z7Y5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Reinekea thalattae OX=2593301 GN=ispF PE=3 SV=1	Reinekea thalattae	163	288	34.9	58.7	7.6e-29
+293	TR	A0A443PFE8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cinnamomum micranthum f. kanehirae OX=337451 GN=CKAN_01853700 PE=3 SV=1	Cinnamomum micranthum f. kanehirae	243	294	37.1	60.0	7.8e-29
+294	TR	A0A6H5JNF1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ectocarpus sp. CCAP 1310/34 OX=867726 GN=ESUBFT_149_12 PE=3 SV=1	Ectocarpus sp. CCAP 1310/34	230	293	38.6	57.3	8e-29
+295	TR	C6JJ42	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fusobacterium varium ATCC 27725 OX=469618 GN=ispF PE=3 SV=2	Fusobacterium varium ATCC 27725	165	288	40.5	57.8	8.1e-29
+296	TR	A0A103XJB1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cynara cardunculus var. scolymus OX=59895 GN=Ccrd_006130 PE=3 SV=1	Cynara cardunculus var. scolymus	232	293	36.6	60.0	8.4e-29
+297	TR	A0A445D6B6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Arachis hypogaea OX=3818 GN=Ahy_A05g024655 PE=3 SV=1	Arachis hypogaea	232	293	36.6	59.4	8.4e-29
+298	TR	A0A413T6J7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Eubacterium ventriosum OX=39496 GN=ispF PE=3 SV=1	Eubacterium ventriosum	156	287	39.9	56.1	8.8e-29
+299	TR	A0A9W7MC80	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hibiscus trionum OX=183268 GN=HRI_003203900 PE=3 SV=1	Hibiscus trionum	235	293	37.1	60.0	9.1e-29
+300	SP	B1JB32	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas putida (strain W619) OX=390235 GN=ispF PE=3 SV=1	Pseudomonas putida (strain W619)	157	287	36.6	58.3	9.1e-29
+301	TR	D3MTI6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peptostreptococcus anaerobius 653-L OX=596329 GN=ispF PE=3 SV=1	Peptostreptococcus anaerobius 653-L	157	287	40.0	58.8	9.1e-29
+302	TR	V4TS53	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Citrus clementina OX=85681 GN=CICLE_v10021991mg PE=3 SV=1	Citrus clementina	237	293	37.1	58.9	9.5e-29
+303	TR	A0A067GLX5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Citrus sinensis OX=2711 GN=CISIN_1g026508mg PE=3 SV=1	Citrus sinensis	237	293	37.1	58.9	9.5e-29
+304	TR	A0A8S4QL17	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pararge aegeria aegeria OX=348720 GN=jg24828 PE=3 SV=1	Pararge aegeria aegeria	441	304	36.9	56.1	9.6e-29
+305	TR	A0A0Q4GYY9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Xylophilus sp. Leaf220 OX=1735686 GN=ispF PE=3 SV=1	Xylophilus sp. Leaf220	159	287	38.3	57.1	9.6e-29
+306	TR	A0A8J5X6R4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Diacronema lutheri OX=2081491 GN=KFE25_014077 PE=3 SV=1	Diacronema lutheri	224	292	37.6	57.5	9.7e-29
+307	TR	A0A8D5UBU9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Polycladomyces abyssicola OX=1125966 GN=ispF PE=3 SV=1	Polycladomyces abyssicola	160	287	37.4	56.3	9.9e-29
+308	TR	A0A365KK52	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planococcus halotolerans OX=2233542 GN=ispF PE=3 SV=1	Planococcus halotolerans	160	287	36.4	59.1	9.9e-29
+309	TR	A0A383VLB4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tetradesmus obliquus OX=3088 GN=BQ4739_LOCUS6184 PE=3 SV=1	Tetradesmus obliquus	239	293	38.6	58.5	1e-28
+310	TR	A0A2U2BA14	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Marinilabilia rubra OX=2162893 GN=ispF PE=3 SV=1	Marinilabilia rubra	161	287	39.3	56.1	1e-28
+311	TR	A0A0M1JTQ1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planktothricoides sp. SR001 OX=1705388 GN=ispF PE=3 SV=1	Planktothricoides sp. SR001	162	287	37.9	55.4	1e-28
+312	TR	W9SB94	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Morus notabilis OX=981085 GN=L484_006708 PE=3 SV=1	Morus notabilis	244	293	37.1	59.4	1.1e-28
+313	TR	F0Y171	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aureococcus anophagefferens OX=44056 GN=AURANDRAFT_21780 PE=3 SV=1	Aureococcus anophagefferens	178	288	34.0	57.4	1.2e-28
+314	TR	A0A2G5E0B3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aquilegia coerulea OX=218851 GN=AQUCO_01300196v1 PE=3 SV=1	Aquilegia coerulea	245	293	37.7	59.4	1.2e-28
+315	TR	A0A161X174	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Daucus carota subsp. sativus OX=79200 GN=MTS-1 PE=3 SV=1	Daucus carota subsp. sativus	231	292	37.1	58.9	1.2e-28
+316	SP	A8G687	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=ispF PE=3 SV=1	Prochlorococcus marinus (strain MIT 9215)	166	287	37.9	57.6	1.2e-28
+317	TR	A0A975AVG7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aceticella autotrophica OX=2755338 GN=ispF PE=3 SV=1	Aceticella autotrophica	167	287	40.5	56.6	1.2e-28
+318	TR	A0A7N2N5A4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Quercus lobata OX=97700 PE=3 SV=1	Quercus lobata	233	292	36.6	60.0	1.2e-28
+319	TR	A0A926N0L8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pelagibacterales bacterium SAG-MED09 OX=2760012 GN=ispF PE=3 SV=1	Pelagibacterales bacterium SAG-MED09	367	300	38.6	55.6	1.3e-28
+320	TR	A0A5D3A6G2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium mustelinum OX=34275 GN=E1A91_A02G118100v1 PE=3 SV=1	Gossypium mustelinum	235	292	38.3	59.4	1.3e-28
+321	TR	A0A6J1C4W9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Momordica charantia OX=3673 GN=LOC111008394 PE=3 SV=1	Momordica charantia	235	292	37.6	59.0	1.3e-28
+322	TR	A0A1X4XXF9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Desulfurella amilsii OX=1562698 GN=ispF PE=3 SV=1	Desulfurella amilsii	157	286	37.0	58.4	1.3e-28
+323	TR	A0A4S4E4W1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Camellia sinensis var. sinensis OX=542762 GN=TEA_024354 PE=3 SV=1	Camellia sinensis var. sinensis	236	292	37.1	59.4	1.3e-28
+324	TR	A0A8J4RJT3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Castanea mollissima OX=60419 GN=CMV_010125 PE=3 SV=1	Castanea mollissima	236	292	36.6	60.0	1.3e-28
+325	TR	A0A3G3IRE9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Camellia sinensis OX=4442 GN=HYC85_026441 PE=2 SV=1	Camellia sinensis	236	292	37.1	59.4	1.3e-28
+326	TR	A0A6P5Y7R6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Durio zibethinus OX=66656 GN=LOC111289561 PE=3 SV=1	Durio zibethinus	236	292	37.6	60.1	1.3e-28
+327	TR	A0A380CJ40	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina pasteurii OX=1474 GN=ispF PE=3 SV=1	Sporosarcina pasteurii	158	286	38.6	55.7	1.3e-28
+328	TR	A0A1M5XIN4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium grantii DSM 8605 OX=1121316 GN=ispF PE=3 SV=1	Clostridium grantii DSM 8605	158	286	39.9	54.9	1.3e-28
+329	TR	A0A9N7RR51	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Striga hermonthica OX=68872 GN=SHERM_04799 PE=3 SV=1	Striga hermonthica	237	292	37.1	59.4	1.3e-28
+330	TR	A0A657APS9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oleiphilus sp. HI0043 OX=1822233 GN=ispF PE=3 SV=1	Oleiphilus sp. HI0043	171	287	38.4	57.1	1.3e-28
+331	TR	Q4MZY9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Theileria parva OX=5875 GN=TP03_0365 PE=3 SV=1	Theileria parva	210	290	37.4	56.9	1.4e-28
+332	TR	A0A1T4QIM5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cetobacterium ceti OX=180163 GN=ispF PE=3 SV=1	Cetobacterium ceti	160	286	38.2	56.1	1.4e-28
+333	TR	A0A198GBZ7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Proteus myxofaciens ATCC 19692 OX=1354337 GN=ispF PE=3 SV=1	Proteus myxofaciens ATCC 19692	160	286	39.3	54.3	1.4e-28
+334	TR	M1AW71	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Solanum tuberosum OX=4113 PE=3 SV=1	Solanum tuberosum	225	291	36.6	59.4	1.4e-28
+335	SP	A6LF29	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / CIP 104284 / JCM 5825 / NCTC 11152) OX=435591 GN=ispF PE=3 SV=1	Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / CIP 104284 / JCM 5825 / NCTC 11152)	161	286	38.2	56.6	1.4e-28
+336	TR	H2CCR1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptonema illini DSM 21528 OX=929563 GN=ispF PE=3 SV=1	Leptonema illini DSM 21528	161	286	37.9	53.4	1.4e-28
+337	TR	M3HTU9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptospira borgpetersenii str. 200701203 OX=1193007 GN=ispF PE=3 SV=1	Leptospira borgpetersenii str. 200701203	161	286	39.3	58.4	1.4e-28
+338	TR	A0AA88CVH5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ficus carica OX=3494 GN=TIFTF001_003457 PE=3 SV=1	Ficus carica	240	292	37.1	59.4	1.4e-28
+339	TR	A0A9J5Y2C0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Solanum commersonii OX=4109 GN=H5410_043792 PE=3 SV=1	Solanum commersonii	227	291	36.6	59.4	1.5e-28
+340	TR	A0A978UGE2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ziziphus jujuba var. spinosa OX=714518 GN=FEM48_Zijuj11G0028900 PE=3 SV=1	Ziziphus jujuba var. spinosa	242	292	37.1	59.4	1.5e-28
+341	TR	A0A7W8HG55	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Quisquiliibacterium transsilvanicum OX=1549638 GN=ispF PE=3 SV=1	Quisquiliibacterium transsilvanicum	163	286	36.2	55.2	1.5e-28
+342	TR	A0A2T4CWM7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudidiomarina aestuarii OX=624146 GN=ispF PE=3 SV=1	Pseudidiomarina aestuarii	163	286	34.8	56.2	1.5e-28
+343	TR	A0A5C4TLZ7	Bifunctional enzyme IspD/IspF OS=Wolbachia endosymbiont of Leptopilina clavipes OX=260213 GN=ispDF PE=3 SV=1	Wolbachia endosymbiont of Leptopilina clavipes	401	301	35.4	54.4	1.5e-28
+344	TR	B8E112	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dictyoglomus turgidum (strain DSM 6724 / Z-1310) OX=515635 GN=ispF PE=3 SV=1	Dictyoglomus turgidum (strain DSM 6724 / Z-1310)	164	286	39.2	55.1	1.6e-28
+345	TR	A0A6P6TNW5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Coffea arabica OX=13443 GN=LOC113703121 PE=3 SV=1	Coffea arabica	244	292	37.1	58.9	1.6e-28
+346	TR	I0ALV8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ignavibacterium album (strain DSM 19864 / JCM 16511 / NBRC 101810 / Mat9-16) OX=945713 GN=ispF PE=3 SV=1	Ignavibacterium album (strain DSM 19864 / JCM 16511 / NBRC 101810 / Mat9-16)	165	286	38.5	57.5	1.6e-28
+347	TR	A0A6A6L8T8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hevea brasiliensis OX=3981 GN=GH714_004191 PE=3 SV=1	Hevea brasiliensis	153	285	42.1	65.0	1.6e-28
+348	TR	A0A7J6IB70	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cannabis sativa OX=3483 GN=G4B88_014881 PE=3 SV=1	Cannabis sativa	245	292	36.6	59.4	1.6e-28
+349	TR	A0A0A0KWV1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cucumis sativus OX=3659 GN=Csa_4G049620 PE=3 SV=1	Cucumis sativus	233	291	37.6	59.5	1.7e-28
+350	TR	A0A8B8PTE4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhodamnia argentea OX=178133 GN=LOC115746426 PE=3 SV=1	Rhodamnia argentea	234	291	36.6	60.0	1.7e-28
+351	TR	A0A9X8UIH2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Harryflintia acetispora OX=1849041 GN=ispF PE=3 SV=1	Harryflintia acetispora	156	285	36.2	58.0	1.8e-28
+352	TR	A0A377GUT1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fusobacterium necrogenes OX=858 GN=ispF PE=3 SV=1	Fusobacterium necrogenes	158	285	39.0	56.4	1.9e-28
+353	TR	A0A5D2VKZ4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium mustelinum OX=34275 GN=E1A91_D03G088500v1 PE=3 SV=1	Gossypium mustelinum	237	291	37.7	59.4	1.9e-28
+354	TR	A0A0D2QHJ5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium raimondii OX=29730 GN=B456_003G085800 PE=3 SV=1	Gossypium raimondii	237	291	37.7	59.4	1.9e-28
+355	TR	A0A1U8NKY9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium hirsutum OX=3635 GN=LOC107949505 PE=3 SV=1	Gossypium hirsutum	237	291	37.7	59.4	1.9e-28
+356	TR	A0A5A7P2V1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Striga asiatica OX=4170 GN=STAS_02524 PE=3 SV=1	Striga asiatica	237	291	37.1	59.4	1.9e-28
+357	TR	A0A9D4AG33	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium stocksii OX=47602 GN=J1N35_007889 PE=3 SV=1	Gossypium stocksii	237	291	37.7	59.4	1.9e-28
+358	TR	A0A0P1N084	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Chrysopegis kryptomonas OX=1633643 GN=ispF PE=3 SV=1	Candidatus Chrysopegis kryptomonas	159	285	36.7	58.8	1.9e-28
+359	TR	A0A2W7MCX7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacillus insolitus OX=1461 GN=ispF PE=3 SV=1	Psychrobacillus insolitus	159	285	36.2	57.1	1.9e-28
+360	TR	R7QC45	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Chondrus crispus OX=2769 GN=CHC_T00009483001 PE=3 SV=1	Chondrus crispus	355	298	37.4	57.5	2e-28
+361	SP	Q04XV1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptospira borgpetersenii serovar Hardjo-bovis (strain L550) OX=355276 GN=ispF PE=3 SV=1	Leptospira borgpetersenii serovar Hardjo-bovis (strain L550)	161	285	38.7	58.4	2e-28
+362	SP	Q04VM3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Leptospira borgpetersenii serovar Hardjo-bovis (strain JB197) OX=355277 GN=ispF PE=3 SV=1	Leptospira borgpetersenii serovar Hardjo-bovis (strain JB197)	161	285	38.7	58.4	2e-28
+363	TR	A0A4R7B2F0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paludibacterium purpuratum OX=1144873 GN=ispF PE=3 SV=1	Paludibacterium purpuratum	161	285	39.0	58.1	2e-28
+364	TR	A0A7W5GRL7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax sp. Sphag1AA OX=2587027 GN=ispF PE=3 SV=1	Variovorax sp. Sphag1AA	161	285	36.4	58.4	2e-28
+365	TR	A0A813HU60	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Polarella glacialis OX=89957 GN=PGLA1383_LOCUS56926 PE=3 SV=1	Polarella glacialis	270	293	37.4	58.6	2e-28
+366	TR	A0A8T2WHE0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Chlorella desiccata (nom. nud.) OX=1650286 GN=NADE_002035 PE=3 SV=1	Chlorella desiccata (nom. nud.)	227	290	37.0	59.5	2.1e-28
+367	TR	A0A9Q0JTG9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Protea cynaroides OX=273540 GN=NE237_027744 PE=3 SV=1	Protea cynaroides	258	292	37.1	59.4	2.2e-28
+368	TR	A0A3E1RHG9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhodoferax lacus OX=2184758 GN=ispF PE=3 SV=1	Rhodoferax lacus	165	285	39.3	56.1	2.3e-28
+369	TR	A0A251V9T9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Helianthus annuus OX=4232 GN=ISPF PE=3 SV=1	Helianthus annuus	232	290	37.1	58.9	2.3e-28
+370	TR	A0A7U6QNC7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacter sp. KH172YL61 OX=2517899 GN=ispF PE=3 SV=1	Psychrobacter sp. KH172YL61	167	285	38.3	55.4	2.4e-28
+371	TR	N9WCR5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium thermobutyricum OX=29372 GN=ispF PE=3 SV=1	Clostridium thermobutyricum	155	284	40.2	56.9	2.4e-28
+372	TR	A0A931AWV3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Halonatronomonas betaini OX=2778430 GN=ispF PE=3 SV=1	Halonatronomonas betaini	155	284	39.9	56.6	2.4e-28
+373	TR	A0A239FD32	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas japonica OX=256466 GN=ispF PE=3 SV=1	Pseudomonas japonica	157	284	36.6	57.7	2.5e-28
+374	TR	A0A5B7TJM8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caloramator sp. E03 OX=2576307 GN=ispF PE=3 SV=1	Caloramator sp. E03	157	284	39.2	54.0	2.5e-28
+375	TR	A0A2G9GU44	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Handroanthus impetiginosus OX=429701 GN=CDL12_18878 PE=3 SV=1	Handroanthus impetiginosus	236	290	36.6	59.4	2.6e-28
+376	TR	A0A7X0NJG6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thalassotalea piscium OX=1230533 GN=ispF PE=3 SV=1	Thalassotalea piscium	170	285	37.9	54.9	2.6e-28
+377	TR	A0A511Z7U8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina luteola OX=582850 GN=ispF PE=3 SV=1	Sporosarcina luteola	158	284	37.4	56.9	2.6e-28
+378	TR	A0A135W767	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina sp. HYO08 OX=1759557 GN=ispF PE=3 SV=1	Sporosarcina sp. HYO08	158	284	37.9	55.7	2.6e-28
+379	TR	A0A926I5P0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fumia xinanensis OX=2763659 GN=ispF PE=3 SV=1	Fumia xinanensis	158	284	38.4	53.7	2.6e-28
+380	TR	A0A0A2DW95	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Porphyromonas sp. COT-108 OH1349 OX=1537504 GN=ispF PE=3 SV=1	Porphyromonas sp. COT-108 OH1349	159	284	38.7	55.5	2.7e-28
+381	TR	K9SJD5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudanabaena sp. PCC 7367 OX=82654 GN=ispF PE=3 SV=1	Pseudanabaena sp. PCC 7367	159	284	39.4	55.4	2.7e-28
+382	TR	A0A5S9P751	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=BD1-7 clade bacterium OX=2029982 GN=ispF PE=3 SV=1	BD1-7 clade bacterium	159	284	36.8	56.3	2.7e-28
+383	TR	A0A484KPW5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cuscuta campestris OX=132261 GN=CCAM_LOCUS9797 PE=3 SV=1	Cuscuta campestris	238	290	37.1	58.9	2.7e-28
+384	TR	A0A835KR59	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Digitaria exilis OX=1010633 GN=HU200_007168 PE=3 SV=1	Digitaria exilis	224	289	35.4	58.3	2.7e-28
+385	TR	A0A7W4W346	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Litorivivens lipolytica OX=1524264 GN=ispF PE=3 SV=1	Litorivivens lipolytica	160	284	38.2	58.4	2.8e-28
+386	SP	Q18CD3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridioides difficile (strain 630) OX=272563 GN=ispF PE=3 SV=1	Clostridioides difficile (strain 630)	161	284	40.8	56.9	2.8e-28
+387	TR	A0A923HT55	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acetobacterium paludosum OX=52693 GN=ispF PE=3 SV=1	Acetobacterium paludosum	161	284	36.8	56.9	2.8e-28
+388	TR	A0A1G6LYJ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Shouchella lonarensis OX=1464122 GN=ispF PE=3 SV=1	Shouchella lonarensis	161	284	36.8	55.7	2.8e-28
+389	TR	A0A521FJ77	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gracilimonas mengyeensis OX=1302730 GN=ispF PE=3 SV=1	Gracilimonas mengyeensis	161	284	39.5	56.4	2.8e-28
+390	TR	A0A125V1M9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peptoclostridium phage phiCDIF1296T OX=1677909 GN=ispF PE=3 SV=1	Peptoclostridium phage phiCDIF1296T	161	284	40.8	56.9	2.8e-28
+391	TR	W4LAQ4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Entotheonella gemina OX=1429439 GN=ispF PE=3 SV=1	Candidatus Entotheonella gemina	162	284	41.7	65.5	2.9e-28
+392	TR	A0A942RUS6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ignavibacterium sp. OX=2651167 GN=ispF PE=3 SV=1	Ignavibacterium sp.	162	284	37.1	56.6	2.9e-28
+393	TR	A0A3Q7HWC5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Solanum lycopersicum OX=4081 GN=101246365 PE=3 SV=1	Solanum lycopersicum	256	291	36.6	59.4	2.9e-28
+394	TR	A0A314LAZ0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nicotiana attenuata OX=49451 GN=ISPF PE=3 SV=1	Nicotiana attenuata	229	289	36.6	58.9	3.1e-28
+395	TR	A0A8T1NUC1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Carya illinoinensis OX=32201 GN=CIPAW_12G089400 PE=3 SV=1	Carya illinoinensis	229	289	37.0	59.5	3.1e-28
+396	TR	A0A973XCH0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhodoferax sp. OX=50421 GN=ispF PE=3 SV=1	Rhodoferax sp.	164	284	38.7	56.6	3.1e-28
+397	TR	A0A941DQD4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Undibacterium luofuense OX=2828733 GN=ispF PE=3 SV=1	Undibacterium luofuense	164	284	38.2	57.2	3.1e-28
+398	TR	A0A068UWQ5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Coffea canephora OX=49390 GN=GSCOC_T00035450001 PE=3 SV=1	Coffea canephora	244	290	37.1	58.3	3.1e-28
+399	TR	A0A9K3KBD0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nitzschia inconspicua OX=303405 GN=IV203_024167 PE=3 SV=1	Nitzschia inconspicua	274	292	32.4	58.7	3.1e-28
+400	TR	A0A5N6R374	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Carpinus fangiana OX=176857 GN=FH972_012239 PE=3 SV=1	Carpinus fangiana	290	293	36.6	60.0	3.1e-28
+401	TR	E5Y5R0	Bifunctional enzyme IspD/IspF OS=Bilophila wadsworthia (strain 3_1_6) OX=563192 GN=ispDF PE=3 SV=1	Bilophila wadsworthia (strain 3_1_6)	407	299	39.0	58.2	3.2e-28
+402	TR	A0A9W7AJC6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Triparma strigata OX=1606541 GN=TrST_g6638 PE=3 SV=1	Triparma strigata	245	290	35.0	55.7	3.2e-28
+403	TR	A0A1I6XZN1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lachnospiraceae bacterium XBD2001 OX=1520820 GN=ispF PE=3 SV=1	Lachnospiraceae bacterium XBD2001	180	285	38.7	56.1	3.4e-28
+404	TR	A0A6I9SSN5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sesamum indicum OX=4182 GN=LOC105158281 PE=3 SV=1	Sesamum indicum	234	289	36.6	59.4	3.5e-28
+405	TR	A0A2R6Q8H4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Actinidia chinensis var. chinensis OX=1590841 GN=CEY00_Acc20047 PE=3 SV=1	Actinidia chinensis var. chinensis	234	289	37.0	59.5	3.5e-28
+406	TR	A0A7J0G7C1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Actinidia rufa OX=165716 GN=Acr_18g0008560 PE=3 SV=1	Actinidia rufa	235	289	37.0	59.5	3.5e-28
+407	TR	A0A2P5SVM6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Pantoea edessiphila OX=2044610 GN=ispF PE=3 SV=1	Candidatus Pantoea edessiphila	157	283	39.9	54.3	3.6e-28
+408	TR	R4YPN4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oleispira antarctica RB-8 OX=698738 GN=ispF PE=3 SV=1	Oleispira antarctica RB-8	157	283	38.5	56.9	3.6e-28
+409	TR	A0A090I2A8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peptoniphilus sp. ING2-D1G OX=1912856 GN=ispF PE=3 SV=1	Peptoniphilus sp. ING2-D1G	158	283	40.5	56.1	3.7e-28
+410	TR	A0A162RJA5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium magnum DSM 2767 OX=1121326 GN=ispF PE=3 SV=1	Clostridium magnum DSM 2767	158	283	43.0	55.8	3.7e-28
+411	TR	A0A2S5CUU3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysinibacillus sphaericus OX=1421 GN=ispF PE=3 SV=1	Lysinibacillus sphaericus	158	283	36.0	56.0	3.7e-28
+412	TR	A0A830CE94	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Phtheirospermum japonicum OX=374723 GN=PHJA_001406300 PE=3 SV=1	Phtheirospermum japonicum	237	289	36.6	59.4	3.7e-28
+413	TR	A0A0S2TD96	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Tenderia electrophaga OX=1748243 GN=ispF PE=3 SV=1	Candidatus Tenderia electrophaga	159	283	37.4	57.5	3.8e-28
+414	TR	A0A0A7S2Z5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Frischella perrara OX=1267021 GN=ispF PE=3 SV=1	Frischella perrara	159	283	39.9	54.9	3.8e-28
+415	TR	A0A9Q1MBA9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anisodus acutangulus OX=402998 GN=K7X08_013305 PE=3 SV=1	Anisodus acutangulus	224	288	36.6	58.9	3.8e-28
+416	TR	A0A926N0B3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pelagibacterales bacterium SAG-MED07 OX=2760010 GN=ispF PE=3 SV=1	Pelagibacterales bacterium SAG-MED07	317	294	37.6	55.0	3.8e-28
+417	TR	A0A843VL99	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Colocasia esculenta OX=4460 GN=Taro_029398 PE=3 SV=1	Colocasia esculenta	239	289	35.4	58.9	3.9e-28
+418	TR	A0A918Q8H8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Echinicola pacifica OX=346377 GN=ispF PE=3 SV=1	Echinicola pacifica	160	283	36.5	55.6	3.9e-28
+419	TR	A0A6L6H3I3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planomicrobium sp. YIM 101495 OX=2665160 GN=ispF PE=3 SV=1	Planomicrobium sp. YIM 101495	161	283	37.6	59.0	4e-28
+420	TR	A0A484GCV9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Schmidhempelia bombi str. Bimp OX=1387197 GN=ispF PE=3 SV=1	Candidatus Schmidhempelia bombi str. Bimp	161	283	39.7	54.6	4e-28
+421	TR	A0A1U8G4V3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Capsicum annuum OX=4072 GN=T459_00226 PE=3 SV=1	Capsicum annuum	227	288	36.6	58.9	4.1e-28
+422	TR	A0A2G2XJJ4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Capsicum baccatum OX=33114 GN=CQW23_00036 PE=3 SV=1	Capsicum baccatum	227	288	36.6	58.9	4.1e-28
+423	SP	Q15P30	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudoalteromonas atlantica (strain T6c / ATCC BAA-1087) OX=3042615 GN=ispF PE=3 SV=1	Pseudoalteromonas atlantica (strain T6c / ATCC BAA-1087)	162	283	37.0	56.6	4.1e-28
+424	TR	A0A6P6GM87	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ziziphus jujuba OX=326968 GN=LOC107430182 PE=3 SV=1	Ziziphus jujuba	242	289	36.6	58.9	4.2e-28
+425	TR	A0A1U7UZB5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nicotiana sylvestris OX=4096 GN=LOC104210807 PE=3 SV=1	Nicotiana sylvestris	231	288	36.6	58.9	4.5e-28
+426	TR	A0A1S4DFD6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nicotiana tabacum OX=4097 GN=LOC107829217 PE=3 SV=1	Nicotiana tabacum	231	288	36.6	58.9	4.5e-28
+427	TR	A0A1S3YCA3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nicotiana tabacum OX=4097 GN=LOC107774746 PE=3 SV=1	Nicotiana tabacum	231	288	36.6	58.9	4.5e-28
+428	TR	W2UZ08	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Xenolissoclinum pacificiensis L6 OX=1401685 GN=ispF PE=3 SV=1	Candidatus Xenolissoclinum pacificiensis L6	166	283	34.3	57.3	4.6e-28
+429	TR	A0A328DZB9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cuscuta australis OX=267555 GN=DM860_005393 PE=3 SV=1	Cuscuta australis	261	290	37.1	58.9	4.6e-28
+430	TR	A0A9P3NVU5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Closterium sp. NIES-67 OX=2790670 GN=CLOP_g13736 PE=3 SV=1	Closterium sp. NIES-67	232	288	36.9	56.2	4.6e-28
+431	TR	A0A6I9TDP1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sesamum indicum OX=4182 GN=LOC105164054 PE=3 SV=1	Sesamum indicum	232	288	36.6	59.4	4.6e-28
+432	TR	A0A9P3JLX8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Closterium sp. NIES-68 OX=2019903 GN=CLOM_g13795 PE=3 SV=1	Closterium sp. NIES-68	232	288	36.9	56.2	4.6e-28
+433	TR	A0A2A7MD20	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium neonatale OX=137838 GN=ispF PE=3 SV=1	Clostridium neonatale	155	282	40.0	55.8	4.8e-28
+434	TR	A0A8X7UHB5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Brassica carinata OX=52824 GN=Bca52824_060131 PE=3 SV=1	Brassica carinata	234	288	38.3	58.9	4.9e-28
+435	TR	A0A022QA96	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Erythranthe guttata OX=4155 GN=MIMGU_mgv1a012992mg PE=3 SV=1	Erythranthe guttata	234	288	36.6	58.9	4.9e-28
+436	TR	A0A0A7FYD0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium baratii str. Sullivan OX=1415775 GN=ispF PE=3 SV=1	Clostridium baratii str. Sullivan	156	282	41.0	55.5	4.9e-28
+437	TR	A0A1U8NY29	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium hirsutum OX=3635 GN=LOC107952123 PE=3 SV=1	Gossypium hirsutum	235	288	37.7	58.9	5e-28
+438	TR	A0A180F6R9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacteroidales bacterium Barb6XT OX=1633202 GN=ispF PE=3 SV=1	Bacteroidales bacterium Barb6XT	157	282	36.4	57.2	5.1e-28
+439	TR	A0A6I9R1Z1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Elaeis guineensis var. tenera OX=51953 GN=LOC105043318 PE=3 SV=1	Elaeis guineensis var. tenera	236	288	35.2	59.1	5.1e-28
+440	TR	A0A804NUH9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Zea mays OX=4577 GN=100284320 PE=1 SV=1	Zea mays	236	288	43.2	68.0	5.1e-28
+441	TR	A0A1S2MCN8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerobacillus alkalidiazotrophicus OX=472963 GN=ispF PE=3 SV=1	Anaerobacillus alkalidiazotrophicus	160	282	35.6	55.9	5.5e-28
+442	TR	A0A975B685	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Desulfonema limicola OX=45656 GN=ispF PE=3 SV=1	Desulfonema limicola	161	282	39.0	53.1	5.6e-28
+443	TR	E0WT51	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Regiella insecticola LSR1 OX=663321 GN=ispF PE=3 SV=1	Candidatus Regiella insecticola LSR1	162	282	39.1	55.2	5.8e-28
+444	TR	A0A9E7G155	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Musa troglodytarum OX=320322 GN=MUK42_20318 PE=3 SV=1	Musa troglodytarum	233	287	35.6	58.2	6.7e-28
+445	SP	Q1QBM3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5) OX=335284 GN=ispF PE=3 SV=1	Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5)	168	282	37.6	54.5	6.9e-28
+446	SP	Q4FSB5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacter arcticus (strain DSM 17307 / VKM B-2377 / 273-4) OX=259536 GN=ispF PE=3 SV=1	Psychrobacter arcticus (strain DSM 17307 / VKM B-2377 / 273-4)	168	282	37.6	53.9	6.9e-28
+447	SP	B4U9N6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hydrogenobaculum sp. (strain Y04AAS1) OX=380749 GN=ispF PE=3 SV=1	Hydrogenobaculum sp. (strain Y04AAS1)	156	281	49.2	67.5	6.9e-28
+448	TR	A0A105T5E3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. TAD18 OX=1729583 GN=ispF PE=3 SV=1	Pseudomonas sp. TAD18	157	281	37.9	56.9	7.1e-28
+449	TR	A0A024HC43	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas knackmussii (strain DSM 6978 / CCUG 54928 / LMG 23759 / B13) OX=1301098 GN=ispF PE=3 SV=1	Pseudomonas knackmussii (strain DSM 6978 / CCUG 54928 / LMG 23759 / B13)	157	281	36.2	56.9	7.1e-28
+450	TR	A0A9P0YN07	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cuscuta europaea OX=41803 GN=CEURO_LOCUS3036 PE=3 SV=1	Cuscuta europaea	236	287	36.6	58.9	7.1e-28
+451	TR	A0A7D6HDS3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Arsenophonus endosymbiont of Aphis craccivora OX=1231049 GN=ispF PE=3 SV=1	Arsenophonus endosymbiont of Aphis craccivora	170	282	39.3	54.5	7.2e-28
+452	TR	A0A9J6RQ48	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dasania phycosphaerae OX=2950436 GN=ispF PE=3 SV=1	Dasania phycosphaerae	158	281	36.9	55.1	7.3e-28
+453	TR	A0A1H6YCQ7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Propionispira arboris OX=84035 GN=ispF PE=3 SV=1	Propionispira arboris	158	281	37.3	55.0	7.3e-28
+454	TR	A0A1M5P7G4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerosphaera aminiphila DSM 21120 OX=1120995 GN=ispF PE=3 SV=1	Anaerosphaera aminiphila DSM 21120	158	281	39.0	55.4	7.3e-28
+455	TR	A0A9Q2HFU9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nosocomiicoccus ampullae OX=489910 GN=ispF PE=3 SV=1	Nosocomiicoccus ampullae	158	281	37.0	56.6	7.3e-28
+456	TR	A0A1G4FKZ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporanaerobacter sp. PP17-6a OX=1891289 GN=ispF PE=3 SV=1	Sporanaerobacter sp. PP17-6a	158	281	41.1	56.0	7.3e-28
+457	TR	A0A7G9GWA2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fusobacterium hominis OX=2764326 GN=ispF PE=3 SV=1	Fusobacterium hominis	158	281	36.4	56.6	7.3e-28
+458	TR	S2XBN5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paenisporosarcina sp. HGH0030 OX=1078085 GN=ispF PE=3 SV=1	Paenisporosarcina sp. HGH0030	158	281	37.7	56.0	7.3e-28
+459	TR	A0A2P2BVE3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Romboutsia hominis OX=1507512 GN=ispF PE=3 SV=1	Romboutsia hominis	159	281	37.4	56.3	7.5e-28
+460	TR	A0A964BS13	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Waterburya agarophytonicola KI4 OX=2874699 GN=ispF PE=3 SV=1	Waterburya agarophytonicola KI4	159	281	36.8	57.5	7.5e-28
+461	TR	A0A061G6M7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Theobroma cacao OX=3641 GN=TCM_016340 PE=3 SV=1	Theobroma cacao	356	294	37.7	60.0	7.7e-28
+462	TR	K9R8J2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rivularia sp. PCC 7116 OX=373994 GN=ispF PE=3 SV=1	Rivularia sp. PCC 7116	160	281	36.8	58.6	7.7e-28
+463	TR	F0SNA2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rubinisphaera brasiliensis (strain ATCC 49424 / DSM 5305 / JCM 21570 / IAM 15109 / NBRC 103401 / IFAM 1448) OX=756272 GN=ispF PE=3 SV=1	Rubinisphaera brasiliensis (strain ATCC 49424 / DSM 5305 / JCM 21570 / IAM 15109 / NBRC 103401 / IFAM 1448)	161	281	32.9	60.1	8e-28
+464	TR	A0A4S8JW40	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Musa balbisiana OX=52838 GN=C4D60_Mb05t14510 PE=3 SV=1	Musa balbisiana	230	286	36.0	58.3	8.7e-28
+465	TR	A0A804J0B4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Musa acuminata subsp. malaccensis OX=214687 GN=103983821 PE=3 SV=1	Musa acuminata subsp. malaccensis	230	286	36.0	58.3	8.7e-28
+466	TR	A0A9R1V6I9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lactuca sativa OX=4236 GN=LSAT_V11C600330930 PE=3 SV=1	Lactuca sativa	231	286	36.6	59.4	8.9e-28
+467	TR	A0AA35ZGA5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lactuca saligna OX=75948 GN=LSALG_LOCUS30312 PE=3 SV=1	Lactuca saligna	231	286	36.6	59.4	8.9e-28
+468	TR	A0A1S9BU26	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oribacterium sp. C9 OX=1943579 GN=ispF PE=3 SV=1	Oribacterium sp. C9	155	280	38.5	55.2	9.5e-28
+469	TR	A0A1M5Q0L6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hydrocarboniphaga daqingensis OX=490188 GN=ispF PE=3 SV=1	Hydrocarboniphaga daqingensis	168	281	32.9	61.3	9.7e-28
+470	TR	M1REF2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hydrogenobaculum sp. HO OX=547144 GN=ispF PE=3 SV=1	Hydrogenobaculum sp. HO	156	280	49.2	66.7	9.8e-28
+471	SP	Q1I652	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas entomophila (strain L48) OX=384676 GN=ispF PE=3 SV=1	Pseudomonas entomophila (strain L48)	157	280	35.4	57.7	1e-27
+472	TR	A0A4R3KT74	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Keratinibaculum paraultunense OX=1278232 GN=ispF PE=3 SV=1	Keratinibaculum paraultunense	157	280	37.5	55.7	1e-27
+473	TR	A0A1G8VB29	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas indica OX=137658 GN=ispF PE=3 SV=1	Pseudomonas indica	157	280	36.6	56.6	1e-27
+474	TR	A0A411HLF3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudolysobacter antarcticus OX=2511995 GN=ispF PE=3 SV=1	Pseudolysobacter antarcticus	157	280	36.6	55.4	1e-27
+475	TR	A0A0A7EE07	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudoalteromonas piratica OX=1348114 GN=ispF PE=3 SV=1	Pseudoalteromonas piratica	157	280	39.9	55.1	1e-27
+476	TR	A0A078LQZ2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas saudiphocaensis OX=1499686 GN=ispF PE=3 SV=1	Pseudomonas saudiphocaensis	157	280	36.8	57.5	1e-27
+477	TR	A0A0B2D6S6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas flexibilis OX=706570 GN=ispF PE=3 SV=1	Pseudomonas flexibilis	157	280	36.0	57.7	1e-27
+478	TR	A0A1I2PIV4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium cadaveris OX=1529 GN=ispF PE=3 SV=1	Clostridium cadaveris	157	280	39.2	56.2	1e-27
+479	TR	A0A2S1H617	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysinibacillus sp. 2017 OX=2169540 GN=ispF PE=3 SV=1	Lysinibacillus sp. 2017	158	280	36.4	56.1	1e-27
+480	TR	A0A2P1PTJ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ahniella affigens OX=2021234 GN=ispF PE=3 SV=1	Ahniella affigens	159	280	36.0	55.4	1.1e-27
+481	TR	A0A0M0KPV1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Priestia koreensis OX=284581 GN=ispF PE=3 SV=1	Priestia koreensis	159	280	35.3	57.2	1.1e-27
+482	TR	V9H8E0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Simonsiella muelleri ATCC 29453 OX=641147 GN=ispF PE=3 SV=1	Simonsiella muelleri ATCC 29453	159	280	39.2	56.2	1.1e-27
+483	TR	A0A1V1I4C4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Romboutsia ilealis OX=1115758 GN=ispF PE=3 SV=1	Romboutsia ilealis	159	280	37.9	55.2	1.1e-27
+484	TR	A0A371IQK5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Romboutsia maritimum OX=2020948 GN=ispF PE=3 SV=1	Romboutsia maritimum	159	280	40.2	54.0	1.1e-27
+485	TR	A0A1I2C7Y4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thermophagus xiamenensis OX=385682 GN=ispF PE=3 SV=1	Thermophagus xiamenensis	159	280	36.2	57.5	1.1e-27
+486	TR	A0A4Y8PBM2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Methylacidiphilum caldifontis OX=2795386 GN=ispF PE=3 SV=1	Methylacidiphilum caldifontis	160	280	36.4	57.2	1.1e-27
+487	TR	A0A078MBH0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Jeotgalicoccus saudimassiliensis OX=1461582 GN=ispF PE=3 SV=1	Jeotgalicoccus saudimassiliensis	160	280	37.0	56.1	1.1e-27
+488	TR	A0A928ZBX3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pleurocapsales cyanobacterium LEGE 10410 OX=1828828 GN=ispF PE=3 SV=1	Pleurocapsales cyanobacterium LEGE 10410	161	280	36.0	58.4	1.1e-27
+489	TR	A0A4Y8WQI2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Porphyromonas levii OX=28114 GN=ispF PE=3 SV=1	Porphyromonas levii	161	280	36.6	56.4	1.1e-27
+490	TR	A0A381DHR7	Bifunctional enzyme IspD/IspF OS=Campylobacter sputorum subsp. sputorum OX=32024 GN=ispDF PE=3 SV=1	Campylobacter sputorum subsp. sputorum	380	294	38.3	59.4	1.1e-27
+491	TR	A0A416WAY1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Eubacterium sp. AF15-50 OX=2293103 GN=ispF PE=3 SV=1	Eubacterium sp. AF15-50	162	280	38.2	55.5	1.2e-27
+492	TR	A0A975LND4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mycoplasmatota bacterium OX=2231116 GN=ispF PE=3 SV=1	Mycoplasmatota bacterium	162	280	38.4	56.4	1.2e-27
+493	TR	A0A829YD74	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Steroidobacter agaridevorans OX=2695856 GN=ispF PE=3 SV=1	Steroidobacter agaridevorans	163	280	36.4	56.6	1.2e-27
+494	TR	A0A6I6JVJ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Maribellus comscasis OX=2681766 GN=ispF PE=3 SV=1	Maribellus comscasis	163	280	39.5	57.6	1.2e-27
+495	TR	A0A2I4FCH6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Juglans regia OX=51240 GN=LOC108997481 PE=3 SV=1	Juglans regia	229	285	36.4	59.0	1.2e-27
+496	TR	F2LVF6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hippea maritima (strain ATCC 700847 / DSM 10411 / MH2) OX=760142 GN=ispF PE=3 SV=1	Hippea maritima (strain ATCC 700847 / DSM 10411 / MH2)	164	280	36.9	55.1	1.2e-27
+497	TR	A0A699YIY7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Haematococcus lacustris OX=44745 GN=HaLaN_05311 PE=3 SV=1	Haematococcus lacustris	230	285	38.9	57.7	1.2e-27
+498	TR	A0A2P6P6M0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr7g0196611 PE=3 SV=1	Rosa chinensis	230	285	36.0	60.0	1.2e-27
+499	TR	A0A4D8YBS7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Salvia splendens OX=180675 GN=SASPL_131082 PE=3 SV=1	Salvia splendens	230	285	36.6	58.3	1.2e-27
+500	TR	A0A9E7G2I1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Musa troglodytarum OX=320322 GN=MUK42_20318 PE=3 SV=1	Musa troglodytarum	261	287	35.6	58.2	1.3e-27
+501	TR	A0A813P854	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Didymodactylos carnosus OX=1234261 GN=GPM918_LOCUS706 PE=3 SV=1	Didymodactylos carnosus	166	280	37.6	61.3	1.3e-27
+502	TR	W0DBA0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thermocrinis ruber OX=75906 GN=ispF PE=3 SV=1	Thermocrinis ruber	155	279	36.6	57.6	1.3e-27
+503	TR	A0A2M8TAB2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sp. CT7 OX=2052574 GN=ispF PE=3 SV=1	Clostridium sp. CT7	155	279	40.2	55.2	1.3e-27
+504	TR	A0A9E7FHX6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Musa troglodytarum OX=320322 GN=MUK42_29514 PE=3 SV=1	Musa troglodytarum	235	285	35.4	58.3	1.4e-27
+505	TR	A0A9D5BZT8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dioscorea zingiberensis OX=325984 GN=J5N97_029193 PE=3 SV=1	Dioscorea zingiberensis	236	285	35.4	58.3	1.4e-27
+506	SP	A0Q3K0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium novyi (strain NT) OX=386415 GN=ispF PE=3 SV=1	Clostridium novyi (strain NT)	157	279	39.8	59.6	1.4e-27
+507	TR	A0A0Q5FV88	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. Leaf127 OX=1736267 GN=ispF PE=3 SV=1	Pseudomonas sp. Leaf127	157	279	36.8	57.5	1.4e-27
+508	TR	I4N8R9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. M47T1 OX=1179778 GN=ispF PE=3 SV=1	Pseudomonas sp. M47T1	157	279	36.0	57.1	1.4e-27
+509	TR	A0A540MA90	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Malus baccata OX=106549 GN=C1H46_019027 PE=3 SV=1	Malus baccata	237	285	36.0	60.0	1.4e-27
+510	TR	E5BHV5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fusobacterium gonidiaformans 3-1-5R OX=469605 GN=ispF PE=3 SV=1	Fusobacterium gonidiaformans 3-1-5R	158	279	37.2	57.0	1.5e-27
+511	TR	A0A2U3AM87	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Kurthia sibirica OX=202750 GN=ispF PE=3 SV=1	Kurthia sibirica	158	279	34.7	57.2	1.5e-27
+512	TR	A0A431UXQ9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysinibacillus telephonicus OX=1714840 GN=ispF PE=3 SV=1	Lysinibacillus telephonicus	158	279	36.6	56.6	1.5e-27
+513	TR	A0A160F353	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anoxybacillus amylolyticus OX=294699 GN=ispF PE=3 SV=1	Anoxybacillus amylolyticus	158	279	36.6	58.1	1.5e-27
+514	TR	A0A6N7R0X2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gracilibacillus thailandensis OX=563735 GN=ispF PE=3 SV=1	Gracilibacillus thailandensis	158	279	37.7	54.9	1.5e-27
+515	TR	A0A0S3QRT8	Bifunctional enzyme IspD/IspF OS=Thermosulfidibacter takaii (strain DSM 17441 / JCM 13301 / NBRC 103674 / ABI70S6) OX=1298851 GN=ispDF PE=3 SV=1	Thermosulfidibacter takaii (strain DSM 17441 / JCM 13301 / NBRC 103674 / ABI70S6)	376	293	36.9	55.1	1.5e-27
+516	TR	Q4UC75	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Theileria annulata OX=5874 GN=TA04155 PE=3 SV=1	Theileria annulata	210	283	33.5	53.0	1.5e-27
+517	TR	A0A484KWU1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cuscuta campestris OX=132261 GN=CCAM_LOCUS9443 PE=3 SV=1	Cuscuta campestris	238	285	36.6	58.9	1.5e-27
+518	TR	A0A0S2I4I6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Salinivirga cyanobacteriivorans OX=1307839 GN=ispF PE=3 SV=1	Salinivirga cyanobacteriivorans	159	279	37.0	54.9	1.5e-27
+519	TR	A0A2G5XLB1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina sp. P19 OX=2048258 GN=ispF PE=3 SV=1	Sporosarcina sp. P19	159	279	34.7	57.8	1.5e-27
+520	TR	F2JMP6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cellulosilyticum lentocellum (strain ATCC 49066 / DSM 5427 / NCIMB 11756 / RHM5) OX=642492 GN=ispF PE=3 SV=1	Cellulosilyticum lentocellum (strain ATCC 49066 / DSM 5427 / NCIMB 11756 / RHM5)	159	279	38.7	58.4	1.5e-27
+521	TR	A0A5N5FZV0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pyrus ussuriensis x Pyrus communis OX=2448454 GN=D8674_011847 PE=3 SV=1	Pyrus ussuriensis x Pyrus communis	239	285	36.0	60.0	1.5e-27
+522	TR	A0A126ZGA9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax sp. PAMC 28711 OX=1795631 GN=ispF PE=3 SV=1	Variovorax sp. PAMC 28711	161	279	37.6	57.2	1.6e-27
+523	TR	A0A373LQB1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Eubacterium sp. AF36-5BH OX=2293108 GN=ispF PE=3 SV=1	Eubacterium sp. AF36-5BH	161	279	37.0	54.9	1.6e-27
+524	TR	J3LFV6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oryza brachyantha OX=4533 PE=3 SV=1	Oryza brachyantha	360	292	42.1	65.7	1.6e-27
+525	TR	G2GXM8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Regiella insecticola 5.15 OX=1005043 GN=ispF PE=3 SV=1	Candidatus Regiella insecticola 5.15	162	279	39.1	54.6	1.6e-27
+526	TR	A0A974Y7Y0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dechloromonas sp. TW-R-39-2 OX=2654218 GN=ispF PE=3 SV=1	Dechloromonas sp. TW-R-39-2	162	279	37.0	57.8	1.6e-27
+527	TR	A0A077D6V8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tripterygium wilfordii OX=458696 GN=MCS PE=2 SV=1	Tripterygium wilfordii	228	284	37.1	58.9	1.6e-27
+528	TR	A0A143B3K5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Desulfuromonas sp. DDH964 OX=1823759 GN=ispF PE=3 SV=1	Desulfuromonas sp. DDH964	164	279	37.5	55.1	1.7e-27
+529	TR	A0A432ZHM0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Idiomarina seosinensis OX=281739 GN=ispF PE=3 SV=1	Idiomarina seosinensis	164	279	35.3	58.4	1.7e-27
+530	TR	V4YSE9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Betaproteobacteria bacterium MOLA814 OX=1408164 GN=ispF PE=3 SV=1	Betaproteobacteria bacterium MOLA814	164	279	38.6	57.9	1.7e-27
+531	TR	A0A927GWX9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Spongiibacter pelagi OX=2760804 GN=ispF PE=3 SV=1	Spongiibacter pelagi	166	279	38.2	55.5	1.8e-27
+532	TR	A0A4S8KGQ1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Musa balbisiana OX=52838 GN=C4D60_Mb04t34390 PE=3 SV=1	Musa balbisiana	235	284	36.0	58.3	1.9e-27
+533	TR	A0AAE3HQU0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Berkiella cookevillensis OX=437022 GN=ispF PE=3 SV=1	Candidatus Berkiella cookevillensis	169	279	37.4	57.5	2e-27
+534	SP	Q3KH86	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas fluorescens (strain Pf0-1) OX=205922 GN=ispF PE=3 SV=1	Pseudomonas fluorescens (strain Pf0-1)	157	278	36.2	58.6	2e-27
+535	TR	A0A089YNR6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas rhizosphaerae OX=216142 GN=ispF PE=3 SV=1	Pseudomonas rhizosphaerae	157	278	35.6	57.5	2e-27
+536	TR	A0A8B7CSM6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Phoenix dactylifera OX=42345 GN=LOC103718484 PE=3 SV=1	Phoenix dactylifera	237	284	36.0	58.9	2e-27
+537	TR	A0A927R2X8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina limicola OX=34101 GN=ispF PE=3 SV=1	Sporosarcina limicola	158	278	35.6	55.2	2e-27
+538	TR	A0A2U1K611	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pueribacillus theae OX=2171751 GN=ispF PE=3 SV=1	Pueribacillus theae	158	278	40.5	55.5	2e-27
+539	TR	A0A176J9B4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus sp. SJS OX=1423321 GN=ispF PE=3 SV=1	Bacillus sp. SJS	158	278	36.2	56.9	2e-27
+540	TR	A0A494Z4F5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysinibacillus endophyticus OX=1978490 GN=ispF PE=3 SV=1	Lysinibacillus endophyticus	158	278	36.6	57.7	2e-27
+541	TR	A0A9W7GD77	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Triparma columacea OX=722753 GN=TrCOL_g3707 PE=3 SV=1	Triparma columacea	210	282	32.8	57.8	2.1e-27
+542	TR	A0A172WDU2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Buchnera aphidicola subsp. Schlechtendalia chinensis OX=118110 GN=ispF PE=3 SV=1	Buchnera aphidicola subsp. Schlechtendalia chinensis	159	278	35.8	56.6	2.1e-27
+543	TR	A0A1H2Y393	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Marinococcus luteus OX=1122204 GN=ispF PE=3 SV=1	Marinococcus luteus	159	278	37.5	56.2	2.1e-27
+544	TR	A0A1Y6EPU1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudidiomarina planktonica OX=1323738 GN=ispF PE=3 SV=1	Pseudidiomarina planktonica	160	278	34.1	58.4	2.2e-27
+545	TR	A0A433V5J9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dulcicalothrix desertica PCC 7102 OX=232991 GN=ispF PE=3 SV=1	Dulcicalothrix desertica PCC 7102	160	278	37.6	57.2	2.2e-27
+546	TR	A0A073CLF6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planktothrix agardhii NIVA-CYA 126/8 OX=388467 GN=NC126_4310 PE=3 SV=1	Planktothrix agardhii NIVA-CYA 126/8	160	278	37.0	55.5	2.2e-27
+547	TR	A0A244E9I5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax sp. JS1663 OX=1851577 GN=ispF PE=3 SV=1	Variovorax sp. JS1663	161	278	38.2	56.6	2.2e-27
+548	TR	A0A6C2YVH0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tuwongella immobilis OX=692036 GN=ispF PE=3 SV=1	Tuwongella immobilis	162	278	36.4	56.6	2.3e-27
+549	TR	A0A1Q8YC80	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhodoferax antarcticus ANT.BR OX=1111071 GN=ispF PE=3 SV=1	Rhodoferax antarcticus ANT.BR	165	278	36.0	57.3	2.5e-27
+550	TR	A0A3M8P5I9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planococcus salinus OX=1848460 GN=ispF PE=3 SV=1	Planococcus salinus	166	278	37.6	56.6	2.6e-27
+551	TR	A0A1T4XNJ7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sp. USBA 49 OX=1881060 GN=ispF PE=3 SV=1	Clostridium sp. USBA 49	156	277	38.7	56.1	2.7e-27
+552	TR	A0A1I0ZLV2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium frigidicarnis OX=84698 GN=ispF PE=3 SV=1	Clostridium frigidicarnis	156	277	40.3	55.1	2.7e-27
+553	TR	A0A6M0H2Y5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium senegalense OX=1465809 GN=ispF PE=3 SV=1	Clostridium senegalense	156	277	39.7	54.6	2.7e-27
+554	TR	A0A5J4Z043	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Porphyridium purpureum OX=35688 GN=FVE85_0715 PE=3 SV=1	Porphyridium purpureum	397	292	38.1	55.7	2.8e-27
+555	TR	A0A5E8AXQ2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Imperialibacter sp. EC-SDR9 OX=2038371 GN=ispF PE=3 SV=1	Imperialibacter sp. EC-SDR9	169	278	38.2	55.5	2.8e-27
+556	SP	Q4KHF0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5) OX=220664 GN=ispF PE=3 SV=1	Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5)	157	277	37.0	58.4	2.8e-27
+557	TR	A0A1Y0KU82	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. M30-35 OX=1981174 GN=ispF PE=3 SV=1	Pseudomonas sp. M30-35	157	277	36.8	57.5	2.8e-27
+558	TR	A0A8S0GRH3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. Boi14 OX=2799183 GN=ispF PE=3 SV=1	Pseudomonas sp. Boi14	157	277	37.0	58.4	2.8e-27
+559	TR	A0A2I0B1J6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Apostasia shenzhenica OX=1088818 GN=ISPF PE=3 SV=1	Apostasia shenzhenica	237	283	36.6	58.3	2.8e-27
+560	TR	A0A2A2GZY8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Arsenophonus sp. ENCA OX=1987579 GN=ispF PE=3 SV=1	Arsenophonus sp. ENCA	170	278	38.8	54.5	2.8e-27
+561	TR	A0A3D8YWG5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina sp. BI001-red OX=2282866 GN=ispF PE=3 SV=1	Sporosarcina sp. BI001-red	158	277	35.6	56.9	2.9e-27
+562	TR	A0A0A8JHH7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus sp. (strain OxB-1) OX=98228 GN=ispF PE=3 SV=1	Bacillus sp. (strain OxB-1)	158	277	36.8	55.2	2.9e-27
+563	TR	A0A848C525	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fusobacterium sp. FSA-380-WT-3A OX=2725304 GN=ispF PE=3 SV=1	Fusobacterium sp. FSA-380-WT-3A	158	277	39.0	54.1	2.9e-27
+564	TR	A0A3M8HDM7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysinibacillus halotolerans OX=1368476 GN=ispF PE=3 SV=1	Lysinibacillus halotolerans	158	277	37.1	56.0	2.9e-27
+565	TR	A0A0A5FX47	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pontibacillus litoralis JSM 072002 OX=1385512 GN=ispF PE=3 SV=1	Pontibacillus litoralis JSM 072002	158	277	39.0	56.4	2.9e-27
+566	TR	A0A545UDC2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aliikangiella coralliicola OX=2592383 GN=ispF PE=3 SV=1	Aliikangiella coralliicola	158	277	37.0	56.1	2.9e-27
+567	TR	A0A090IQP5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caldibacillus thermoamylovorans OX=35841 GN=ispF PE=3 SV=1	Caldibacillus thermoamylovorans	158	277	36.4	56.1	2.9e-27
+568	TR	A0A7I8L382	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Spirodela intermedia OX=51605 GN=SI8410_10014466 PE=3 SV=1	Spirodela intermedia	238	283	35.3	58.4	2.9e-27
+569	TR	A0A3S8T2U5	Bifunctional enzyme IspD/IspF OS=Rickettsiales endosymbiont of Stachyamoeba lipophora OX=2486578 GN=ispF PE=3 SV=1	Rickettsiales endosymbiont of Stachyamoeba lipophora	378	291	36.0	58.2	2.9e-27
+570	TR	A0A859FBR8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paenalkalicoccus suaedae OX=2592382 GN=ispF PE=3 SV=1	Paenalkalicoccus suaedae	159	277	36.8	58.6	3e-27
+571	TR	A0A6A7WCD0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Segatella copri OX=165179 GN=ispF PE=3 SV=1	Segatella copri	159	277	37.4	53.4	3e-27
+572	TR	A0A1S9CRR5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Epulopiscium sp. Nele67-Bin004 OX=1764962 GN=ispF PE=3 SV=1	Epulopiscium sp. Nele67-Bin004	159	277	36.2	55.9	3e-27
+573	TR	A0A6P6U3K2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Coffea arabica OX=13443 GN=LOC113707121 PE=3 SV=1	Coffea arabica	211	281	41.4	64.3	3e-27
+574	TR	A0A448ZQ64	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudo-nitzschia multistriata OX=183589 GN=PSNMU_V1.4_AUG-EV-PASAV3_0112600 PE=3 SV=1	Pseudo-nitzschia multistriata	254	284	32.4	57.5	3e-27
+575	TR	A0A1R1I8C0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Azonexus hydrophilus OX=418702 GN=ispF PE=3 SV=1	Azonexus hydrophilus	160	277	36.8	57.5	3.1e-27
+576	TR	A0A1Z5JQ13	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fistulifera solaris OX=1519565 GN=FisN_20Hh229 PE=3 SV=1	Fistulifera solaris	240	283	32.4	59.3	3.1e-27
+577	TR	A3PEB3	Multifunctional fusion protein OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=trmD PE=3 SV=1	Prochlorococcus marinus (strain MIT 9301)	406	292	38.4	55.2	3.1e-27
+578	TR	A0A916JVJ6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Vallotia tarda OX=1177213 GN=ispF PE=3 SV=1	Candidatus Vallotia tarda	161	277	37.9	55.7	3.1e-27
+579	TR	A0A544TIK4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacillus soli OX=1543965 GN=ispF PE=3 SV=1	Psychrobacillus soli	161	277	36.7	56.5	3.1e-27
+580	TR	A0A1B2LZT2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter larvae OX=1789224 GN=ispF PE=3 SV=1	Acinetobacter larvae	161	277	37.6	56.6	3.1e-27
+581	TR	A0A1T4VFY1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Succinivibrio dextrinosolvens DSM 3072 OX=1123324 GN=ispF PE=3 SV=1	Succinivibrio dextrinosolvens DSM 3072	161	277	36.2	54.2	3.1e-27
+582	TR	A0A5S9P2D4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Zhongshania aliphaticivorans OX=1470434 GN=ispF PE=3 SV=1	Zhongshania aliphaticivorans	163	277	38.9	56.6	3.3e-27
+583	TR	N8YCA4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter gerneri DSM 14967 = CIP 107464 = MTCC 9824 OX=1120926 GN=ispF PE=3 SV=1	Acinetobacter gerneri DSM 14967 = CIP 107464 = MTCC 9824	164	277	38.2	55.5	3.4e-27
+584	TR	A0A0K9H120	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus sp. FJAT-27231 OX=1679168 GN=ispF PE=3 SV=1	Bacillus sp. FJAT-27231	165	277	36.0	58.3	3.5e-27
+585	TR	A0A4V1LXM1	Bifunctional enzyme IspD/IspF OS=Arcobacter sp. CECT 8983 OX=2044508 GN=ispDF PE=3 SV=1	Arcobacter sp. CECT 8983	374	290	39.5	58.7	3.8e-27
+586	SP	Q4ZWQ2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas syringae pv. syringae (strain B728a) OX=205918 GN=ispF PE=3 SV=1	Pseudomonas syringae pv. syringae (strain B728a)	157	276	36.8	56.9	4e-27
+587	TR	A0A7V7GTJ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Halopseudomonas laoshanensis OX=2268758 GN=ispF PE=3 SV=1	Halopseudomonas laoshanensis	157	276	36.0	57.1	4e-27
+588	TR	A0A0C4WH57	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Azotobacter chroococcum NCIMB 8003 OX=1328314 GN=ispF PE=3 SV=1	Azotobacter chroococcum NCIMB 8003	157	276	36.0	56.6	4e-27
+589	TR	A0A180FHP3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacteroidales bacterium Barb4 OX=1633200 GN=ispF PE=3 SV=1	Bacteroidales bacterium Barb4	157	276	35.3	57.2	4e-27
+590	TR	R4K6M4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium pasteurianum BC1 OX=86416 GN=ispF PE=3 SV=1	Clostridium pasteurianum BC1	157	276	38.7	53.8	4e-27
+591	TR	A0A089YDF3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas cremoricolorata OX=157783 GN=ispF PE=3 SV=1	Pseudomonas cremoricolorata	157	276	35.6	58.0	4e-27
+592	TR	A0A1I4S9Z4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Halopseudomonas yangmingensis OX=1720063 GN=ispF PE=3 SV=1	Halopseudomonas yangmingensis	157	276	36.8	56.9	4e-27
+593	TR	A0A6M8MPG8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas graminis OX=158627 GN=ispF PE=3 SV=1	Pseudomonas graminis	157	276	36.8	56.9	4e-27
+594	TR	A0A085VC11	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas syringae OX=317 GN=ispF PE=3 SV=1	Pseudomonas syringae	157	276	36.2	57.5	4e-27
+595	TR	A0A1R4GWF6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacter piechaudii OX=1945521 GN=ispF PE=3 SV=1	Psychrobacter piechaudii	170	277	36.4	57.8	4e-27
+596	TR	A0A434AGR5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ancylomarina longa OX=2487017 GN=ispF PE=3 SV=1	Ancylomarina longa	158	276	37.6	56.1	4.1e-27
+597	TR	A0A0X1RVC7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Kurthia sp. 11kri321 OX=1750719 GN=ispF PE=3 SV=1	Kurthia sp. 11kri321	158	276	35.3	56.1	4.1e-27
+598	TR	A0A1Z4RKT4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Chondrocystis sp. NIES-4102 OX=2005460 GN=ispF PE=3 SV=1	Chondrocystis sp. NIES-4102	158	276	38.2	56.1	4.1e-27
+599	TR	A0A0A3HVW2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ureibacillus sinduriensis BLB-1 = JCM 15800 OX=1384057 GN=ispF PE=3 SV=1	Ureibacillus sinduriensis BLB-1 = JCM 15800	158	276	36.6	56.0	4.1e-27
+600	TR	B9E8S0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Macrococcus caseolyticus (strain JCSC5402) OX=458233 GN=ispF PE=3 SV=1	Macrococcus caseolyticus (strain JCSC5402)	159	276	35.0	56.5	4.2e-27
+601	TR	A0A2T1CEF1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pleurocapsa sp. CCALA 161 OX=2107688 GN=ispF PE=3 SV=1	Pleurocapsa sp. CCALA 161	159	276	37.0	58.4	4.2e-27
+602	TR	A0A1I2F8N8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alteribacillus iranensis OX=930128 GN=ispF PE=3 SV=1	Alteribacillus iranensis	159	276	33.5	58.5	4.2e-27
+603	TR	A0A2G4F438	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tychonema bourrellyi FEM_GT703 OX=2040638 GN=ispF PE=3 SV=1	Tychonema bourrellyi FEM_GT703	159	276	38.1	56.2	4.2e-27
+604	TR	A0A7D3XK48	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tenuifilum thalassicum OX=2590900 GN=ispF PE=3 SV=1	Tenuifilum thalassicum	159	276	35.5	55.2	4.2e-27
+605	TR	A0A0P0MHC5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Limnohabitans sp. 103DPR2 OX=1678129 GN=ispF PE=3 SV=1	Limnohabitans sp. 103DPR2	159	276	36.4	56.6	4.2e-27
+606	TR	A0A372EP09	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hydrogenophaga borbori OX=2294117 GN=ispF PE=3 SV=1	Hydrogenophaga borbori	160	276	35.8	56.8	4.3e-27
+607	TR	A0A939DPG2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bowmanella dokdonensis OX=751969 GN=ispF PE=3 SV=1	Bowmanella dokdonensis	160	276	38.2	56.1	4.3e-27
+608	TR	A0A5A7PCP5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (Fragment) OS=Striga asiatica OX=4170 GN=STAS_06262 PE=3 SV=1	Striga asiatica	241	282	36.0	58.3	4.4e-27
+609	TR	A0A1I7JND5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudoduganella namucuonensis OX=1035707 GN=ispF PE=3 SV=1	Pseudoduganella namucuonensis	162	276	39.3	54.3	4.5e-27
+610	TR	S8C347	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (Fragment) OS=Genlisea aurea OX=192259 GN=M569_13727 PE=3 SV=1	Genlisea aurea	229	281	36.6	58.3	4.6e-27
+611	TR	A0A134C9Z4	Bifunctional enzyme IspD/IspF OS=Veillonellaceae bacterium DNF00626 OX=1588754 GN=ispDF PE=3 SV=1	Veillonellaceae bacterium DNF00626	387	290	34.1	52.4	4.7e-27
+612	TR	A0A0U3AL89	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lacimicrobium alkaliphilum OX=1526571 GN=ispF PE=3 SV=1	Lacimicrobium alkaliphilum	163	276	36.7	56.5	4.7e-27
+613	TR	A0A090ARU0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Tachikawaea gelatinosa OX=1410383 GN=ispF PE=3 SV=1	Candidatus Tachikawaea gelatinosa	164	276	36.9	56.8	4.8e-27
+614	TR	C9LKY7	Bifunctional enzyme IspD/IspF OS=Dialister invisus DSM 15470 OX=592028 GN=ispDF PE=3 SV=1	Dialister invisus DSM 15470	392	290	40.5	57.2	5e-27
+615	TR	B7FYU2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX=556484 GN=PHATRDRAFT_56610 PE=3 SV=1	Phaeodactylum tricornutum (strain CCAP 1055/1)	218	280	34.3	60.2	5e-27
+616	TR	A0A5B8XEV2	Bifunctional enzyme IspD/IspF OS=Candidatus Deianiraea vastatrix OX=2163644 GN=ispDF PE=3 SV=1	Candidatus Deianiraea vastatrix	395	290	39.8	55.7	5.2e-27
+617	TR	L2FAD4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Moraxella macacae 0408225 OX=1230338 GN=ispF PE=3 SV=1	Moraxella macacae 0408225	167	276	38.8	52.8	5.2e-27
+618	TR	A0A9N7NYA3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Striga hermonthica OX=68872 GN=SHERM_05364 PE=3 SV=1	Striga hermonthica	332	287	36.6	59.4	5.2e-27
+619	TR	I0YRD4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Coccomyxa subellipsoidea (strain C-169) OX=574566 GN=COCSUDRAFT_18339 PE=3 SV=1	Coccomyxa subellipsoidea (strain C-169)	207	279	37.6	59.0	5.3e-27
+620	TR	A0A0D2MXZ5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium raimondii OX=29730 GN=B456_004G137800 PE=3 SV=1	Gossypium raimondii	235	281	36.0	58.9	5.4e-27
+621	SP	Q0TMY4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium perfringens (strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 8237 / Type A) OX=195103 GN=ispF PE=3 SV=1	Clostridium perfringens (strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 8237 / Type A)	156	275	40.2	53.4	5.4e-27
+622	SP	Q8XI08	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium perfringens (strain 13 / Type A) OX=195102 GN=ispF PE=3 SV=1	Clostridium perfringens (strain 13 / Type A)	156	275	40.2	53.4	5.4e-27
+623	SP	Q9M4W3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase, chloroplastic OS=Catharanthus roseus OX=4058 GN=ISPF PE=2 SV=1	Catharanthus roseus	236	281	36.0	58.9	5.5e-27
+624	SP	A4XWR4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas mendocina (strain ymp) OX=399739 GN=ispF PE=3 SV=1	Pseudomonas mendocina (strain ymp)	157	275	36.2	56.9	5.6e-27
+625	SP	C1DSS0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Azotobacter vinelandii (strain DJ / ATCC BAA-1303) OX=322710 GN=ispF PE=3 SV=1	Azotobacter vinelandii (strain DJ / ATCC BAA-1303)	157	275	36.2	57.5	5.6e-27
+626	TR	A0A6C0TUH6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. OIL-1 OX=2706126 GN=ispF PE=3 SV=1	Pseudomonas sp. OIL-1	157	275	37.4	58.6	5.6e-27
+627	TR	A0A316IKE5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fulvimonas soli OX=155197 GN=ispF PE=3 SV=1	Fulvimonas soli	157	275	36.4	56.6	5.6e-27
+628	TR	A0A2U2AF46	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ignatzschineria ureiclastica OX=472582 GN=ispF PE=3 SV=1	Ignatzschineria ureiclastica	157	275	38.1	56.8	5.6e-27
+629	TR	A0A0P8Z996	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caloranaerobacter sp. TR13 OX=1302151 GN=ispF PE=3 SV=1	Caloranaerobacter sp. TR13	157	275	38.6	53.4	5.6e-27
+630	TR	A0A1Y3KV09	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. 1239 OX=1985343 GN=ispF PE=3 SV=1	Pseudomonas sp. 1239	157	275	35.6	57.5	5.6e-27
+631	TR	A0A3B0IU85	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Arsenophonus endosymbiont of Aleurodicus floccissimus OX=2152761 GN=ispF PE=3 SV=1	Arsenophonus endosymbiont of Aleurodicus floccissimus	170	276	38.8	53.4	5.7e-27
+632	TR	A0A0A3IAG0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ureibacillus manganicus DSM 26584 OX=1384049 GN=ispF PE=3 SV=1	Ureibacillus manganicus DSM 26584	158	275	36.6	56.6	5.7e-27
+633	TR	A0A0A3J854	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ureibacillus massiliensis 4400831 = CIP 108448 = CCUG 49529 OX=1211035 GN=ispF PE=3 SV=1	Ureibacillus massiliensis 4400831 = CIP 108448 = CCUG 49529	158	275	36.6	56.6	5.7e-27
+634	TR	A0A1M7QYJ7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gracilibacillus kekensis OX=1027249 GN=ispF PE=3 SV=1	Gracilibacillus kekensis	158	275	37.1	55.4	5.7e-27
+635	TR	F8N8B4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hallella multisaccharivorax DSM 17128 OX=688246 GN=ispF PE=3 SV=1	Hallella multisaccharivorax DSM 17128	158	275	36.4	54.3	5.7e-27
+636	TR	A0A3N9UB96	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysinibacillus composti OX=720633 GN=ispF PE=3 SV=1	Lysinibacillus composti	158	275	35.4	55.4	5.7e-27
+637	TR	A0A0Q3RX86	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacillus sp. FJAT-21963 OX=1712028 GN=ispF PE=3 SV=1	Psychrobacillus sp. FJAT-21963	159	275	37.3	55.4	5.9e-27
+638	TR	D1PDK9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Segatella copri DSM 18205 OX=537011 GN=ispF PE=3 SV=1	Segatella copri DSM 18205	159	275	38.2	54.3	5.9e-27
+639	TR	A0A1H8K2F5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peptostreptococcus russellii OX=215200 GN=ispF PE=3 SV=1	Peptostreptococcus russellii	159	275	36.4	56.1	5.9e-27
+640	TR	A0A240ABC2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mammaliicoccus stepanovicii OX=643214 GN=ispF PE=3 SV=1	Mammaliicoccus stepanovicii	159	275	36.6	54.9	5.9e-27
+641	TR	A0A1I6AAV3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacillus psychrotolerans OX=126156 GN=ispF PE=3 SV=1	Psychrobacillus psychrotolerans	159	275	36.2	56.5	5.9e-27
+642	TR	A0A396S6N2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysinibacillus yapensis OX=2304605 GN=ispF PE=3 SV=1	Lysinibacillus yapensis	159	275	36.0	56.6	5.9e-27
+643	TR	A0A108T7J1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacteroides stercoris OX=46506 GN=ispF PE=3 SV=1	Bacteroides stercoris	159	275	37.4	55.2	5.9e-27
+644	TR	A0A2R6WD44	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Marchantia polymorpha OX=3197 GN=MARPO_0107s0035 PE=3 SV=1	Marchantia polymorpha	254	282	36.0	57.7	5.9e-27
+645	TR	A0A176WMG4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Marchantia polymorpha subsp. ruderalis OX=1480154 GN=AXG93_4019s1140 PE=3 SV=1	Marchantia polymorpha subsp. ruderalis	254	282	36.0	57.7	5.9e-27
+646	TR	A0A366II12	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alkalibaculum bacchi OX=645887 GN=ispF PE=3 SV=1	Alkalibaculum bacchi	160	275	38.7	57.2	6.1e-27
+647	TR	A0A926UNH5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anabaena sp. FACHB-1237 OX=2692769 GN=ispF PE=3 SV=1	Anabaena sp. FACHB-1237	160	275	37.3	54.8	6.1e-27
+648	TR	A0A5C5VNX3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Phycisphaerae bacterium RAS1 OX=2528034 GN=ispF PE=3 SV=1	Phycisphaerae bacterium RAS1	160	275	34.3	57.1	6.1e-27
+649	TR	A0A1G9D4A2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sediminibacillus albus OX=407036 GN=ispF PE=3 SV=1	Sediminibacillus albus	160	275	38.4	55.8	6.1e-27
+650	TR	A0A8E2LFE5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Heyndrickxia oleronia OX=38875 GN=ispF PE=3 SV=1	Heyndrickxia oleronia	161	275	38.4	55.8	6.2e-27
+651	TR	A0A0L6TVJ1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acetobacterium bakii OX=52689 GN=ispF PE=3 SV=1	Acetobacterium bakii	161	275	37.4	58.0	6.2e-27
+652	TR	V2VQ90	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter indicus CIP 110367 OX=1341679 GN=ispF PE=3 SV=1	Acinetobacter indicus CIP 110367	162	275	37.6	56.1	6.4e-27
+653	TR	S3MZT9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter rudis CIP 110305 OX=421052 GN=ispF PE=3 SV=1	Acinetobacter rudis CIP 110305	163	275	37.0	57.2	6.6e-27
+654	TR	A0A0Q7LAX5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax sp. Root473 OX=1736541 GN=ispF PE=3 SV=1	Variovorax sp. Root473	163	275	36.4	57.2	6.6e-27
+655	SP	B9DXE4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium kluyveri (strain NBRC 12016) OX=583346 GN=ispF PE=3 SV=1	Clostridium kluyveri (strain NBRC 12016)	164	275	39.9	54.9	6.8e-27
+656	SP	A5N3R3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium kluyveri (strain ATCC 8527 / DSM 555 / NCIMB 10680) OX=431943 GN=ispF PE=3 SV=1	Clostridium kluyveri (strain ATCC 8527 / DSM 555 / NCIMB 10680)	164	275	39.9	54.9	6.8e-27
+657	TR	A0A0A2DP56	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Porphyromonas sp. COT-239 OH1446 OX=1515613 GN=ispF PE=3 SV=1	Porphyromonas sp. COT-239 OH1446	164	275	37.9	55.2	6.8e-27
+658	TR	A0A830HA24	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pycnococcus provasolii OX=41880 GN=PPROV_000258900 PE=3 SV=1	Pycnococcus provasolii	245	281	33.5	58.5	6.8e-27
+659	TR	A0A087SA93	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Auxenochlorella protothecoides OX=3075 GN=F751_4291 PE=3 SV=1	Auxenochlorella protothecoides	203	278	35.5	58.7	6.8e-27
+660	TR	A0A2S0ME46	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ottowia oryzae OX=2109914 GN=ispF PE=3 SV=1	Ottowia oryzae	166	275	37.0	56.1	7.1e-27
+661	TR	A0A1E7G006	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fragilariopsis cylindrus CCMP1102 OX=635003 GN=MCS PE=3 SV=1	Fragilariopsis cylindrus CCMP1102	264	282	34.3	59.6	7.4e-27
+662	TR	A0A1I7HWB9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sp. DSM 8431 OX=1761781 GN=ispF PE=3 SV=1	Clostridium sp. DSM 8431	155	274	39.4	57.6	7.4e-27
+663	TR	A0A4R3MRE0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Natranaerovirga pectinivora OX=682400 GN=ispF PE=3 SV=1	Natranaerovirga pectinivora	155	274	39.3	53.2	7.4e-27
+664	TR	A0A804IWX1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Musa acuminata subsp. malaccensis OX=214687 GN=103982592 PE=3 SV=1	Musa acuminata subsp. malaccensis	235	280	35.4	57.7	7.5e-27
+665	SP	Q92F39	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Listeria innocua serovar 6a (strain ATCC BAA-680 / CLIP 11262) OX=272626 GN=ispF PE=3 SV=1	Listeria innocua serovar 6a (strain ATCC BAA-680 / CLIP 11262)	157	274	36.4	58.4	7.9e-27
+666	TR	A0A1G8PGN0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alteribacillus bidgolensis OX=930129 GN=ispF PE=3 SV=1	Alteribacillus bidgolensis	157	274	34.3	57.1	7.9e-27
+667	TR	T0NBR7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sp. BL8 OX=1354301 GN=ispF PE=3 SV=1	Clostridium sp. BL8	157	274	38.7	56.6	7.9e-27
+668	TR	A0A0B4S227	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Parvimonas micra OX=33033 GN=ispF PE=3 SV=1	Parvimonas micra	157	274	39.3	55.5	7.9e-27
+669	TR	A0A4Q0VXB9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerobacillus alkaliphilus OX=1548597 GN=ispF PE=3 SV=1	Anaerobacillus alkaliphilus	157	274	35.6	55.2	7.9e-27
+670	TR	A0A8S0W9U1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Methylobacter favarea OX=2707345 GN=ispF PE=3 SV=1	Candidatus Methylobacter favarea	157	274	38.2	56.1	7.9e-27
+671	TR	A0A7W8NBA5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhodanobacter sp. ANJX3 OX=2723083 GN=ispF PE=3 SV=1	Rhodanobacter sp. ANJX3	157	274	37.0	57.8	7.9e-27
+672	TR	A0A0H3J0Q7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium pasteurianum DSM 525 = ATCC 6013 OX=1262449 GN=ispF PE=3 SV=1	Clostridium pasteurianum DSM 525 = ATCC 6013	157	274	38.2	54.9	7.9e-27
+673	TR	A0A2U8I8B8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Fukatsuia symbiotica OX=1878942 GN=ispF PE=3 SV=1	Candidatus Fukatsuia symbiotica	158	274	36.8	55.2	8.1e-27
+674	TR	A0A918XH13	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Halioglobus pacificus OX=930806 GN=ispF PE=3 SV=1	Halioglobus pacificus	158	274	37.7	56.0	8.1e-27
+675	TR	A0A0B0ICM0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Halalkalibacter okhensis OX=333138 GN=ispF PE=3 SV=1	Halalkalibacter okhensis	158	274	36.7	55.4	8.1e-27
+676	TR	A0A143HGA3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rummeliibacillus stabekisii OX=241244 GN=ispF PE=3 SV=1	Rummeliibacillus stabekisii	158	274	35.4	55.4	8.1e-27
+677	TR	A0A4P8XW11	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ruminococcus bovis OX=2564099 GN=ispF PE=3 SV=1	Ruminococcus bovis	158	274	37.3	53.7	8.1e-27
+678	TR	A0A419VWY8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mangrovibacterium diazotrophicum OX=1261403 GN=ispF PE=3 SV=1	Mangrovibacterium diazotrophicum	158	274	35.8	56.1	8.1e-27
+679	TR	B1C8Q5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerofustis stercorihominis DSM 17244 OX=445971 GN=ispF PE=3 SV=1	Anaerofustis stercorihominis DSM 17244	158	274	36.9	55.7	8.1e-27
+680	TR	K9VNG2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oscillatoria nigro-viridis PCC 7112 OX=179408 GN=ispF PE=3 SV=1	Oscillatoria nigro-viridis PCC 7112	159	274	38.2	54.9	8.3e-27
+681	TR	A0A926VJI7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aerosakkonema funiforme FACHB-1375 OX=2949571 GN=ispF PE=3 SV=1	Aerosakkonema funiforme FACHB-1375	159	274	37.0	56.1	8.3e-27
+682	TR	A0A371IXA8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Romboutsia weinsteinii OX=2020949 GN=ispF PE=3 SV=1	Romboutsia weinsteinii	159	274	40.2	55.2	8.3e-27
+683	TR	A0A975I0T8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhodoferax sp. AJA081-3 OX=2752316 GN=ispF PE=3 SV=1	Rhodoferax sp. AJA081-3	159	274	38.7	55.5	8.3e-27
+684	TR	A0A2T5C1I3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mangrovibacterium marinum OX=1639118 GN=ispF PE=3 SV=1	Mangrovibacterium marinum	159	274	35.8	54.3	8.3e-27
+685	TR	A0A8J9WIU5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Coccomyxa sp. Obi OX=2315456 GN=COCOBI_03-4040 PE=3 SV=1	Coccomyxa sp. Obi	225	279	37.6	59.0	8.3e-27
+686	SP	B0VMT6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baumannii (strain SDF) OX=509170 GN=ispF PE=3 SV=1	Acinetobacter baumannii (strain SDF)	160	274	36.4	55.5	8.5e-27
+687	SP	Q5F830	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090) OX=242231 GN=ispF PE=3 SV=1	Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)	160	274	37.9	56.3	8.5e-27
+688	TR	A0A1M4Y1S4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mariniphaga anaerophila OX=1484053 GN=ispF PE=3 SV=1	Mariniphaga anaerophila	160	274	36.5	56.2	8.5e-27
+689	TR	A0A926YEW7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Microcoleus sp. FACHB-68 OX=2692826 GN=ispF PE=3 SV=1	Microcoleus sp. FACHB-68	160	274	38.5	56.9	8.5e-27
+690	TR	A0A9X1X1Y5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter sedimenti OX=2919922 GN=ispF PE=3 SV=1	Acinetobacter sedimenti	160	274	37.9	56.5	8.5e-27
+691	TR	A0A1F0FWA4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Porphyromonas sp. HMSC077F02 OX=1739529 GN=ispF PE=3 SV=1	Porphyromonas sp. HMSC077F02	160	274	36.0	55.8	8.5e-27
+692	TR	A0A518BYV6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mucisphaera calidilacus OX=2527982 GN=ispF PE=3 SV=1	Mucisphaera calidilacus	160	274	33.3	54.6	8.5e-27
+693	TR	A0A842J3A4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Cetobacterium sp. 2A OX=2754723 GN=ispF PE=3 SV=1	Cetobacterium sp. 2A	161	274	37.0	56.6	8.8e-27
+694	TR	A0A4Q9XK99	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bowmanella sp. JS7-9 OX=1605368 GN=ispF PE=3 SV=1	Bowmanella sp. JS7-9	161	274	38.2	53.9	8.8e-27
+695	TR	A0A6P2F9I3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax sp. PBS-H4 OX=434008 GN=ispF PE=3 SV=1	Variovorax sp. PBS-H4	161	274	36.4	56.1	8.8e-27
+696	TR	A0A8J7S4W1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Natronogracilivirga saccharolytica OX=2812953 GN=ispF PE=3 SV=1	Natronogracilivirga saccharolytica	162	274	37.1	54.3	9e-27
+697	TR	A0A1I5GQN1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax sp. PDC80 OX=1882827 GN=ispF PE=3 SV=1	Variovorax sp. PDC80	162	274	36.4	57.2	9e-27
+698	TR	A0A840RFY6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Silvimonas terrae OX=300266 GN=ispF PE=3 SV=1	Silvimonas terrae	164	274	35.8	56.2	9.5e-27
+699	TR	A0A1M6R4Z7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hathewaya proteolytica DSM 3090 OX=1121331 GN=ispF PE=3 SV=1	Hathewaya proteolytica DSM 3090	164	274	39.2	53.4	9.5e-27
+700	TR	A0A2V3J068	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gracilariopsis chorda OX=448386 GN=BWQ96_02473 PE=3 SV=1	Gracilariopsis chorda	349	286	34.0	55.2	9.8e-27
+701	TR	A0A1I5V7F1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lachnospiraceae bacterium XBB1006 OX=1520827 GN=ispF PE=3 SV=1	Lachnospiraceae bacterium XBB1006	191	276	38.2	54.9	9.9e-27
+702	TR	A0A0Q8PAR7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Noviherbaspirillum sp. Root189 OX=1736487 GN=ispF PE=3 SV=1	Noviherbaspirillum sp. Root189	166	274	35.8	55.1	1e-26
+703	TR	A0A378QAU9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Moraxella osloensis OX=34062 GN=ispF PE=3 SV=1	Moraxella osloensis	166	274	38.7	54.9	1e-26
+704	TR	A0A1E7QL55	Bifunctional enzyme IspD/IspF OS=Wolbachia pipientis OX=955 GN=ispDF PE=3 SV=1	Wolbachia pipientis	374	287	35.8	55.7	1e-26
+705	TR	A0A0E3U3W4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Blochmannia endosymbiont of Camponotus (Colobopsis) obliquus OX=1505597 GN=ispF PE=3 SV=1	Blochmannia endosymbiont of Camponotus (Colobopsis) obliquus	155	273	39.1	54.0	1e-26
+706	TR	A0A0D0RGI4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lachnospiraceae bacterium TWA4 OX=1392836 GN=ispF PE=3 SV=1	Lachnospiraceae bacterium TWA4	155	273	35.8	55.5	1e-26
+707	TR	K0RVL6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thalassiosira oceanica OX=159749 GN=THAOC_30283 PE=3 SV=1	Thalassiosira oceanica	281	282	33.3	56.7	1.1e-26
+708	SP	Q1MR76	Bifunctional enzyme IspD/IspF OS=Lawsonia intracellularis (strain PHE/MN1-00) OX=363253 GN=ispDF PE=3 SV=1	Lawsonia intracellularis (strain PHE/MN1-00)	399	288	35.5	59.3	1.1e-26
+709	TR	A0A4U8V6L1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Burkholderiaceae bacterium PBA OX=795666 GN=ispF PE=3 SV=1	Burkholderiaceae bacterium PBA	168	274	37.4	55.2	1.1e-26
+710	SP	Q0SQN0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium perfringens (strain SM101 / Type A) OX=289380 GN=ispF PE=3 SV=1	Clostridium perfringens (strain SM101 / Type A)	156	273	40.2	53.4	1.1e-26
+711	TR	L1QM54	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium celatum DSM 1785 OX=545697 GN=ispF PE=3 SV=1	Clostridium celatum DSM 1785	169	274	41.0	54.9	1.1e-26
+712	TR	A0A419T852	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thermohalobacter berrensis OX=99594 GN=ispF PE=3 SV=1	Thermohalobacter berrensis	157	273	37.5	55.7	1.1e-26
+713	TR	A0A180FGQ3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacteroidales bacterium Barb7 OX=1633203 GN=ispF PE=3 SV=1	Bacteroidales bacterium Barb7	157	273	34.7	57.2	1.1e-26
+714	TR	A0A1V3IHW6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rodentibacter rarus OX=1908260 GN=ispF PE=3 SV=1	Rodentibacter rarus	157	273	40.2	53.4	1.1e-26
+715	TR	A0AA43Q5T0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Methylobacter titanis OX=3053457 GN=ispF PE=3 SV=1	Candidatus Methylobacter titanis	157	273	38.2	54.9	1.1e-26
+716	TR	A0A2D2M3K7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. HLS-6 OX=2049589 GN=ispF PE=3 SV=1	Pseudomonas sp. HLS-6	157	273	36.2	56.9	1.1e-26
+717	TR	A0A0C5DSL2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. MRSN 12121 OX=1611770 GN=ispF PE=3 SV=1	Pseudomonas sp. MRSN 12121	157	273	36.2	57.5	1.1e-26
+718	TR	A0A373KCM2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ruminococcus sp. AF43-11 OX=2293181 GN=ispF PE=3 SV=1	Ruminococcus sp. AF43-11	157	273	39.3	54.3	1.1e-26
+719	TR	A0A453PAA7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aegilops tauschii subsp. strangulata OX=200361 PE=3 SV=1	Aegilops tauschii subsp. strangulata	121	270	42.1	66.1	1.1e-26
+720	TR	A0AA38FH41	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Taxus chinensis OX=29808 GN=KI387_013305 PE=3 SV=1	Taxus chinensis	238	279	37.2	59.1	1.1e-26
+721	TR	A0A0V8A052	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mastigocoleus testarum BC008 OX=371196 GN=ispF PE=3 SV=1	Mastigocoleus testarum BC008	158	273	36.4	57.8	1.1e-26
+722	TR	A0A4R4F7V8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lysobacter sp. N42 OX=2545719 GN=ispF PE=3 SV=1	Lysobacter sp. N42	158	273	34.5	55.2	1.1e-26
+723	TR	A0A374AW71	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Firmicutes bacterium AF12-30 OX=2292884 GN=ispF PE=3 SV=1	Firmicutes bacterium AF12-30	158	273	39.9	51.4	1.1e-26
+724	TR	A0A848IXB7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Marinigracilibium pacificum OX=2729599 GN=ispF PE=3 SV=1	Marinigracilibium pacificum	158	273	37.0	54.3	1.1e-26
+725	TR	F2F3B0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Solibacillus silvestris (strain StLB046) OX=1002809 GN=ispF PE=3 SV=1	Solibacillus silvestris (strain StLB046)	158	273	34.7	56.1	1.1e-26
+726	TR	A0A402A2U9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tengunoibacter tsumagoiensis OX=2014871 GN=ispF PE=3 SV=1	Tengunoibacter tsumagoiensis	159	273	38.2	56.1	1.2e-26
+727	TR	A0A0C2VTR5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Jeotgalibacillus soli OX=889306 GN=ispF PE=3 SV=1	Jeotgalibacillus soli	159	273	37.8	56.4	1.2e-26
+728	TR	A0A0L6Z5B6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium homopropionicum DSM 5847 OX=1121318 GN=ispF PE=3 SV=1	Clostridium homopropionicum DSM 5847	159	273	39.8	54.0	1.2e-26
+729	TR	E3H9R0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ilyobacter polytropus (strain ATCC 51220 / DSM 2926 / LMG 16218 / CuHBu1) OX=572544 GN=ispF PE=3 SV=1	Ilyobacter polytropus (strain ATCC 51220 / DSM 2926 / LMG 16218 / CuHBu1)	159	273	37.6	55.5	1.2e-26
+730	TR	L1NJF1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria sp. oral taxon 020 str. F0370 OX=1127694 GN=ispF PE=3 SV=1	Neisseria sp. oral taxon 020 str. F0370	172	274	37.1	56.7	1.2e-26
+731	TR	E8LL36	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Succinatimonas hippei (strain DSM 22608 / JCM 16073 / KCTC 15190 / YIT 12066) OX=762983 GN=ispF PE=3 SV=1	Succinatimonas hippei (strain DSM 22608 / JCM 16073 / KCTC 15190 / YIT 12066)	160	273	37.3	54.2	1.2e-26
+732	TR	A0A0F5HPS7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus thermotolerans OX=1221996 GN=ispF PE=3 SV=1	Bacillus thermotolerans	160	273	37.1	56.6	1.2e-26
+733	TR	A0A261QE00	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillaceae bacterium SAS-127 OX=2015203 GN=ispF PE=3 SV=1	Bacillaceae bacterium SAS-127	160	273	34.1	57.2	1.2e-26
+734	TR	A0A8B4S1X3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Comamonas testosteroni OX=285 GN=ispF PE=3 SV=1	Comamonas testosteroni	160	273	35.3	57.2	1.2e-26
+735	TR	A0A931H185	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caenimonas aquaedulcis OX=2793270 GN=ispF PE=3 SV=1	Caenimonas aquaedulcis	160	273	36.9	57.4	1.2e-26
+736	TR	B7RY49	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=marine gamma proteobacterium HTCC2148 OX=247634 GN=ispF PE=3 SV=1	marine gamma proteobacterium HTCC2148	161	273	36.4	54.9	1.2e-26
+737	TR	A0A367QYY7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc minutum NIES-26 OX=1844469 GN=ispF PE=3 SV=1	Nostoc minutum NIES-26	161	273	35.6	57.5	1.2e-26
+738	TR	W0PG54	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Advenella mimigardefordensis (strain DSM 17166 / LMG 22922 / DPN7) OX=1247726 GN=ispF PE=3 SV=1	Advenella mimigardefordensis (strain DSM 17166 / LMG 22922 / DPN7)	161	273	37.4	52.9	1.2e-26
+739	TR	A4AAC1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Congregibacter litoralis KT71 OX=314285 GN=ispF PE=3 SV=1	Congregibacter litoralis KT71	161	273	35.8	56.1	1.2e-26
+740	TR	A0AA46I5Y3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hypnocyclicus thermotrophus OX=1627895 GN=ispF PE=3 SV=1	Hypnocyclicus thermotrophus	161	273	35.8	54.0	1.2e-26
+741	TR	A0A5P8W102	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc sphaeroides CCNUC1 OX=2653204 GN=ispF PE=3 SV=1	Nostoc sphaeroides CCNUC1	161	273	36.2	56.3	1.2e-26
+742	TR	A0A385YVC4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paenisporosarcina cavernae OX=2320858 GN=ispF PE=3 SV=1	Paenisporosarcina cavernae	161	273	35.0	54.2	1.2e-26
+743	TR	K9W0F1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Crinalium epipsammum PCC 9333 OX=1173022 GN=ispF PE=3 SV=1	Crinalium epipsammum PCC 9333	161	273	36.8	57.5	1.2e-26
+744	TR	K6Y131	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paraglaciecola mesophila KMM 241 OX=1128912 GN=ispF PE=3 SV=1	Paraglaciecola mesophila KMM 241	162	273	37.3	55.9	1.3e-26
+745	TR	B7FYU1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX=556484 GN=PHATRDRAFT_56610 PE=3 SV=1	Phaeodactylum tricornutum (strain CCAP 1055/1)	244	279	32.9	57.2	1.3e-26
+746	TR	A0A1T0CHQ6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Moraxella lincolnii OX=90241 GN=ispF PE=3 SV=1	Moraxella lincolnii	163	273	38.5	55.2	1.3e-26
+747	TR	N8XBA4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter sp. CIP 102637 OX=1144669 GN=ispF PE=3 SV=1	Acinetobacter sp. CIP 102637	163	273	36.4	56.6	1.3e-26
+748	TR	U5NA33	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Symbiobacter mobilis CR OX=946483 GN=ispF PE=3 SV=1	Candidatus Symbiobacter mobilis CR	176	274	36.0	57.0	1.3e-26
+749	TR	A0A1I6JV27	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=[Clostridium] aminophilum OX=1526 GN=ispF PE=3 SV=1	[Clostridium] aminophilum	189	275	37.6	54.3	1.3e-26
+750	TR	A0A0H2LR54	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax paradoxus OX=34073 GN=ispF PE=3 SV=1	Variovorax paradoxus	164	273	35.8	57.2	1.3e-26
+751	TR	L1LBS4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Theileria equi strain WA OX=1537102 GN=BEWA_014460 PE=3 SV=1	Theileria equi strain WA	247	279	38.7	57.8	1.4e-26
+752	TR	A0A657AQU9	Bifunctional enzyme IspD/IspF OS=Oleiphilus sp. HI0043 OX=1822233 GN=ispDF PE=3 SV=1	Oleiphilus sp. HI0043	395	287	38.4	57.1	1.4e-26
+753	TR	A0A8J7JK33	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Geomesophilobacter sediminis OX=2798584 GN=ispF PE=3 SV=1	Geomesophilobacter sediminis	166	273	36.8	54.6	1.4e-26
+754	TR	A0A2S9K0L2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Malikia granosa OX=263067 GN=ispF PE=3 SV=1	Malikia granosa	167	273	36.8	55.2	1.5e-26
+755	TR	A0A4U5PUF4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Populus alba OX=43335 GN=D5086_0000174630 PE=3 SV=1	Populus alba	334	284	37.2	61.6	1.5e-26
+756	TR	F6ABV7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas fulva (strain 12-X) OX=743720 GN=ispF PE=3 SV=1	Pseudomonas fulva (strain 12-X)	157	272	35.1	58.0	1.6e-26
+757	TR	A0A1Y4UH80	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tyzzerella sp. An114 OX=1965545 GN=ispF PE=3 SV=1	Tyzzerella sp. An114	157	272	36.9	55.1	1.6e-26
+758	TR	A0A840UCL4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pectinatus brassicae OX=862415 GN=ispF PE=3 SV=1	Pectinatus brassicae	157	272	38.7	55.5	1.6e-26
+759	TR	A0A9X3YMU3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tahibacter soli OX=2983605 GN=ispF PE=3 SV=1	Tahibacter soli	157	272	35.6	55.2	1.6e-26
+760	TR	A0A2I0CUJ9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas pharmacofabricae OX=1905276 GN=ispF PE=3 SV=1	Pseudomonas pharmacofabricae	157	272	35.6	56.9	1.6e-26
+761	TR	A0A177N059	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Methylomonas lenta OX=980561 GN=ispF PE=3 SV=1	Methylomonas lenta	157	272	38.2	55.5	1.6e-26
+762	TR	A0A6I6DE52	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Syntrophocurvum alkaliphilum OX=2293317 GN=ispF PE=3 SV=1	Candidatus Syntrophocurvum alkaliphilum	157	272	36.4	55.5	1.6e-26
+763	TR	I0XBH2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Treponema sp. JC4 OX=1124982 GN=ispF PE=3 SV=1	Treponema sp. JC4	157	272	36.4	56.1	1.6e-26
+764	TR	N2J761	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. HPB0071 OX=1203578 GN=ispF PE=3 SV=1	Pseudomonas sp. HPB0071	157	272	35.4	57.7	1.6e-26
+765	TR	K8ELX5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Carnobacterium maltaromaticum LMA28 OX=1234679 GN=ispF PE=3 SV=2	Carnobacterium maltaromaticum LMA28	157	272	35.7	53.8	1.6e-26
+766	TR	A0A1I2DZ37	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peptostreptococcus sp. D1 OX=72304 GN=ispF PE=3 SV=1	Peptostreptococcus sp. D1	157	272	36.9	54.5	1.6e-26
+767	TR	A0A8H9Z1G7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas tritici OX=2745518 GN=ispF PE=3 SV=1	Pseudomonas tritici	157	272	36.8	58.6	1.6e-26
+768	TR	K8W0T1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Providencia sneebia DSM 19967 OX=1141660 GN=ispF PE=3 SV=1	Providencia sneebia DSM 19967	170	273	37.3	52.5	1.6e-26
+769	TR	A0A444Z8G1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Arachis hypogaea OX=3818 GN=Ahy_B05g078920 PE=3 SV=1	Arachis hypogaea	405	287	37.8	61.0	1.6e-26
+770	TR	A0A1Q5P101	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Domibacillus mangrovi OX=1714354 GN=ispF PE=3 SV=1	Domibacillus mangrovi	158	272	35.4	56.0	1.6e-26
+771	TR	A0A1B6Y9V9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Balneola sp. EhC07 OX=1849360 GN=ispF PE=3 SV=1	Balneola sp. EhC07	158	272	41.0	53.8	1.6e-26
+772	TR	A0A433RPV7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Kurthia sp. 3B1D OX=1562256 GN=ispF PE=3 SV=1	Kurthia sp. 3B1D	158	272	34.3	56.0	1.6e-26
+773	TR	A0A7R7ENY5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaeromicropila herbilytica OX=2785025 GN=ispF PE=3 SV=1	Anaeromicropila herbilytica	184	274	38.7	54.9	1.6e-26
+774	TR	D8RDL1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Selaginella moellendorffii OX=88036 GN=SELMODRAFT_130637 PE=3 SV=1	Selaginella moellendorffii	211	276	34.1	59.0	1.6e-26
+775	SP	Q5QUC4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Idiomarina loihiensis (strain ATCC BAA-735 / DSM 15497 / L2-TR) OX=283942 GN=ispF PE=3 SV=1	Idiomarina loihiensis (strain ATCC BAA-735 / DSM 15497 / L2-TR)	159	272	35.3	56.1	1.6e-26
+776	TR	A0A370DGF5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=endosymbiont of Galathealinum brachiosum OX=2200906 GN=ispF PE=3 SV=1	endosymbiont of Galathealinum brachiosum	159	272	37.1	55.1	1.6e-26
+777	TR	A0A1Y0RR11	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostocales cyanobacterium HT-58-2 OX=1940762 GN=ispF PE=3 SV=1	Nostocales cyanobacterium HT-58-2	159	272	36.4	56.1	1.6e-26
+778	TR	D4LD54	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ruminococcus champanellensis (strain DSM 18848 / JCM 17042 / KCTC 15320 / 18P13) OX=213810 GN=ispF PE=3 SV=1	Ruminococcus champanellensis (strain DSM 18848 / JCM 17042 / KCTC 15320 / 18P13)	159	272	37.0	53.2	1.6e-26
+779	TR	A0A376BMH4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alysiella crassa OX=153491 GN=ispF PE=3 SV=1	Alysiella crassa	159	272	38.6	56.2	1.6e-26
+780	TR	C2BG79	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerococcus lactolyticus ATCC 51172 OX=525254 GN=ispF PE=3 SV=1	Anaerococcus lactolyticus ATCC 51172	159	272	38.7	56.6	1.6e-26
+781	TR	A0A942RMK2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ignavibacterium sp. OX=2651167 GN=ispF PE=3 SV=1	Ignavibacterium sp.	159	272	38.4	53.5	1.6e-26
+782	TR	A0A5D0MF06	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Mcinerneyibacterium aminivorans OX=2703815 GN=ispF PE=3 SV=1	Candidatus Mcinerneyibacterium aminivorans	159	272	38.9	58.3	1.6e-26
+783	SP	B0V6G3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baumannii (strain AYE) OX=509173 GN=ispF PE=3 SV=1	Acinetobacter baumannii (strain AYE)	160	272	37.0	56.6	1.7e-26
+784	SP	A3M665	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baumannii (strain ATCC 17978 / DSM 105126 / CIP 53.77 / LMG 1025 / NCDC KC755 / 5377) OX=400667 GN=ispF PE=3 SV=2	Acinetobacter baumannii (strain ATCC 17978 / DSM 105126 / CIP 53.77 / LMG 1025 / NCDC KC755 / 5377)	160	272	37.0	56.6	1.7e-26
+785	SP	B2I336	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baumannii (strain ACICU) OX=405416 GN=ispF PE=3 SV=1	Acinetobacter baumannii (strain ACICU)	160	272	37.0	56.6	1.7e-26
+786	SP	B7I9W0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baumannii (strain AB0057) OX=480119 GN=ispF PE=3 SV=1	Acinetobacter baumannii (strain AB0057)	160	272	37.0	56.6	1.7e-26
+787	SP	B7H1F3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baumannii (strain AB307-0294) OX=557600 GN=ispF PE=3 SV=1	Acinetobacter baumannii (strain AB307-0294)	160	272	37.0	56.6	1.7e-26
+788	SP	B2JA49	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 GN=ispF PE=3 SV=1	Nostoc punctiforme (strain ATCC 29133 / PCC 73102)	160	272	35.1	56.3	1.7e-26
+789	TR	D0C6G0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / JCM 6841 / CCUG 19606 / CIP 70.34 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) OX=575584 GN=ispF PE=3 SV=1	Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / JCM 6841 / CCUG 19606 / CIP 70.34 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)	160	272	37.0	56.6	1.7e-26
+790	TR	A0A2D0HLL6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc sp. 'Peltigera malacea cyanobiont' DB3992 OX=1206980 GN=ispF PE=3 SV=1	Nostoc sp. 'Peltigera malacea cyanobiont' DB3992	161	272	35.6	56.3	1.7e-26
+791	TR	U3U741	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Pantoea carbekii OX=1235990 GN=ispF PE=3 SV=1	Candidatus Pantoea carbekii	161	272	40.5	55.5	1.7e-26
+792	TR	V2TCS1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter nectaris CIP 110549 OX=1392540 GN=ispF PE=3 SV=1	Acinetobacter nectaris CIP 110549	161	272	37.6	56.1	1.7e-26
+793	TR	A0A926ZT46	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc sp. FACHB-888 OX=2692842 GN=ispF PE=3 SV=1	Nostoc sp. FACHB-888	161	272	35.6	56.3	1.7e-26
+794	TR	A0A3S0QC14	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Variovorax gossypii OX=1679495 GN=ispF PE=3 SV=1	Variovorax gossypii	162	272	36.4	56.6	1.8e-26
+795	TR	A0A1M4X2D4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alkalibacter saccharofermentans DSM 14828 OX=1120975 GN=ispF PE=3 SV=1	Alkalibacter saccharofermentans DSM 14828	162	272	35.8	54.5	1.8e-26
+796	TR	V2UR52	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter brisouii CIP 110357 OX=1341683 GN=ispF PE=3 SV=1	Acinetobacter brisouii CIP 110357	162	272	36.2	57.5	1.8e-26
+797	TR	A0A1H8F2S3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Duganella sp. CF517 OX=1881038 GN=ispF PE=3 SV=1	Duganella sp. CF517	162	272	39.3	54.9	1.8e-26
+798	TR	A0A0Q6VXS9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Massilia sp. Root351 OX=1736522 GN=ispF PE=3 SV=1	Massilia sp. Root351	163	272	37.6	54.3	1.8e-26
+799	TR	A0A8J3G0M0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Formosimonas limnophila OX=1384487 GN=ispF PE=3 SV=1	Formosimonas limnophila	164	272	36.5	55.1	1.9e-26
+800	TR	A0A2N1DEM0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paraglaciecola sp. MB-3u-78 OX=2058332 GN=ispF PE=3 SV=1	Paraglaciecola sp. MB-3u-78	164	272	36.4	55.5	1.9e-26
+801	TR	K6ZWC8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paraglaciecola psychrophila 170 OX=1129794 GN=ispF PE=3 SV=1	Paraglaciecola psychrophila 170	164	272	35.8	56.1	1.9e-26
+802	TR	A0A563W4T4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hyella patelloides LEGE 07179 OX=945734 GN=ispF PE=3 SV=1	Hyella patelloides LEGE 07179	166	272	36.8	56.3	2e-26
+803	TR	A0A5C5UA12	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planomicrobium sp. CPCC 101110 OX=2599619 GN=ispF PE=3 SV=1	Planomicrobium sp. CPCC 101110	166	272	35.8	56.8	2e-26
+804	TR	A0A0B4R7B1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planococcus sp. PAMC 21323 OX=1526927 GN=ispF PE=3 SV=1	Planococcus sp. PAMC 21323	166	272	37.0	56.1	2e-26
+805	SP	B6YRV8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Azobacteroides pseudotrichonymphae genomovar. CFP2 OX=511995 GN=ispF PE=3 SV=1	Azobacteroides pseudotrichonymphae genomovar. CFP2	167	272	35.6	54.8	2e-26
+806	TR	A0A5C1QE86	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thiospirochaeta perfilievii OX=252967 GN=ispF PE=3 SV=1	Thiospirochaeta perfilievii	155	271	38.5	52.9	2.1e-26
+807	TR	A0A5D2TVI3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium mustelinum OX=34275 GN=E1A91_D08G143500v1 PE=3 SV=1	Gossypium mustelinum	235	277	36.0	57.7	2.1e-26
+808	TR	A0A6A3BJJ7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hibiscus syriacus OX=106335 GN=F3Y22_tig00110057pilonHSYRG00225 PE=3 SV=1	Hibiscus syriacus	236	277	36.2	58.6	2.1e-26
+809	SP	C3K703	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas fluorescens (strain SBW25) OX=216595 GN=ispF PE=3 SV=1	Pseudomonas fluorescens (strain SBW25)	157	271	36.8	58.0	2.2e-26
+810	TR	D3DK44	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Hydrogenobacter thermophilus (strain DSM 6534 / IAM 12695 / TK-6) OX=608538 GN=ispF PE=3 SV=1	Hydrogenobacter thermophilus (strain DSM 6534 / IAM 12695 / TK-6)	157	271	37.8	56.4	2.2e-26
+811	TR	A0A397QXY3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaeroplasma bactoclasticum OX=2088 GN=ispF PE=3 SV=1	Anaeroplasma bactoclasticum	157	271	33.5	57.5	2.2e-26
+812	TR	A0A3M5QQ36	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas marginalis pv. marginalis OX=97473 GN=ispF PE=3 SV=1	Pseudomonas marginalis pv. marginalis	157	271	36.8	58.0	2.2e-26
+813	TR	F3G1J9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas syringae pv. pisi str. 1704B OX=629263 GN=ispF PE=3 SV=1	Pseudomonas syringae pv. pisi str. 1704B	157	271	36.2	56.9	2.2e-26
+814	TR	A0A1H2H9I8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas guangdongensis OX=1245526 GN=ispF PE=3 SV=1	Pseudomonas guangdongensis	157	271	34.7	57.4	2.2e-26
+815	TR	A0A1H0AMQ7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas jinjuensis OX=198616 GN=ispF PE=3 SV=1	Pseudomonas jinjuensis	157	271	34.5	56.3	2.2e-26
+816	TR	A0A7S8CDJ4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mangrovibacillus cuniculi OX=2593652 GN=ispF PE=3 SV=1	Mangrovibacillus cuniculi	157	271	37.4	55.7	2.2e-26
+817	TR	A0A5P9HKK1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus sp. THAF10 OX=2587848 GN=ispF PE=3 SV=1	Bacillus sp. THAF10	158	271	36.6	56.0	2.3e-26
+818	TR	A0A6V8MEX5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Geomonas silvestris OX=2740184 GN=ispF PE=3 SV=1	Geomonas silvestris	158	271	37.0	53.8	2.3e-26
+819	TR	A0A1T1HFM3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oceanospirillum linum OX=966 GN=ispF PE=3 SV=1	Oceanospirillum linum	158	271	35.4	56.0	2.3e-26
+820	TR	A0A419UTQ7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sinobaca qinghaiensis OX=342944 GN=ispF PE=3 SV=1	Sinobaca qinghaiensis	158	271	32.2	57.6	2.3e-26
+821	TR	A0A844GMK3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Blautia luti DSM 14534 = JCM 17040 OX=649762 GN=ispF PE=3 SV=1	Blautia luti DSM 14534 = JCM 17040	158	271	35.3	55.5	2.3e-26
+822	TR	A0A1X9NB25	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oceanicoccus sagamiensis OX=716816 GN=ispF PE=3 SV=1	Oceanicoccus sagamiensis	158	271	36.0	55.4	2.3e-26
+823	TR	A0A1G6GSC3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Williamwhitmania taraxaci OX=1640674 GN=ispF PE=3 SV=1	Williamwhitmania taraxaci	158	271	36.4	53.2	2.3e-26
+824	TR	J5WF21	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peptoanaerobacter stomatis OX=796937 GN=ispF PE=3 SV=1	Peptoanaerobacter stomatis	158	271	37.0	57.2	2.3e-26
+825	TR	A0A8J3I2P0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ktedonospora formicarum OX=2778364 GN=ispF PE=3 SV=1	Ktedonospora formicarum	158	271	37.0	57.8	2.3e-26
+826	TR	A0A5C7F1W6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alkalicoccus halolimnae OX=1667239 GN=ispF PE=3 SV=1	Alkalicoccus halolimnae	158	271	35.0	57.6	2.3e-26
+827	TR	A0A1S2MFI9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerobacillus isosaccharinicus OX=1532552 GN=ispF PE=3 SV=1	Anaerobacillus isosaccharinicus	158	271	35.1	55.2	2.3e-26
+828	SP	A0Q6Y1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Francisella tularensis subsp. novicida (strain U112) OX=401614 GN=ispF PE=3 SV=1	Francisella tularensis subsp. novicida (strain U112)	159	271	38.4	56.4	2.3e-26
+829	TR	A0A562VM36	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Geobacter argillaceus OX=345631 GN=ispF PE=3 SV=1	Geobacter argillaceus	159	271	36.9	55.1	2.3e-26
+830	TR	A0A168NM82	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium ljungdahlii OX=1538 GN=ispF PE=3 SV=1	Clostridium ljungdahlii	159	271	40.5	56.1	2.3e-26
+831	TR	A0A095ZC92	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oligella urethralis DNF00040 OX=1401065 GN=ispF PE=3 SV=1	Oligella urethralis DNF00040	159	271	37.4	54.6	2.3e-26
+832	TR	A0A9N8RY24	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paraburkholderia saeva OX=2777537 GN=ispF PE=3 SV=1	Paraburkholderia saeva	159	271	37.6	54.3	2.3e-26
+833	TR	A0A1M5FM89	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacteroides luti OX=1297750 GN=ispF PE=3 SV=1	Bacteroides luti	159	271	35.3	54.9	2.3e-26
+834	TR	A0A1X7GAH8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Priestia filamentosa OX=1402861 GN=ispF PE=3 SV=1	Priestia filamentosa	159	271	38.2	57.8	2.3e-26
+835	TR	A0A1T5A2F8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Parabacteroides chartae OX=1037355 GN=ispF PE=3 SV=1	Parabacteroides chartae	159	271	36.4	54.9	2.3e-26
+836	TR	A0A6S6RZQ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Arsenophonus endosymbiont of Bemisia tabaci Q2 OX=1158289 GN=ispF PE=3 SV=1	Arsenophonus endosymbiont of Bemisia tabaci Q2	172	272	38.5	53.4	2.3e-26
+837	TR	K9YXL7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dactylococcopsis salina (strain PCC 8305) OX=13035 GN=ispF PE=3 SV=1	Dactylococcopsis salina (strain PCC 8305)	160	271	37.6	57.2	2.4e-26
+838	TR	K9QGQ4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc sp. PCC 7107 OX=317936 GN=ispF PE=3 SV=1	Nostoc sp. PCC 7107	160	271	36.2	56.3	2.4e-26
+839	TR	A0A399D6X1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Mariniphaga sediminis OX=1628158 GN=ispF PE=3 SV=1	Mariniphaga sediminis	160	271	37.1	54.9	2.4e-26
+840	TR	A0A6I1FBU7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus aerolatus OX=2653354 GN=ispF PE=3 SV=1	Bacillus aerolatus	160	271	36.0	58.7	2.4e-26
+841	TR	A0A1B9N2G3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gilliamella apicola OX=1196095 GN=ispF PE=3 SV=1	Gilliamella apicola	161	271	37.9	53.7	2.4e-26
+842	TR	A0A5N5FZZ6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pyrus ussuriensis x Pyrus communis OX=2448454 GN=D8674_011841 PE=3 SV=1	Pyrus ussuriensis x Pyrus communis	390	285	36.0	60.0	2.5e-26
+843	TR	A0A2N4XK35	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Uliginosibacterium sp. TH139 OX=2067453 GN=ispF PE=3 SV=1	Uliginosibacterium sp. TH139	163	271	36.3	54.7	2.6e-26
+844	TR	H3NSK7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=gamma proteobacterium HIMB55 OX=745014 GN=ispF PE=3 SV=1	gamma proteobacterium HIMB55	164	271	39.3	55.5	2.7e-26
+845	TR	I0JH69	Bifunctional enzyme IspD/IspF OS=Halobacillus halophilus (strain ATCC 35676 / DSM 2266 / JCM 20832 / KCTC 3685 / LMG 17431 / NBRC 102448 / NCIMB 2269) OX=866895 GN=ispD PE=3 SV=1	Halobacillus halophilus (strain ATCC 35676 / DSM 2266 / JCM 20832 / KCTC 3685 / LMG 17431 / NBRC 102448 / NCIMB 2269)	396	285	37.2	57.6	2.7e-26
+846	SP	B8D0A0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Halothermothrix orenii (strain H 168 / OCM 544 / DSM 9562) OX=373903 GN=ispF PE=3 SV=1	Halothermothrix orenii (strain H 168 / OCM 544 / DSM 9562)	165	271	36.2	56.3	2.7e-26
+847	TR	A0A6L6PZM6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudoduganella ginsengisoli OX=1462440 GN=ispF PE=3 SV=1	Pseudoduganella ginsengisoli	165	271	39.0	53.7	2.7e-26
+848	TR	A0A315AF99	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Limnohabitans sp. T6-5 OX=1100724 GN=ispF PE=3 SV=1	Limnohabitans sp. T6-5	165	271	36.0	56.4	2.7e-26
+849	TR	B8CD73	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thalassiosira pseudonana OX=35128 GN=THAPSDRAFT_10102 PE=3 SV=1	Thalassiosira pseudonana	263	278	32.0	58.6	2.8e-26
+850	TR	A0A498I7J8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Malus domestica OX=3750 GN=DVH24_019961 PE=3 SV=1	Malus domestica	400	285	36.0	60.0	2.9e-26
+851	TR	A0A401IEK5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aphanothece sacrum FPU1 OX=1920663 GN=ispF PE=3 SV=1	Aphanothece sacrum FPU1	167	271	35.1	56.9	2.9e-26
+852	SP	Q2GER2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neorickettsia sennetsu (strain ATCC VR-367 / Miyayama) OX=222891 GN=ispF PE=3 SV=1	Neorickettsia sennetsu (strain ATCC VR-367 / Miyayama)	168	271	34.9	56.0	3e-26
+853	TR	A0A326UEU5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thermosporothrix hazakensis OX=644383 GN=ispF PE=3 SV=1	Thermosporothrix hazakensis	156	270	37.0	57.8	3e-26
+854	SP	B9MRD4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320) OX=521460 GN=ispF PE=3 SV=1	Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320)	157	270	35.5	55.2	3.1e-26
+855	TR	A0A0T6UX87	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. TTU2014-080ASC OX=1729724 GN=ispF PE=3 SV=1	Pseudomonas sp. TTU2014-080ASC	157	270	35.6	56.3	3.1e-26
+856	TR	A0A7R6WAQ3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Methyloprofundus sp. OX=2020875 GN=ispF PE=3 SV=1	Methyloprofundus sp.	157	270	36.4	55.5	3.1e-26
+857	TR	A0A848F5E6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Azohydromonas caseinilytica OX=2728836 GN=ispF PE=3 SV=1	Azohydromonas caseinilytica	157	270	36.4	56.1	3.1e-26
+858	TR	A0A2T5HIX3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. GV071 OX=2135754 GN=ispF PE=3 SV=1	Pseudomonas sp. GV071	157	270	35.1	57.5	3.1e-26
+859	TR	A0A264W4S1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tetzosporium hominis OX=2020506 GN=ispF PE=3 SV=1	Tetzosporium hominis	157	270	35.8	55.1	3.1e-26
+860	TR	A0A2T5PCE7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas mangrovi OX=2161748 GN=ispF PE=3 SV=1	Pseudomonas mangrovi	157	270	35.1	55.7	3.1e-26
+861	TR	A0A3E2TKT1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerococcus nagyae OX=1755241 GN=ispF PE=3 SV=1	Anaerococcus nagyae	157	270	40.3	52.8	3.1e-26
+862	TR	I4Z8J0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Prevotella bivia DSM 20514 OX=868129 GN=ispF PE=3 SV=1	Prevotella bivia DSM 20514	157	270	34.7	54.3	3.1e-26
+863	TR	A0A428MUF1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Salibacterium salarium OX=284579 GN=ispF PE=3 SV=1	Salibacterium salarium	158	270	35.3	54.9	3.2e-26
+864	TR	A0A1K1PHJ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Selenomonas ruminantium OX=971 GN=ispF PE=3 SV=1	Selenomonas ruminantium	158	270	36.3	54.2	3.2e-26
+865	TR	A0A0R2HW14	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Carnobacterium divergens DSM 20623 OX=1449336 GN=ispF PE=3 SV=1	Carnobacterium divergens DSM 20623	158	270	35.2	55.1	3.2e-26
+866	TR	W7UM46	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ruminococcus flavefaciens 007c OX=1341157 GN=ispF PE=3 SV=1	Ruminococcus flavefaciens 007c	158	270	39.0	53.5	3.2e-26
+867	TR	A0A975Q7L0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina sp. Marseille-Q4063 OX=2810514 GN=ispF PE=3 SV=1	Sporosarcina sp. Marseille-Q4063	158	270	37.0	55.5	3.2e-26
+868	TR	A0A1Y4SEB3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Lachnoclostridium sp. An131 OX=1965555 GN=ispF PE=3 SV=1	Lachnoclostridium sp. An131	184	272	37.7	53.7	3.2e-26
+869	TR	A0A6I0F9W1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alkaliphilus pronyensis OX=1482732 GN=ispF PE=3 SV=1	Alkaliphilus pronyensis	159	270	37.1	56.0	3.3e-26
+870	TR	A0A5J6STL5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Psychrobacillus glaciei OX=2283160 GN=ispF PE=3 SV=1	Psychrobacillus glaciei	159	270	35.6	55.9	3.3e-26
+871	TR	A0A517QSU7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thalassoglobus polymorphus OX=2527994 GN=ispF PE=3 SV=1	Thalassoglobus polymorphus	159	270	34.5	56.5	3.3e-26
+872	TR	A0A2C1K4U7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus sp. AFS040349 OX=2033502 GN=ispF PE=3 SV=1	Bacillus sp. AFS040349	159	270	33.5	56.6	3.3e-26
+873	TR	A0A1H9JE24	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Piscibacillus halophilus OX=571933 GN=ispF PE=3 SV=1	Piscibacillus halophilus	159	270	37.2	54.1	3.3e-26
+874	TR	A0A929B5V7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pleurocapsales cyanobacterium LEGE 06147 OX=1828827 GN=ispF PE=3 SV=1	Pleurocapsales cyanobacterium LEGE 06147	159	270	34.5	55.2	3.3e-26
+875	TR	A0A942ST44	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Bacillus sp. FJAT-49736 OX=2833582 GN=ispF PE=3 SV=1	Bacillus sp. FJAT-49736	159	270	36.0	55.8	3.3e-26
+876	TR	D8DZY1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Segatella baroniae B14 OX=752555 GN=ispF PE=3 SV=1	Segatella baroniae B14	159	270	35.8	53.8	3.3e-26
+877	TR	A1ZLP1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Microscilla marina ATCC 23134 OX=313606 GN=ispF PE=3 SV=1	Microscilla marina ATCC 23134	159	270	35.2	52.3	3.3e-26
+878	TR	D8FUX0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Kamptonema sp. PCC 6506 OX=272129 GN=ispF PE=3 SV=1	Kamptonema sp. PCC 6506	159	270	37.5	54.5	3.3e-26
+879	TR	A0A1I4CMK2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhodanobacter glycinis OX=582702 GN=ispF PE=3 SV=1	Rhodanobacter glycinis	159	270	35.3	57.2	3.3e-26
+880	TR	A0A3N2NN44	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Muribaculaceae bacterium Isolate-114 (HZI) OX=2486475 GN=ispF PE=3 SV=1	Muribaculaceae bacterium Isolate-114 (HZI)	159	270	34.8	54.5	3.3e-26
+881	TR	A0A5N5P283	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Salix brachista OX=2182728 GN=DKX38_000723 PE=3 SV=1	Salix brachista	241	276	35.4	57.1	3.4e-26
+882	SP	A1KUU9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / DSM 15464 / FAM18) OX=272831 GN=ispF PE=3 SV=1	Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / DSM 15464 / FAM18)	160	270	37.9	55.7	3.4e-26
+883	SP	A9M0U6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria meningitidis serogroup C (strain 053442) OX=374833 GN=ispF PE=3 SV=1	Neisseria meningitidis serogroup C (strain 053442)	160	270	37.9	55.7	3.4e-26
+884	SP	Q9JYM5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria meningitidis serogroup B (strain MC58) OX=122586 GN=ispF PE=3 SV=1	Neisseria meningitidis serogroup B (strain MC58)	160	270	37.9	55.7	3.4e-26
+885	TR	K9QYQ8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc sp. (strain ATCC 29411 / PCC 7524) OX=28072 GN=ispF PE=3 SV=1	Nostoc sp. (strain ATCC 29411 / PCC 7524)	160	270	36.2	55.4	3.4e-26
+886	TR	A0A2N4XAF0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Emticicia sp. TH156 OX=2067454 GN=ispF PE=3 SV=1	Emticicia sp. TH156	160	270	38.2	56.2	3.4e-26
+887	TR	A0A7D4CPU7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Kroppenstedtia pulmonis OX=1380685 GN=ispF PE=3 SV=1	Kroppenstedtia pulmonis	161	270	36.5	56.7	3.4e-26
+888	TR	K9PEW7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Calothrix sp. PCC 7507 OX=99598 GN=ispF PE=3 SV=1	Calothrix sp. PCC 7507	161	270	36.8	55.7	3.4e-26
+889	TR	A0A1Z4N7J5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Tolypothrix tenuis PCC 7101 OX=231146 GN=ispF PE=3 SV=1	Tolypothrix tenuis PCC 7101	161	270	36.2	55.4	3.4e-26
+890	TR	K9T3B8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pleurocapsa sp. PCC 7327 OX=118163 GN=ispF PE=3 SV=1	Pleurocapsa sp. PCC 7327	162	270	34.5	56.3	3.5e-26
+891	TR	F0KGE4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter calcoaceticus (strain PHEA-2) OX=871585 GN=ispF PE=3 SV=1	Acinetobacter calcoaceticus (strain PHEA-2)	163	270	36.4	56.6	3.6e-26
+892	TR	A4BCI0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Reinekea blandensis MED297 OX=314283 GN=ispF PE=3 SV=1	Reinekea blandensis MED297	164	270	36.6	56.0	3.7e-26
+893	TR	A0A850QFG9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Undibacterium oligocarboniphilum OX=666702 GN=ispF PE=3 SV=1	Undibacterium oligocarboniphilum	164	270	34.5	56.3	3.7e-26
+894	TR	A0A1B8QK17	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Moraxella atlantae OX=34059 GN=ispF PE=3 SV=1	Moraxella atlantae	165	270	37.6	54.3	3.8e-26
+895	TR	A0A388SMU0	Bifunctional enzyme IspD/IspF OS=Nitratidesulfovibrio sp. HK-II OX=2009266 GN=ispDF PE=3 SV=1	Nitratidesulfovibrio sp. HK-II	456	286	38.1	56.5	3.9e-26
+896	TR	W4L9N8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Entotheonella factor OX=1429438 GN=ispF PE=3 SV=1	Entotheonella factor	166	270	40.6	63.8	4e-26
+897	SP	Q319L1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=ispF PE=3 SV=1	Prochlorococcus marinus (strain MIT 9312)	167	270	36.7	55.9	4.1e-26
+898	TR	A0A923I3K2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Undibacterium rugosum OX=2762291 GN=ispF PE=3 SV=1	Undibacterium rugosum	167	270	36.2	56.3	4.1e-26
+899	TR	A0A6M9PRV3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Polynucleobacter antarcticus OX=1743162 GN=ispF PE=3 SV=1	Polynucleobacter antarcticus	167	270	37.8	53.5	4.1e-26
+900	TR	A0A5C8IYX5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ottowia sp. GY511 OX=2603274 GN=ispF PE=3 SV=1	Ottowia sp. GY511	167	270	37.0	54.9	4.1e-26
+901	TR	A0A1K1NCQ2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ruminococcus sp. YE71 OX=244362 GN=ispF PE=3 SV=1	Ruminococcus sp. YE71	155	269	38.5	52.9	4.1e-26
+902	TR	A0AA36N7S9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Effrenium voratum OX=2562239 GN=EVOR1521_LOCUS21381 PE=3 SV=1	Effrenium voratum	155	269	41.1	65.3	4.1e-26
+903	TR	A0A9Q0GRU2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Protea cynaroides OX=273540 GN=NE237_028142 PE=3 SV=1	Protea cynaroides	266	277	42.4	67.2	4.2e-26
+904	TR	A0A926MAF5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pelagibacterales bacterium SAG-MED31 OX=2760033 GN=ispF PE=3 SV=1	Pelagibacterales bacterium SAG-MED31	379	283	40.7	59.9	4.2e-26
+905	TR	A0A8T4JYM6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Eubacteriaceae bacterium Marseille-Q4139 OX=2830656 GN=ispF PE=3 SV=1	Eubacteriaceae bacterium Marseille-Q4139	181	271	35.8	55.5	4.2e-26
+906	SP	Q5GSM7	Bifunctional enzyme IspD/IspF OS=Wolbachia sp. subsp. Brugia malayi (strain TRS) OX=292805 GN=ispDF PE=3 SV=1	Wolbachia sp. subsp. Brugia malayi (strain TRS)	405	284	35.7	53.1	4.2e-26
+907	TR	A0A8K0H9W9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhamnella rubrinervis OX=2594499 GN=FNV43_RR09330 PE=3 SV=1	Rhamnella rubrinervis	284	278	36.6	60.4	4.3e-26
+908	TR	A0A315WUG6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas sp. SDI OX=2170734 GN=ispF PE=3 SV=1	Pseudomonas sp. SDI	157	269	34.5	57.5	4.4e-26
+909	TR	A0A8J7FSP4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Chitinilyticum piscinae OX=2866724 GN=ispF PE=3 SV=1	Chitinilyticum piscinae	157	269	37.1	57.1	4.4e-26
+910	TR	E4Q6T3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Caldicellulosiruptor owensensis (strain ATCC 700167 / DSM 13100 / OL) OX=632518 GN=ispF PE=3 SV=1	Caldicellulosiruptor owensensis (strain ATCC 700167 / DSM 13100 / OL)	157	269	35.5	55.8	4.4e-26
+911	TR	A0A3M3EZ66	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas corrugata OX=47879 GN=ispF PE=3 SV=1	Pseudomonas corrugata	157	269	35.6	57.5	4.4e-26
+912	TR	A0A0B3VIC4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Terrisporobacter othiniensis OX=1577792 GN=ispF PE=3 SV=1	Terrisporobacter othiniensis	157	269	38.1	53.4	4.4e-26
+913	TR	A0A2I7N5E0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aquella oligotrophica OX=2067065 GN=ispF PE=3 SV=1	Aquella oligotrophica	157	269	36.4	55.5	4.4e-26
+914	TR	A0A5R9QFR4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Stutzerimonas nosocomialis OX=1056496 GN=ispF PE=3 SV=1	Stutzerimonas nosocomialis	157	269	34.5	56.9	4.4e-26
+915	TR	A0A174F8E4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium paraputrificum OX=29363 GN=ispF PE=3 SV=1	Clostridium paraputrificum	157	269	40.5	54.3	4.4e-26
+916	TR	A0A0B0HEY6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Solemya velum gill symbiont OX=2340 GN=ispF PE=3 SV=1	Solemya velum gill symbiont	157	269	36.2	54.6	4.4e-26
+917	TR	A0A160F7R0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anoxybacillus sp. B7M1 OX=1490057 GN=ispF PE=3 SV=1	Anoxybacillus sp. B7M1	158	269	35.5	58.1	4.5e-26
+918	TR	A0A4S2DIY0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sartagoforme OX=84031 GN=ispF PE=3 SV=1	Clostridium sartagoforme	158	269	39.9	55.1	4.5e-26
+919	TR	A0A7W0BZH1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anoxybacillus caldiproteolyticus OX=247480 GN=ispF PE=3 SV=1	Anoxybacillus caldiproteolyticus	158	269	35.4	58.3	4.5e-26
+920	TR	A0A3P5WI08	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Filibacter tadaridae OX=2483811 GN=ispF PE=3 SV=1	Filibacter tadaridae	158	269	36.4	56.1	4.5e-26
+921	TR	A0A8J7EW94	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Plectonema cf. radiosum LEGE 06105 OX=945769 GN=ispF PE=3 SV=1	Plectonema cf. radiosum LEGE 06105	158	269	36.2	57.5	4.5e-26
+922	TR	A0A1M4NA29	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sp. N3C OX=1776758 GN=ispF PE=3 SV=1	Clostridium sp. N3C	158	269	40.5	55.5	4.5e-26
+923	TR	A0A975C5M2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sporosarcina sp. Te-1 OX=2818390 GN=ispF PE=3 SV=1	Sporosarcina sp. Te-1	158	269	36.2	55.2	4.5e-26
+924	TR	A0A4P6K3B6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ktedonosporobacter rubrisoli OX=2509675 GN=ispF PE=3 SV=1	Ktedonosporobacter rubrisoli	158	269	36.4	56.6	4.5e-26
+925	TR	G4CHC6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria shayeganii 871 OX=1032488 GN=ispF PE=3 SV=1	Neisseria shayeganii 871	158	269	38.5	55.2	4.5e-26
+926	TR	A0A371R7Z4	Bifunctional enzyme IspD/IspF OS=Parvularcula marina OX=2292771 GN=ispDF PE=3 SV=1	Parvularcula marina	385	283	37.2	57.0	4.5e-26
+927	TR	A0A7K3NLS7	Bifunctional enzyme IspD/IspF OS=Desulfolutivibrio sulfodismutans OX=63561 GN=ispD PE=3 SV=1	Desulfolutivibrio sulfodismutans	411	284	38.3	59.3	4.6e-26
+928	TR	A0A2N5MAC5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peribacillus deserti OX=673318 GN=ispF PE=3 SV=1	Peribacillus deserti	159	269	36.4	55.1	4.6e-26
+929	TR	A0A1K2HHS9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Chitinimonas taiwanensis DSM 18899 OX=1121279 GN=ispF PE=3 SV=1	Chitinimonas taiwanensis DSM 18899	159	269	37.0	56.1	4.6e-26
+930	TR	A0A372LNZ2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peribacillus saganii OX=2303992 GN=ispF PE=3 SV=1	Peribacillus saganii	159	269	36.4	54.9	4.6e-26
+931	TR	W6N335	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium tyrobutyricum DIVETGP OX=1408889 GN=ispF PE=3 SV=1	Clostridium tyrobutyricum DIVETGP	159	269	41.5	52.8	4.6e-26
+932	TR	A0A7L4UQG2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Balneicella halophila OX=1537566 GN=ispF PE=3 SV=1	Balneicella halophila	159	269	37.4	54.6	4.6e-26
+933	TR	A0A7X2IZL2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Metabacillus lacus OX=1983721 GN=ispF PE=3 SV=1	Metabacillus lacus	159	269	35.1	56.3	4.6e-26
+934	TR	A0A7T5JVS0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alicyclobacillus sp. SO9 OX=2665646 GN=ispF PE=3 SV=1	Alicyclobacillus sp. SO9	159	269	36.0	55.6	4.6e-26
+935	TR	L1MDN5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alloprevotella sp. oral taxon 473 str. F0040 OX=1035197 GN=ispF PE=3 SV=1	Alloprevotella sp. oral taxon 473 str. F0040	159	269	34.5	57.1	4.6e-26
+936	TR	A0A941DXM4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Undibacterium fentianense OX=2828728 GN=ispF PE=3 SV=1	Undibacterium fentianense	159	269	35.8	56.1	4.6e-26
+937	TR	A0A8J6XGN6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Iningainema tapete BLCC-T55 OX=2748662 GN=ispF PE=3 SV=1	Iningainema tapete BLCC-T55	159	269	35.6	57.5	4.6e-26
+938	TR	D3FR48	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Alkalihalophilus pseudofirmus (strain ATCC BAA-2126 / JCM 17055 / OF4) OX=398511 GN=ispF PE=3 SV=1	Alkalihalophilus pseudofirmus (strain ATCC BAA-2126 / JCM 17055 / OF4)	159	269	35.8	55.5	4.6e-26
+939	TR	A0A8J3BAQ0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Calditerricola satsumensis OX=373054 GN=ispF PE=3 SV=1	Calditerricola satsumensis	159	269	34.8	53.9	4.6e-26
+940	TR	A0A558NT43	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thalassolituus sp. C2-1 OX=2597518 GN=ispF PE=3 SV=1	Thalassolituus sp. C2-1	159	269	37.9	55.7	4.6e-26
+941	TR	A0A5N5HY10	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pyrus ussuriensis x Pyrus communis OX=2448454 GN=D8674_029043 PE=3 SV=1	Pyrus ussuriensis x Pyrus communis	388	283	35.4	60.0	4.7e-26
+942	SP	Q9JTM4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria meningitidis serogroup A / serotype 4A (strain DSM 15465 / Z2491) OX=122587 GN=ispF PE=3 SV=1	Neisseria meningitidis serogroup A / serotype 4A (strain DSM 15465 / Z2491)	160	269	37.9	55.7	4.7e-26
+943	TR	A0A094LA64	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudidiomarina salinarum OX=435908 GN=ispF PE=3 SV=1	Pseudidiomarina salinarum	160	269	34.1	57.8	4.7e-26
+944	TR	A0A517Y0U8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Urbifossiella limnaea OX=2528023 GN=ispF PE=3 SV=1	Urbifossiella limnaea	160	269	34.3	55.1	4.7e-26
+945	TR	E0U9F3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gloeothece verrucosa (strain PCC 7822) OX=497965 GN=ispF PE=3 SV=1	Gloeothece verrucosa (strain PCC 7822)	160	269	35.0	54.8	4.7e-26
+946	TR	A0A3B7A8Z0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Dechloromonas sp. HYN0024 OX=2231055 GN=ispF PE=3 SV=1	Dechloromonas sp. HYN0024	160	269	36.0	57.0	4.7e-26
+947	TR	A0A1V2AAJ4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Domibacillus epiphyticus OX=1714355 GN=ispF PE=3 SV=1	Domibacillus epiphyticus	160	269	35.6	55.9	4.7e-26
+948	TR	A0A5P8WFT1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc sphaeroides CCNUC1 OX=2653204 GN=ispF PE=3 SV=1	Nostoc sphaeroides CCNUC1	160	269	34.5	55.9	4.7e-26
+949	TR	A0A328A1U4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Macrococcoides bohemicum OX=1903056 GN=ispF PE=3 SV=1	Macrococcoides bohemicum	160	269	33.7	56.7	4.7e-26
+950	TR	A0A1S2T5G4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Idiomarina sp. MD25a OX=1889913 GN=ispF PE=3 SV=1	Idiomarina sp. MD25a	161	269	34.1	57.8	4.9e-26
+951	TR	B1YGS6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Exiguobacterium sibiricum (strain DSM 17290 / CCUG 55495 / CIP 109462 / JCM 13490 / 255-15) OX=262543 GN=ispF PE=3 SV=1	Exiguobacterium sibiricum (strain DSM 17290 / CCUG 55495 / CIP 109462 / JCM 13490 / 255-15)	161	269	37.6	56.1	4.9e-26
+952	TR	A0A367QJD0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Nostoc sp. ATCC 43529 OX=1840705 GN=ispF PE=3 SV=1	Nostoc sp. ATCC 43529	161	269	36.2	56.3	4.9e-26
+953	TR	K7W0V4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anabaena sp. 90 OX=46234 GN=ispF PE=3 SV=1	Anabaena sp. 90	161	269	36.0	55.6	4.9e-26
+954	TR	A0A2T1ESY8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Stenomitos frigidus ULC18 OX=2107698 GN=ispF PE=3 SV=1	Stenomitos frigidus ULC18	161	269	35.1	55.2	4.9e-26
+955	TR	A0A0A2TAD0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pontibacillus yanchengensis Y32 OX=1385514 GN=ispF PE=3 SV=1	Pontibacillus yanchengensis Y32	161	269	36.0	54.1	4.9e-26
+956	TR	K2FGW0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Salimicrobium jeotgali OX=1230341 GN=ispF PE=3 SV=1	Salimicrobium jeotgali	161	269	35.8	56.6	4.9e-26
+957	TR	A0A9W7KYV9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Triparma laevis f. longispina OX=1714387 GN=TrLO_g9264 PE=3 SV=1	Triparma laevis f. longispina	243	275	33.7	53.6	4.9e-26
+958	TR	A0A432ZNL3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudidiomarina taiwanensis OX=337250 GN=ispF PE=3 SV=1	Pseudidiomarina taiwanensis	162	269	35.3	53.8	5e-26
+959	TR	A0A975ZBF1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Ramlibacter sp. WS9 OX=1882741 GN=ispF PE=3 SV=1	Ramlibacter sp. WS9	162	269	37.8	57.0	5e-26
+960	TR	A0A4Y9R755	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Oxalobacteraceae bacterium OM1 OX=2561929 GN=ispF PE=3 SV=1	Oxalobacteraceae bacterium OM1	162	269	37.1	53.7	5e-26
+961	TR	A0A1S9ZUL0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Moraxella caviae OX=34060 GN=ispF PE=3 SV=1	Moraxella caviae	162	269	35.4	56.6	5e-26
+962	SP	Q6FAU4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=ispF PE=3 SV=1	Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1)	163	269	36.4	55.5	5.1e-26
+963	TR	I2JN37	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=gamma proteobacterium BDW918 OX=1168065 GN=ispF PE=3 SV=1	gamma proteobacterium BDW918	163	269	38.2	56.1	5.1e-26
+964	SP	Q5HSI4	Bifunctional enzyme IspD/IspF OS=Campylobacter jejuni (strain RM1221) OX=195099 GN=ispDF PE=3 SV=1	Campylobacter jejuni (strain RM1221)	371	282	37.7	61.7	5.2e-26
+965	SP	A1W1K9	Bifunctional enzyme IspD/IspF OS=Campylobacter jejuni subsp. jejuni serotype O:23/36 (strain 81-176) OX=354242 GN=ispDF PE=3 SV=1	Campylobacter jejuni subsp. jejuni serotype O:23/36 (strain 81-176)	371	282	37.7	61.7	5.2e-26
+966	SP	A8FNR8	Bifunctional enzyme IspD/IspF OS=Campylobacter jejuni subsp. jejuni serotype O:6 (strain 81116 / NCTC 11828) OX=407148 GN=ispDF PE=3 SV=1	Campylobacter jejuni subsp. jejuni serotype O:6 (strain 81116 / NCTC 11828)	371	282	37.7	61.7	5.2e-26
+967	TR	A0A812ILK1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Symbiodinium sp. CCMP2456 OX=1519616 GN=ISPF PE=3 SV=1	Symbiodinium sp. CCMP2456	493	286	36.7	59.2	5.4e-26
+968	TR	A0A923LNR0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Roseburia zhanii OX=2763064 GN=ispF PE=3 SV=1	Roseburia zhanii	178	270	38.2	57.0	5.4e-26
+969	TR	A0A8J5GAM3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Zingiber officinale OX=94328 GN=ZIOFF_036634 PE=3 SV=1	Zingiber officinale	233	274	34.3	57.7	5.5e-26
+970	TR	K6ZBB1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paraglaciecola arctica BSs20135 OX=493475 GN=ispF PE=3 SV=1	Paraglaciecola arctica BSs20135	166	269	37.0	54.9	5.6e-26
+971	TR	A0A068YTE9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Polaromonas sp. CG9_12 OX=1504672 GN=ispF PE=3 SV=1	Polaromonas sp. CG9_12	166	269	34.9	58.1	5.6e-26
+972	TR	A0A923HHF8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Undibacterium nitidum OX=2762298 GN=ispF PE=3 SV=1	Undibacterium nitidum	167	269	36.6	55.2	5.7e-26
+973	TR	A4SXD3	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Polynucleobacter asymbioticus (strain DSM 18221 / CIP 109841 / QLW-P1DMWA-1) OX=312153 GN=ispF PE=3 SV=1	Polynucleobacter asymbioticus (strain DSM 18221 / CIP 109841 / QLW-P1DMWA-1)	167	269	36.6	54.1	5.7e-26
+974	TR	F7V5B9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium sp. (strain SY8519) OX=1042156 GN=IspF PE=3 SV=1	Clostridium sp. (strain SY8519)	180	270	37.6	53.2	5.7e-26
+975	TR	A0A834LTK0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Rhododendron simsii OX=118357 GN=RHSIM_Rhsim02G0235500 PE=3 SV=1	Rhododendron simsii	464	285	37.1	58.3	5.8e-26
+976	TR	A0A7W1XUC0	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Thermoactinomyces mirandus OX=2756294 GN=ispF PE=3 SV=1	Thermoactinomyces mirandus	168	269	36.2	55.7	5.9e-26
+977	TR	C0FW60	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Roseburia inulinivorans DSM 16841 OX=622312 GN=ispF PE=3 SV=1	Roseburia inulinivorans DSM 16841	181	270	37.6	55.8	5.9e-26
+978	TR	A0A1V4ID80	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Clostridium oryzae OX=1450648 GN=ispF PE=3 SV=1	Clostridium oryzae	156	268	38.2	57.2	6e-26
+979	TR	Q12A11	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Polaromonas sp. (strain JS666 / ATCC BAA-500) OX=296591 GN=ispF PE=3 SV=1	Polaromonas sp. (strain JS666 / ATCC BAA-500)	169	269	36.6	57.0	6e-26
+980	TR	A0A1H3UKF7	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Evansella caseinilytica OX=1503961 GN=ispF PE=3 SV=1	Evansella caseinilytica	157	268	35.8	55.5	6.1e-26
+981	TR	A0A3M3TJ58	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Pseudomonas cichorii OX=36746 GN=ispF PE=3 SV=1	Pseudomonas cichorii	157	268	35.6	56.3	6.1e-26
+982	TR	A0A839T503	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Azomonas macrocytogenes OX=69962 GN=ispF PE=3 SV=1	Azomonas macrocytogenes	157	268	35.4	56.0	6.1e-26
+983	TR	A0A1S1HRF9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Providencia stuartii OX=588 GN=ispF PE=3 SV=1	Providencia stuartii	170	269	35.6	52.5	6.2e-26
+984	TR	A0A8J3HUX2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Candidatus Mesenet longicola OX=1892558 GN=ispF PE=3 SV=1	Candidatus Mesenet longicola	183	270	35.7	57.1	6.2e-26
+985	SP	A5UE60	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Haemophilus influenzae (strain PittEE) OX=374930 GN=ispF PE=3 SV=1	Haemophilus influenzae (strain PittEE)	158	268	39.1	54.6	6.3e-26
+986	SP	P44815	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=ispF PE=1 SV=1	Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)	158	268	39.1	54.6	6.3e-26
+987	TR	A0A1D2JVB8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Brochothrix thermosphacta OX=2756 GN=ispF PE=3 SV=1	Brochothrix thermosphacta	158	268	34.1	55.5	6.3e-26
+988	TR	A0A235B2N9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Paludifilum halophilum OX=1642702 GN=ispF PE=3 SV=1	Paludifilum halophilum	158	268	35.1	55.2	6.3e-26
+989	TR	A0A0F5JL82	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Parabacteroides gordonii MS-1 = DSM 23371 OX=1203610 GN=ispF PE=3 SV=1	Parabacteroides gordonii MS-1 = DSM 23371	158	268	35.8	55.5	6.3e-26
+990	TR	A0A1U8NI02	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Gossypium hirsutum OX=3635 GN=LOC107947499 PE=3 SV=1	Gossypium hirsutum	239	274	35.6	56.9	6.3e-26
+991	TR	A0A1Z5KS39	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fistulifera solaris OX=1519565 GN=FisN_20Lh229 PE=3 SV=1	Fistulifera solaris	240	274	31.3	58.8	6.5e-26
+992	TR	A0A0J0YRH8	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Neisseria arctica OX=1470200 GN=ispF PE=3 SV=1	Neisseria arctica	159	268	38.7	56.1	6.5e-26
+993	TR	A0A1B3XI35	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Peribacillus muralis OX=264697 GN=ispF PE=3 SV=1	Peribacillus muralis	159	268	35.2	55.1	6.5e-26
+994	TR	A0A0X8D776	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Aneurinibacillus sp. XH2 OX=1450761 GN=ispF PE=3 SV=1	Aneurinibacillus sp. XH2	160	268	35.3	57.8	6.7e-26
+995	TR	A0A480A6K2	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Sphaerospermopsis reniformis OX=531300 GN=ispF PE=3 SV=1	Sphaerospermopsis reniformis	160	268	36.2	56.3	6.7e-26
+996	TR	A0A1Q2KUB4	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Planococcus lenghuensis OX=2213202 GN=ispF PE=3 SV=1	Planococcus lenghuensis	160	268	34.5	56.3	6.7e-26
+997	TR	A0A7S6RG49	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anabaenopsis elenkinii CCIBt3563 OX=2779889 GN=ispF PE=3 SV=1	Anabaenopsis elenkinii CCIBt3563	160	268	35.6	54.8	6.7e-26
+998	TR	A0A178TL07	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anoxybacillus flavithermus OX=33934 GN=ispF PE=3 SV=1	Anoxybacillus flavithermus	160	268	36.9	54.5	6.7e-26
+999	TR	A0A1U9NIS9	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Anaerohalosphaera lusitana OX=1936003 GN=ispF PE=3 SV=1	Anaerohalosphaera lusitana	173	269	36.6	59.3	6.7e-26
+1000	TR	I8IX78	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase OS=Fictibacillus macauensis ZFHKF-1 OX=1196324 GN=ispF PE=3 SV=1	Fictibacillus macauensis ZFHKF-1	161	268	35.8	55.5	6.8e-26

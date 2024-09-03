@@ -249,3 +249,753 @@ Hit	DB	Accession	Description	Organism	Length	Score(Bits)	Identities(%)	Positives
 248	TR	A0A1H7FNC5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptacidiphilus jiangxiensis OX=235985 GN=ispH PE=3 SV=1	Streptacidiphilus jiangxiensis	326	622	43.4	63.2	5.3e-73
 249	TR	A0A2S4YJJ6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. Ru71 OX=2080746 GN=ispH PE=3 SV=1	Streptomyces sp. Ru71	338	623	41.8	63.0	5.4e-73
 250	TR	M1LWD9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Kinetoplastibacterium blastocrithidii TCC012E OX=1208922 GN=ispH PE=3 SV=1	Candidatus Kinetoplastibacterium blastocrithidii TCC012E	318	621	43.3	61.0	5.8e-73
+251	SP	Q7ULU1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rhodopirellula baltica (strain DSM 10527 / NCIMB 13988 / SH1) OX=243090 GN=ispH PE=3 SV=1	Rhodopirellula baltica (strain DSM 10527 / NCIMB 13988 / SH1)	319	621	40.6	62.9	6e-73
+252	TR	A0A7Z0VMV1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Thiodiazotropha endolucinida OX=1655433 GN=ispH PE=3 SV=1	Candidatus Thiodiazotropha endolucinida	319	621	41.8	61.4	6e-73
+253	TR	D5CU04	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sideroxydans lithotrophicus (strain ES-1) OX=580332 GN=ispH PE=3 SV=1	Sideroxydans lithotrophicus (strain ES-1)	309	620	44.3	60.3	6.2e-73
+254	TR	A0A0U4XA67	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rheinheimera sp. F8 OX=1763998 GN=ispH PE=3 SV=1	Rheinheimera sp. F8	309	620	44.1	64.8	6.2e-73
+255	TR	W5W0G6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kutzneria albida DSM 43870 OX=1449976 GN=ispH PE=3 SV=1	Kutzneria albida DSM 43870	332	622	39.7	63.4	6.3e-73
+256	TR	A0A9X2FIG3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Aeoliella straminimaris OX=2954799 GN=ispH PE=3 SV=1	Aeoliella straminimaris	311	620	44.0	64.7	6.6e-73
+257	TR	I4B8V3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Turneriella parva (strain ATCC BAA-1111 / DSM 21527 / NCTC 11395 / H) OX=869212 GN=ispH PE=3 SV=1	Turneriella parva (strain ATCC BAA-1111 / DSM 21527 / NCTC 11395 / H)	311	620	41.2	62.0	6.6e-73
+258	TR	A0A514JPJ5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces calvus OX=67282 GN=ispH PE=3 SV=1	Streptomyces calvus	345	623	41.8	63.6	6.7e-73
+259	TR	A0A239J8B6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Granulicella rosea OX=474952 GN=ispH PE=3 SV=1	Granulicella rosea	357	624	41.6	62.8	6.8e-73
+260	TR	A0A5Q3L997	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Planctomycetales bacterium 10988 OX=2603660 GN=ispH PE=3 SV=1	Planctomycetales bacterium 10988	312	620	41.0	62.0	6.8e-73
+261	TR	A0A2K2RHB2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. DH-12 OX=2072509 GN=ispH PE=3 SV=1	Streptomyces sp. DH-12	337	622	42.3	63.9	7.4e-73
+262	TR	A0A1A5XKI1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia tropica OX=92647 GN=ispH PE=3 SV=1	Paraburkholderia tropica	326	621	43.3	62.3	7.4e-73
+263	TR	A0A444IV59	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Electrothrix aarhusensis OX=1859131 GN=ispH PE=3 SV=1	Candidatus Electrothrix aarhusensis	305	619	42.2	61.9	7.7e-73
+264	TR	A0A9W6SKM4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinorhabdospora filicis OX=1785913 GN=ispH PE=3 SV=1	Actinorhabdospora filicis	318	620	41.6	62.9	8.2e-73
+265	TR	A0A518GY91	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Tautonia plasticadhaerens OX=2527974 GN=ispH_1 PE=3 SV=1	Tautonia plasticadhaerens	318	620	42.4	62.8	8.2e-73
+266	TR	A0A3Q8VBC0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. WAC 01438 OX=2203204 GN=ispH PE=3 SV=1	Streptomyces sp. WAC 01438	341	622	41.5	63.3	8.3e-73
+267	TR	A0A9N8RUA2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia saeva OX=2777537 GN=ispH_1 PE=3 SV=1	Paraburkholderia saeva	319	620	42.3	61.6	8.4e-73
+268	TR	A0A1A9T292	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylovorus sp. MM2 OX=1848038 GN=ispH PE=3 SV=1	Methylovorus sp. MM2	309	619	44.6	61.6	8.7e-73
+269	TR	A0A6C2YVD7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Tuwongella immobilis OX=692036 GN=ispH PE=3 SV=1	Tuwongella immobilis	310	619	43.0	64.3	9e-73
+270	TR	A0A417Y3H1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nocardioides immobilis OX=2049295 GN=ispH PE=3 SV=1	Nocardioides immobilis	333	621	46.2	66.7	9.2e-73
+271	TR	A0A1T0CT54	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Moraxella pluranimalium OX=470453 GN=ispH PE=3 SV=1	Moraxella pluranimalium	311	619	43.0	61.2	9.3e-73
+272	TR	A0A4P7QH49	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium endometrii OX=2488819 GN=ispH PE=3 SV=1	Corynebacterium endometrii	335	621	43.0	66.5	9.8e-73
+273	TR	A0A7G5M1X0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mumia sp. ZJ1417 OX=2708082 GN=ispH PE=3 SV=1	Mumia sp. ZJ1417	324	620	45.2	65.0	9.8e-73
+274	TR	A0A6G4U796	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces coryli OX=1128680 GN=ispH PE=3 SV=1	Streptomyces coryli	336	621	46.2	66.5	1e-72
+275	TR	A0A917WPV2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sonchi OX=1763543 GN=ispH PE=3 SV=1	Micromonospora sonchi	325	620	42.4	62.3	1e-72
+276	TR	A0A428MCH6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Edaphobacter aggregans OX=570835 GN=ispH PE=3 SV=1	Edaphobacter aggregans	337	621	42.5	61.3	1e-72
+277	TR	A0A7W2ET61	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rugamonas brunnea OX=2758569 GN=ispH PE=3 SV=1	Rugamonas brunnea	315	619	44.5	60.7	1.1e-72
+278	TR	A0A177R5P3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Gaiella sp. SCGC AG-212-M14 OX=1799656 GN=ispH PE=3 SV=1	Gaiella sp. SCGC AG-212-M14	315	619	45.5	65.3	1.1e-72
+279	TR	A0A142XVS4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pirellula sp. SH-Sr6A OX=1632865 GN=ispH PE=3 SV=1	Pirellula sp. SH-Sr6A	315	619	45.3	64.2	1.1e-72
+280	TR	A0A4Y9SV56	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia horti OX=2562153 GN=ispH PE=3 SV=1	Massilia horti	315	619	44.8	61.7	1.1e-72
+281	TR	A0A2D2DKN4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia violaceinigra OX=2045208 GN=ispH PE=3 SV=1	Massilia violaceinigra	316	619	44.3	60.7	1.1e-72
+282	TR	A0A7W3TH38	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces alkaliphilus OX=1472722 GN=ispH PE=3 SV=1	Streptomyces alkaliphilus	328	620	39.9	62.5	1.1e-72
+283	TR	A0A3S9PLU1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces luteoverticillatus OX=66425 GN=ispH PE=3 SV=1	Streptomyces luteoverticillatus	329	620	42.9	63.5	1.1e-72
+284	TR	A0A6J5FLH0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia fynbosensis OX=1200993 GN=ispH_1 PE=3 SV=1	Paraburkholderia fynbosensis	319	619	42.6	62.0	1.2e-72
+285	TR	A0A6J5D0B2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia humisilvae OX=627669 GN=ispH_1 PE=3 SV=1	Paraburkholderia humisilvae	319	619	42.6	61.0	1.2e-72
+286	TR	A4F898	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338) OX=405948 GN=ispH PE=3 SV=1	Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338)	342	621	43.1	65.8	1.2e-72
+287	TR	A0A1H2PR58	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Chitinasiproducens palmae OX=1770053 GN=ispH PE=3 SV=1	Chitinasiproducens palmae	320	619	43.2	60.6	1.2e-72
+288	TR	A0A0N8W069	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium lowii OX=1544413 GN=ispH PE=3 SV=1	Corynebacterium lowii	333	620	42.3	63.1	1.3e-72
+289	TR	A0A380TRA3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=[Actinobacillus] rossii OX=123820 GN=ispH PE=3 SV=1	[Actinobacillus] rossii	312	618	43.2	62.7	1.3e-72
+290	TR	A0A4Q0T2E0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Granulicella sibirica OX=2479048 GN=ispH PE=3 SV=1	Granulicella sibirica	335	620	42.1	62.4	1.4e-72
+291	TR	A0A5B9W7M4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Aquisphaera giovannonii OX=406548 GN=ispH_2 PE=3 SV=1	Aquisphaera giovannonii	1149	664	43.0	61.9	1.4e-72
+292	TR	A0A1S9ABS4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. KIM OX=1955422 GN=ispH PE=3 SV=1	Massilia sp. KIM	315	618	44.5	62.0	1.5e-72
+293	TR	A0A6C1B7H5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrogeniibacter mangrovi OX=2016596 GN=ispH PE=3 SV=1	Nitrogeniibacter mangrovi	315	618	42.9	61.7	1.5e-72
+294	TR	A0A364V5J0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium heidelbergense OX=2055947 GN=ispH PE=3 SV=1	Corynebacterium heidelbergense	338	620	42.9	62.7	1.5e-72
+295	TR	A0A2P1PUZ7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ahniella affigens OX=2021234 GN=ispH PE=3 SV=1	Ahniella affigens	316	618	43.2	61.4	1.5e-72
+296	TR	D2R4D7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pirellula staleyi (strain ATCC 27377 / DSM 6068 / ICPB 4128) OX=530564 GN=ispH PE=3 SV=1	Pirellula staleyi (strain ATCC 27377 / DSM 6068 / ICPB 4128)	316	618	43.7	64.3	1.5e-72
+297	TR	A0A0G3H4K8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium testudinoris OX=136857 GN=ispH PE=3 SV=1	Corynebacterium testudinoris	317	618	42.3	63.1	1.6e-72
+298	TR	K0YHQ3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium otitidis ATCC 51513 OX=883169 GN=ispH PE=3 SV=1	Corynebacterium otitidis ATCC 51513	340	620	42.4	62.5	1.6e-72
+299	TR	A0A679HQN9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrospira sp. KM1 OX=1936990 GN=ispH PE=3 SV=1	Nitrospira sp. KM1	318	618	41.5	63.4	1.6e-72
+300	TR	A0A221P2P3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces pluripotens OX=1355015 GN=ispH PE=3 SV=1	Streptomyces pluripotens	341	620	41.1	63.0	1.6e-72
+301	TR	A0A0B7J051	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Methylopumilus turicensis OX=1581680 GN=ispH PE=3 SV=1	Candidatus Methylopumilus turicensis	308	617	43.6	62.3	1.7e-72
+302	TR	A0A5B1M1K8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nocardioides antri OX=2607659 GN=ispH PE=3 SV=1	Nocardioides antri	331	619	45.9	64.7	1.7e-72
+303	TR	A0A4R5VW57	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sapientia aquatica OX=1549640 GN=ispH PE=3 SV=1	Sapientia aquatica	309	617	43.8	61.4	1.7e-72
+304	TR	A0A2U2ZHQ4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. NWU339 OX=2185284 GN=ispH PE=3 SV=1	Streptomyces sp. NWU339	344	620	42.3	63.9	1.8e-72
+305	TR	A0A926R148	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. TRM68416 OX=2758412 GN=ispH PE=3 SV=1	Streptomyces sp. TRM68416	333	619	41.5	63.0	1.8e-72
+306	TR	A0A6B8W336	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium occultum OX=2675219 GN=ispH PE=3 SV=1	Corynebacterium occultum	322	618	46.1	66.8	1.8e-72
+307	TR	A0A1R3VYN8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ectothiorhodosinus mongolicus OX=233100 GN=ispH PE=3 SV=1	Ectothiorhodosinus mongolicus	311	617	43.7	61.5	1.8e-72
+308	TR	A0A1X3CVT3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Neisseria canis OX=493 GN=ispH PE=3 SV=1	Neisseria canis	311	617	43.4	62.1	1.8e-72
+309	TR	A0A7L5A8N2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Granulicella sp. WH15 OX=2602070 GN=ispH PE=3 SV=1	Granulicella sp. WH15	334	619	43.1	61.4	1.9e-72
+310	TR	A0A517S8V1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Caulifigura coniformis OX=2527983 GN=ispH PE=3 SV=1	Caulifigura coniformis	313	617	42.3	63.9	2e-72
+311	TR	A0A239DYG4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Noviherbaspirillum humi OX=1688639 GN=ispH PE=3 SV=1	Noviherbaspirillum humi	313	617	44.3	60.9	2e-72
+312	TR	A0A2Z3I1Y9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Gammaproteobacteria bacterium ESL0073 OX=2070539 GN=ispH PE=3 SV=1	Gammaproteobacteria bacterium ESL0073	314	617	43.3	60.6	2e-72
+313	TR	A0A418Q5C6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium falsenii OX=108486 GN=ispH PE=3 SV=1	Corynebacterium falsenii	337	619	45.1	63.3	2.1e-72
+314	TR	A0A073BAC9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharopolyspora rectivirgula OX=28042 GN=ispH PE=3 SV=1	Saccharopolyspora rectivirgula	338	619	42.2	63.3	2.1e-72
+315	TR	A0A1I4NL84	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrosomonas nitrosa OX=52442 GN=ispH PE=3 SV=1	Nitrosomonas nitrosa	327	618	46.8	62.9	2.1e-72
+316	TR	C3X1B9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Oxalobacter paraformigenes OX=556268 GN=ispH PE=3 SV=1	Oxalobacter paraformigenes	316	617	42.0	62.0	2.1e-72
+317	TR	A0A372FTC0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora craniellae OX=2294034 GN=ispH PE=3 SV=1	Micromonospora craniellae	329	618	42.9	63.6	2.3e-72
+318	TR	A0A149PS34	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia monticola OX=1399968 GN=ispH PE=3 SV=1	Paraburkholderia monticola	319	617	42.0	62.3	2.4e-72
+319	TR	A0A940N7I4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia sp. LEh10 OX=2821353 GN=ispH PE=3 SV=1	Paraburkholderia sp. LEh10	319	617	42.3	61.3	2.4e-72
+320	TR	A0A1H7PIF6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia caballeronis OX=416943 GN=ispH PE=3 SV=1	Paraburkholderia caballeronis	320	617	43.0	61.0	2.4e-72
+321	TR	K9HJ28	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Caenispirillum salinarum AK4 OX=1238182 GN=ispH PE=3 SV=1	Caenispirillum salinarum AK4	321	617	41.3	61.7	2.5e-72
+322	TR	A0A1E7Q954	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rheinheimera salexigens OX=1628148 GN=ispH PE=3 SV=1	Rheinheimera salexigens	310	616	43.8	61.9	2.5e-72
+323	TR	A0A378QBY9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Moraxella osloensis OX=34062 GN=ispH PE=3 SV=1	Moraxella osloensis	322	617	42.1	61.2	2.6e-72
+324	TR	A0A225DU69	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Fimbriiglobus ruber OX=1908690 GN=ispH PE=3 SV=1	Fimbriiglobus ruber	311	616	42.0	62.6	2.6e-72
+325	TR	H0PYY6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Azoarcus sp. KH32C OX=748247 GN=ispH PE=3 SV=1	Azoarcus sp. KH32C	311	616	43.2	61.7	2.6e-72
+326	TR	A0A317MRA8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Plasticicumulans acidivorans OX=886464 GN=ispH PE=3 SV=1	Plasticicumulans acidivorans	311	616	47.0	61.6	2.6e-72
+327	TR	A0A6M5Z171	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Frigoriglobus tundricola OX=2774151 GN=ispH PE=3 SV=1	Frigoriglobus tundricola	311	616	40.7	63.3	2.6e-72
+328	TR	A0A7Z2J879	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia acidiphila OX=2571747 GN=ispH PE=3 SV=1	Paraburkholderia acidiphila	323	617	43.0	61.3	2.7e-72
+329	SP	A1K4R4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Azoarcus sp. (strain BH72) OX=418699 GN=ispH PE=3 SV=1	Azoarcus sp. (strain BH72)	312	616	43.2	60.3	2.7e-72
+330	TR	A0A844AQL2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Caenimonas koreensis DSM 17982 OX=1121255 GN=ispH PE=3 SV=1	Caenimonas koreensis DSM 17982	312	616	43.0	62.0	2.7e-72
+331	TR	A0A368VHD0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Halopolyspora algeriensis OX=1500506 GN=ispH PE=3 SV=1	Halopolyspora algeriensis	346	619	43.7	67.4	2.7e-72
+332	TR	A0A223S325	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nocardiopsis gilva YIM 90087 OX=1235441 GN=ispH PE=3 SV=1	Nocardiopsis gilva YIM 90087	324	617	42.3	63.5	2.7e-72
+333	TR	A0A7W7C3W6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Crossiella cryophila OX=43355 GN=ispH PE=3 SV=1	Crossiella cryophila	324	617	41.3	62.8	2.7e-72
+334	TR	A0A5M6DAC8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Roseiconus nitratireducens OX=2605748 GN=ispH PE=3 SV=1	Roseiconus nitratireducens	313	616	41.3	62.6	2.8e-72
+335	TR	A0A926M5G3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pelagibacterales bacterium SAG-MED32 OX=2760034 GN=ispH PE=3 SV=1	Pelagibacterales bacterium SAG-MED32	313	616	43.3	62.2	2.8e-72
+336	TR	X5DSP1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium glyciniphilum AJ 3170 OX=1404245 GN=ispH PE=3 SV=1	Corynebacterium glyciniphilum AJ 3170	347	619	43.6	61.2	2.8e-72
+337	TR	W9TE13	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudomonas sp. BAY1663 OX=1439940 GN=lytB PE=3 SV=1	Pseudomonas sp. BAY1663	314	616	42.7	62.2	2.8e-72
+338	TR	A0A8J3QI22	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rhizocola hellebori OX=1392758 GN=ispH PE=3 SV=1	Rhizocola hellebori	326	617	42.9	64.5	2.9e-72
+339	TR	A0A926L7L2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces griseicoloratus OX=2752516 GN=ispH PE=3 SV=1	Streptomyces griseicoloratus	338	618	42.6	62.6	3e-72
+340	TR	A0A2U9P8C8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces actuosus OX=1885 GN=ispH PE=3 SV=1	Streptomyces actuosus	338	618	41.1	63.0	3e-72
+341	TR	A0A9X7UWN4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Venatoribacter cucullus OX=2661630 GN=ispH PE=3 SV=1	Venatoribacter cucullus	316	616	44.0	60.3	3e-72
+342	TR	A0A1L7CL58	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium flavescens OX=28028 GN=ispH PE=3 SV=1	Corynebacterium flavescens	317	616	44.5	67.2	3.1e-72
+343	TR	A0A1I6MJY6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Granulicella pectinivorans OX=474950 GN=ispH PE=3 SV=1	Granulicella pectinivorans	340	618	40.9	60.3	3.2e-72
+344	SP	Q1Q974	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5) OX=335284 GN=ispH PE=3 SV=1	Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5)	318	616	41.7	61.2	3.2e-72
+345	TR	A0A482ZYP0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bathymodiolus heckerae thiotrophic gill symbiont OX=1052212 GN=ispH PE=3 SV=1	Bathymodiolus heckerae thiotrophic gill symbiont	307	615	43.6	61.6	3.2e-72
+346	TR	A0A6J5EH39	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia solisilvae OX=624376 GN=ispH_2 PE=3 SV=1	Paraburkholderia solisilvae	319	616	42.6	61.3	3.3e-72
+347	TR	A0A372K247	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia sp. DHOC27 OX=2303330 GN=ispH PE=3 SV=1	Paraburkholderia sp. DHOC27	319	616	42.3	61.6	3.3e-72
+348	TR	A0A1H6XSX7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia diazotrophica OX=667676 GN=ispH PE=3 SV=1	Paraburkholderia diazotrophica	319	616	42.0	62.0	3.3e-72
+349	TR	A0A1I3IMI1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia megapolitana OX=420953 GN=ispH PE=3 SV=1	Paraburkholderia megapolitana	319	616	42.6	61.3	3.3e-72
+350	TR	A0A1C3NV59	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Protofrankia californiensis OX=1839754 GN=ispH PE=3 SV=1	Candidatus Protofrankia californiensis	320	616	41.3	62.9	3.4e-72
+351	TR	A0A0U3PQ34	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. CdTB01 OX=1725411 GN=ispH PE=3 SV=1	Streptomyces sp. CdTB01	333	617	41.8	63.0	3.6e-72
+352	TR	A0A918RD58	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces echinoruber OX=68898 GN=ispH PE=3 SV=1	Streptomyces echinoruber	345	618	41.6	63.9	3.7e-72
+353	TR	A0A5J6MTG0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Hypericibacter adhaerens OX=2602016 GN=ispH PE=3 SV=1	Hypericibacter adhaerens	334	617	41.6	63.4	3.7e-72
+354	SP	Q82WM1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrosomonas europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298) OX=228410 GN=ispH PE=3 SV=1	Nitrosomonas europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298)	323	616	45.3	62.9	3.7e-72
+355	TR	A0A1H3EE85	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis xylanica OX=589385 GN=ispH PE=3 SV=1	Amycolatopsis xylanica	335	617	44.7	65.9	3.8e-72
+356	TR	A0A429NH10	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. WAC00469 OX=2487415 GN=ispH PE=3 SV=1	Streptomyces sp. WAC00469	335	617	43.1	63.8	3.8e-72
+357	TR	A0A517YSA6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Poriferisphaera corsica OX=2528020 GN=ispH PE=3 SV=1	Poriferisphaera corsica	443	626	44.1	64.2	3.9e-72
+358	TR	A0A833MSU7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Alkalilimnicola sp. S0819 OX=2613922 GN=ispH PE=3 SV=1	Alkalilimnicola sp. S0819	314	615	45.2	63.6	4e-72
+359	TR	A0A974NGF4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Entomomonas asaccharolytica OX=2785331 GN=ispH PE=3 SV=1	Entomomonas asaccharolytica	314	615	43.0	59.9	4e-72
+360	TR	A0A2C6BZI3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Budvicia aquatica OX=82979 GN=ispH PE=3 SV=1	Budvicia aquatica	314	615	42.2	61.7	4e-72
+361	TR	A0A918AV66	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces roseolilacinus OX=66904 GN=ispH PE=3 SV=1	Streptomyces roseolilacinus	327	616	41.9	64.5	4.2e-72
+362	TR	A0A0G3GQE0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium epidermidicanis OX=1050174 GN=ispH PE=3 SV=1	Corynebacterium epidermidicanis	328	616	43.2	62.0	4.4e-72
+363	TR	A0A9X3PQV0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrospiraceae bacterium AH_259_D15_M11_P09 OX=2935764 GN=ispH PE=3 SV=1	Nitrospiraceae bacterium AH_259_D15_M11_P09	317	615	41.8	63.4	4.4e-72
+364	TR	A0A2W2CCV0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora deserti OX=2070366 GN=ispH PE=3 SV=1	Micromonospora deserti	329	616	44.2	64.2	4.5e-72
+365	TR	A0A4R0GT67	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora zingiberis OX=2053011 GN=ispH PE=3 SV=1	Micromonospora zingiberis	329	616	43.6	64.1	4.5e-72
+366	TR	A0A1N7S366	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia ribeironis OX=1247936 GN=ispH PE=3 SV=1	Paraburkholderia ribeironis	319	615	42.6	61.6	4.7e-72
+367	TR	B1G2G5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia graminis (strain ATCC 700544 / DSM 17151 / LMG 18924 / NCIMB 13744 / C4D1M) OX=396598 GN=ispH_1 PE=3 SV=1	Paraburkholderia graminis (strain ATCC 700544 / DSM 17151 / LMG 18924 / NCIMB 13744 / C4D1M)	319	615	42.6	61.3	4.7e-72
+368	TR	B1VFN9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium urealyticum (strain ATCC 43042 / DSM 7109) OX=504474 GN=ispH PE=3 SV=1	Corynebacterium urealyticum (strain ATCC 43042 / DSM 7109)	342	617	46.1	64.3	4.7e-72
+369	TR	A0A2U3HBD0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. NWU49 OX=2201153 GN=ispH PE=3 SV=1	Streptomyces sp. NWU49	342	617	41.5	62.7	4.7e-72
+370	TR	A0A1B7UHM0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rheinheimera sp. SA_1 OX=1827365 GN=ispH PE=3 SV=1	Rheinheimera sp. SA_1	309	614	44.1	64.8	4.8e-72
+371	TR	A0A809S7V6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfuriferula nivalis OX=2675298 GN=lytB PE=3 SV=1	Sulfuriferula nivalis	309	614	43.9	60.0	4.8e-72
+372	TR	A0A0G3H2V7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium mustelae OX=571915 GN=ispH PE=3 SV=1	Corynebacterium mustelae	321	615	44.3	63.9	4.9e-72
+373	TR	A0A6L6PT26	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudoduganella ginsengisoli OX=1462440 GN=ispH PE=3 SV=1	Pseudoduganella ginsengisoli	310	614	43.8	60.1	5e-72
+374	TR	A0A840RZ61	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Glaciimonas immobilis OX=728004 GN=ispH PE=3 SV=1	Glaciimonas immobilis	310	614	43.5	61.4	5e-72
+375	TR	F3NC38	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces griseoaurantiacus M045 OX=996637 GN=ispH PE=3 SV=1	Streptomyces griseoaurantiacus M045	333	616	41.9	63.9	5.1e-72
+376	TR	G7CC42	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium thermoresistibile (strain ATCC 19527 / DSM 44167 / CIP 105390 / JCM 6362 / NCTC 10409 / 316) OX=1078020 GN=ispH PE=3 SV=1	Mycolicibacterium thermoresistibile (strain ATCC 19527 / DSM 44167 / CIP 105390 / JCM 6362 / NCTC 10409 / 316)	334	616	42.8	63.8	5.2e-72
+377	TR	A0A4Y1YSG9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrosomonas stercoris OX=1444684 GN=ispH PE=3 SV=1	Nitrosomonas stercoris	323	615	45.1	61.5	5.3e-72
+378	TR	A0A1G8VSG9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinopolyspora mzabensis OX=995066 GN=ispH PE=3 SV=1	Actinopolyspora mzabensis	369	619	41.7	64.6	5.3e-72
+379	TR	A0A918B8C6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces ruber OX=83378 GN=ispH PE=3 SV=1	Streptomyces ruber	358	618	41.5	63.6	5.4e-72
+380	TR	A0A378YIV2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pandoraea pnomenusa OX=93220 GN=ispH_1 PE=3 SV=1	Pandoraea pnomenusa	324	615	43.3	60.0	5.4e-72
+381	TR	A0A4V2SJ07	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bisgaardia hudsonensis OX=109472 GN=ispH PE=3 SV=1	Bisgaardia hudsonensis	313	614	42.5	62.3	5.5e-72
+382	TR	A0A1E9VQ22	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Moraxella sp. HMSC061H09 OX=1715217 GN=ispH PE=3 SV=1	Moraxella sp. HMSC061H09	313	614	43.0	60.5	5.5e-72
+383	TR	L1KU68	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces ipomoeae 91-03 OX=698759 GN=ispH PE=3 SV=1	Streptomyces ipomoeae 91-03	336	616	41.9	64.8	5.5e-72
+384	TR	A0A2N0WYE4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Psychromonas sp. psych-6C06 OX=2058089 GN=ispH PE=3 SV=1	Psychromonas sp. psych-6C06	314	614	43.3	62.1	5.6e-72
+385	TR	A0A1M5JPM0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. CF038 OX=1881045 GN=ispH PE=3 SV=1	Massilia sp. CF038	314	614	43.3	61.3	5.6e-72
+386	TR	A0A1A7NYS3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Gallibacterium salpingitidis OX=505341 GN=ispH PE=3 SV=1	Gallibacterium salpingitidis	314	614	42.9	61.7	5.6e-72
+387	TR	A0A7W9M534	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharothrix ecbatanensis OX=1105145 GN=ispH PE=3 SV=1	Saccharothrix ecbatanensis	314	614	39.8	65.0	5.6e-72
+388	TR	A0A1E2UL20	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Thiodiazotropha endoloripes OX=1818881 GN=ispH PE=3 SV=1	Candidatus Thiodiazotropha endoloripes	314	614	44.9	62.5	5.6e-72
+389	TR	C7MET9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Brachybacterium faecium (strain ATCC 43885 / DSM 4810 / JCM 11609 / LMG 19847 / NBRC 14762 / NCIMB 9860 / 6-10) OX=446465 GN=ispH PE=3 SV=1	Brachybacterium faecium (strain ATCC 43885 / DSM 4810 / JCM 11609 / LMG 19847 / NBRC 14762 / NCIMB 9860 / 6-10)	337	616	39.9	65.3	5.7e-72
+390	TR	A0A6G4X1Z6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces boncukensis OX=2711219 GN=ispH PE=3 SV=1	Streptomyces boncukensis	326	615	44.9	67.3	5.8e-72
+391	TR	A0A1Y0H9J0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Armatimonadetes bacterium Uphvl-Ar2 OX=2004468 GN=ispH PE=3 SV=1	Armatimonadetes bacterium Uphvl-Ar2	315	614	39.6	62.7	5.8e-72
+392	TR	G4QAN8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Taylorella asinigenitalis (strain MCE3) OX=1008459 GN=ispH PE=3 SV=1	Taylorella asinigenitalis (strain MCE3)	315	614	42.5	62.0	5.8e-72
+393	TR	A0A089XGK8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces glaucescens OX=1907 GN=ispH PE=3 SV=1	Streptomyces glaucescens	338	616	41.5	62.7	5.9e-72
+394	TR	A0A5B8NT26	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium sp. sy039 OX=2599641 GN=ispH PE=3 SV=1	Corynebacterium sp. sy039	338	616	45.6	65.5	5.9e-72
+395	TR	A0A4R6XGA4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Marinicella litoralis OX=644220 GN=ispH PE=3 SV=1	Marinicella litoralis	316	614	40.6	60.4	6e-72
+396	TR	A0A448TT07	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinobacillus delphinicola OX=51161 GN=ispH PE=3 SV=1	Actinobacillus delphinicola	316	614	42.6	61.2	6e-72
+397	TR	Q4JU85	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium jeikeium (strain K411) OX=306537 GN=ispH PE=3 SV=1	Corynebacterium jeikeium (strain K411)	328	615	45.4	63.9	6.1e-72
+398	TR	F4F4H5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora maris (strain DSM 45365 / JCM 31040 / NBRC 109089 / NRRL B-24793 / AB-18-032) OX=263358 GN=ispH PE=3 SV=1	Micromonospora maris (strain DSM 45365 / JCM 31040 / NBRC 109089 / NRRL B-24793 / AB-18-032)	317	614	44.2	65.5	6.2e-72
+399	TR	A0A081XK22	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces toyocaensis OX=55952 GN=ispH PE=3 SV=1	Streptomyces toyocaensis	341	616	41.1	63.3	6.4e-72
+400	TR	A0A5B0GA90	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia panacisoli OX=2603818 GN=ispH PE=3 SV=1	Paraburkholderia panacisoli	319	614	42.6	61.6	6.6e-72
+401	TR	A0A843S944	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rugamonas rivuli OX=2743358 GN=ispH PE=3 SV=1	Rugamonas rivuli	320	614	43.8	61.0	6.8e-72
+402	TR	A0A4R3YCY7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfurirhabdus autotrophica OX=1706046 GN=ispH PE=3 SV=1	Sulfurirhabdus autotrophica	309	613	44.2	60.1	6.8e-72
+403	TR	A0A8J3F5D2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Oxalicibacterium solurbis OX=69280 GN=ispH2 PE=3 SV=1	Oxalicibacterium solurbis	309	613	43.0	61.0	6.8e-72
+404	TR	A0A117P7N1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces curacoi OX=146536 GN=ispH PE=3 SV=1	Streptomyces curacoi	332	615	41.5	61.7	6.9e-72
+405	TR	A0A286RKU7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thermogutta terrifontis OX=1331910 GN=ispH PE=3 SV=1	Thermogutta terrifontis	321	614	43.7	63.2	7e-72
+406	TR	A0A5B2XHD7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Solihabitans fulvus OX=1892852 GN=ispH PE=3 SV=1	Solihabitans fulvus	321	614	43.0	69.1	7e-72
+407	TR	A0A543IAR9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinomadura hallensis OX=337895 GN=ispH PE=3 SV=1	Actinomadura hallensis	321	614	42.1	63.5	7e-72
+408	TR	A0A9E9P3T1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Oxalobacter vibrioformis OX=933080 GN=ispH PE=3 SV=1	Oxalobacter vibrioformis	310	613	43.2	62.0	7e-72
+409	TR	A0A0F5VTU7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. WM6386 OX=1415558 GN=ispH PE=3 SV=1	Streptomyces sp. WM6386	333	615	41.8	61.7	7.1e-72
+410	TR	A0A0K6IVR6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Tepidiphilus thermophilus OX=876478 GN=ispH PE=3 SV=1	Tepidiphilus thermophilus	312	613	42.2	61.4	7.4e-72
+411	TR	A0A5N8VW73	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces phyllanthi OX=1803180 GN=ispH PE=3 SV=1	Streptomyces phyllanthi	335	615	42.1	63.0	7.6e-72
+412	TR	A0A4Y3VH79	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces spinoverrucosus OX=284043 GN=ispH PE=3 SV=1	Streptomyces spinoverrucosus	336	615	42.3	63.5	7.8e-72
+413	SP	B0BRB3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinobacillus pleuropneumoniae serotype 3 (strain JL03) OX=434271 GN=ispH PE=3 SV=1	Actinobacillus pleuropneumoniae serotype 3 (strain JL03)	314	613	42.0	61.8	7.9e-72
+414	TR	A0A853I387	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Spartinivicinus marinus OX=2994442 GN=ispH PE=3 SV=1	Spartinivicinus marinus	314	613	42.7	61.2	7.9e-72
+415	TR	A0A0M8VLD6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. AS58 OX=1519489 GN=ispH PE=3 SV=1	Streptomyces sp. AS58	337	615	40.5	63.3	8e-72
+416	TR	A0A2X0J307	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptacidiphilus pinicola OX=2219663 GN=ispH PE=3 SV=1	Streptacidiphilus pinicola	326	614	43.4	62.2	8.1e-72
+417	TR	A0A7M2SHR6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces ferrugineus OX=1413221 GN=ispH PE=3 SV=1	Streptomyces ferrugineus	338	615	40.8	63.9	8.3e-72
+418	TR	A0A919DTP7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces longispororuber OX=68230 GN=ispH PE=3 SV=1	Streptomyces longispororuber	338	615	42.8	64.8	8.3e-72
+419	TR	A0A6G2BFB5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces taklimakanensis OX=2569853 GN=ispH PE=3 SV=1	Streptomyces taklimakanensis	327	614	43.3	64.9	8.4e-72
+420	TR	A0A923HX74	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Undibacterium nitidum OX=2762298 GN=ispH PE=3 SV=1	Undibacterium nitidum	316	613	43.9	61.3	8.4e-72
+421	TR	A0A0C5G4S4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces cyaneogriseus subsp. noncyanogenus OX=477245 GN=ispH PE=3 SV=1	Streptomyces cyaneogriseus subsp. noncyanogenus	339	615	41.8	62.7	8.5e-72
+422	TR	A0A1C5HD32	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora siamensis OX=299152 GN=ispH PE=3 SV=1	Micromonospora siamensis	328	614	42.1	62.7	8.6e-72
+423	TR	A0A076MXV8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis methanolica 239 OX=1068978 GN=lytB PE=3 SV=1	Amycolatopsis methanolica 239	317	613	43.6	67.0	8.7e-72
+424	TR	A0A011QJU6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Accumulibacter regalis OX=522306 GN=ispH PE=3 SV=1	Accumulibacter regalis	307	612	42.0	60.7	9e-72
+425	TR	A0A249DYA2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Hamiltonella defensa (Bemisia tabaci) OX=672795 GN=ispH PE=3 SV=1	Candidatus Hamiltonella defensa (Bemisia tabaci)	319	613	42.7	62.8	9.2e-72
+426	TR	A0A9X1QR24	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium uropygiale OX=1775911 GN=ispH PE=3 SV=1	Corynebacterium uropygiale	319	613	41.7	63.8	9.2e-72
+427	TR	A0A1Q8ITK2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Burkholderia sp. SRS-W-2-2016 OX=1926878 GN=ispH PE=3 SV=1	Burkholderia sp. SRS-W-2-2016	319	613	42.6	61.3	9.2e-72
+428	TR	A0A370NFU5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia lacunae OX=2211104 GN=ispH PE=3 SV=1	Paraburkholderia lacunae	319	613	42.3	61.3	9.2e-72
+429	TR	A0A916UD07	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Hoyosella rhizosphaerae OX=1755582 GN=ispH PE=3 SV=1	Hoyosella rhizosphaerae	331	614	41.9	63.0	9.4e-72
+430	TR	A0A7K0CJ26	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces smaragdinus OX=2585196 GN=ispH2 PE=3 SV=1	Streptomyces smaragdinus	331	614	47.4	66.5	9.4e-72
+431	TR	A0A0J0UP71	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Diaphorobacter sp. J5-51 OX=680496 GN=ispH PE=3 SV=1	Diaphorobacter sp. J5-51	331	614	43.6	60.3	9.4e-72
+432	TR	A0A2S4YWW9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. Ru72 OX=2080747 GN=ispH PE=3 SV=1	Streptomyces sp. Ru72	331	614	41.9	63.5	9.4e-72
+433	TR	A0A6B8VUM7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium kalinowskii OX=2675216 GN=ispH PE=3 SV=1	Corynebacterium kalinowskii	320	613	46.3	65.9	9.5e-72
+434	TR	Q1GYJ1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylobacillus flagellatus (strain ATCC 51484 / DSM 6875 / VKM B-1610 / KT) OX=265072 GN=ispH PE=3 SV=1	Methylobacillus flagellatus (strain ATCC 51484 / DSM 6875 / VKM B-1610 / KT)	320	613	44.6	61.6	9.5e-72
+435	TR	A0A484GBH5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Schmidhempelia bombi str. Bimp OX=1387197 GN=ispH PE=3 SV=1	Candidatus Schmidhempelia bombi str. Bimp	320	613	42.4	61.8	9.5e-72
+436	TR	A0A916BEP1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Nitrotoga fabula OX=2182327 GN=ispH PE=3 SV=1	Candidatus Nitrotoga fabula	309	612	43.6	61.0	9.5e-72
+437	SP	Q73WH6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium paratuberculosis (strain ATCC BAA-968 / K-10) OX=262316 GN=ispH PE=3 SV=1	Mycolicibacterium paratuberculosis (strain ATCC BAA-968 / K-10)	332	614	43.4	63.6	9.7e-72
+438	TR	A0A0M9XAR6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces caelestis OX=36816 GN=ispH PE=3 SV=1	Streptomyces caelestis	332	614	40.8	63.6	9.7e-72
+439	TR	A0A5P9PDM0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis sp. YIM 10 OX=2653857 GN=ispH PE=3 SV=1	Amycolatopsis sp. YIM 10	332	614	40.9	62.0	9.7e-72
+440	TR	A0A1E3SNR3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium sherrisii OX=243061 GN=ispH PE=3 SV=1	Mycobacterium sherrisii	332	614	44.9	64.9	9.7e-72
+441	TR	A0A5C6CNN5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bythopirellula polymerisocia OX=2528003 GN=ispH PE=3 SV=1	Bythopirellula polymerisocia	310	612	40.9	63.0	9.8e-72
+442	TR	A0A420EJM5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Alginatibacterium sediminis OX=2164068 GN=ispH PE=3 SV=1	Alginatibacterium sediminis	311	612	43.9	63.7	1e-71
+443	TR	A0A142XHH5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Gemmata sp. SH-PL17 OX=1630693 GN=ispH PE=3 SV=1	Gemmata sp. SH-PL17	311	612	40.7	63.3	1e-71
+444	TR	A0A0M1JCF4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Achromatium sp. WMS2 OX=1604835 GN=ispH PE=3 SV=1	Achromatium sp. WMS2	312	612	44.8	62.8	1e-71
+445	TR	A0A2G8T234	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia psychrophila OX=1603353 GN=ispH PE=3 SV=1	Massilia psychrophila	312	612	44.2	60.4	1e-71
+446	TR	A0A7Y0P6F4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. GMY02 OX=1333528 GN=ispH PE=3 SV=1	Streptomyces sp. GMY02	335	614	41.6	63.5	1.1e-71
+447	TR	A0A3S0CGR6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinobaculum sp. 352 OX=2490946 GN=ispH PE=3 SV=1	Actinobaculum sp. 352	370	617	41.1	62.1	1.1e-71
+448	TR	A0A1A9BTX3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. DI166 OX=1839783 GN=ispH PE=3 SV=1	Streptomyces sp. DI166	336	614	41.8	62.3	1.1e-71
+449	TR	A0A4Q6IER7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. F001 OX=1510026 GN=ispH PE=3 SV=1	Streptomyces sp. F001	336	614	40.5	63.3	1.1e-71
+450	SP	A3N2G8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinobacillus pleuropneumoniae serotype 5b (strain L20) OX=416269 GN=ispH PE=3 SV=1	Actinobacillus pleuropneumoniae serotype 5b (strain L20)	314	612	42.0	61.8	1.1e-71
+451	TR	A0A4R6VFT8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mesocricetibacter intestinalis OX=1521930 GN=ispH PE=3 SV=1	Mesocricetibacter intestinalis	314	612	42.5	61.4	1.1e-71
+452	TR	A0A377IWC3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Haemophilus pittmaniae OX=249188 GN=ispH PE=3 SV=1	Haemophilus pittmaniae	314	612	41.9	62.0	1.1e-71
+453	TR	A0A447STH3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Avibacterium volantium OX=762 GN=ispH PE=3 SV=1	Avibacterium volantium	314	612	42.2	62.0	1.1e-71
+454	TR	A0A917NLG6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces brasiliensis OX=1954 GN=ispH PE=3 SV=1	Streptomyces brasiliensis	338	614	41.1	63.6	1.2e-71
+455	TR	C7MYN2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharomonospora viridis (strain ATCC 15386 / DSM 43017 / JCM 3036 / CCUG 5913 / NBRC 12207 / NCIMB 9602 / P101) OX=471857 GN=ispH PE=3 SV=1	Saccharomonospora viridis (strain ATCC 15386 / DSM 43017 / JCM 3036 / CCUG 5913 / NBRC 12207 / NCIMB 9602 / P101)	327	613	41.9	63.3	1.2e-71
+456	TR	E5XMR3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Segniliparus rugosus (strain ATCC BAA-974 / DSM 45345 / CCUG 50838 / CIP 108380 / JCM 13579 / CDC 945) OX=679197 GN=ispH PE=3 SV=2	Segniliparus rugosus (strain ATCC BAA-974 / DSM 45345 / CCUG 50838 / CIP 108380 / JCM 13579 / CDC 945)	327	613	43.9	64.2	1.2e-71
+457	TR	G0AJD4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Collimonas fungivorans (strain Ter331) OX=1005048 GN=lytB PE=3 SV=1	Collimonas fungivorans (strain Ter331)	316	612	44.2	61.4	1.2e-71
+458	TR	U7L4P7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium sp. KPL1821 OX=1203560 GN=ispH PE=3 SV=1	Corynebacterium sp. KPL1821	316	612	44.1	64.8	1.2e-71
+459	TR	A0A640UTV3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces tubercidicus OX=47759 GN=ispH PE=3 SV=1	Streptomyces tubercidicus	339	614	41.9	62.6	1.2e-71
+460	TR	L0H0Q6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thioflavicoccus mobilis 8321 OX=765912 GN=ispH PE=3 SV=1	Thioflavicoccus mobilis 8321	317	612	45.7	64.7	1.2e-71
+461	TR	A0A1M6WHP4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudonocardia thermophila OX=1848 GN=ispH PE=3 SV=1	Pseudonocardia thermophila	317	612	42.1	63.4	1.2e-71
+462	TR	A0A077DDC2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Basilea psittacipulmonis DSM 24701 OX=1072685 GN=ispH PE=3 SV=1	Basilea psittacipulmonis DSM 24701	307	611	43.9	60.3	1.3e-71
+463	TR	D9Q9J8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium pseudotuberculosis (strain C231) OX=681645 GN=ispH PE=3 SV=1	Corynebacterium pseudotuberculosis (strain C231)	341	614	41.5	62.0	1.3e-71
+464	TR	A0A4U0N6K3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces piniterrae OX=2571125 GN=ispH PE=3 SV=1	Streptomyces piniterrae	330	613	40.7	61.8	1.3e-71
+465	TR	A0A9W5URC0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sediminimaris OX=547162 GN=ispH PE=3 SV=1	Micromonospora sediminimaris	330	613	43.5	64.9	1.3e-71
+466	TR	A0A2S4M0K6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia eburnea OX=1189126 GN=ispH PE=3 SV=1	Paraburkholderia eburnea	319	612	42.2	61.7	1.3e-71
+467	TR	A0A1L7D400	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium phocae OX=161895 GN=ispH PE=3 SV=1	Corynebacterium phocae	319	612	44.2	66.4	1.3e-71
+468	TR	D8PBL6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrospira defluvii OX=330214 GN=ispH PE=3 SV=1	Nitrospira defluvii	320	612	40.8	62.1	1.3e-71
+469	TR	I1DUY0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rheinheimera nanhaiensis E407-8 OX=562729 GN=ispH PE=3 SV=1	Rheinheimera nanhaiensis E407-8	309	611	42.8	61.9	1.3e-71
+470	TR	E1SSF5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ferrimonas balearica (strain DSM 9799 / CCM 4581 / KCTC 23876 / PAT) OX=550540 GN=ispH PE=3 SV=1	Ferrimonas balearica (strain DSM 9799 / CCM 4581 / KCTC 23876 / PAT)	309	611	42.4	61.3	1.3e-71
+471	TR	A0A4R6GHS9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Herminiimonas fonticola OX=303380 GN=ispH PE=3 SV=1	Herminiimonas fonticola	309	611	42.6	61.6	1.3e-71
+472	TR	X8CP87	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium intracellulare 1956 OX=1299331 GN=ispH PE=3 SV=1	Mycobacterium intracellulare 1956	332	613	43.0	63.6	1.4e-71
+473	TR	A0A3D9VE49	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thermasporomyces composti OX=696763 GN=ispH PE=3 SV=1	Thermasporomyces composti	321	612	44.5	65.5	1.4e-71
+474	TR	A0A4Z0C150	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter humi OX=2530451 GN=ispH PE=3 SV=1	Ramlibacter humi	310	611	43.3	60.9	1.4e-71
+475	TR	A0A8J4ECA0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Virgisporangium ochraceum OX=65505 GN=ispH PE=3 SV=1	Virgisporangium ochraceum	333	613	40.3	61.3	1.4e-71
+476	TR	S2YTK7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. HGB0020 OX=1078086 GN=ispH PE=3 SV=1	Streptomyces sp. HGB0020	333	613	41.9	63.5	1.4e-71
+477	TR	A0A3Q8T6S2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rickettsiales endosymbiont of Stachyamoeba lipophora OX=2486578 GN=ispH PE=3 SV=1	Rickettsiales endosymbiont of Stachyamoeba lipophora	311	611	41.0	61.0	1.4e-71
+478	TR	A0A5B1CJ88	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rubripirellula obstinata OX=406547 GN=ispH PE=3 SV=1	Rubripirellula obstinata	368	616	42.6	61.6	1.4e-71
+479	TR	A0A2U8GNA8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Parazoarcus communis OX=41977 GN=ispH PE=3 SV=1	Parazoarcus communis	312	611	42.9	60.1	1.5e-71
+480	TR	A0A1J4PZM8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces malaysiense OX=1428626 GN=ispH PE=3 SV=1	Streptomyces malaysiense	335	613	41.1	63.6	1.5e-71
+481	TR	S3B2W0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. HPH0547 OX=1203592 GN=ispH PE=3 SV=1	Streptomyces sp. HPH0547	358	615	44.2	66.2	1.5e-71
+482	TR	A0A0H5CTW6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Alloactinosynnema sp. L-07 OX=1653480 GN=ispH PE=3 SV=1	Alloactinosynnema sp. L-07	313	611	43.7	66.8	1.5e-71
+483	TR	A0A4R2LBT4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Plasticicumulans lactativorans OX=1133106 GN=ispH PE=3 SV=1	Plasticicumulans lactativorans	313	611	48.0	64.7	1.5e-71
+484	TR	A0A7R6R8A8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Fluviibacter phosphoraccumulans OX=1751046 GN=ispH PE=3 SV=1	Fluviibacter phosphoraccumulans	313	611	43.6	60.7	1.5e-71
+485	SP	B0UV08	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Histophilus somni (strain 2336) OX=228400 GN=ispH PE=3 SV=1	Histophilus somni (strain 2336)	314	611	42.4	62.3	1.6e-71
+486	TR	A0A379CE06	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Phocoenobacter uteri OX=146806 GN=ispH PE=3 SV=1	Phocoenobacter uteri	314	611	42.9	62.3	1.6e-71
+487	TR	A0A0U4WT58	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudomonas oryzihabitans OX=47885 GN=ispH PE=3 SV=1	Pseudomonas oryzihabitans	314	611	42.7	61.2	1.6e-71
+488	TR	A0A8J2XX13	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Oxalicibacterium flavum OX=179467 GN=ispH2 PE=3 SV=1	Oxalicibacterium flavum	314	611	43.1	60.8	1.6e-71
+489	TR	I3DFA4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pasteurella bettyae CCUG 2042 OX=1095749 GN=ispH PE=3 SV=1	Pasteurella bettyae CCUG 2042	314	611	43.5	63.2	1.6e-71
+490	TR	A0A7W8IEL1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Edaphobacter lichenicola OX=2051959 GN=ispH PE=3 SV=1	Edaphobacter lichenicola	337	613	41.8	63.0	1.6e-71
+491	TR	A0A9J6RMS8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Dasania phycosphaerae OX=2950436 GN=ispH PE=3 SV=1	Dasania phycosphaerae	315	611	42.0	61.2	1.6e-71
+492	TR	A0A944IP36	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. ISL-12 OX=2819177 GN=ispH PE=3 SV=1	Streptomyces sp. ISL-12	338	613	41.5	61.7	1.6e-71
+493	TR	A0A1W7CVM9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces marincola OX=2878388 GN=ispH PE=3 SV=1	Streptomyces marincola	327	612	44.6	65.6	1.7e-71
+494	TR	A0A1F1L731	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium sp. HMSC04H06 OX=1581050 GN=ispH PE=3 SV=1	Corynebacterium sp. HMSC04H06	328	612	44.2	66.1	1.7e-71
+495	TR	A0A212TH41	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Polynucleobacter victoriensis OX=2049319 GN=ispH PE=3 SV=1	Polynucleobacter victoriensis	317	611	42.5	59.4	1.7e-71
+496	TR	A0A0K9XFI3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces caatingaensis OX=1678637 GN=ispH PE=3 SV=1	Streptomyces caatingaensis	329	612	43.4	63.8	1.8e-71
+497	SP	B0U064	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella philomiragia subsp. philomiragia (strain ATCC 25017 / CCUG 19701 / FSC 153 / O#319-036) OX=484022 GN=ispH PE=3 SV=1	Francisella philomiragia subsp. philomiragia (strain ATCC 25017 / CCUG 19701 / FSC 153 / O#319-036)	318	611	39.9	62.3	1.8e-71
+498	TR	A0A0G3HI40	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium uterequi OX=1072256 GN=ispH PE=3 SV=1	Corynebacterium uterequi	318	611	45.3	67.2	1.8e-71
+499	TR	A0A177NJY5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylomonas lenta OX=980561 GN=ispH PE=3 SV=1	Methylomonas lenta	318	611	42.9	60.6	1.8e-71
+500	TR	A0A7K1FIZ5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nakamurella alba OX=2665158 GN=ispH PE=3 SV=1	Nakamurella alba	330	612	40.8	61.1	1.8e-71
+501	TR	A0A1N6L1T0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia phenazinium OX=60549 GN=ispH PE=3 SV=1	Paraburkholderia phenazinium	319	611	42.0	61.6	1.8e-71
+502	TR	A0A6S7BID8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia ultramafica OX=1544867 GN=ispH_2 PE=3 SV=1	Paraburkholderia ultramafica	319	611	42.3	61.3	1.8e-71
+503	TR	A0A916GTX7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylophilaceae bacterium OX=2030816 GN=ispH/lytB PE=3 SV=1	Methylophilaceae bacterium	308	610	43.6	62.6	1.8e-71
+504	TR	A0A418YAC6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Motilimonas pumila OX=2303987 GN=ispH PE=3 SV=1	Motilimonas pumila	309	610	41.8	62.2	1.9e-71
+505	TR	J1S988	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces auratus AGR0001 OX=1160718 GN=ispH PE=3 SV=1	Streptomyces auratus AGR0001	343	613	41.6	62.2	1.9e-71
+506	TR	A0A3D8JP78	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Trinickia dinghuensis OX=2291023 GN=ispH PE=3 SV=1	Trinickia dinghuensis	321	611	42.3	61.6	1.9e-71
+507	TR	A0A518IPT6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rosistilla oblonga OX=2527990 GN=ispH PE=3 SV=1	Rosistilla oblonga	310	610	41.6	59.7	1.9e-71
+508	TR	A0A853BZG8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nocardioides thalensis OX=1914755 GN=ispH PE=3 SV=1	Nocardioides thalensis	333	612	43.7	65.0	2e-71
+509	TR	A0A0N1A724	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=beta proteobacterium AAP65 OX=1523424 GN=ispH PE=3 SV=1	beta proteobacterium AAP65	322	611	44.1	59.7	2e-71
+510	TR	A0A941EI37	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinospica acidithermotolerans OX=2828514 GN=ispH PE=3 SV=1	Actinospica acidithermotolerans	322	611	45.0	63.5	2e-71
+511	TR	A0A916M9A5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Myxococcaceae bacterium OX=2484252 GN=ispH/lytB PE=3 SV=1	Myxococcaceae bacterium	311	610	43.6	63.6	2e-71
+512	TR	A0A177QX94	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Betaproteobacteria bacterium SCGC AG-212-J23 OX=1799662 GN=ispH PE=3 SV=1	Betaproteobacteria bacterium SCGC AG-212-J23	311	610	44.6	60.7	2e-71
+513	TR	A0A1D9MKY4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Boudabousia tangfeifanii OX=1912795 GN=ispH PE=3 SV=1	Boudabousia tangfeifanii	334	612	41.3	61.8	2e-71
+514	TR	A0A0Q9YQL2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Berkiella cookevillensis OX=437022 GN=ispH PE=3 SV=1	Candidatus Berkiella cookevillensis	334	612	41.1	62.5	2e-71
+515	TR	V6KJU2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces roseochromogenus subsp. oscitans DS 12.976 OX=1352936 GN=ispH PE=3 SV=1	Streptomyces roseochromogenus subsp. oscitans DS 12.976	357	614	41.1	63.6	2e-71
+516	TR	A0A1M7QRM6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Cryptosporangium aurantiacum OX=134849 GN=ispH PE=3 SV=1	Cryptosporangium aurantiacum	323	611	41.5	62.3	2.1e-71
+517	TR	A0A8D4IXX6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mergibacter septicus OX=221402 GN=ispH PE=3 SV=1	Mergibacter septicus	312	610	43.2	60.1	2.1e-71
+518	TR	A0A235EXJ9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thauera propionica OX=2019431 GN=ispH PE=3 SV=1	Thauera propionica	312	610	42.9	60.7	2.1e-71
+519	TR	A0A4S4AN27	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudothauera rhizosphaerae OX=2565932 GN=ispH PE=3 SV=1	Pseudothauera rhizosphaerae	312	610	42.5	60.4	2.1e-71
+520	TR	A0A2S1SWI7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces tirandamycinicus OX=2174846 GN=ispH PE=3 SV=1	Streptomyces tirandamycinicus	326	611	42.8	64.1	2.3e-71
+521	SP	Q9FBM1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 GN=ispH PE=3 SV=2	Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)	338	612	41.1	63.3	2.3e-71
+522	TR	A0A7X1I815	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces mexicanus OX=178566 GN=ispH PE=3 SV=1	Streptomyces mexicanus	338	612	41.9	62.9	2.3e-71
+523	TR	A0A918P8K2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces poonensis OX=68255 GN=ispH PE=3 SV=1	Streptomyces poonensis	338	612	40.8	63.0	2.3e-71
+524	TR	A0A7K3GFD2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID5789 OX=2690310 GN=ispH PE=3 SV=1	Streptomyces sp. SID5789	338	612	41.1	63.0	2.3e-71
+525	TR	A0A1B8QKI1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Moraxella atlantae OX=34059 GN=ispH PE=3 SV=1	Moraxella atlantae	316	610	43.4	62.3	2.3e-71
+526	TR	A0A4R4KVD6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. KC723 OX=2530381 GN=ispH PE=3 SV=1	Micromonospora sp. KC723	328	611	44.3	66.4	2.4e-71
+527	TR	A0A1E7KCA0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces qinglanensis OX=943816 GN=ispH PE=3 SV=1	Streptomyces qinglanensis	317	610	45.5	66.9	2.4e-71
+528	TR	E8WXM8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Granulicella tundricola (strain ATCC BAA-1859 / DSM 23138 / MP5ACTX9) OX=1198114 GN=ispH PE=3 SV=1	Granulicella tundricola (strain ATCC BAA-1859 / DSM 23138 / MP5ACTX9)	340	612	40.5	60.4	2.4e-71
+529	TR	A0A1G9P2Z4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces wuyuanensis OX=1196353 GN=ispH PE=3 SV=1	Streptomyces wuyuanensis	329	611	42.8	64.5	2.5e-71
+530	TR	A0A140E3V3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylomonas denitrificans OX=1538553 GN=ispH PE=3 SV=1	Methylomonas denitrificans	318	610	45.4	63.8	2.5e-71
+531	TR	A0A7Z1AVF6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinophytocola xinjiangensis OX=485602 GN=ispH PE=3 SV=1	Actinophytocola xinjiangensis	330	611	43.7	66.7	2.5e-71
+532	TR	A0A6J5AY67	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia sediminicola OX=458836 GN=ispH_2 PE=3 SV=1	Paraburkholderia sediminicola	319	610	42.3	61.3	2.6e-71
+533	TR	A0A4U1HRZ9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Trinickia terrae OX=2571161 GN=ispH PE=3 SV=1	Trinickia terrae	319	610	41.6	62.0	2.6e-71
+534	TR	A0A972NZP3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia elongata OX=2675747 GN=ispH PE=3 SV=1	Paraburkholderia elongata	319	610	42.0	61.3	2.6e-71
+535	TR	A0A9X1RQ88	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia tagetis OX=2913261 GN=ispH PE=3 SV=1	Paraburkholderia tagetis	319	610	42.3	62.0	2.6e-71
+536	TR	A0A4Y4DYX5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Glutamicibacter uratoxydans OX=43667 GN=lytB PE=3 SV=1	Glutamicibacter uratoxydans	365	614	41.6	63.5	2.6e-71
+537	TR	A0A0F6TDM8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium kutscheri OX=35755 GN=ispH PE=3 SV=1	Corynebacterium kutscheri	331	611	44.5	63.7	2.6e-71
+538	TR	A0A0Q6W2U8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. Root351 OX=1736522 GN=ispH PE=3 SV=1	Massilia sp. Root351	320	610	43.8	59.4	2.6e-71
+539	TR	A0A0M4M3T4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Pseudothioglobus singularis PS1 OX=1125411 GN=ispH PE=3 SV=1	Candidatus Pseudothioglobus singularis PS1	309	609	42.3	64.8	2.7e-71
+540	TR	A6GTP8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Limnobacter sp. MED105 OX=391597 GN=ispH PE=3 SV=1	Limnobacter sp. MED105	309	609	43.6	59.1	2.7e-71
+541	TR	A0A9W4VZ36	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudoalteromonas sp. CIP111854 OX=2963714 GN=ispH PE=3 SV=1	Pseudoalteromonas sp. CIP111854	309	609	42.8	60.2	2.7e-71
+542	TR	A0A938Y851	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nocardioides faecalis OX=2803858 GN=ispH PE=3 SV=1	Nocardioides faecalis	332	611	42.7	61.2	2.7e-71
+543	TR	A0A2N7VGF1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Trinickia soli OX=380675 GN=ispH PE=3 SV=1	Trinickia soli	321	610	42.6	62.3	2.7e-71
+544	TR	A0A923S9M3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter cellulosilyticus OX=2764187 GN=ispH PE=3 SV=1	Ramlibacter cellulosilyticus	311	609	43.0	62.1	2.8e-71
+545	TR	A0A3S4Y064	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Arachnia propionica OX=1750 GN=ispH PE=3 SV=1	Arachnia propionica	345	612	44.1	66.1	2.8e-71
+546	TR	A0A411YLM3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Egibacter rhizosphaerae OX=1670831 GN=ispH PE=3 SV=1	Egibacter rhizosphaerae	312	609	41.8	61.1	2.9e-71
+547	TR	A0A6H0CS37	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. DSM 40868 OX=2721173 GN=ispH PE=3 SV=1	Streptomyces sp. DSM 40868	335	611	42.3	62.3	3e-71
+548	TR	A0A1C5GEY4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora echinofusca OX=47858 GN=ispH PE=3 SV=1	Micromonospora echinofusca	324	610	44.4	65.5	3e-71
+549	TR	A0A2U2ZZU2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. Act143 OX=2200760 GN=ispH PE=3 SV=1	Streptomyces sp. Act143	336	611	41.1	62.7	3.1e-71
+550	TR	A0A1V2QD13	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharothrix sp. ALI-22-I OX=1933778 GN=ispH PE=3 SV=1	Saccharothrix sp. ALI-22-I	314	609	39.8	64.7	3.1e-71
+551	TR	G4SXP9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylotuvimicrobium alcaliphilum (strain DSM 19304 / NCIMB 14124 / VKM B-2133 / 20Z) OX=1091494 GN=ispH PE=3 SV=1	Methylotuvimicrobium alcaliphilum (strain DSM 19304 / NCIMB 14124 / VKM B-2133 / 20Z)	314	609	44.7	63.1	3.1e-71
+552	TR	A0A291GN16	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Brachybacterium vulturis OX=2017484 GN=ispH PE=3 SV=1	Brachybacterium vulturis	337	611	39.9	64.6	3.1e-71
+553	TR	A0A0M2K0X4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium obuense OX=1807 GN=ispH PE=3 SV=1	Mycolicibacterium obuense	337	611	41.2	62.6	3.1e-71
+554	TR	A0A419HET3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudonocardiaceae bacterium YIM PH 21723 OX=2340915 GN=ispH PE=3 SV=1	Pseudonocardiaceae bacterium YIM PH 21723	326	610	39.8	62.4	3.2e-71
+555	TR	A0A3A1YG46	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Psittacicella hinzii OX=2028575 GN=ispH PE=3 SV=1	Psittacicella hinzii	315	609	42.9	60.4	3.2e-71
+556	TR	A0A101V3J5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces dysideae OX=909626 GN=ispH PE=3 SV=1	Streptomyces dysideae	338	611	40.8	63.3	3.2e-71
+557	TR	A0A919CXA8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces naganishii JCM 4654 OX=1306179 GN=ispH PE=3 SV=1	Streptomyces naganishii JCM 4654	338	611	41.9	63.5	3.2e-71
+558	TR	A0A2P8AYL1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. MH33 OX=1945509 GN=ispH1 PE=3 SV=1	Micromonospora sp. MH33	327	610	41.6	62.2	3.3e-71
+559	TR	A0A1C5H7W2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora halophytica OX=47864 GN=ispH PE=3 SV=1	Micromonospora halophytica	316	609	43.8	64.7	3.3e-71
+560	TR	A0A1Z4BV38	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylovulum psychrotolerans OX=1704499 GN=ispH PE=3 SV=1	Methylovulum psychrotolerans	316	609	42.9	60.6	3.3e-71
+561	TR	A0A1X4HWU8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. 13-12-16 OX=1570823 GN=ispH PE=3 SV=1	Streptomyces sp. 13-12-16	339	611	41.1	62.7	3.3e-71
+562	TR	A0A3A9Z6E8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora endolithica OX=230091 GN=ispH PE=3 SV=1	Micromonospora endolithica	328	610	44.2	65.7	3.4e-71
+563	TR	A0A1M5IWA2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptoalloteichus hindustanus OX=2017 GN=ispH PE=3 SV=1	Streptoalloteichus hindustanus	329	610	44.1	66.5	3.5e-71
+564	TR	A0A2R5FB28	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Novimethylophilus kurashikiensis OX=1825523 GN=ispH PE=3 SV=1	Novimethylophilus kurashikiensis	307	608	43.2	61.7	3.5e-71
+565	TR	A0A918BSY9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces pilosus OX=28893 GN=ispH PE=3 SV=1	Streptomyces pilosus	341	611	41.1	63.3	3.5e-71
+566	TR	A0A0D0V2B8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora haikouensis OX=686309 GN=ispH PE=3 SV=1	Micromonospora haikouensis	330	610	44.7	66.2	3.6e-71
+567	TR	A0A4R6F4X5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia sp. BL10I2N1 OX=1938796 GN=ispH PE=3 SV=1	Paraburkholderia sp. BL10I2N1	319	609	42.0	61.3	3.6e-71
+568	TR	A0A511D6G8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudonocardia asaccharolytica DSM 44247 = NBRC 16224 OX=1123024 GN=ispH PE=3 SV=1	Pseudonocardia asaccharolytica DSM 44247 = NBRC 16224	319	609	43.6	65.8	3.6e-71
+569	TR	A0A4R0XGU7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia steynii OX=1245441 GN=ispH PE=3 SV=1	Paraburkholderia steynii	319	609	42.0	61.0	3.6e-71
+570	TR	A0A7X6HY49	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces lonarensis OX=700599 GN=ispH PE=3 SV=1	Streptomyces lonarensis	331	610	42.0	62.4	3.7e-71
+571	TR	A0A3A6U3U0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Parashewanella spongiae OX=342950 GN=ispH PE=3 SV=1	Parashewanella spongiae	309	608	44.5	64.1	3.7e-71
+572	TR	A0A7V8QGF3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ectothiorhodospiraceae bacterium WFHF3C12 OX=1914406 GN=ispH PE=3 SV=1	Ectothiorhodospiraceae bacterium WFHF3C12	332	610	41.3	59.6	3.8e-71
+573	TR	A0A1G7ZPF2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Propionivibrio dicarboxylicus OX=83767 GN=ispH PE=3 SV=1	Propionivibrio dicarboxylicus	310	608	41.9	60.7	3.9e-71
+574	TR	A0A7Y0B435	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. R302 OX=2728844 GN=ispH PE=3 SV=1	Streptomyces sp. R302	333	610	43.3	66.3	3.9e-71
+575	TR	A0A3N5AG80	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. TLI_185 OX=2485151 GN=ispH PE=3 SV=1	Streptomyces sp. TLI_185	333	610	40.8	63.6	3.9e-71
+576	TR	A0A7I9XYT5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium botniense OX=84962 GN=ispH1 PE=3 SV=1	Mycobacterium botniense	333	610	44.1	67.0	3.9e-71
+577	TR	A4SZN0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Polynucleobacter asymbioticus (strain DSM 18221 / CIP 109841 / QLW-P1DMWA-1) OX=312153 GN=ispH PE=3 SV=1	Polynucleobacter asymbioticus (strain DSM 18221 / CIP 109841 / QLW-P1DMWA-1)	311	608	41.1	61.5	4e-71
+578	TR	A0A923M828	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter albus OX=2079448 GN=ispH PE=3 SV=1	Ramlibacter albus	312	608	43.2	62.7	4.1e-71
+579	TR	A0A6I1YKI6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. RB17 OX=2585197 GN=ispH2 PE=3 SV=1	Streptomyces sp. RB17	335	610	41.3	63.9	4.2e-71
+580	TR	A1S428	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Shewanella amazonensis (strain ATCC BAA-1098 / SB2B) OX=326297 GN=ispH PE=3 SV=1	Shewanella amazonensis (strain ATCC BAA-1098 / SB2B)	313	608	44.3	64.2	4.2e-71
+581	TR	A0A6P2C7F1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Trebonia kvetii OX=2480626 GN=ispH PE=3 SV=1	Trebonia kvetii	313	608	43.8	65.0	4.2e-71
+582	TR	A0A918KB16	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces minutiscleroticus OX=68238 GN=ispH PE=3 SV=1	Streptomyces minutiscleroticus	336	610	43.1	63.5	4.3e-71
+583	TR	A0A135I2L0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Enterovibrio coralii OX=294935 GN=ispH PE=3 SV=1	Enterovibrio coralii	314	608	43.9	64.0	4.4e-71
+584	TR	D0I806	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Grimontia hollisae CIP 101886 OX=675812 GN=ispH PE=3 SV=1	Grimontia hollisae CIP 101886	314	608	41.2	61.1	4.4e-71
+585	TR	A0A558NJ41	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thalassolituus sp. C2-1 OX=2597518 GN=ispH PE=3 SV=1	Thalassolituus sp. C2-1	314	608	43.2	60.7	4.4e-71
+586	TR	C6WTP0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylotenera mobilis (strain JLW8 / ATCC BAA-1282 / DSM 17540) OX=583345 GN=ispH PE=3 SV=1	Methylotenera mobilis (strain JLW8 / ATCC BAA-1282 / DSM 17540)	337	610	41.5	59.2	4.4e-71
+587	SP	Q62HM8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase 2 OS=Burkholderia mallei (strain ATCC 23344) OX=243160 GN=ispH2 PE=3 SV=1	Burkholderia mallei (strain ATCC 23344)	326	609	43.0	60.7	4.5e-71
+588	SP	Q63WH0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase 1 OS=Burkholderia pseudomallei (strain K96243) OX=272560 GN=ispH1 PE=3 SV=1	Burkholderia pseudomallei (strain K96243)	326	609	43.0	60.7	4.5e-71
+589	TR	A0A063BI53	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Burkholderia sp. lig30 OX=1192124 GN=ispH PE=3 SV=1	Burkholderia sp. lig30	326	609	42.6	60.7	4.5e-71
+590	TR	C8XKL7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nakamurella multipartita (strain ATCC 700099 / DSM 44233 / CIP 104796 / JCM 9543 / NBRC 105858 / Y-104) OX=479431 GN=ispH PE=3 SV=1	Nakamurella multipartita (strain ATCC 700099 / DSM 44233 / CIP 104796 / JCM 9543 / NBRC 105858 / Y-104)	326	609	41.3	62.6	4.5e-71
+591	TR	A0A103DW88	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Burkholderia singularis OX=1503053 GN=ispH PE=3 SV=1	Burkholderia singularis	326	609	42.6	61.0	4.5e-71
+592	TR	A0A1W1YFR3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Polynucleobacter kasalickyi OX=1938817 GN=ispH PE=3 SV=1	Polynucleobacter kasalickyi	315	608	45.5	60.7	4.5e-71
+593	TR	A0A1S6J7R0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces pactum OX=68249 GN=ispH PE=3 SV=1	Streptomyces pactum	338	610	40.5	63.3	4.6e-71
+594	TR	A0A6B3AEH4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID8111 OX=2706100 GN=ispH PE=3 SV=1	Streptomyces sp. SID8111	338	610	41.5	62.7	4.6e-71
+595	TR	A0A918G9R3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces niveoruber OX=68243 GN=ispH PE=3 SV=1	Streptomyces niveoruber	338	610	41.1	62.0	4.6e-71
+596	TR	C1F698	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Acidobacterium capsulatum (strain ATCC 51196 / DSM 11244 / BCRC 80197 / JCM 7670 / NBRC 15755 / NCIMB 13165 / 161) OX=240015 GN=ispH PE=3 SV=1	Acidobacterium capsulatum (strain ATCC 51196 / DSM 11244 / BCRC 80197 / JCM 7670 / NBRC 15755 / NCIMB 13165 / 161)	338	610	40.3	62.3	4.6e-71
+597	TR	A0A0Q6SHQ9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. Root335 OX=1736517 GN=ispH PE=3 SV=1	Massilia sp. Root335	316	608	43.8	61.4	4.6e-71
+598	TR	A0A494V4J3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces fungicidicus OX=68203 GN=ispH PE=3 SV=1	Streptomyces fungicidicus	339	610	40.8	63.3	4.7e-71
+599	TR	A0A7M2T216	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces chromofuscus OX=42881 GN=ispH PE=3 SV=1	Streptomyces chromofuscus	339	610	41.9	62.9	4.7e-71
+600	TR	A0A4R3MYY8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thiobaca trueperi OX=127458 GN=ispH PE=3 SV=1	Thiobaca trueperi	317	608	43.0	60.5	4.8e-71
+601	TR	A0A418XPV2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia cavernae OX=2320864 GN=ispH PE=3 SV=1	Massilia cavernae	317	608	43.2	60.7	4.8e-71
+602	TR	A0A2P5KE55	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycetohabitans endofungorum OX=417203 GN=ispH PE=3 SV=1	Mycetohabitans endofungorum	317	608	43.7	58.9	4.8e-71
+603	TR	A0A2W2EA52	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora craterilacus OX=1655439 GN=ispH PE=3 SV=1	Micromonospora craterilacus	329	609	42.8	63.0	4.9e-71
+604	TR	A0A7M3M760	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SAJ15 OX=2011095 GN=ispH PE=3 SV=1	Streptomyces sp. SAJ15	329	609	41.6	63.2	4.9e-71
+605	TR	A0A1A9AEP1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora narathiwatensis OX=299146 GN=ispH PE=3 SV=1	Micromonospora narathiwatensis	329	609	41.9	62.9	4.9e-71
+606	TR	A0A8J4DXM8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Virgisporangium aurantiacum OX=175570 GN=lytB PE=3 SV=1	Virgisporangium aurantiacum	329	609	39.3	62.3	4.9e-71
+607	TR	A0A5C5Z786	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Planctomycetes bacterium CA13 OX=2527986 GN=ispH PE=3 SV=1	Planctomycetes bacterium CA13	318	608	41.7	61.5	4.9e-71
+608	TR	A0A5N5V2A7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium phlei DSM 43239 = CCUG 21000 OX=1226750 GN=ispH PE=3 SV=1	Mycolicibacterium phlei DSM 43239 = CCUG 21000	318	608	41.1	64.1	4.9e-71
+609	TR	A0A0N9HTL2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kibdelosporangium phytohabitans OX=860235 GN=ispH PE=3 SV=1	Kibdelosporangium phytohabitans	318	608	39.9	61.7	4.9e-71
+610	TR	A0A497XBF4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfurisoma sediminicola OX=1381557 GN=ispH PE=3 SV=1	Sulfurisoma sediminicola	307	607	44.7	60.5	4.9e-71
+611	TR	B2JE02	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia phymatum (strain DSM 17167 / CIP 108236 / LMG 21445 / STM815) OX=391038 GN=ispH PE=3 SV=1	Paraburkholderia phymatum (strain DSM 17167 / CIP 108236 / LMG 21445 / STM815)	319	608	41.6	61.3	5.1e-71
+612	TR	A0A6J5FSG2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia caffeinitolerans OX=1723730 GN=ispH_1 PE=3 SV=1	Paraburkholderia caffeinitolerans	319	608	42.3	61.6	5.1e-71
+613	TR	A0A9W6US01	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinomadura rubrobrunea OX=115335 GN=ispH PE=3 SV=1	Actinomadura rubrobrunea	319	608	42.1	62.8	5.1e-71
+614	TR	A0A843RCH8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kiloniellaceae bacterium OX=2480820 GN=ispH PE=3 SV=1	Kiloniellaceae bacterium	319	608	41.4	62.5	5.1e-71
+615	TR	A0A6G9GXV6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces liangshanensis OX=2717324 GN=ispH PE=3 SV=1	Streptomyces liangshanensis	342	610	42.5	62.0	5.1e-71
+616	TR	A0A4R2R3R7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Tamaricihabitans halophyticus OX=1262583 GN=ispH PE=3 SV=1	Tamaricihabitans halophyticus	320	608	43.0	67.4	5.2e-71
+617	TR	A0A1X0DRN1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium heidelbergense OX=53376 GN=ispH PE=3 SV=1	Mycobacterium heidelbergense	332	609	44.6	64.9	5.4e-71
+618	TR	E3ITL3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudofrankia inefficax (strain DSM 45817 / CECT 9037 / DDB 130130 / EuI1c) OX=298654 GN=ispH PE=3 SV=1	Pseudofrankia inefficax (strain DSM 45817 / CECT 9037 / DDB 130130 / EuI1c)	321	608	42.6	63.8	5.4e-71
+619	TR	A0A517MMN2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Roseimaritima multifibrata OX=1930274 GN=ispH PE=3 SV=1	Roseimaritima multifibrata	310	607	41.6	60.3	5.4e-71
+620	TR	A0A0L8L4C5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces resistomycificus OX=67356 GN=ispH PE=3 SV=1	Streptomyces resistomycificus	333	609	40.5	63.9	5.5e-71
+621	TR	F0F010	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kingella denitrificans ATCC 33394 OX=888741 GN=ispH PE=3 SV=1	Kingella denitrificans ATCC 33394	311	607	42.3	60.6	5.6e-71
+622	TR	A0A919B675	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces mashuensis OX=33904 GN=ispH PE=3 SV=1	Streptomyces mashuensis	345	610	42.6	63.2	5.6e-71
+623	TR	A0A6N4WAY3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium anyangense OX=1431246 GN=ispH PE=3 SV=1	Mycolicibacterium anyangense	334	609	42.4	62.8	5.7e-71
+624	TR	A0A0X3XIG7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. NRRL WC-3605 OX=1609103 GN=ispH PE=3 SV=1	Streptomyces sp. NRRL WC-3605	334	609	41.1	62.3	5.7e-71
+625	TR	A0A0H4C0C9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. PBH53 OX=1577075 GN=ispH PE=3 SV=1	Streptomyces sp. PBH53	335	609	41.3	63.9	5.9e-71
+626	TR	A0A517R616	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Stratiformator vulcanicus OX=2527980 GN=ispH PE=3 SV=1	Stratiformator vulcanicus	313	607	42.7	63.1	5.9e-71
+627	TR	A0A0D1LAZ1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium llatzerense OX=280871 GN=ispH PE=3 SV=1	Mycolicibacterium llatzerense	336	609	44.4	65.6	6e-71
+628	TR	A0A0A3AK78	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Chelonobacter oris OX=505317 GN=ispH PE=3 SV=1	Chelonobacter oris	314	607	42.3	63.2	6.1e-71
+629	TR	A0A366WAE1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Psychromonas sp. B3M02 OX=2267226 GN=ispH PE=3 SV=1	Psychromonas sp. B3M02	314	607	41.5	61.5	6.1e-71
+630	TR	A0A918YPM6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces alanosinicus OX=68171 GN=ispH PE=3 SV=1	Streptomyces alanosinicus	326	608	43.9	64.3	6.3e-71
+631	TR	W0V3E9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Janthinobacterium agaricidamnosum NBRC 102515 = DSM 9628 OX=1349767 GN=ispH PE=3 SV=1	Janthinobacterium agaricidamnosum NBRC 102515 = DSM 9628	315	607	43.2	61.0	6.3e-71
+632	TR	A0A0B5D6E8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium humireducens NBRC 106098 = DSM 45392 OX=1223515 GN=ispH PE=3 SV=1	Corynebacterium humireducens NBRC 106098 = DSM 45392	315	607	44.1	64.1	6.3e-71
+633	TR	A0A9J7ADC4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bacterioplanoides sp. SCSIO 12839 OX=2829569 GN=ispH PE=3 SV=1	Bacterioplanoides sp. SCSIO 12839	315	607	42.8	59.8	6.3e-71
+634	TR	A0A101PBR4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces yokosukanensis OX=67386 GN=ispH PE=3 SV=1	Streptomyces yokosukanensis	338	609	41.1	61.7	6.4e-71
+635	TR	A0A4P6TZN2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces seoulensis OX=73044 GN=ispH PE=3 SV=1	Streptomyces seoulensis	338	609	41.1	62.7	6.4e-71
+636	TR	A0A3M0IFQ7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces shenzhenensis OX=943815 GN=ispH PE=3 SV=1	Streptomyces shenzhenensis	338	609	41.1	62.7	6.4e-71
+637	TR	A0AA44IDI0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces somaliensis (strain ATCC 33201 / DSM 40738 / JCM 12659 / KCTC 9044 / NCTC 11332 / NRRL B-12077 / IP 733) OX=1134445 GN=ispH PE=3 SV=1	Streptomyces somaliensis (strain ATCC 33201 / DSM 40738 / JCM 12659 / KCTC 9044 / NCTC 11332 / NRRL B-12077 / IP 733)	327	608	41.9	63.9	6.5e-71
+638	TR	A0A124ED93	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces kanasensis OX=936756 GN=ispH PE=3 SV=1	Streptomyces kanasensis	327	608	41.6	63.2	6.5e-71
+639	TR	A0A246RQW6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora wenchangensis OX=1185415 GN=ispH PE=3 SV=1	Micromonospora wenchangensis	327	608	45.4	66.1	6.5e-71
+640	TR	A0A1G9BEJ5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces indicus OX=417292 GN=ispH PE=3 SV=1	Streptomyces indicus	327	608	42.1	63.5	6.5e-71
+641	TR	N8ZL60	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Acinetobacter gerneri DSM 14967 = CIP 107464 = MTCC 9824 OX=1120926 GN=ispH PE=3 SV=1	Acinetobacter gerneri DSM 14967 = CIP 107464 = MTCC 9824	316	607	41.4	62.5	6.5e-71
+642	TR	A0A1I5PQW4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis arida OX=587909 GN=ispH PE=3 SV=1	Amycolatopsis arida	316	607	45.1	66.0	6.5e-71
+643	TR	A0A5Q3Q2J5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Allosaccharopolyspora coralli OX=2665642 GN=ispH PE=3 SV=1	Allosaccharopolyspora coralli	339	609	44.1	65.8	6.6e-71
+644	TR	A0A917N6T3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharopolyspora subtropica OX=1530170 GN=lytB PE=3 SV=1	Saccharopolyspora subtropica	339	609	41.6	63.3	6.6e-71
+645	TR	A0A8J3FY62	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Longimycelium tulufanense OX=907463 GN=lytB PE=3 SV=1	Longimycelium tulufanense	328	608	43.4	66.2	6.7e-71
+646	TR	A0A8J3ACQ7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Egicoccus halophilus OX=1670830 GN=ispH PE=3 SV=1	Egicoccus halophilus	317	607	43.4	65.2	6.7e-71
+647	SP	Q47BK8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Dechloromonas aromatica (strain RCB) OX=159087 GN=ispH PE=3 SV=1	Dechloromonas aromatica (strain RCB)	306	606	40.7	61.6	6.8e-71
+648	TR	A0A1I2RWZ3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium spheniscorum OX=185761 GN=ispH PE=3 SV=1	Corynebacterium spheniscorum	340	609	42.7	61.8	6.8e-71
+649	TR	A0A6I5W5U3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. WMMC415 OX=2675222 GN=ispH PE=3 SV=1	Micromonospora sp. WMMC415	329	608	44.5	65.0	6.9e-71
+650	TR	A0A941EQJ6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinospica durhamensis OX=1508375 GN=ispH PE=3 SV=1	Actinospica durhamensis	330	608	44.7	63.8	7.1e-71
+651	TR	A0A1G6RBB2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinokineospora iranica OX=1271860 GN=ispH PE=3 SV=1	Actinokineospora iranica	319	607	43.4	66.2	7.1e-71
+652	TR	A0A1A5P6Q4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. H-KF8 OX=1727216 GN=ispH PE=3 SV=1	Streptomyces sp. H-KF8	342	609	41.1	63.0	7.2e-71
+653	TR	A0A926JD48	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. TRM68367 OX=2758415 GN=ispH PE=3 SV=1	Streptomyces sp. TRM68367	342	609	40.2	63.6	7.2e-71
+654	TR	A0A9W6QQH0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinokineospora globicatena OX=103729 GN=lytB PE=3 SV=1	Actinokineospora globicatena	320	607	43.7	66.7	7.4e-71
+655	TR	A0A1S1RJA6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Parafrankia soli OX=2599596 GN=ispH PE=3 SV=1	Parafrankia soli	320	607	40.9	62.6	7.4e-71
+656	TR	A0A4Q7UQE5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudonocardia sediminis OX=1397368 GN=ispH PE=3 SV=1	Pseudonocardia sediminis	320	607	41.7	62.5	7.4e-71
+657	TR	A0A1H8MHL9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Duganella sp. CF517 OX=1881038 GN=ispH PE=3 SV=1	Duganella sp. CF517	320	607	43.8	60.7	7.4e-71
+658	TR	A0A4P6VX57	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rheinheimera sp. D18 OX=2545632 GN=ispH PE=3 SV=1	Rheinheimera sp. D18	309	606	43.1	61.5	7.4e-71
+659	TR	I9NYX3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Alishewanella agri BL06 OX=1195246 GN=ispH PE=3 SV=1	Alishewanella agri BL06	309	606	43.6	65.0	7.4e-71
+660	TR	A0A975AM09	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Shewanella cyperi OX=2814292 GN=ispH PE=3 SV=1	Shewanella cyperi	309	606	44.8	62.6	7.4e-71
+661	TR	A0A1D2IJF6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. AVP053U2 OX=1737066 GN=ispH PE=3 SV=1	Streptomyces sp. AVP053U2	378	612	41.8	63.0	7.5e-71
+662	TR	A0A4S4ZQI7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nocardioides sp. OX=35761 GN=ispH PE=3 SV=1	Nocardioides sp.	332	608	44.2	65.0	7.5e-71
+663	TR	A0A1X7H2R8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Trinickia caryophylli OX=28094 GN=ispH PE=3 SV=1	Trinickia caryophylli	321	607	42.0	61.6	7.6e-71
+664	TR	A0A2M9MGE3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. CB02959 OX=2020330 GN=ispH PE=3 SV=1	Streptomyces sp. CB02959	333	608	40.8	61.8	7.8e-71
+665	TR	A0A177IRV5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium stationis OX=1705 GN=ispH PE=3 SV=1	Corynebacterium stationis	333	608	42.1	63.8	7.8e-71
+666	TR	A0A562R628	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudoduganella lurida OX=1036180 GN=ispH PE=3 SV=1	Pseudoduganella lurida	322	607	43.2	60.3	7.8e-71
+667	TR	A0A6M4A9S2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Undibacterium piscinae OX=2495591 GN=ispH PE=3 SV=1	Undibacterium piscinae	311	606	43.9	61.0	7.9e-71
+668	TR	A0A0X3S901	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. NRRL F-5122 OX=1609098 GN=ispH PE=3 SV=1	Streptomyces sp. NRRL F-5122	334	608	41.3	63.5	8e-71
+669	TR	A0A7Z2JG41	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia acidisoli OX=2571748 GN=ispH PE=3 SV=1	Paraburkholderia acidisoli	323	607	43.0	60.3	8.1e-71
+670	TR	D6Y7P9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thermobispora bispora (strain ATCC 19993 / DSM 43833 / CBS 139.67 / JCM 10125 / KCTC 9307 / NBRC 14880 / R51) OX=469371 GN=ispH PE=3 SV=1	Thermobispora bispora (strain ATCC 19993 / DSM 43833 / CBS 139.67 / JCM 10125 / KCTC 9307 / NBRC 14880 / R51)	323	607	41.3	64.2	8.1e-71
+671	TR	A0A6N4T2G4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Undibacterium sp. KW1 OX=2058624 GN=ispH2 PE=3 SV=1	Undibacterium sp. KW1	312	606	43.5	60.7	8.1e-71
+672	TR	A0A812R0F4	IspH protein OS=Symbiodinium sp. CCMP2456 OX=1519616 GN=ispH PE=3 SV=1	Symbiodinium sp. CCMP2456	312	606	42.6	61.4	8.1e-71
+673	TR	A0A6F8Y1C1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Phytohabitans flavus OX=1076124 GN=ispH PE=3 SV=1	Phytohabitans flavus	335	608	44.6	66.1	8.2e-71
+674	TR	A0A510T711	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. 1-11 OX=2590549 GN=ispH PE=3 SV=1	Streptomyces sp. 1-11	335	608	41.3	63.2	8.2e-71
+675	TR	A0A2W2L080	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. NTH33 OX=1735453 GN=ispH PE=3 SV=1	Streptomyces sp. NTH33	335	608	41.3	63.5	8.2e-71
+676	TR	A0A095Y0I8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium freneyi DNF00450 OX=1287475 GN=ispH PE=3 SV=1	Corynebacterium freneyi DNF00450	325	607	43.8	63.4	8.6e-71
+677	TR	A0A8J4DGV0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Spirilliplanes yamanashiensis OX=42233 GN=ispH PE=3 SV=1	Spirilliplanes yamanashiensis	325	607	40.4	62.8	8.6e-71
+678	TR	A0A941DMT5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Undibacterium luofuense OX=2828733 GN=ispH PE=3 SV=1	Undibacterium luofuense	314	606	43.2	60.4	8.6e-71
+679	TR	A0A0J1G813	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. WF1 OX=1406431 GN=ispH PE=3 SV=1	Massilia sp. WF1	314	606	43.8	61.0	8.6e-71
+680	TR	A0A1V3ISH8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rodentibacter rarus OX=1908260 GN=ispH PE=3 SV=1	Rodentibacter rarus	314	606	42.2	61.0	8.6e-71
+681	TR	A0A1W6SLN1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrosospira lacus OX=1288494 GN=ispH PE=3 SV=1	Nitrosospira lacus	314	606	44.2	63.3	8.6e-71
+682	TR	A0A2Y9TWV6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Limnobaculum parvum OX=2172103 GN=ispH PE=3 SV=1	Limnobaculum parvum	314	606	41.2	61.7	8.6e-71
+683	TR	A0A7G7BIM6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces finlayi OX=67296 GN=ispH PE=3 SV=1	Streptomyces finlayi	326	607	41.9	62.6	8.8e-71
+684	TR	A0A1U9JN94	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Aquaspirillum sp. LM1 OX=1938604 GN=ispH PE=3 SV=1	Aquaspirillum sp. LM1	315	606	42.0	59.9	8.9e-71
+685	TR	A0A4R3HZF1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paucimonas lemoignei OX=29443 GN=ispH PE=3 SV=1	Paucimonas lemoignei	315	606	43.2	61.0	8.9e-71
+686	TR	A0A2Z6DVX7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Hydrogenophilus thermoluteolus OX=297 GN=ispH PE=3 SV=1	Hydrogenophilus thermoluteolus	315	606	44.0	58.3	8.9e-71
+687	TR	A0A2M9IBY3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. CB01373 OX=2020325 GN=ispH PE=3 SV=1	Streptomyces sp. CB01373	338	608	41.6	63.2	9e-71
+688	TR	A0A2S2FGW3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Acinetobacter defluvii OX=1871111 GN=ispH PE=3 SV=1	Acinetobacter defluvii	316	606	40.5	62.0	9.2e-71
+689	TR	A0A6B2XIS0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID13726 OX=2706058 GN=ispH PE=3 SV=1	Streptomyces sp. SID13726	339	608	40.8	63.3	9.3e-71
+690	TR	A0A2M9G6X3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Minwuia thermotolerans OX=2056226 GN=ispH PE=3 SV=1	Minwuia thermotolerans	317	606	39.7	62.3	9.5e-71
+691	TR	A0A1G5H425	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrosospira sp. Nl5 OX=200120 GN=ispH PE=3 SV=1	Nitrosospira sp. Nl5	317	606	44.2	63.3	9.5e-71
+692	TR	A0A937D2F6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter aurantiacus OX=2801330 GN=ispH PE=3 SV=1	Ramlibacter aurantiacus	318	606	42.7	60.5	9.7e-71
+693	SP	C4K4R2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Hamiltonella defensa subsp. Acyrthosiphon pisum (strain 5AT) OX=572265 GN=ispH PE=3 SV=1	Hamiltonella defensa subsp. Acyrthosiphon pisum (strain 5AT)	319	606	42.7	62.5	1e-70
+694	TR	A0A918G2X4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinokineospora fastidiosa OX=1816 GN=lytB PE=3 SV=1	Actinokineospora fastidiosa	319	606	43.7	66.3	1e-70
+695	SP	A5CVK1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Vesicomyosocius okutanii subsp. Calyptogena okutanii (strain HA) OX=412965 GN=ispH PE=3 SV=1	Vesicomyosocius okutanii subsp. Calyptogena okutanii (strain HA)	308	605	41.6	60.7	1e-70
+696	TR	A0A483AN57	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=thiotrophic endosymbiont of Bathymodiolus puteoserpentis (Logatchev) OX=343240 GN=ispH PE=3 SV=1	thiotrophic endosymbiont of Bathymodiolus puteoserpentis (Logatchev)	308	605	43.9	63.8	1e-70
+697	TR	A0A1H6KSB3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bathymodiolus azoricus thioautotrophic gill symbiont OX=235205 GN=ispH PE=3 SV=1	Bathymodiolus azoricus thioautotrophic gill symbiont	308	605	43.9	63.8	1e-70
+698	TR	A0A5C8NLZ4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Aeromicrobium terrae OX=2498846 GN=ispH PE=3 SV=1	Aeromicrobium terrae	331	607	45.6	65.6	1e-70
+699	SP	A8H1H6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Shewanella pealeana (strain ATCC 700345 / ANG-SQ1) OX=398579 GN=ispH PE=3 SV=1	Shewanella pealeana (strain ATCC 700345 / ANG-SQ1)	309	605	44.3	63.2	1e-70
+700	TR	A0A3P3QIN3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rheinheimera mesophila OX=1547515 GN=ispH PE=3 SV=1	Rheinheimera mesophila	309	605	41.8	62.5	1e-70
+701	TR	A0A6L5QUM1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kangiella sp. HZ709 OX=2666328 GN=ispH PE=3 SV=1	Kangiella sp. HZ709	309	605	41.1	62.2	1e-70
+702	TR	F0Q0T7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paracidovorax avenae (strain ATCC 19860 / DSM 7227 / CCUG 15838 / JCM 20985 / LMG 2117 / NCPPB 1011) OX=643561 GN=ispH PE=3 SV=1	Paracidovorax avenae (strain ATCC 19860 / DSM 7227 / CCUG 15838 / JCM 20985 / LMG 2117 / NCPPB 1011)	332	607	43.3	60.3	1.1e-70
+703	TR	A0A934T204	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Noviherbaspirillum pedocola OX=2801341 GN=ispH PE=3 SV=1	Noviherbaspirillum pedocola	321	606	43.3	61.0	1.1e-70
+704	TR	A0A0Q5HFJ6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. Leaf139 OX=1736272 GN=ispH PE=3 SV=1	Massilia sp. Leaf139	321	606	43.3	59.2	1.1e-70
+705	TR	A0A7L4YLG7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Epidermidibacterium keratini OX=1891644 GN=ispH PE=3 SV=1	Epidermidibacterium keratini	333	607	41.6	63.3	1.1e-70
+706	TR	A0A975E239	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rhizobacter sp. AJA081-3 OX=2753607 GN=ispH PE=3 SV=1	Rhizobacter sp. AJA081-3	323	606	46.0	61.0	1.1e-70
+707	TR	A0A841BXJ4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Allocatelliglobosispora scoriae OX=643052 GN=ispH PE=3 SV=1	Allocatelliglobosispora scoriae	323	606	41.0	61.6	1.1e-70
+708	TR	A0A919D1Y1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces alanosinicus OX=68171 GN=ispH PE=3 SV=1	Streptomyces alanosinicus	335	607	40.8	62.7	1.2e-70
+709	TR	A0A3N1A2I4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. Llam0 OX=2485143 GN=ispH PE=3 SV=1	Micromonospora sp. Llam0	335	607	42.1	64.2	1.2e-70
+710	TR	A0A918M9N5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces filipinensis OX=66887 GN=ispH PE=3 SV=1	Streptomyces filipinensis	335	607	40.8	61.4	1.2e-70
+711	TR	A0A5B9QYT3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Roseimaritima ulvae OX=980254 GN=ispH PE=3 SV=1	Roseimaritima ulvae	313	605	40.8	60.1	1.2e-70
+712	TR	A0A931AY66	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptacidiphilus fuscans OX=2789292 GN=ispH PE=3 SV=1	Streptacidiphilus fuscans	325	606	44.5	65.4	1.2e-70
+713	TR	A0A238VDA2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Haloechinothrix alba OX=664784 GN=ispH PE=3 SV=1	Haloechinothrix alba	325	606	42.8	65.5	1.2e-70
+714	SP	B3GYK1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinobacillus pleuropneumoniae serotype 7 (strain AP76) OX=537457 GN=ispH PE=3 SV=1	Actinobacillus pleuropneumoniae serotype 7 (strain AP76)	314	605	41.7	61.5	1.2e-70
+715	SP	P57960	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pasteurella multocida (strain Pm70) OX=272843 GN=ispH PE=3 SV=1	Pasteurella multocida (strain Pm70)	314	605	41.9	60.7	1.2e-70
+716	TR	C6WKT7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinosynnema mirum (strain ATCC 29888 / DSM 43827 / JCM 3225 / NBRC 14064 / NCIMB 13271 / NRRL B-12336 / IMRU 3971 / 101) OX=446462 GN=ispH PE=3 SV=1	Actinosynnema mirum (strain ATCC 29888 / DSM 43827 / JCM 3225 / NBRC 14064 / NCIMB 13271 / NRRL B-12336 / IMRU 3971 / 101)	314	605	43.5	66.8	1.2e-70
+717	TR	A0A9Q7E4X4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Histophilus somni OX=731 GN=ispH PE=3 SV=1	Histophilus somni	314	605	42.2	62.0	1.2e-70
+718	TR	A0A4R1FL54	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Volucribacter psittacicida OX=203482 GN=ispH PE=3 SV=1	Volucribacter psittacicida	314	605	42.5	60.4	1.2e-70
+719	TR	A0A1I5EBF3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrosospira briensis OX=35799 GN=ispH PE=3 SV=1	Nitrosospira briensis	314	605	44.2	63.3	1.2e-70
+720	TR	A0A2N5X9R7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. DJ OX=2067551 GN=ispH PE=3 SV=1	Streptomyces sp. DJ	326	606	42.1	63.5	1.2e-70
+721	TR	D2NRX2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rothia mucilaginosa (strain DY-18) OX=680646 GN=ispH PE=3 SV=1	Rothia mucilaginosa (strain DY-18)	361	609	40.8	63.3	1.3e-70
+722	TR	A0A101U5U1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces caeruleatus OX=661399 GN=ispH PE=3 SV=1	Streptomyces caeruleatus	338	607	40.5	62.7	1.3e-70
+723	TR	A0A7K2XAT5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID2131 OX=2690254 GN=ispH PE=3 SV=1	Streptomyces sp. SID2131	350	608	43.6	66.0	1.3e-70
+724	TR	A0A0K1K499	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. NR 4-1 OX=1678028 GN=ispH PE=3 SV=1	Massilia sp. NR 4-1	316	605	43.0	60.6	1.3e-70
+725	TR	A0A3N2PBX0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. HM5-17 OX=2487710 GN=ispH PE=3 SV=1	Micromonospora sp. HM5-17	340	607	43.6	65.4	1.3e-70
+726	TR	A0A2U2AH06	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ignatzschineria ureiclastica OX=472582 GN=ispH PE=3 SV=1	Ignatzschineria ureiclastica	318	605	42.4	61.1	1.4e-70
+727	TR	A0A975MMD0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylomonas paludis OX=1173101 GN=ispH PE=3 SV=1	Methylomonas paludis	318	605	41.9	59.7	1.4e-70
+728	TR	A0A0N0Y389	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces chattanoogensis OX=66876 GN=ispH PE=3 SV=1	Streptomyces chattanoogensis	330	606	42.4	63.5	1.4e-70
+729	TR	A0A1V0TWP5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces gilvosporeus OX=553510 GN=ispH PE=3 SV=1	Streptomyces gilvosporeus	330	606	40.9	61.6	1.4e-70
+730	TR	A0A3E2YL72	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. MW-13 OX=2094022 GN=ispH2 PE=3 SV=1	Micromonospora sp. MW-13	330	606	43.5	64.6	1.4e-70
+731	TR	K9DVV5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia timonae CCUG 45783 OX=883126 GN=ispH PE=3 SV=1	Massilia timonae CCUG 45783	319	605	43.8	60.7	1.4e-70
+732	TR	A0A919BG15	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces filamentosus OX=67294 GN=ispH PE=3 SV=1	Streptomyces filamentosus	342	607	42.7	65.4	1.4e-70
+733	TR	A0A388SG50	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mesosutterella multiformis OX=2259133 GN=ispH PE=3 SV=1	Mesosutterella multiformis	331	606	42.1	59.2	1.4e-70
+734	TR	A0A7W9V0D2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces zagrosensis OX=1042984 GN=ispH PE=3 SV=1	Streptomyces zagrosensis	331	606	43.2	62.2	1.4e-70
+735	TR	A0A923J9G5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudonocardia sp. C8 OX=2762759 GN=ispH PE=3 SV=1	Pseudonocardia sp. C8	320	605	41.2	62.7	1.5e-70
+736	TR	A0A4R6SK04	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Labedaea rhizosphaerae OX=598644 GN=ispH PE=3 SV=1	Labedaea rhizosphaerae	320	605	40.4	63.1	1.5e-70
+737	TR	A0A0S4L4R9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Nitrospira nitrosa OX=1742972 GN=ispH PE=3 SV=1	Candidatus Nitrospira nitrosa	320	605	41.1	62.1	1.5e-70
+738	TR	A0A0Q5CZ37	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Duganella sp. Leaf126 OX=1736266 GN=ispH PE=3 SV=1	Duganella sp. Leaf126	320	605	43.8	60.1	1.5e-70
+739	TR	A0A5Q4ZGG7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sideroxydans sp. CL21 OX=2600596 GN=ispH PE=3 SV=1	Sideroxydans sp. CL21	309	604	42.9	59.4	1.5e-70
+740	TR	A0A4S5ESV7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Frankia alpina OX=2699483 GN=ispH PE=3 SV=1	Candidatus Frankia alpina	321	605	40.3	63.3	1.5e-70
+741	TR	A0A2I7N964	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Aquella oligotrophica OX=2067065 GN=ispH PE=3 SV=1	Aquella oligotrophica	310	604	42.6	63.3	1.5e-70
+742	TR	A0A2C9T1U0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium sp. shizuoka-1 OX=2039281 GN=ispH PE=3 SV=1	Mycobacterium sp. shizuoka-1	333	606	40.7	62.2	1.5e-70
+743	TR	A0A6G2S0L5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID8354 OX=2690339 GN=ispH PE=3 SV=1	Streptomyces sp. SID8354	333	606	41.9	62.9	1.5e-70
+744	TR	A0A0S4KTS8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Nitrospira inopinata OX=1715989 GN=ispH PE=3 SV=1	Candidatus Nitrospira inopinata	322	605	40.6	62.7	1.5e-70
+745	TR	W7T1V1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kutzneria sp. (strain 744) OX=345341 GN=ispH PE=3 SV=1	Kutzneria sp. (strain 744)	322	605	42.5	66.5	1.5e-70
+746	TR	A0A5C6AAJ6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Botrimarina colliarenosi OX=2528001 GN=ispH PE=3 SV=1	Botrimarina colliarenosi	311	604	44.0	64.0	1.6e-70
+747	TR	A0A937CW82	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter monticola OX=1926872 GN=ispH PE=3 SV=1	Ramlibacter monticola	311	604	43.0	61.5	1.6e-70
+748	TR	W7J187	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinokineospora spheciospongiae OX=909613 GN=ispH PE=3 SV=1	Actinokineospora spheciospongiae	311	604	43.3	67.5	1.6e-70
+749	TR	A0A940HVJ3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pelagibacteraceae bacterium OX=2026775 GN=ispH PE=3 SV=1	Pelagibacteraceae bacterium	312	604	42.9	63.3	1.6e-70
+750	TR	W0SC64	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfuritalea hydrogenivorans sk43H OX=1223802 GN=ispH PE=3 SV=1	Sulfuritalea hydrogenivorans sk43H	312	604	43.2	60.3	1.6e-70
+751	TR	N6YR23	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thauera sp. 27 OX=305700 GN=ispH PE=3 SV=1	Thauera sp. 27	312	604	42.2	60.1	1.6e-70
+752	TR	A0A1Y1SGP1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Oceanococcus atlanticus OX=1317117 GN=ispH PE=3 SV=1	Oceanococcus atlanticus	312	604	45.4	63.6	1.6e-70
+753	TR	A0A1S2NZQ9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces monashensis OX=1678012 GN=ispH PE=3 SV=1	Streptomyces monashensis	335	606	41.9	63.2	1.6e-70
+754	TR	I0IH52	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Phycisphaera mikurensis (strain NBRC 102666 / KCTC 22515 / FYK2301M01) OX=1142394 GN=ispH PE=3 SV=1	Phycisphaera mikurensis (strain NBRC 102666 / KCTC 22515 / FYK2301M01)	335	606	44.9	65.7	1.6e-70
+755	TR	A0A543ISX7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thermopolyspora flexuosa OX=103836 GN=ispH PE=3 SV=1	Thermopolyspora flexuosa	324	605	44.0	67.1	1.6e-70
+756	TR	A0A086WGE4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. BSC265 OX=1549812 GN=ispH PE=3 SV=1	Massilia sp. BSC265	313	604	44.2	61.0	1.7e-70
+757	TR	A0A075MR59	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=endosymbiont of Acanthamoeba sp. UWC8 OX=86106 GN=ispH PE=3 SV=1	endosymbiont of Acanthamoeba sp. UWC8	313	604	41.3	61.1	1.7e-70
+758	TR	A0A4Q7L7P8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Herbihabitans rhizosphaerae OX=1872711 GN=ispH PE=3 SV=1	Herbihabitans rhizosphaerae	336	606	43.3	67.8	1.7e-70
+759	TR	A0A4Y3R5T2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces cacaoi OX=1898 GN=ispH PE=3 SV=1	Streptomyces cacaoi	360	608	44.3	66.3	1.7e-70
+760	TR	A0A931DYW1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium aquatimens OX=1190508 GN=ispH PE=3 SV=1	Corynebacterium aquatimens	337	606	43.3	64.9	1.7e-70
+761	TR	A0A927F0Z0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces chumphonensis OX=1214925 GN=ispH PE=3 SV=1	Streptomyces chumphonensis	326	605	45.1	66.5	1.7e-70
+762	TR	A0A4R3HUP4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Reinekea marinisedimentorum OX=230495 GN=ispH PE=3 SV=1	Reinekea marinisedimentorum	315	604	42.0	61.2	1.8e-70
+763	TR	A0A937EEB4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces actinomycinicus OX=1695166 GN=ispH PE=3 SV=1	Streptomyces actinomycinicus	338	606	41.1	61.4	1.8e-70
+764	TR	A0A136PTP2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora rosaria OX=47874 GN=ispH PE=3 SV=1	Micromonospora rosaria	350	607	41.5	62.3	1.8e-70
+765	TR	A0A6H1R934	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharopolyspora sp. ASAGF58 OX=2719023 GN=ispH PE=3 SV=1	Saccharopolyspora sp. ASAGF58	339	606	41.3	62.6	1.8e-70
+766	TR	M1NKW1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium halotolerans YIM 70093 = DSM 44683 OX=1121362 GN=ispH PE=3 SV=1	Corynebacterium halotolerans YIM 70093 = DSM 44683	317	604	41.4	62.5	1.9e-70
+767	TR	A0A916UGT2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Undibacterium terreum OX=1224302 GN=ispH2 PE=3 SV=1	Undibacterium terreum	317	604	43.2	61.0	1.9e-70
+768	TR	A0A934WPJ2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter ginsenosidimutans OX=502333 GN=ispH PE=3 SV=1	Ramlibacter ginsenosidimutans	317	604	42.7	61.5	1.9e-70
+769	TR	A0A7R7AGU1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methyloprofundus sp. OX=2020875 GN=ispH PE=3 SV=1	Methyloprofundus sp.	317	604	42.1	60.1	1.9e-70
+770	TR	A0A0P0UU33	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=endosymbiont of Bathymodiolus septemdierum str. Myojin knoll OX=1303921 GN=lytB PE=3 SV=1	endosymbiont of Bathymodiolus septemdierum str. Myojin knoll	306	603	43.3	63.0	1.9e-70
+771	TR	A0A646KQ36	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces jumonjinensis OX=1945 GN=ispH PE=3 SV=1	Streptomyces jumonjinensis	340	606	42.2	62.0	1.9e-70
+772	TR	A0A1C6M4N6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. WMMB 714 OX=1286822 GN=ispH PE=3 SV=1	Streptomyces sp. WMMB 714	340	606	43.1	65.9	1.9e-70
+773	TR	C4RPS1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. (strain ATCC 39149 / NRRL 15099 / SCC 1413) OX=219305 GN=ispH PE=3 SV=1	Micromonospora sp. (strain ATCC 39149 / NRRL 15099 / SCC 1413)	329	605	43.8	66.4	1.9e-70
+774	TR	A0A172UB98	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylomonas sp. (strain DH-1) OX=1727196 GN=ispH PE=3 SV=1	Methylomonas sp. (strain DH-1)	318	604	42.4	61.4	1.9e-70
+775	TR	A0A7W7SS96	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora polyrhachis OX=1282883 GN=ispH PE=3 SV=1	Micromonospora polyrhachis	330	605	44.3	65.6	2e-70
+776	TR	A0A094JEW5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Shewanella mangrovi OX=1515746 GN=ispH PE=3 SV=1	Shewanella mangrovi	319	604	45.1	63.9	2e-70
+777	TR	A0A161HP44	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraburkholderia phytofirmans OLGA172 OX=1417228 GN=ispH PE=3 SV=1	Paraburkholderia phytofirmans OLGA172	319	604	41.6	61.0	2e-70
+778	TR	A0A2J6MNN6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Burkholderia sp. WAC0059 OX=2066022 GN=ispH PE=3 SV=1	Burkholderia sp. WAC0059	319	604	43.6	60.3	2e-70
+779	TR	A0A2X4UC06	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rhodococcus coprophilus OX=38310 GN=lytB PE=3 SV=1	Rhodococcus coprophilus	309	603	41.2	63.4	2.1e-70
+780	TR	A0A845HWQ5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Duganella fentianensis OX=2692177 GN=ispH PE=3 SV=1	Duganella fentianensis	321	604	43.8	61.4	2.1e-70
+781	TR	A0A4Z0BLS4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter rhizophilus OX=1781167 GN=ispH PE=3 SV=1	Ramlibacter rhizophilus	321	604	41.5	60.8	2.1e-70
+782	TR	A0A494X5S3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Trinickia fusca OX=2419777 GN=ispH PE=3 SV=1	Trinickia fusca	321	604	44.4	63.5	2.1e-70
+783	TR	A0A850QCB2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Undibacterium oligocarboniphilum OX=666702 GN=ispH PE=3 SV=1	Undibacterium oligocarboniphilum	310	603	43.2	61.4	2.1e-70
+784	TR	V5XEU6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium neoaurum VKM Ac-1815D OX=700508 GN=ispH PE=3 SV=1	Mycolicibacterium neoaurum VKM Ac-1815D	333	605	44.0	64.4	2.2e-70
+785	TR	A0A1D7VTB5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces lydicus OX=47763 GN=ispH PE=3 SV=1	Streptomyces lydicus	333	605	42.4	63.2	2.2e-70
+786	TR	A0A9X2Y9Q6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=[Mycobacterium] manitobense OX=190147 GN=ispH PE=3 SV=1	[Mycobacterium] manitobense	333	605	40.9	63.0	2.2e-70
+787	TR	A0A4S5BSI4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Lampropedia aestuarii OX=2562762 GN=ispH PE=3 SV=1	Lampropedia aestuarii	322	604	42.6	60.7	2.2e-70
+788	TR	A0A149VSC3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ferrovum sp. PN-J185 OX=1356306 GN=ispH PE=3 SV=1	Ferrovum sp. PN-J185	311	603	43.0	60.0	2.2e-70
+789	TR	D3PWU5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Stackebrandtia nassauensis (strain DSM 44728 / CIP 108903 / NRRL B-16338 / NBRC 102104 / LLR-40K-21) OX=446470 GN=ispH PE=3 SV=1	Stackebrandtia nassauensis (strain DSM 44728 / CIP 108903 / NRRL B-16338 / NBRC 102104 / LLR-40K-21)	334	605	39.6	61.7	2.2e-70
+790	TR	A0A0B5DM66	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces nodosus OX=40318 GN=ispH PE=3 SV=1	Streptomyces nodosus	334	605	40.2	63.3	2.2e-70
+791	TR	A0A931GJ07	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinomadura viridis OX=58110 GN=ispH PE=3 SV=1	Actinomadura viridis	323	604	39.3	62.0	2.2e-70
+792	TR	A0A7W9KG00	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kutzneria kofuensis OX=103725 GN=ispH PE=3 SV=1	Kutzneria kofuensis	323	604	42.5	65.5	2.2e-70
+793	TR	A0A1X1QTW8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Cycloclasticus sp. symbiont of Bathymodiolus heckerae OX=1284675 GN=ispH PE=3 SV=1	Cycloclasticus sp. symbiont of Bathymodiolus heckerae	312	603	42.3	59.7	2.3e-70
+794	TR	A0A1H4Y1G0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. PAN_FS17 OX=1855351 GN=ispH PE=3 SV=1	Streptomyces sp. PAN_FS17	335	605	40.2	63.3	2.3e-70
+795	TR	A0A923L097	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Undibacterium rugosum OX=2762291 GN=ispH PE=3 SV=1	Undibacterium rugosum	313	603	43.5	61.0	2.3e-70
+796	TR	A0A940Z1I5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. B93 OX=2824875 GN=ispH PE=3 SV=1	Streptomyces sp. B93	336	605	41.0	63.5	2.4e-70
+797	TR	A0A1D8T353	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rhodococcus sp. WMMA185 OX=679318 GN=ispH PE=3 SV=1	Rhodococcus sp. WMMA185	336	605	41.2	62.1	2.4e-70
+798	TR	A0A8J7M4W5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thermohalobaculum xanthum OX=2753746 GN=ispH PE=3 SV=1	Thermohalobaculum xanthum	325	604	42.6	62.8	2.4e-70
+799	TR	A0A5C8NYX8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Zeimonas arvi OX=2498847 GN=ispH PE=3 SV=1	Zeimonas arvi	325	604	44.5	63.6	2.4e-70
+800	TR	A0A0B3BJC4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudomonas flexibilis OX=706570 GN=ispH PE=3 SV=1	Pseudomonas flexibilis	314	603	41.2	61.4	2.4e-70
+801	TR	A0A4R2NBP4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nicoletella semolina OX=271160 GN=ispH PE=3 SV=1	Nicoletella semolina	314	603	41.6	61.7	2.4e-70
+802	TR	A0A1I4F7N9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrosomonas aestuarii OX=52441 GN=ispH PE=3 SV=1	Nitrosomonas aestuarii	314	603	46.0	63.0	2.4e-70
+803	TR	A0A940MMH1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces montanisoli OX=2798581 GN=ispH PE=3 SV=1	Streptomyces montanisoli	337	605	41.7	61.8	2.4e-70
+804	TR	F3LGB5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=gamma proteobacterium IMCC1989 OX=937772 GN=ispH PE=3 SV=1	gamma proteobacterium IMCC1989	315	603	41.5	60.8	2.5e-70
+805	TR	A0A7K2JSC9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID5910 OX=2690312 GN=ispH PE=3 SV=1	Streptomyces sp. SID5910	338	605	40.8	63.0	2.5e-70
+806	TR	W9AM53	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium cosmeticum OX=258533 GN=ispH PE=3 SV=1	Mycolicibacterium cosmeticum	327	604	44.4	64.8	2.5e-70
+807	TR	S2WZ62	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Propionimicrobium lymphophilum ACS-093-V-SCH5 OX=883161 GN=ispH PE=3 SV=1	Propionimicrobium lymphophilum ACS-093-V-SCH5	327	604	44.3	67.4	2.5e-70
+808	TR	U7MIP2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium sp. KPL1989 OX=1203622 GN=ispH PE=3 SV=1	Corynebacterium sp. KPL1989	327	604	42.6	63.9	2.5e-70
+809	TR	A0A1I7LQV7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudoduganella namucuonensis OX=1035707 GN=ispH PE=3 SV=1	Pseudoduganella namucuonensis	316	603	43.5	59.7	2.6e-70
+810	TR	A0A853AVB9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharopolyspora hordei OX=1838 GN=ispH PE=3 SV=1	Saccharopolyspora hordei	339	605	45.2	65.6	2.6e-70
+811	TR	A0A918G3F4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces humidus OX=52259 GN=ispH PE=3 SV=1	Streptomyces humidus	339	605	41.3	63.5	2.6e-70
+812	TR	A0A3N6XZ76	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Aeromicrobium camelliae OX=1538144 GN=ispH PE=3 SV=1	Aeromicrobium camelliae	328	604	45.2	66.3	2.6e-70
+813	TR	R4TGN8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis keratiniphila OX=129921 GN=lytB PE=3 SV=1	Amycolatopsis keratiniphila	317	603	43.7	66.3	2.6e-70
+814	TR	A0A1R1I5H9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Azonexus hydrophilus OX=418702 GN=ispH PE=3 SV=1	Azonexus hydrophilus	306	602	41.3	61.1	2.6e-70
+815	TR	A0A6N6VHW9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Parvibaculum sedimenti OX=2608632 GN=ispH PE=3 SV=1	Parvibaculum sedimenti	318	603	42.1	61.1	2.7e-70
+816	TR	A0A942PH50	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfuricella sp. OX=2099377 GN=ispH PE=3 SV=1	Sulfuricella sp.	307	602	42.6	60.4	2.7e-70
+817	TR	A0A1C6RPS8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora rhizosphaerae OX=568872 GN=ispH PE=3 SV=1	Micromonospora rhizosphaerae	330	604	41.5	62.6	2.8e-70
+818	TR	A0A841FWS8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Phytomonospora endophytica OX=714109 GN=ispH PE=3 SV=1	Phytomonospora endophytica	319	603	40.8	63.4	2.8e-70
+819	TR	A0A1Y5XQ62	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Kibdelosporangium aridum OX=2030 GN=ispH PE=3 SV=1	Kibdelosporangium aridum	308	602	45.5	65.2	2.8e-70
+820	TR	A0A974SVE0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Dechloromonas sp. TW-R-39-2 OX=2654218 GN=ispH PE=3 SV=1	Dechloromonas sp. TW-R-39-2	308	602	41.0	61.6	2.8e-70
+821	TR	I0KWW1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora lupini str. Lupac 08 OX=1150864 GN=ispH PE=3 SV=1	Micromonospora lupini str. Lupac 08	331	604	44.8	67.4	2.9e-70
+822	TR	A0A7H8NCF8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces buecherae OX=2763006 GN=ispH PE=3 SV=1	Streptomyces buecherae	331	604	42.9	61.9	2.9e-70
+823	TR	A0A177QHN9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrospira sp. SCGC AG-212-E16 OX=1799664 GN=ispH PE=3 SV=1	Nitrospira sp. SCGC AG-212-E16	320	603	43.3	63.9	2.9e-70
+824	TR	A0A5Q0EIN2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=gamma proteobacterium SS-5 OX=947516 GN=ispH PE=3 SV=1	gamma proteobacterium SS-5	309	602	41.0	60.6	2.9e-70
+825	TR	A0A9X2CFJ9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Shewanella gaetbuli OX=220752 GN=ispH PE=3 SV=1	Shewanella gaetbuli	309	602	44.6	63.6	2.9e-70
+826	TR	A0A6H9Y2N1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Betaproteobacteria bacterium SCN2 OX=2651628 GN=ispH PE=3 SV=1	Betaproteobacteria bacterium SCN2	309	602	42.6	61.6	2.9e-70
+827	TR	A0A2M9BFP7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mumia flava OX=1348852 GN=ispH PE=3 SV=1	Mumia flava	332	604	43.8	64.3	2.9e-70
+828	TR	A0A1V4AD38	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces tsukubensis OX=83656 GN=ispH PE=3 SV=1	Streptomyces tsukubensis	355	606	41.2	61.6	2.9e-70
+829	TR	A0A097IEU4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium doosanense CAU 212 = DSM 45436 OX=558173 GN=ispH PE=3 SV=1	Corynebacterium doosanense CAU 212 = DSM 45436	321	603	44.2	65.3	3e-70
+830	TR	A0A2T4UF49	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paraconexibacter algicola OX=2133960 GN=ispH PE=3 SV=1	Paraconexibacter algicola	321	603	41.1	61.8	3e-70
+831	TR	A0A379B5R6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=[Pasteurella] mairii OX=757 GN=ispH PE=3 SV=1	[Pasteurella] mairii	310	602	42.2	61.4	3e-70
+832	TR	A0A7I7QZL0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium sediminis OX=1286180 GN=ispH PE=3 SV=1	Mycolicibacterium sediminis	333	604	40.7	62.5	3e-70
+833	TR	A0A2G5PEM8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium brumae OX=85968 GN=ispH PE=3 SV=1	Mycolicibacterium brumae	333	604	41.2	63.3	3e-70
+834	TR	A0A7I7STR6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium sarraceniae OX=1534348 GN=ispH PE=3 SV=1	Mycolicibacterium sarraceniae	333	604	41.6	62.3	3e-70
+835	TR	W5Y7E9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium vitaeruminis DSM 20294 OX=1224164 GN=ispH PE=3 SV=1	Corynebacterium vitaeruminis DSM 20294	322	603	43.0	64.8	3.1e-70
+836	TR	A0A367EMT7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces diacarni OX=2800381 GN=ispH PE=3 SV=1	Streptomyces diacarni	345	605	44.0	65.7	3.1e-70
+837	TR	A0A0W8IHN9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Serinicoccus chungangensis OX=767452 GN=ispH PE=3 SV=1	Serinicoccus chungangensis	345	605	40.8	63.3	3.1e-70
+838	TR	A0A101SCL0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces griseorubiginosus OX=67304 GN=ispH PE=3 SV=1	Streptomyces griseorubiginosus	345	605	40.8	62.7	3.1e-70
+839	TR	A0A177HL84	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces jeddahensis OX=1716141 GN=ispH_1 PE=3 SV=1	Streptomyces jeddahensis	334	604	42.3	62.3	3.1e-70
+840	TR	A0A934M9V5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Corynebacterium meridianum OX=2765363 GN=ispH PE=3 SV=1	Corynebacterium meridianum	323	603	41.9	61.7	3.2e-70
+841	TR	D9SHX2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Gallionella capsiferriformans (strain ES-2) OX=395494 GN=ispH PE=3 SV=1	Gallionella capsiferriformans (strain ES-2)	312	602	43.1	58.8	3.2e-70
+842	TR	A0A1A9J050	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SAT1 OX=1849967 GN=ispH PE=3 SV=1	Streptomyces sp. SAT1	335	604	41.9	63.2	3.2e-70
+843	TR	A0A2A3H128	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. Tue6028 OX=2036037 GN=ispH PE=3 SV=1	Streptomyces sp. Tue6028	335	604	42.3	62.3	3.2e-70
+844	TR	V8G3Z4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pelistega indica OX=1414851 GN=ispH PE=3 SV=1	Pelistega indica	324	603	41.9	61.4	3.3e-70
+845	TR	A0A494Y8U4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pararobbsia silviterrae OX=1792498 GN=ispH PE=3 SV=1	Pararobbsia silviterrae	313	602	42.0	61.0	3.3e-70
+846	TR	A0A2P9F2U8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. MA5143a OX=2083010 GN=ispH PE=3 SV=1	Streptomyces sp. MA5143a	336	604	41.3	64.2	3.3e-70
+847	TR	A0A222FIP4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bacterioplanes sanyensis OX=1249553 GN=ispH PE=3 SV=1	Bacterioplanes sanyensis	314	602	42.0	60.6	3.4e-70
+848	TR	A0A4Y7ZZ07	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Psychromonas sp. RZ22 OX=2555643 GN=ispH PE=3 SV=1	Psychromonas sp. RZ22	314	602	41.9	60.7	3.4e-70
+849	TR	A0A0B8NJF4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Vibrio ishigakensis OX=1481914 GN=ispH PE=3 SV=1	Vibrio ishigakensis	314	602	40.1	62.7	3.4e-70
+850	TR	A0A4Q7J7C7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis suaedae OX=2510978 GN=ispH PE=3 SV=1	Amycolatopsis suaedae	314	602	40.3	62.0	3.4e-70
+851	TR	A0A848HJQ2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia polaris OX=2728846 GN=ispH PE=3 SV=1	Massilia polaris	315	602	44.2	60.4	3.5e-70
+852	TR	A0A4Q2IWJ2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Oxalobacteraceae bacterium CAVE-383 OX=2478672 GN=ispH PE=3 SV=1	Oxalobacteraceae bacterium CAVE-383	315	602	42.9	60.1	3.5e-70
+853	TR	A0A1I4K3R2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Halopseudomonas bauzanensis OX=653930 GN=ispH PE=3 SV=1	Halopseudomonas bauzanensis	315	602	41.4	60.9	3.5e-70
+854	TR	A0A6H9V4I2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces luteolifulvus OX=2615112 GN=ispH PE=3 SV=1	Streptomyces luteolifulvus	338	604	40.8	63.0	3.5e-70
+855	TR	A0A1J4NVV1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces mangrovisoli OX=1428628 GN=ispH PE=3 SV=1	Streptomyces mangrovisoli	338	604	40.5	62.7	3.5e-70
+856	TR	A0A839DRI8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Halosaccharopolyspora lacisalsi OX=1000566 GN=ispH PE=3 SV=1	Halosaccharopolyspora lacisalsi	350	605	43.3	66.3	3.6e-70
+857	TR	A0A9E6Y085	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Capillimicrobium parvum OX=2884022 GN=ispH2 PE=3 SV=1	Capillimicrobium parvum	316	602	40.4	62.2	3.6e-70
+858	TR	A0A562IC89	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora olivasterospora OX=1880 GN=ispH PE=3 SV=1	Micromonospora olivasterospora	328	603	43.2	64.2	3.7e-70
+859	TR	A0A8D5JMS3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methyloradius palustris OX=2778876 GN=ispH PE=3 SV=1	Methyloradius palustris	317	602	44.1	60.5	3.7e-70
+860	TR	A0A1Z5H9J2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bathymodiolus platifrons methanotrophic gill symbiont OX=113268 GN=ispH PE=3 SV=1	Bathymodiolus platifrons methanotrophic gill symbiont	317	602	42.7	60.2	3.7e-70
+861	TR	K4QUP2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces davaonensis (strain DSM 101723 / JCM 4913 / KCC S-0913 / 768) OX=1214101 GN=ispH PE=3 SV=1	Streptomyces davaonensis (strain DSM 101723 / JCM 4913 / KCC S-0913 / 768)	340	604	40.8	62.3	3.7e-70
+862	TR	A0A1C5JWU5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora echinaurantiaca OX=47857 GN=ispH PE=3 SV=1	Micromonospora echinaurantiaca	340	604	44.7	64.7	3.7e-70
+863	TR	A0A0U4CS96	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Aeromicrobium erythreum OX=2041 GN=ispH PE=3 SV=1	Aeromicrobium erythreum	329	603	44.9	64.5	3.8e-70
+864	SP	A4IYW2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. tularensis (strain WY96-3418) OX=418136 GN=ispH PE=3 SV=1	Francisella tularensis subsp. tularensis (strain WY96-3418)	318	602	39.4	62.8	3.8e-70
+865	SP	B2SES8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. mediasiatica (strain FSC147) OX=441952 GN=ispH PE=3 SV=1	Francisella tularensis subsp. mediasiatica (strain FSC147)	318	602	39.4	62.8	3.8e-70
+866	SP	Q14I06	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. tularensis (strain FSC 198) OX=393115 GN=ispH PE=3 SV=1	Francisella tularensis subsp. tularensis (strain FSC 198)	318	602	39.4	62.8	3.8e-70
+867	SP	Q5NGK4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4) OX=177416 GN=ispH PE=3 SV=1	Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4)	318	602	39.4	62.8	3.8e-70
+868	TR	A0A1E5CZF9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Vibrio genomosp. F6 str. FF-238 OX=1191298 GN=ispH PE=3 SV=1	Vibrio genomosp. F6 str. FF-238	318	602	39.9	64.0	3.8e-70
+869	TR	A0A0P7CP14	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Frankia sp. R43 OX=269536 GN=ispH PE=3 SV=1	Frankia sp. R43	319	602	40.6	62.3	3.9e-70
+870	TR	A0A6N7EY54	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ostreibacterium oceani OX=2654998 GN=ispH PE=3 SV=1	Ostreibacterium oceani	319	602	41.1	60.1	3.9e-70
+871	TR	A0A937UQR3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Frankia nepalensis OX=1836974 GN=ispH PE=3 SV=1	Frankia nepalensis	319	602	39.9	62.0	3.9e-70
+872	TR	A0A2S6GYB6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinokineospora auranticolor OX=155976 GN=ispH PE=3 SV=1	Actinokineospora auranticolor	319	602	43.4	65.8	3.9e-70
+873	TR	A0A4R3JYY2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfuritortus calidifontis OX=1914471 GN=ispH PE=3 SV=1	Sulfuritortus calidifontis	308	601	46.5	64.2	4e-70
+874	TR	A0A7K3T0A9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis sp. SID8362 OX=2690346 GN=ispH PE=3 SV=1	Amycolatopsis sp. SID8362	331	603	42.1	65.0	4e-70
+875	TR	A0A0P0SBF3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudonocardia sp. EC080619-01 OX=1096856 GN=ispH PE=3 SV=1	Pseudonocardia sp. EC080619-01	320	602	41.6	62.3	4.1e-70
+876	TR	A0A916ILN3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Patescibacteria bacterium OX=2052139 GN=ispH/lytB PE=3 SV=1	Patescibacteria bacterium	320	602	41.8	60.4	4.1e-70
+877	TR	A0A1X1R757	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium bohemicum OX=56425 GN=ispH PE=3 SV=1	Mycobacterium bohemicum	332	603	44.9	64.5	4.1e-70
+878	TR	A0A2S4XYJ9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. Ru73 OX=2080748 GN=ispH PE=3 SV=1	Streptomyces sp. Ru73	332	603	41.5	62.0	4.1e-70
+879	TR	A9BYK3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Delftia acidovorans (strain DSM 14801 / SPH-1) OX=398578 GN=ispH PE=3 SV=1	Delftia acidovorans (strain DSM 14801 / SPH-1)	332	603	42.2	59.7	4.1e-70
+880	TR	A0A2G1XE46	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces cinnamoneus OX=53446 GN=ispH PE=3 SV=1	Streptomyces cinnamoneus	332	603	41.6	63.2	4.1e-70
+881	TR	U3B5N1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Vibrio ezurae NBRC 102218 OX=1219080 GN=ispH PE=3 SV=1	Vibrio ezurae NBRC 102218	321	602	40.3	60.3	4.2e-70
+882	SP	B8GQR4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thioalkalivibrio sulfidiphilus (strain HL-EbGR7) OX=396588 GN=ispH PE=3 SV=1	Thioalkalivibrio sulfidiphilus (strain HL-EbGR7)	310	601	41.4	61.6	4.2e-70
+883	TR	A0A150VV69	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. WAC04657 OX=1779145 GN=ispH PE=3 SV=1	Streptomyces sp. WAC04657	344	604	43.3	66.0	4.2e-70
+884	TR	A0A101BC92	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium sp. GA-2829 OX=1772283 GN=ispH PE=3 SV=1	Mycobacterium sp. GA-2829	333	603	40.9	62.7	4.3e-70
+885	TR	A0A4P6Q1D5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomonospora litoralis OX=2498135 GN=ispH1 PE=3 SV=1	Streptomonospora litoralis	322	602	41.4	64.5	4.3e-70
+886	TR	A0A7W7G5X3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinoplanes abujensis OX=882441 GN=ispH PE=3 SV=1	Actinoplanes abujensis	322	602	39.7	62.8	4.3e-70
+887	TR	A0A8T4HD90	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. A73 OX=2824873 GN=ispH PE=3 SV=1	Streptomyces sp. A73	345	604	45.1	66.5	4.3e-70
+888	TR	A0A233SRH5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces diastatochromogenes OX=42236 GN=ispH PE=3 SV=1	Streptomyces diastatochromogenes	335	603	41.3	63.2	4.5e-70
+889	TR	A0A6B2VE14	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID10815 OX=2706027 GN=ispH PE=3 SV=1	Streptomyces sp. SID10815	335	603	41.3	62.6	4.5e-70
+890	TR	A0A101NJD3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces cellostaticus OX=67285 GN=ispH PE=3 SV=1	Streptomyces cellostaticus	335	603	40.5	63.0	4.5e-70
+891	TR	A0A0M8XB47	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. NRRL B-3648 OX=1519493 GN=ispH PE=3 SV=1	Streptomyces sp. NRRL B-3648	335	603	41.6	61.6	4.5e-70
+892	TR	A0A1B6ACS4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. NBRC 110611 OX=1621259 GN=ispH PE=3 SV=1	Streptomyces sp. NBRC 110611	370	606	40.6	62.2	4.6e-70
+893	TR	A0A547P9E2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Erythrobacter insulae OX=2584124 GN=ispH PE=3 SV=1	Erythrobacter insulae	324	602	41.3	64.2	4.6e-70
+894	TR	A0A0C5X395	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Photobacterium gaetbulicola Gung47 OX=658445 GN=ispH PE=3 SV=1	Photobacterium gaetbulicola Gung47	313	601	43.0	63.9	4.6e-70
+895	TR	A0A0D8HWV9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rhodococcus sp. (strain AD45) OX=103808 GN=ispH PE=3 SV=1	Rhodococcus sp. (strain AD45)	336	603	41.2	64.0	4.7e-70
+896	TR	A0A1C6SE04	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora nigra OX=145857 GN=ispH PE=3 SV=1	Micromonospora nigra	348	604	43.2	64.6	4.7e-70
+897	TR	A0A2A2IW91	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudomonas sp. HAR-UPW-AIA-41 OX=1985301 GN=ispH PE=3 SV=1	Pseudomonas sp. HAR-UPW-AIA-41	314	601	41.7	61.6	4.7e-70
+898	TR	A0A1Q4XGS5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharothrix sp. CB00851 OX=1835005 GN=ispH PE=3 SV=1	Saccharothrix sp. CB00851	314	601	39.5	63.8	4.7e-70
+899	TR	Q1N0B2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Bermanella marisrubri OX=207949 GN=ispH PE=3 SV=1	Bermanella marisrubri	314	601	41.4	60.6	4.7e-70
+900	TR	A0A1Y2N4G3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudonocardia autotrophica OX=2074 GN=ispH PE=3 SV=1	Pseudonocardia autotrophica	326	602	41.9	62.0	4.9e-70
+901	TR	A0A517N658	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rubripirellula lacrimiformis OX=1930273 GN=ispH PE=3 SV=1	Rubripirellula lacrimiformis	315	601	41.0	62.0	4.9e-70
+902	TR	A0A1X9NGV7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Oceanicoccus sagamiensis OX=716816 GN=ispH PE=3 SV=1	Oceanicoccus sagamiensis	315	601	41.0	60.3	4.9e-70
+903	TR	A0A512LAN6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfuriferula plumbiphila OX=171865 GN=ispH PE=3 SV=1	Sulfuriferula plumbiphila	315	601	43.7	60.2	4.9e-70
+904	TR	A0A7K2FDM0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. SID4985 OX=2690292 GN=ispH PE=3 SV=1	Streptomyces sp. SID4985	338	603	40.5	63.3	5e-70
+905	TR	A4X3A6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 / NBRC 105044 / CNB-440) OX=369723 GN=ispH PE=3 SV=1	Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 / NBRC 105044 / CNB-440)	327	602	43.6	65.8	5e-70
+906	TR	A0A1V2RH33	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. MP131-18 OX=1857892 GN=ispH PE=3 SV=1	Streptomyces sp. MP131-18	327	602	44.6	64.5	5e-70
+907	TR	A0A286DQW1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces zhaozhouensis OX=1300267 GN=ispH PE=3 SV=1	Streptomyces zhaozhouensis	327	602	43.6	66.3	5e-70
+908	TR	A0A6L9Y4B5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pelistega ratti OX=2652177 GN=ispH PE=3 SV=1	Pelistega ratti	316	601	42.0	59.6	5e-70
+909	TR	A0A8J3LI60	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Planosporangium flavigriseum OX=373681 GN=ispH PE=3 SV=1	Planosporangium flavigriseum	339	603	42.5	64.6	5.1e-70
+910	TR	A0A848GZ57	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter agri OX=2728837 GN=ispH PE=3 SV=1	Ramlibacter agri	317	601	42.9	59.6	5.2e-70
+911	TR	A0A1E7JJ81	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces oceani OX=1075402 GN=ispH PE=3 SV=1	Streptomyces oceani	317	601	43.6	67.7	5.2e-70
+912	TR	A0A420F5G6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora globbae OX=1894969 GN=ispH PE=3 SV=1	Micromonospora globbae	329	602	44.0	65.5	5.3e-70
+913	TR	A0A1Q5AGN9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora sp. CB01531 OX=1718947 GN=ispH PE=3 SV=1	Micromonospora sp. CB01531	329	602	41.2	62.3	5.3e-70
+914	SP	Q0BNK1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. holarctica (strain OSU18) OX=393011 GN=ispH PE=3 SV=1	Francisella tularensis subsp. holarctica (strain OSU18)	318	601	39.4	62.8	5.4e-70
+915	SP	Q2A587	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. holarctica (strain LVS) OX=376619 GN=ispH PE=3 SV=1	Francisella tularensis subsp. holarctica (strain LVS)	318	601	39.4	62.8	5.4e-70
+916	SP	A7NA22	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. holarctica (strain FTNF002-00 / FTA) OX=458234 GN=ispH PE=3 SV=1	Francisella tularensis subsp. holarctica (strain FTNF002-00 / FTA)	318	601	39.4	62.8	5.4e-70
+917	TR	A0A2S9GWH9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Solimicrobium silvestre OX=2099400 GN=ispH PE=3 SV=1	Solimicrobium silvestre	307	600	43.2	60.7	5.4e-70
+918	TR	A0A317K0S6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora globispora OX=1450148 GN=ispH PE=3 SV=1	Micromonospora globispora	330	602	41.5	62.3	5.5e-70
+919	TR	A0A0Q0IRK2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Shewanella sp. P1-14-1 OX=1723761 GN=ispH PE=3 SV=1	Shewanella sp. P1-14-1	319	601	44.7	63.0	5.5e-70
+920	TR	A0A2U3C4G4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. ICBB 8177 OX=563922 GN=ispH PE=3 SV=1	Streptomyces sp. ICBB 8177	342	603	42.4	63.5	5.6e-70
+921	TR	A0A1C3K851	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Orrella dioscoreae OX=1851544 GN=ispH PE=3 SV=1	Orrella dioscoreae	331	602	43.0	60.0	5.6e-70
+922	TR	A0A7Y6NQ74	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Schlegelella koreensis OX=2742824 GN=ispH PE=3 SV=1	Schlegelella koreensis	320	601	45.8	61.5	5.7e-70
+923	TR	G4CHY5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Neisseria shayeganii 871 OX=1032488 GN=ispH PE=3 SV=1	Neisseria shayeganii 871	309	600	43.9	64.4	5.7e-70
+924	TR	B2HT41	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium marinum (strain ATCC BAA-535 / M) OX=216594 GN=ispH PE=3 SV=1	Mycobacterium marinum (strain ATCC BAA-535 / M)	332	602	43.6	65.8	5.8e-70
+925	TR	A0A9J7ADE7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Gilvimarinus sp. DA14 OX=2956798 GN=ispH PE=3 SV=1	Gilvimarinus sp. DA14	310	600	42.3	61.2	5.9e-70
+926	TR	A0A5A7WKR4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium sp. P9-64 OX=2024612 GN=ispH PE=3 SV=1	Mycolicibacterium sp. P9-64	333	602	41.2	62.7	6e-70
+927	TR	A0A917FZG9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rhodococcus trifolii OX=908250 GN=ispH PE=3 SV=1	Rhodococcus trifolii	333	602	40.3	61.7	6e-70
+928	TR	A0A1Y0C0E9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium dioxanotrophicus OX=482462 GN=ispH PE=3 SV=1	Mycobacterium dioxanotrophicus	333	602	41.6	63.3	6e-70
+929	TR	A0A0P7HVM0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Arthrobacter sp. Edens01 OX=1732020 GN=ispH PE=3 SV=1	Arthrobacter sp. Edens01	357	604	41.4	63.4	6.2e-70
+930	TR	A0A8J3J5A9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinocatenispora rupis OX=519421 GN=ispH PE=3 SV=1	Actinocatenispora rupis	334	602	42.4	63.9	6.2e-70
+931	TR	U7U932	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Alcaligenes sp. EGD-AK7 OX=1386079 GN=ispH PE=3 SV=1	Alcaligenes sp. EGD-AK7	323	601	41.3	59.3	6.2e-70
+932	TR	A0A4R7MR73	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. 846.5 OX=2485156 GN=ispH PE=3 SV=1	Streptomyces sp. 846.5	323	601	45.5	65.8	6.2e-70
+933	TR	A0A3N0E3Y6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nocardiopsaceae bacterium YIM 96095 OX=2487137 GN=ispH PE=3 SV=1	Nocardiopsaceae bacterium YIM 96095	323	601	41.8	63.5	6.2e-70
+934	TR	E2Q493	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces clavuligerus OX=1901 GN=ispH PE=3 SV=1	Streptomyces clavuligerus	346	603	42.4	63.2	6.3e-70
+935	TR	A0A5B9MRW4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Stieleria maiorica OX=2795974 GN=ispH PE=3 SV=1	Stieleria maiorica	312	600	41.0	62.0	6.3e-70
+936	TR	A0A6M4PJE6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces argyrophyllae OX=2726118 GN=ispH PE=3 SV=1	Streptomyces argyrophyllae	335	602	41.3	62.9	6.4e-70
+937	TR	A0A918MJG3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces lucensis JCM 4490 OX=1306176 GN=ispH PE=3 SV=1	Streptomyces lucensis JCM 4490	335	602	41.0	63.5	6.4e-70
+938	TR	A0A0K2G964	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nitrospira moscoviensis OX=42253 GN=ispH PE=3 SV=1	Nitrospira moscoviensis	313	600	43.4	65.9	6.5e-70
+939	TR	A0A0J1C5C0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Neisseria arctica OX=1470200 GN=ispH PE=3 SV=1	Neisseria arctica	313	600	43.2	59.4	6.5e-70
+940	TR	A0A011NCV3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mannheimia granulomatis OX=85402 GN=ispH PE=3 SV=1	Mannheimia granulomatis	314	600	41.4	61.1	6.7e-70
+941	TR	A0A1H0MM36	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudomonas jinjuensis OX=198616 GN=ispH PE=3 SV=1	Pseudomonas jinjuensis	314	600	42.7	60.3	6.7e-70
+942	TR	A0A917XKY7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces fuscichromogenes OX=1324013 GN=ispH PE=3 SV=1	Streptomyces fuscichromogenes	337	602	40.5	63.0	6.8e-70
+943	TR	A0A0N9YAQ8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium fortuitum OX=1766 GN=ispH PE=3 SV=1	Mycolicibacterium fortuitum	337	602	43.7	66.3	6.8e-70
+944	TR	A0A5P0YZV9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces alkaliterrae OX=2213162 GN=ispH PE=3 SV=1	Streptomyces alkaliterrae	349	603	40.3	62.6	6.9e-70
+945	TR	A0A0L0K212	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces acidiscabies OX=42234 GN=ispH PE=3 SV=1	Streptomyces acidiscabies	338	602	40.2	63.0	7e-70
+946	TR	A0A1H0E4H2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. cf386 OX=1761904 GN=ispH PE=3 SV=1	Streptomyces sp. cf386	338	602	40.5	62.7	7e-70
+947	TR	A0A101SYV4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces bungoensis OX=285568 GN=ispH PE=3 SV=1	Streptomyces bungoensis	338	602	40.5	63.0	7e-70
+948	TR	A0A1X1QXJ9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycolicibacterium fallax OX=1793 GN=ispH PE=3 SV=1	Mycolicibacterium fallax	327	601	41.6	63.6	7e-70
+949	TR	A0A892ZHQ1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Paralysiella testudinis OX=2809020 GN=ispH PE=3 SV=1	Paralysiella testudinis	316	600	43.0	59.9	7.1e-70
+950	TR	A0A0X3UV72	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces regalis OX=68262 GN=ispH PE=3 SV=1	Streptomyces regalis	339	602	41.6	62.9	7.2e-70
+951	TR	A0A1I7G8J8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Xenorhabdus koppenhoeferi OX=351659 GN=ispH PE=3 SV=1	Xenorhabdus koppenhoeferi	317	600	41.6	61.3	7.3e-70
+952	TR	A0A6L7GU75	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Gordonia mangrovi OX=2665643 GN=ispH PE=3 SV=1	Gordonia mangrovi	317	600	41.2	62.7	7.3e-70
+953	TR	A0A238D6T8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Thiomonas delicata OX=364030 GN=ispH PE=3 SV=1	Thiomonas delicata	329	601	42.9	61.1	7.5e-70
+954	TR	A0A1C3N606	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Micromonospora krabiensis OX=307121 GN=ispH PE=3 SV=1	Micromonospora krabiensis	329	601	43.4	66.4	7.5e-70
+955	TR	A0A7Y7B381	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces morookaense OX=1970 GN=ispH PE=3 SV=1	Streptomyces morookaense	329	601	43.1	62.8	7.5e-70
+956	TR	A0A1S1QE56	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Parafrankia colletiae OX=573497 GN=ispH PE=3 SV=1	Parafrankia colletiae	319	600	40.3	62.0	7.8e-70
+957	TR	A0A0F5JY31	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Robbsia andropogonis OX=28092 GN=ispH PE=3 SV=1	Robbsia andropogonis	319	600	41.6	60.7	7.8e-70
+958	TR	A0A4U0GSQ6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sinimarinibacterium sp. CAU 1509 OX=2562283 GN=ispH PE=3 SV=1	Sinimarinibacterium sp. CAU 1509	319	600	42.7	63.0	7.8e-70
+959	TR	A0A166PRH2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Frankia sp. EI5c OX=683316 GN=ispH PE=3 SV=1	Frankia sp. EI5c	319	600	40.3	62.3	7.8e-70
+960	TR	C6XB71	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Methylovorus glucosotrophus (strain SIP3-4) OX=582744 GN=ispH PE=3 SV=1	Methylovorus glucosotrophus (strain SIP3-4)	308	599	43.0	62.0	7.8e-70
+961	TR	A0A916J8Y9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Georgfuchsia toluolica OX=424218 GN=ispH PE=3 SV=1	Georgfuchsia toluolica	308	599	41.6	61.0	7.8e-70
+962	TR	A0A6N1WZI4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Comamonas antarctica OX=2743470 GN=ispH PE=3 SV=1	Comamonas antarctica	331	601	42.0	60.3	7.9e-70
+963	SP	A0Q4T9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Francisella tularensis subsp. novicida (strain U112) OX=401614 GN=ispH PE=3 SV=1	Francisella tularensis subsp. novicida (strain U112)	320	600	39.3	62.3	8e-70
+964	TR	A0A0S4LP16	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Nitrospira nitrificans OX=1742973 GN=ispH PE=3 SV=1	Candidatus Nitrospira nitrificans	320	600	43.8	64.4	8e-70
+965	TR	A0A7H2BFD6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rothia terrae OX=396015 GN=ispH PE=3 SV=1	Rothia terrae	366	604	40.2	64.6	8e-70
+966	TR	A0A6L7GE19	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Allopontixanthobacter confluentis OX=1849021 GN=ispH PE=3 SV=1	Allopontixanthobacter confluentis	343	602	43.7	63.6	8.1e-70
+967	TR	A0A918HWW9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces lavendofoliae OX=67314 GN=ispH PE=3 SV=1	Streptomyces lavendofoliae	332	601	41.7	63.4	8.2e-70
+968	TR	A0A519ZRX4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Rubrivivax sp. OX=50259 GN=ispH PE=3 SV=1	Rubrivivax sp.	333	601	42.6	60.1	8.4e-70
+969	TR	A0A7C9LJV3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Burkholderiales bacterium LSUCC0115 OX=1778438 GN=ispH PE=3 SV=1	Burkholderiales bacterium LSUCC0115	311	599	42.3	60.9	8.6e-70
+970	TR	S6B5Y4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Sulfuricella denitrificans (strain DSM 22764 / NBRC 105220 / skB26) OX=1163617 GN=ispH PE=3 SV=1	Sulfuricella denitrificans (strain DSM 22764 / NBRC 105220 / skB26)	311	599	43.2	60.1	8.6e-70
+971	TR	A0A7U6KRR6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Psychrobacter sp. KH172YL61 OX=2517899 GN=ispH PE=3 SV=1	Psychrobacter sp. KH172YL61	300	598	42.7	62.6	8.6e-70
+972	TR	A0A5R8YIR4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Microbispora fusca OX=2576905 GN=ispH PE=3 SV=1	Microbispora fusca	357	603	41.9	61.9	8.7e-70
+973	TR	A0A505DK36	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sporangiiformans OX=2315329 GN=ispH PE=3 SV=1	Streptomyces sporangiiformans	334	601	41.9	62.9	8.7e-70
+974	TR	I1D603	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharomonospora glauca K62 OX=928724 GN=ispH PE=3 SV=1	Saccharomonospora glauca K62	334	601	41.2	63.7	8.7e-70
+975	TR	A0A371Q600	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces inhibens OX=2293571 GN=ispH PE=3 SV=1	Streptomyces inhibens	346	602	40.8	62.1	8.8e-70
+976	TR	A0A2T4IE51	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudothauera lacus OX=2136175 GN=ispH PE=3 SV=1	Pseudothauera lacus	312	599	42.4	59.5	8.8e-70
+977	TR	A0A4S4ARL8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudothauera nasutitermitis OX=2565930 GN=ispH PE=3 SV=1	Pseudothauera nasutitermitis	312	599	44.1	62.6	8.8e-70
+978	TR	A0A177PV52	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Planctomycetaceae bacterium SCGC AG-212-D15 OX=1799653 GN=ispH PE=3 SV=1	Planctomycetaceae bacterium SCGC AG-212-D15	312	599	41.2	63.9	8.8e-70
+979	TR	A0A0M8VDG8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. MMG1121 OX=1415544 GN=ispH PE=3 SV=1	Streptomyces sp. MMG1121	335	601	41.0	62.9	8.9e-70
+980	TR	A0A1P8R3Y9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Halomonas sp. 1513 OX=1883416 GN=ispH PE=3 SV=1	Halomonas sp. 1513	335	601	41.6	63.1	8.9e-70
+981	TR	A0A975PXZ8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Mycobacterium spongiae OX=886343 GN=ispH PE=3 SV=1	Mycobacterium spongiae	335	601	43.8	65.7	8.9e-70
+982	TR	A0A562UPM4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Stackebrandtia albiflava OX=406432 GN=ispH PE=3 SV=1	Stackebrandtia albiflava	324	600	39.7	60.9	9e-70
+983	TR	A0A6P0EYP7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Modestobacter muralis OX=1608614 GN=ispH PE=3 SV=1	Modestobacter muralis	324	600	42.1	67.4	9e-70
+984	TR	A0A6S6WIK8	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Pseudidiomarina piscicola OX=2614830 GN=ispH PE=3 SV=1	Pseudidiomarina piscicola	313	599	40.5	62.5	9.1e-70
+985	TR	A0A519PI28	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Massilia sp. OX=1882437 GN=ispH PE=3 SV=1	Massilia sp.	313	599	43.8	60.4	9.1e-70
+986	TR	A0A178XED9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Amycolatopsis sp. M39 OX=1825094 GN=ispH_1 PE=3 SV=1	Amycolatopsis sp. M39	336	601	39.9	62.0	9.2e-70
+987	TR	A0A7G8WKN1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Nakamurella sp. PAMC28650 OX=2762325 GN=ispH PE=3 SV=1	Nakamurella sp. PAMC28650	325	600	41.3	61.0	9.3e-70
+988	TR	A0A564ZLA5	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Candidatus Methylomirabilis lanthanidiphila OX=2211376 GN=ispH PE=3 SV=1	Candidatus Methylomirabilis lanthanidiphila	325	600	44.9	63.5	9.3e-70
+989	TR	A0A0H3KHA9	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Burkholderia multivorans (strain ATCC 17616 / 249) OX=395019 GN=lytB PE=3 SV=1	Burkholderia multivorans (strain ATCC 17616 / 249)	325	600	42.3	60.3	9.3e-70
+990	TR	A0A4P7CKI1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Actinobacillus indolicus OX=51049 GN=ispH PE=3 SV=1	Actinobacillus indolicus	314	599	41.2	61.7	9.4e-70
+991	TR	A0A7X6DHC3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Ramlibacter lithotrophicus OX=2606681 GN=ispH PE=3 SV=1	Ramlibacter lithotrophicus	314	599	41.4	61.5	9.4e-70
+992	TR	A0A2I0F561	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Moritella sp. Urea-trap-13 OX=2058327 GN=ispH PE=3 SV=1	Moritella sp. Urea-trap-13	314	599	43.7	64.1	9.4e-70
+993	TR	A0A918EEZ1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Saccharothrix coeruleofusca OX=33919 GN=lytB PE=3 SV=1	Saccharothrix coeruleofusca	314	599	43.5	66.8	9.4e-70
+994	TR	A0A1H5KJY2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. Ag109_O5-10 OX=1855349 GN=ispH PE=3 SV=1	Streptomyces sp. Ag109_O5-10	337	601	41.6	63.2	9.5e-70
+995	TR	A0A2I0SW53	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces populi OX=2058924 GN=ispH PE=3 SV=1	Streptomyces populi	337	601	41.9	62.3	9.5e-70
+996	TR	A0A429UVH1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces sp. WAC04770 OX=2487423 GN=ispH PE=3 SV=1	Streptomyces sp. WAC04770	326	600	44.5	65.1	9.6e-70
+997	TR	A0A0M2WI19	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Janthinobacterium sp. KBS0711 OX=1649647 GN=ispH PE=3 SV=1	Janthinobacterium sp. KBS0711	315	599	42.9	60.4	9.7e-70
+998	TR	A0A7X6HAY0	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Arthrobacter mobilis OX=2724944 GN=ispH PE=3 SV=1	Arthrobacter mobilis	361	603	40.7	63.7	9.7e-70
+999	TR	A0A918C2J6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces aurantiogriseus OX=66870 GN=ispH PE=3 SV=1	Streptomyces aurantiogriseus	338	601	41.3	63.2	9.8e-70
+1000	TR	S5UWE7	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Streptomyces collinus (strain DSM 40733 / Tue 365) OX=1214242 GN=ispH PE=3 SV=1	Streptomyces collinus (strain DSM 40733 / Tue 365)	338	601	41.0	63.2	9.8e-70
