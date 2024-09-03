@@ -1,0 +1,251 @@
+Hit	DB	Accession	Description	Organism	Length	Score(Bits)	Identities(%)	Positives(%)	E()
+1	TR	A0A024W5X6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_02984 PE=3 SV=1	Plasmodium falciparum Tanzania (2000708)	824	4279	100.0	100.0	0.0
+2	TR	W7JYC2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=CK202_4783 PE=3 SV=1	Plasmodium falciparum (isolate NF54)	824	4279	100.0	100.0	0.0
+3	TR	Q8IJH7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), putative OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_1022800 PE=3 SV=1	Plasmodium falciparum (isolate 3D7)	824	4279	100.0	100.0	0.0
+4	TR	W4J2X7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_01443 PE=3 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	824	4278	99.9	100.0	0.0
+5	TR	A0A024X6V3	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_02906 PE=3 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	824	4278	99.9	100.0	0.0
+6	TR	A0A0L7KK90	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_04116 PE=3 SV=1	Plasmodium falciparum (isolate HB3)	825	4267	99.9	99.9	0.0
+7	TR	A0A0L1I7Y8	GcpE protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_01862 PE=3 SV=1	Plasmodium falciparum IGH-CR14	823	4261	99.9	99.9	0.0
+8	TR	W7JBQ5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_03004 PE=3 SV=1	Plasmodium falciparum UGT5.1	823	4260	99.8	99.9	0.0
+9	TR	A0A024VIQ1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_03965 PE=3 SV=1	Plasmodium falciparum FCH/4	821	4247	99.6	99.6	0.0
+10	TR	A0A024WPZ9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_02923 PE=3 SV=1	Plasmodium falciparum MaliPS096_E11	821	4247	99.6	99.6	0.0
+11	TR	A0A1J1H663	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, putative OS=Plasmodium relictum OX=85471 GN=GcpE PE=3 SV=1	Plasmodium relictum	852	3162	70.6	81.0	0.0
+12	TR	A0A509AGV9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), putative OS=Plasmodium berghei (strain Anka) OX=5823 GN=PBANKA_0507000 PE=3 SV=1	Plasmodium berghei (strain Anka)	819	2983	68.9	81.6	0.0
+13	TR	Q7RNZ7	GcpE OS=Plasmodium yoelii yoelii OX=73239 GN=PY01664 PE=3 SV=1	Plasmodium yoelii yoelii	826	2965	68.7	81.9	0.0
+14	TR	A0A1Y1JCH2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium gonderi OX=77519 GN=PGO_060740 PE=3 SV=1	Plasmodium gonderi	786	2937	68.7	81.0	0.0
+15	TR	A0A1D3RIJ7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, putative OS=Plasmodium malariae OX=5858 GN=GcpE PE=3 SV=1	Plasmodium malariae	888	2912	64.8	78.0	0.0
+16	TR	A0A1A8YMI0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, putative (GcpE) OS=Plasmodium ovale wallikeri OX=864142 GN=POVWA1_013690 PE=3 SV=1	Plasmodium ovale wallikeri	853	2890	64.4	76.6	0.0
+17	TR	A0A1D3TFZ5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, putative OS=Plasmodium ovale OX=36330 GN=GcpE PE=3 SV=1	Plasmodium ovale	855	2864	63.6	76.2	0.0
+18	TR	A0A1A8WEB4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, putative (GcpE) (Fragment) OS=Plasmodium ovale curtisi OX=864141 GN=POVCU2_0066500 PE=3 SV=1	Plasmodium ovale curtisi	772	2804	68.3	80.3	0.0
+19	TR	A0A384KV27	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), putative OS=Plasmodium knowlesi (strain H) OX=5851 GN=PKNH_0607100 PE=3 SV=1	Plasmodium knowlesi (strain H)	813	2780	64.8	78.8	0.0
+20	TR	A5KE60	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (GcpE), putative OS=Plasmodium vivax (strain Salvador I) OX=126793 GN=PVX_111575 PE=3 SV=1	Plasmodium vivax (strain Salvador I)	820	2725	64.5	77.8	0.0
+21	TR	K6UR00	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium cynomolgi (strain B) OX=1120755 GN=PCYB_061710 PE=4 SV=1	Plasmodium cynomolgi (strain B)	598	1928	63.0	75.7	0.0
+22	TR	A0A0L7LX38	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_05399 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	351	1734	93.7	94.5	0.0
+23	TR	J4C3G4	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase OS=Theileria orientalis strain Shintoku OX=869250 GN=TOT_020000653 PE=3 SV=1	Theileria orientalis strain Shintoku	834	1587	44.5	62.9	0.0
+24	TR	A0A0L7LWX8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Fragment) OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_05398 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	302	1557	100.0	100.0	0.0
+25	TR	A0A0L0D0S5	GcpE protein (Fragment) OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_03096 PE=4 SV=1	Plasmodium falciparum RAJ116	302	1554	99.7	100.0	0.0
+26	TR	Q4UF23	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase, putative OS=Theileria annulata OX=5874 GN=TA14455 PE=3 SV=1	Theileria annulata	808	1531	44.2	62.1	0.0
+27	TR	A0A9W5WVK9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Babesia ovis OX=5869 GN=BaOVIS_023780 PE=3 SV=1	Babesia ovis	773	1531	44.6	64.4	0.0
+28	TR	A0A1R4ABJ8	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase OS=Babesia microti (strain RI) OX=1133968 GN=BMR1_03g01825 PE=3 SV=1	Babesia microti (strain RI)	686	1525	45.8	62.9	0.0
+29	TR	A0A061D8E4	GcpE protein, putative OS=Babesia bigemina OX=5866 GN=BBBOND_0103290 PE=3 SV=1	Babesia bigemina	780	1519	45.5	63.8	0.0
+30	TR	L0AX91	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, putative OS=Theileria equi strain WA OX=1537102 GN=BEWA_024900 PE=3 SV=1	Theileria equi strain WA	770	1515	45.0	63.7	0.0
+31	TR	A7AUN2	GcpE protein OS=Babesia bovis OX=5865 GN=BBOV_II006930 PE=3 SV=1	Babesia bovis	772	1514	43.8	63.2	0.0
+32	TR	A0A1X1BL96	Citrate synthase OS=Babesia sp. Xinjiang OX=462227 GN=BXIN_1674 PE=3 SV=1	Babesia sp. Xinjiang	1299	1512	44.2	63.4	0.0
+33	TR	A0A0G4ECH0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Vitrella brassicaformis (strain CCMP3155) OX=1169540 GN=Vbra_4867 PE=3 SV=1	Vitrella brassicaformis (strain CCMP3155)	776	1372	40.4	60.0	3e-175
+34	TR	A0A8S1J034	C2H2-type domain-containing protein OS=Ostreobium quekettii OX=121088 GN=OSTQU699_LOCUS2225 PE=3 SV=1	Ostreobium quekettii	721	1363	39.8	60.7	1.2e-174
+35	TR	A0A9D4TI16	Chloroplast 1-hydroxy-2-methyl-2-(E)-butenyl-4-diphosphate synthase OS=Chlorella vulgaris OX=3077 GN=D9Q98_008487 PE=3 SV=1	Chlorella vulgaris	713	1360	41.8	60.6	2.7e-174
+36	TR	A0A9W6BMW0	Uncharacterized protein OS=Pleodorina starrii OX=330485 GN=PLEST010644 PE=3 SV=1	Pleodorina starrii	679	1352	41.2	59.3	1.4e-173
+37	TR	A0A9N8DIG6	Hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Seminavis robusta OX=568900 GN=SEMRO_162_G072810.1 PE=3 SV=1	Seminavis robusta	752	1351	40.2	60.5	2e-172
+38	TR	A0A2H6KCT1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Babesia ovata OX=189622 GN=BOVATA_022960 PE=3 SV=1	Babesia ovata	2022	1428	44.9	63.4	5.5e-172
+39	TR	A0A8J4FEI5	Uncharacterized protein OS=Volvox africanus OX=51714 GN=Vafri_22024 PE=3 SV=1	Volvox africanus	678	1335	40.3	60.0	4.9e-171
+40	TR	A0A2P6TKU4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin) chloroplastic OS=Chlorella sorokiniana OX=3076 GN=C2E21_6496 PE=3 SV=1	Chlorella sorokiniana	997	1362	41.4	59.9	5.5e-171
+41	TR	A0A835SMR2	Uncharacterized protein OS=Chlamydomonas incerta OX=51695 GN=HXX76_012197 PE=3 SV=1	Chlamydomonas incerta	681	1333	41.4	58.7	1.1e-170
+42	TR	A8ILN4	Uncharacterized protein OS=Chlamydomonas reinhardtii OX=3055 GN=CHLRE_12g490350v5 PE=3 SV=1	Chlamydomonas reinhardtii	681	1328	41.5	58.5	6.1e-170
+43	TR	A0A8J4CMP3	Uncharacterized protein OS=Volvox reticuliferus OX=1737510 GN=Vretifemale_13228 PE=3 SV=1	Volvox reticuliferus	679	1326	39.9	59.3	1.1e-169
+44	TR	A0A150GJ77	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gonium pectorale OX=33097 GN=GPECTOR_19g300 PE=3 SV=1	Gonium pectorale	686	1325	39.8	60.2	2e-169
+45	TR	A0A9K3PVC3	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Nitzschia inconspicua OX=303405 GN=IV203_036057 PE=3 SV=1	Nitzschia inconspicua	756	1329	40.2	60.7	4.4e-169
+46	TR	A0A835WRB0	Uncharacterized protein OS=Chlamydomonas schloesseri OX=2026947 GN=HYH02_002901 PE=3 SV=1	Chlamydomonas schloesseri	681	1321	41.6	58.8	6.8e-169
+47	TR	A0A9K3L7M1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Nitzschia inconspicua OX=303405 GN=IV203_001606 PE=3 SV=1	Nitzschia inconspicua	756	1326	40.2	60.5	1.2e-168
+48	TR	D8U477	Uncharacterized protein OS=Volvox carteri f. nagariensis OX=3068 GN=VOLCADRAFT_63610 PE=3 SV=1	Volvox carteri f. nagariensis	679	1318	39.6	59.6	1.8e-168
+49	TR	A0A383W8H6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Tetradesmus obliquus OX=3088 GN=BQ4739_LOCUS13113 PE=3 SV=1	Tetradesmus obliquus	725	1320	39.6	59.3	3.8e-168
+50	TR	A0A9W7B3L4	Uncharacterized protein OS=Triparma laevis f. longispina OX=1714387 GN=TrLO_g9175 PE=3 SV=1	Triparma laevis f. longispina	753	1321	39.4	58.3	6.3e-168
+51	TR	A0A448ZBT4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Pseudo-nitzschia multistriata OX=183589 GN=PSNMU_V1.4_AUG-EV-PASAV3_0064540 PE=3 SV=1	Pseudo-nitzschia multistriata	752	1320	39.3	59.3	8.7e-168
+52	TR	A0A9W7EVX9	Uncharacterized protein OS=Triparma strigata OX=1606541 GN=TrST_g408 PE=3 SV=1	Triparma strigata	752	1318	40.0	59.6	1.7e-167
+53	TR	A0A5B8MHS8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Chloropicon primus OX=1764295 GN=A3770_02p14400 PE=3 SV=1	Chloropicon primus	736	1316	40.0	58.7	2.1e-167
+54	TR	A0A835YGL0	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase chloroplast OS=Tribonema minus OX=303371 GN=JKP88DRAFT_203902 PE=3 SV=1	Tribonema minus	697	1311	39.9	58.9	3.5e-167
+55	TR	A0A7J7QEI5	Putative chloroplast 1-hydroxy-2-methyl-2-(E)-butenyl-4-diphosphate synthase OS=Scenedesmus sp. NREL 46B-D3 OX=2650976 GN=COO60DRAFT_1282900 PE=3 SV=1	Scenedesmus sp. NREL 46B-D3	727	1311	39.8	59.1	8.9e-167
+56	TR	A0A9W7EU66	Uncharacterized protein (Fragment) OS=Triparma laevis f. inornata OX=1714386 GN=TL16_g11633 PE=3 SV=1	Triparma laevis f. inornata	676	1306	40.7	59.3	1e-166
+57	TR	A0A835XZX4	Uncharacterized protein OS=Edaphochlamys debaryana OX=47281 GN=HYH03_009579 PE=3 SV=1	Edaphochlamys debaryana	680	1306	40.0	59.4	1.2e-166
+58	TR	A0A8T2WEW3	Putative 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Chlorella desiccata (nom. nud.) OX=1650286 GN=NADE_009080 PE=3 SV=1	Chlorella desiccata (nom. nud.)	742	1308	39.9	60.2	4e-166
+59	TR	K0SQL6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Fragment) OS=Thalassiosira oceanica OX=159749 GN=THAOC_11283 PE=3 SV=1	Thalassiosira oceanica	756	1306	40.2	59.8	1.2e-165
+60	TR	B7FV10	1-hydroxy-2-methyl-2-(E)-butenyl-4-diphosphate synthase OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX=556484 GN=HDS PE=3 SV=1	Phaeodactylum tricornutum (strain CCAP 1055/1)	757	1302	40.3	59.7	4.9e-165
+61	TR	B8C7D5	Gcpe-like protein OS=Thalassiosira pseudonana OX=35128 GN=GcpE PE=3 SV=1	Thalassiosira pseudonana	686	1295	39.5	59.0	6.2e-165
+62	TR	A0A2K1IYN5	Uncharacterized protein OS=Physcomitrium patens OX=3218 GN=PHYPA_024202 PE=3 SV=1	Physcomitrium patens	751	1300	40.1	58.7	8.2e-165
+63	TR	L1K0P1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Guillardia theta (strain CCMP2712) OX=905079 GN=GUITHDRAFT_63981 PE=3 SV=1	Guillardia theta (strain CCMP2712)	679	1292	40.2	58.7	1.4e-164
+64	TR	A0A7I4BKD6	Uncharacterized protein OS=Physcomitrium patens OX=3218 PE=3 SV=1	Physcomitrium patens	750	1297	40.6	58.8	2.2e-164
+65	TR	A0A2P6V0A4	Adenylate kinase isoenzyme 6 homolog OS=Micractinium conductrix OX=554055 GN=C2E20_8823 PE=3 SV=1	Micractinium conductrix	1416	1346	41.2	59.9	2.3e-164
+66	TR	K8EKA1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Bathycoccus prasinos OX=41875 GN=Bathy10g03500 PE=3 SV=1	Bathycoccus prasinos	745	1292	40.6	59.6	1.1e-163
+67	TR	D7FRY5	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase, chloroplast OS=Ectocarpus siliculosus OX=2880 GN=HDS PE=3 SV=1	Ectocarpus siliculosus	695	1287	40.1	58.9	1.3e-163
+68	TR	A0A2K1INJ2	Uncharacterized protein OS=Physcomitrium patens OX=3218 GN=PHYPA_027171 PE=3 SV=1	Physcomitrium patens	751	1280	40.1	59.0	7.9e-162
+69	TR	A0A3T1C9M0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) OS=Neochlamydia sp. S13 OX=1353976 GN=ispG PE=3 SV=1	Neochlamydia sp. S13	638	1265	40.0	58.7	4.2e-161
+70	TR	Q012C2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, bacterial-type OS=Ostreococcus tauri OX=70448 GN=OT_ostta09g00960 PE=3 SV=1	Ostreococcus tauri	726	1270	40.2	59.1	1.2e-160
+71	TR	A0A4P1RD39	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Lupinus angustifolius OX=3871 GN=TanjilG_03244 PE=3 SV=1	Lupinus angustifolius	742	1270	39.7	59.3	1.9e-160
+72	TR	A0A7J9GH23	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium harknessii OX=34285 GN=Gohar_007611 PE=3 SV=1	Gossypium harknessii	740	1268	39.3	59.3	3.5e-160
+73	TR	A0A9D3VZ72	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium stocksii OX=47602 GN=J1N35_009807 PE=3 SV=1	Gossypium stocksii	740	1266	39.2	59.2	7e-160
+74	TR	A0A0D2S4F1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium raimondii OX=29730 GN=B456_004G228600 PE=3 SV=1	Gossypium raimondii	740	1264	39.4	59.5	1.4e-159
+75	TR	A0A5P1EDW1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Asparagus officinalis OX=4686 GN=A4U43_C07F20610 PE=3 SV=1	Asparagus officinalis	698	1260	39.2	59.2	1.5e-159
+76	TR	A0A9D5C0I1	Uncharacterized protein OS=Dioscorea zingiberensis OX=325984 GN=J5N97_028896 PE=3 SV=1	Dioscorea zingiberensis	749	1263	38.6	58.5	2.6e-159
+77	TR	A0A7J8ZDU6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium laxum OX=34288 GN=Golax_024953 PE=3 SV=1	Gossypium laxum	740	1262	39.2	59.3	2.8e-159
+78	TR	A0A2K1ISJ6	Uncharacterized protein OS=Physcomitrium patens OX=3218 GN=PHYPA_026377 PE=3 SV=1	Physcomitrium patens	749	1262	39.5	58.5	3.6e-159
+79	TR	A0A484NE29	Uncharacterized protein OS=Cuscuta campestris OX=132261 GN=CCAM_LOCUS39870 PE=3 SV=1	Cuscuta campestris	740	1261	40.3	59.3	3.9e-159
+80	TR	A0A484MRE1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Cuscuta campestris OX=132261 GN=CCAM_LOCUS33259 PE=3 SV=1	Cuscuta campestris	740	1261	40.0	59.4	3.9e-159
+81	TR	A0A6L5BCF5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Apium graveolens OX=4045 GN=AG4045_014323 PE=3 SV=1	Apium graveolens	739	1260	38.9	59.8	5.3e-159
+82	TR	A0A834SJV6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Senna tora OX=362788 GN=G2W53_037744 PE=3 SV=1	Senna tora	740	1260	39.4	59.5	5.5e-159
+83	TR	A0A7J9L077	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium schwendimanii OX=34291 GN=Goshw_001887 PE=3 SV=1	Gossypium schwendimanii	740	1260	39.0	59.3	5.5e-159
+84	TR	A0A7J9BMG6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium gossypioides OX=34282 GN=Gogos_010820 PE=3 SV=1	Gossypium gossypioides	740	1260	39.2	59.3	5.5e-159
+85	TR	A0A0B0MXE4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium arboreum OX=29729 GN=F383_26611 PE=3 SV=1	Gossypium arboreum	740	1260	39.0	59.1	5.5e-159
+86	TR	A0A6A3B7A4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin) OS=Hibiscus syriacus OX=106335 GN=F3Y22_tig00110263pilonHSYRG00149 PE=3 SV=1	Hibiscus syriacus	740	1260	39.8	58.6	5.5e-159
+87	TR	A0A7N2KN87	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Quercus lobata OX=97700 PE=3 SV=1	Quercus lobata	741	1260	39.8	59.0	5.6e-159
+88	TR	A0A6P5XTD4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform X4 OS=Durio zibethinus OX=66656 GN=LOC111285842 PE=3 SV=1	Durio zibethinus	682	1254	39.5	58.5	7.3e-159
+89	TR	A0A0D2R975	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium raimondii OX=29730 GN=B456_004G228600 PE=3 SV=1	Gossypium raimondii	739	1259	39.1	59.1	7.5e-159
+90	TR	M4CE37	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Brassica campestris OX=3711 PE=3 SV=1	Brassica campestris	694	1255	38.7	60.1	7.5e-159
+91	TR	A0A9Q1LSU4	Uncharacterized protein OS=Anisodus acutangulus OX=402998 GN=K7X08_025545 PE=3 SV=1	Anisodus acutangulus	740	1259	39.8	58.3	7.7e-159
+92	TR	A0A2I4EJD9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Juglans regia OX=51240 GN=LOC108990107 PE=3 SV=1	Juglans regia	740	1259	39.9	59.4	7.7e-159
+93	TR	A0A7J8RCX6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium davidsonii OX=34287 GN=Godav_012360 PE=3 SV=1	Gossypium davidsonii	740	1258	39.0	59.0	1.1e-158
+94	TR	A0A5D2TZQ7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium mustelinum OX=34275 GN=E1A91_D08G238600v1 PE=3 SV=1	Gossypium mustelinum	740	1258	39.0	59.5	1.1e-158
+95	TR	A0A445BWD0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Arachis hypogaea OX=3818 GN=Ahy_A08g039301 PE=3 SV=1	Arachis hypogaea	743	1258	39.5	59.0	1.2e-158
+96	TR	A0A5D2YCA3	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium mustelinum OX=34275 GN=E1A91_A08G216800v1 PE=3 SV=1	Gossypium mustelinum	740	1257	39.0	58.8	1.5e-158
+97	TR	A0A6P4B3Q5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Arachis duranensis OX=130453 GN=LOC107461711 PE=3 SV=1	Arachis duranensis	743	1257	39.5	59.0	1.7e-158
+98	TR	A0A8B8KJY9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform X3 OS=Abrus precatorius OX=3816 GN=LOC113856118 PE=3 SV=1	Abrus precatorius	741	1256	39.6	59.8	2.2e-158
+99	TR	A0A078IUF6	BnaC09g54000D protein OS=Brassica napus OX=3708 GN=BnaC09g54000D PE=3 SV=1	Brassica napus	736	1255	38.4	59.4	2.7e-158
+100	TR	A0A3Q7XSY7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Cicer arietinum OX=3827 GN=LOC101515596 PE=3 SV=1	Cicer arietinum	751	1256	39.7	59.6	3e-158
+101	TR	A0A7J8U928	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium klotzschianum OX=34286 GN=Goklo_014749 PE=3 SV=1	Gossypium klotzschianum	740	1255	39.1	58.7	3e-158
+102	TR	A0A8T1NJF9	Uncharacterized protein OS=Carya illinoinensis OX=32201 GN=CIPAW_13G112600 PE=3 SV=1	Carya illinoinensis	740	1255	39.6	59.5	3e-158
+103	TR	A0A8T1NG81	Uncharacterized protein OS=Carya illinoinensis OX=32201 GN=CIPAW_14G080300 PE=3 SV=1	Carya illinoinensis	742	1255	39.6	58.7	3.2e-158
+104	TR	A0A8T0GYY6	Uncharacterized protein OS=Ceratodon purpureus OX=3225 GN=KC19_8G080700 PE=3 SV=1	Ceratodon purpureus	754	1256	39.9	59.1	3.3e-158
+105	TR	A0A6A3CT02	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin) OS=Hibiscus syriacus OX=106335 GN=F3Y22_tig00001818pilonHSYRG00185 PE=3 SV=1	Hibiscus syriacus	740	1254	39.6	58.7	4.3e-158
+106	TR	A0A6P5XSM1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform X3 OS=Durio zibethinus OX=66656 GN=LOC111285842 PE=3 SV=1	Durio zibethinus	740	1254	39.5	58.5	4.3e-158
+107	TR	A0A2P5XV19	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium barbadense OX=3634 GN=GOBAR_AA13487 PE=3 SV=1	Gossypium barbadense	729	1253	38.8	58.4	4.3e-158
+108	TR	A0A6A4QPL1	Putative (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (Ferredoxin) OS=Lupinus albus OX=3870 GN=Lalb_Chr03g0027311 PE=3 SV=1	Lupinus albus	742	1254	39.6	59.1	4.6e-158
+109	TR	A0A8T0GFH7	Uncharacterized protein OS=Ceratodon purpureus OX=3225 GN=KC19_11G088200 PE=3 SV=1	Ceratodon purpureus	751	1254	39.4	59.0	6e-158
+110	TR	A0A9W7MB89	CONSTITUTIVE SUBTILISIN 3, 4-hydroxy-3-methylbut-2-enyl diphosphate synthase OS=Hibiscus trionum OX=183268 GN=HRI_003097400 PE=3 SV=1	Hibiscus trionum	740	1253	39.6	58.5	6.1e-158
+111	TR	D7SKY1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Vitis vinifera OX=29760 GN=VIT_06s0004g02900 PE=3 SV=1	Vitis vinifera	740	1253	39.7	59.2	6.1e-158
+112	TR	G7IRR3	4-hydroxy-3-methylbut-2-enyl diphosphate synthase OS=Medicago truncatula OX=3880 GN=11413255 PE=3 SV=2	Medicago truncatula	740	1253	39.4	60.2	6.1e-158
+113	TR	Q8GZR6	GcpE OS=Solanum lycopersicum OX=4081 GN=543704 PE=2 SV=1	Solanum lycopersicum	740	1253	39.3	58.0	6.1e-158
+114	TR	A0A6J0KG19	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Raphanus sativus OX=3726 GN=LOC108818135 PE=3 SV=2	Raphanus sativus	741	1253	38.7	60.1	6.2e-158
+115	TR	A0A8J4VUM2	Uncharacterized protein OS=Castanea mollissima OX=60419 GN=CMV_005317 PE=3 SV=1	Castanea mollissima	768	1255	39.8	59.0	7e-158
+116	TR	A0A445AAB1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Arachis hypogaea OX=3818 GN=Ahy_B03g068506 PE=3 SV=1	Arachis hypogaea	746	1253	39.3	59.4	7.2e-158
+117	TR	A0A6P5XSJ2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform X2 OS=Durio zibethinus OX=66656 GN=LOC111285842 PE=3 SV=1	Durio zibethinus	761	1254	39.5	58.5	8e-158
+118	TR	A0A8J5YQK6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium anomalum OX=47600 GN=CXB51_020484 PE=3 SV=1	Gossypium anomalum	740	1252	38.7	58.9	8.5e-158
+119	TR	A0A445BVW2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Arachis hypogaea OX=3818 GN=Ahy_A08g039301 PE=3 SV=1	Arachis hypogaea	812	1258	39.5	59.0	9.1e-158
+120	TR	A0A540KAQ8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Malus baccata OX=106549 GN=C1H46_043173 PE=3 SV=1	Malus baccata	757	1253	39.8	58.8	1e-157
+121	TR	A0A8B8KIJ0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform X1 OS=Abrus precatorius OX=3816 GN=LOC113856118 PE=3 SV=1	Abrus precatorius	796	1256	39.6	59.8	1.1e-157
+122	TR	A0A5D2YCP7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Gossypium mustelinum OX=34275 GN=E1A91_A08G216800v1 PE=3 SV=1	Gossypium mustelinum	739	1251	38.7	58.4	1.2e-157
+123	TR	A0A835JV65	Uncharacterized protein OS=Salix dunnii OX=1413687 GN=SADUNF_Sadunf09G0008800 PE=3 SV=1	Salix dunnii	740	1251	39.6	58.7	1.2e-157
+124	TR	A0A2K3NQ30	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase chloroplastic-like OS=Trifolium pratense OX=57577 GN=L195_g001583 PE=3 SV=1	Trifolium pratense	740	1251	39.6	59.8	1.2e-157
+125	TR	A0A5N5LEZ4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Salix brachista OX=2182728 GN=DKX38_013655 PE=3 SV=1	Salix brachista	740	1250	39.5	59.0	1.7e-157
+126	TR	A0A078H1A8	(rape) hypothetical protein OS=Brassica napus OX=3708 GN=BnaA10g13400D PE=3 SV=1	Brassica napus	741	1250	38.5	59.7	1.7e-157
+127	TR	A0A445E4W3	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Arachis hypogaea OX=3818 GN=Ahy_A03g016883 PE=3 SV=1	Arachis hypogaea	746	1250	38.9	58.8	2e-157
+128	TR	A0A6P4CJY1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Arachis duranensis OX=130453 GN=LOC107476951 PE=3 SV=1	Arachis duranensis	747	1250	39.1	59.4	2.1e-157
+129	TR	A0A8B8QG89	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Rhodamnia argentea OX=178133 GN=LOC115752177 PE=3 SV=1	Rhodamnia argentea	739	1249	39.5	58.5	2.3e-157
+130	TR	A0A9Q0SB52	4-HYDROXY-3-METHYLBUT-2-EN-1-YL DIPHOSPHATE SYNTHASE OS=Salix viminalis OX=40686 GN=OIU85_014331 PE=3 SV=1	Salix viminalis	740	1249	39.5	59.0	2.4e-157
+131	TR	A0A8X7Z3X9	Uncharacterized protein OS=Populus tomentosa OX=118781 GN=POTOM_033902 PE=3 SV=1	Populus tomentosa	740	1249	39.8	58.7	2.4e-157
+132	TR	A0AA86SVN4	Uncharacterized protein OS=Sphenostylis stenocarpa OX=92480 GN=AYBTSS11_LOCUS16411 PE=3 SV=1	Sphenostylis stenocarpa	740	1249	39.3	59.5	2.4e-157
+133	TR	A0A9Q0YZK5	4-HYDROXY-3-METHYLBUT-2-EN-1-YL DIPHOSPHATE SYNTHASE OS=Salix koriyanagi OX=2511006 GN=OIU74_008497 PE=3 SV=1	Salix koriyanagi	740	1249	39.5	59.0	2.4e-157
+134	TR	A0A9Q0PNJ2	4-HYDROXY-3-METHYLBUT-2-EN-1-YL DIPHOSPHATE SYNTHASE OS=Salix purpurea OX=77065 GN=OIU79_013560 PE=3 SV=1	Salix purpurea	740	1249	39.5	59.0	2.4e-157
+135	TR	A0A0K9P0Y7	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase OS=Zostera marina OX=29655 GN=ZOSMA_44G01160 PE=3 SV=1	Zostera marina	740	1249	39.2	58.5	2.4e-157
+136	TR	A0A2P6QHH1	Putative (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (Ferredoxin) OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr5g0059471 PE=3 SV=1	Rosa chinensis	740	1249	39.7	59.2	2.4e-157
+137	TR	A0A151RCK5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Cajanus cajan OX=3821 GN=KK1_038311 PE=3 SV=1	Cajanus cajan	740	1249	39.4	59.5	2.4e-157
+138	TR	A0AA38ZZD6	Uncharacterized protein OS=Vitis rotundifolia OX=103349 GN=PVL29_007296 PE=3 SV=1	Vitis rotundifolia	740	1249	39.6	59.2	2.4e-157
+139	TR	A0A1U7ZX11	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Nelumbo nucifera OX=4432 GN=LOC104594845 PE=3 SV=1	Nelumbo nucifera	740	1249	39.3	58.4	2.4e-157
+140	TR	A0A660KT14	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Carpinus fangiana OX=176857 GN=FH972_011321 PE=3 SV=1	Carpinus fangiana	741	1249	39.4	59.5	2.5e-157
+141	TR	V4LEX8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10012774mg PE=3 SV=1	Eutrema salsugineum	742	1249	38.7	59.4	2.5e-157
+142	TR	A0A444Y7V9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Arachis hypogaea OX=3818 GN=Ahy_B08g094093 PE=3 SV=1	Arachis hypogaea	743	1249	39.4	59.3	2.6e-157
+143	TR	A0A2I0AUJ6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, chloroplastic OS=Apostasia shenzhenica OX=1088818 GN=ISPG PE=3 SV=1	Apostasia shenzhenica	744	1249	38.8	58.2	2.7e-157
+144	TR	A0A9D4X561	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Pisum sativum OX=3888 GN=KIW84_057699 PE=3 SV=1	Pisum sativum	740	1248	39.1	59.6	3.4e-157
+145	TR	A0A1J6HW98	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Nicotiana attenuata OX=49451 GN=ISPG_0 PE=3 SV=1	Nicotiana attenuata	740	1248	40.0	58.6	3.4e-157
+146	TR	A0A067LHI5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Jatropha curcas OX=180498 GN=JCGZ_05527 PE=3 SV=1	Jatropha curcas	740	1248	39.0	59.6	3.4e-157
+147	TR	A0A5E4F7U2	PREDICTED: 4-hydroxy-3-methylbut-2-en-1-yl diphosphate OS=Prunus dulcis OX=3755 GN=ALMOND_2B013740 PE=3 SV=1	Prunus dulcis	740	1248	39.4	59.2	3.4e-157
+148	TR	A0A6J1KDW7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic-like OS=Cucurbita maxima OX=3661 GN=LOC111493449 PE=3 SV=1	Cucurbita maxima	741	1248	39.3	59.6	3.5e-157
+149	TR	A0A565CTL1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Arabis nemorensis OX=586526 GN=ANE_LOCUS27190 PE=3 SV=1	Arabis nemorensis	742	1248	38.7	59.7	3.6e-157
+150	TR	A0A6I9QBW0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Elaeis guineensis var. tenera OX=51953 GN=LOC105033410 PE=3 SV=1	Elaeis guineensis var. tenera	743	1248	38.4	59.2	3.7e-157
+151	TR	A0A6P5XTL2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform X1 OS=Durio zibethinus OX=66656 GN=LOC111285842 PE=3 SV=1	Durio zibethinus	819	1254	39.5	58.5	4.4e-157
+152	TR	A0A1S4ADE2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Nicotiana tabacum OX=4097 GN=LOC107796388 PE=3 SV=1	Nicotiana tabacum	740	1247	39.8	58.7	4.7e-157
+153	TR	A0A4Y7LEH9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Papaver somniferum OX=3469 GN=C5167_046427 PE=3 SV=1	Papaver somniferum	743	1247	39.1	59.2	5.2e-157
+154	TR	A0AAF1APG6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Daucus carota subsp. sativus OX=79200 GN=DCAR_0206816 PE=3 SV=1	Daucus carota subsp. sativus	739	1246	38.5	59.3	6.5e-157
+155	TR	A0A2C9VYZ8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Manihot esculenta OX=3983 GN=MANES_04G021700 PE=3 SV=1	Manihot esculenta	740	1246	38.6	59.1	6.7e-157
+156	TR	A0A2C9V147	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Manihot esculenta OX=3983 GN=MANES_11G144700 PE=3 SV=1	Manihot esculenta	740	1246	38.7	59.6	6.7e-157
+157	TR	A0A803M7W4	Uncharacterized protein OS=Chenopodium quinoa OX=63459 PE=3 SV=1	Chenopodium quinoa	740	1246	39.1	58.1	6.7e-157
+158	TR	A0A4U5P7V6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Populus alba OX=43335 GN=D5086_0000217370 PE=3 SV=1	Populus alba	741	1246	39.7	58.8	6.9e-157
+159	TR	V4SG76	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Citrus clementina OX=85681 GN=CICLE_v10027881mg PE=3 SV=1	Citrus clementina	741	1246	38.1	58.3	6.9e-157
+160	TR	A0A8B8KIE8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform X2 OS=Abrus precatorius OX=3816 GN=LOC113856118 PE=3 SV=1	Abrus precatorius	795	1249	39.2	59.3	1.2e-156
+161	TR	A0A6J5XM07	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Prunus armeniaca OX=36596 GN=ORAREDHAP_LOCUS35869 PE=3 SV=1	Prunus armeniaca	740	1244	39.4	58.8	1.3e-156
+162	TR	A0A9R0K509	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Spinacia oleracea OX=3562 GN=LOC110797907 PE=3 SV=1	Spinacia oleracea	740	1244	39.3	58.5	1.3e-156
+163	TR	A0A251NN12	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Prunus persica OX=3760 GN=PRUPE_6G101000 PE=3 SV=1	Prunus persica	740	1244	39.3	59.1	1.3e-156
+164	TR	D7MTV7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Arabidopsis lyrata subsp. lyrata OX=81972 GN=ARALYDRAFT_919295 PE=3 SV=1	Arabidopsis lyrata subsp. lyrata	741	1244	38.4	59.6	1.4e-156
+165	TR	A0A5C7IXJ8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Acer yangbiense OX=1000413 GN=EZV62_002437 PE=3 SV=1	Acer yangbiense	741	1244	39.6	58.7	1.4e-156
+166	TR	A0A8X7V2N4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Brassica carinata OX=52824 GN=Bca52824_036354 PE=3 SV=1	Brassica carinata	742	1244	38.6	59.9	1.4e-156
+167	TR	A0AA39SV23	Uncharacterized protein OS=Acer saccharum OX=4024 GN=LWI29_026521 PE=3 SV=1	Acer saccharum	742	1244	39.6	58.7	1.4e-156
+168	TR	A0A8B7CVD0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Phoenix dactylifera OX=42345 GN=LOC103719733 PE=3 SV=1	Phoenix dactylifera	743	1244	38.0	59.0	1.5e-156
+169	TR	A0A8J5LUG3	Uncharacterized protein OS=Zingiber officinale OX=94328 GN=ZIOFF_015948 PE=3 SV=1	Zingiber officinale	748	1243	38.9	57.8	2.4e-156
+170	TR	A0A9Q1RDT6	Uncharacterized protein OS=Anisodus acutangulus OX=402998 GN=K7X08_028332 PE=3 SV=1	Anisodus acutangulus	740	1242	39.1	58.6	2.6e-156
+171	TR	A0A6A3CPK5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin) OS=Hibiscus syriacus OX=106335 GN=F3Y22_tig00003715pilonHSYRG00325 PE=3 SV=1	Hibiscus syriacus	740	1242	38.3	58.8	2.6e-156
+172	TR	A0A498INQ3	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Malus domestica OX=3750 GN=DVH24_005920 PE=3 SV=1	Malus domestica	740	1242	39.7	58.7	2.6e-156
+173	SP	F4K0E8-2	Isoform 2 of 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (ferredoxin), chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ISPG	Arabidopsis thaliana	740	1241	38.1	58.6	3.7e-156
+174	TR	M1AE33	GcpE OS=Solanum tuberosum OX=4113 GN=102591285 PE=3 SV=1	Solanum tuberosum	740	1241	39.1	58.6	3.7e-156
+175	SP	F4K0E8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (ferredoxin), chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ISPG PE=1 SV=1	Arabidopsis thaliana	741	1241	38.3	59.2	3.8e-156
+176	TR	R0EV15	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Capsella rubella OX=81985 GN=CARUB_v10025946mg PE=3 SV=1	Capsella rubella	741	1241	38.4	59.3	3.8e-156
+177	TR	A0A6J1HZ58	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Cucurbita maxima OX=3661 GN=LOC111469429 PE=3 SV=1	Cucurbita maxima	741	1241	39.0	58.8	3.8e-156
+178	TR	A0A540LWR4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Malus baccata OX=106549 GN=C1H46_023593 PE=3 SV=1	Malus baccata	740	1240	39.7	58.7	5.2e-156
+179	TR	A0A9J5WSF0	Uncharacterized protein OS=Solanum commersonii OX=4109 GN=H5410_058317 PE=3 SV=1	Solanum commersonii	740	1240	39.0	58.6	5.2e-156
+180	TR	V7BW90	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_005G135800g PE=3 SV=1	Phaseolus vulgaris	740	1240	39.0	58.4	5.2e-156
+181	TR	A0A1S3TVT1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Vigna radiata var. radiata OX=3916 GN=LOC106759294 PE=3 SV=1	Vigna radiata var. radiata	740	1240	39.1	59.1	5.2e-156
+182	TR	A0A6J1DYN4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Momordica charantia OX=3673 GN=LOC111025457 PE=3 SV=1	Momordica charantia	741	1240	38.3	59.6	5.4e-156
+183	TR	A0A8T2Y2R3	Uncharacterized protein OS=Populus deltoides OX=3696 GN=H0E87_018061 PE=3 SV=1	Populus deltoides	741	1240	39.5	58.7	5.4e-156
+184	TR	A0A6P3ZLE7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Ziziphus jujuba OX=326968 GN=LOC107411349 PE=3 SV=1	Ziziphus jujuba	743	1240	38.9	59.2	5.7e-156
+185	TR	A0A1Q3BEQ0	GcpE domain-containing protein OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_09905 PE=3 SV=1	Cephalotus follicularis	740	1239	38.9	59.5	7.4e-156
+186	TR	A0A6P5TUH5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Prunus avium OX=42229 GN=LOC110770877 PE=3 SV=1	Prunus avium	740	1239	39.3	59.1	7.4e-156
+187	TR	A0A8X8CPU7	Uncharacterized protein OS=Populus tomentosa OX=118781 GN=POTOM_032520 PE=3 SV=1	Populus tomentosa	764	1241	39.7	58.8	7.6e-156
+188	TR	A0A0S3SGL2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Vigna angularis var. angularis OX=157739 GN=Vigan.07G061000 PE=3 SV=1	Vigna angularis var. angularis	740	1238	39.4	58.8	1e-155
+189	TR	A0A1U8PWN8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Gossypium hirsutum OX=3635 GN=LOC107962783 PE=3 SV=1	Gossypium hirsutum	740	1238	38.6	58.9	1e-155
+190	TR	A0A9Q0JJQ3	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Turnera subulata OX=218843 GN=Tsubulata_007976 PE=3 SV=1	Turnera subulata	740	1238	39.0	59.3	1e-155
+191	TR	A0A0L9UN56	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Phaseolus angularis OX=3914 GN=HKW66_Vig0215760 PE=3 SV=1	Phaseolus angularis	740	1238	39.4	58.8	1e-155
+192	TR	A0A8T2YYM7	Uncharacterized protein OS=Populus deltoides OX=3696 GN=H0E87_007882 PE=3 SV=1	Populus deltoides	740	1237	38.7	59.0	1.5e-155
+193	TR	A0A7N0R8T2	Uncharacterized protein OS=Kalanchoe fedtschenkoi OX=63787 PE=3 SV=1	Kalanchoe fedtschenkoi	740	1237	39.0	59.7	1.5e-155
+194	TR	A0A061GYL3	4-hydroxy-3-methylbut-2-enyl diphosphate synthase isoform 1 OS=Theobroma cacao OX=3641 GN=TCM_042044 PE=3 SV=1	Theobroma cacao	740	1237	39.1	58.6	1.5e-155
+195	TR	B9HQ97	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Populus trichocarpa OX=3694 GN=POPTR_009G013400 PE=3 SV=2	Populus trichocarpa	741	1237	39.3	58.7	1.5e-155
+196	TR	A0A4S4EEC5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Camellia sinensis var. sinensis OX=542762 GN=TEA_009364 PE=3 SV=1	Camellia sinensis var. sinensis	740	1236	38.8	58.0	2.1e-155
+197	TR	A0A7J7FTG0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Camellia sinensis OX=4442 GN=HYC85_031841 PE=3 SV=1	Camellia sinensis	740	1236	38.8	58.0	2.1e-155
+198	TR	A0A9Q0V0C4	4-HYDROXY-3-METHYLBUT-2-EN-1-YL DIPHOSPHATE SYNTHASE OS=Salix koriyanagi OX=2511006 GN=OIU74_004340 PE=3 SV=1	Salix koriyanagi	740	1236	38.8	59.0	2.1e-155
+199	TR	A0A200QIE2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Macleaya cordata OX=56857 GN=BVC80_1591g57 PE=3 SV=1	Macleaya cordata	743	1236	37.4	57.3	2.3e-155
+200	TR	D8RQF1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Selaginella moellendorffii OX=88036 GN=SELMODRAFT_149035 PE=3 SV=1	Selaginella moellendorffii	690	1231	37.9	58.4	2.5e-155
+201	TR	K7LVH5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Glycine max OX=3847 GN=100819481 PE=3 SV=1	Glycine max	741	1235	39.3	59.3	3e-155
+202	TR	A0A445HRP8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform A OS=Glycine soja OX=3848 GN=D0Y65_034693 PE=3 SV=1	Glycine soja	741	1235	39.3	59.3	3e-155
+203	TR	A0A8K0HM68	Uncharacterized protein OS=Rhamnella rubrinervis OX=2594499 GN=FNV43_RR05453 PE=3 SV=1	Rhamnella rubrinervis	742	1235	39.2	58.9	3.1e-155
+204	TR	A0A2G9HBY9	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase OS=Handroanthus impetiginosus OX=429701 GN=CDL12_12304 PE=3 SV=1	Handroanthus impetiginosus	742	1235	38.6	58.8	3.1e-155
+205	TR	I1M4L1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Glycine max OX=3847 GN=100801743 PE=3 SV=1	Glycine max	742	1235	39.3	59.2	3.1e-155
+206	TR	A0A445IDB6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic isoform A OS=Glycine soja OX=3848 GN=D0Y65_032457 PE=3 SV=1	Glycine soja	742	1235	39.3	59.2	3.1e-155
+207	TR	D8STQ9	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Selaginella moellendorffii OX=88036 GN=SELMODRAFT_158184 PE=3 SV=1	Selaginella moellendorffii	690	1230	37.9	58.4	3.6e-155
+208	TR	A0A6G1FH60	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Oryza meyeriana var. granulata OX=110450 GN=E2562_038861 PE=3 SV=1	Oryza meyeriana var. granulata	744	1234	38.0	58.1	4.6e-155
+209	TR	A0A5N6PAF4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Mikania micrantha OX=192012 GN=E3N88_13135 PE=3 SV=1	Mikania micrantha	737	1233	37.4	57.3	5.3e-155
+210	TR	A0A1U8EJF5	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Capsicum annuum OX=4072 GN=T459_28778 PE=3 SV=1	Capsicum annuum	740	1233	39.0	58.0	5.8e-155
+211	TR	A0A2G2VQA4	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Capsicum baccatum OX=33114 GN=CQW23_26959 PE=3 SV=1	Capsicum baccatum	740	1233	39.0	58.0	5.8e-155
+212	TR	A0A251UEX1	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (Ferredoxin) OS=Helianthus annuus OX=4232 GN=GCPE PE=3 SV=1	Helianthus annuus	740	1233	38.8	59.0	5.8e-155
+213	TR	A0A8S0QNA1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Olea europaea subsp. europaea OX=158383 GN=OLEA9_A057900 PE=3 SV=1	Olea europaea subsp. europaea	742	1233	37.6	57.4	6.1e-155
+214	TR	A0A9Q0QL44	4-HYDROXY-3-METHYLBUT-2-EN-1-YL DIPHOSPHATE SYNTHASE OS=Salix viminalis OX=40686 GN=OIU85_028574 PE=3 SV=1	Salix viminalis	740	1232	38.8	58.9	8.2e-155
+215	TR	A0A834TT13	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Senna tora OX=362788 GN=G2W53_021553 PE=3 SV=1	Senna tora	741	1232	39.3	59.2	8.4e-155
+216	TR	A0A835HC93	Uncharacterized protein OS=Coptis chinensis OX=261450 GN=IFM89_004742 PE=3 SV=1	Coptis chinensis	743	1232	37.2	57.4	8.9e-155
+217	TR	A0A8T3BB34	Uncharacterized protein OS=Dendrobium nobile OX=94219 GN=KFK09_010817 PE=3 SV=1	Dendrobium nobile	745	1232	38.7	58.8	9.5e-155
+218	TR	A0A0A0LXJ8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Cucumis sativus OX=3659 GN=Csa_1G084300 PE=3 SV=1	Cucumis sativus	741	1231	38.6	59.0	1.2e-154
+219	TR	A0A8S0QJ77	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Olea europaea subsp. europaea OX=158383 GN=OLEA9_A057900 PE=3 SV=1	Olea europaea subsp. europaea	741	1231	37.3	57.2	1.2e-154
+220	TR	A0A4P1R6W7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Lupinus angustifolius OX=3871 GN=TanjilG_30207 PE=3 SV=1	Lupinus angustifolius	743	1231	38.9	58.7	1.3e-154
+221	TR	A0A7J7DZ36	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Tripterygium wilfordii OX=458696 GN=HS088_TW02G00554 PE=3 SV=1	Tripterygium wilfordii	740	1230	38.9	59.0	1.6e-154
+222	TR	A0A9Q0R1L2	Uncharacterized protein OS=Protea cynaroides OX=273540 GN=NE237_010788 PE=3 SV=1	Protea cynaroides	740	1229	38.4	58.5	2.3e-154
+223	TR	A0A6A4NAF3	Putative (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (Ferredoxin) OS=Lupinus albus OX=3870 GN=Lalb_Chr24g0394611 PE=3 SV=1	Lupinus albus	740	1229	39.0	59.1	2.3e-154
+224	TR	A0A6A5NV94	Putative (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (Ferredoxin) OS=Lupinus albus OX=3870 GN=Lalb_Chr14g0374701 PE=3 SV=1	Lupinus albus	743	1229	39.0	59.1	2.5e-154
+225	TR	A0A804HQ57	(wild Malaysian banana) hypothetical protein OS=Musa acuminata subsp. malaccensis OX=214687 GN=103978263 PE=3 SV=1	Musa acuminata subsp. malaccensis	745	1229	38.5	58.2	2.7e-154
+226	TR	A0A5N5GLP6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Pyrus ussuriensis x Pyrus communis OX=2448454 GN=D8674_021369 PE=3 SV=1	Pyrus ussuriensis x Pyrus communis	740	1228	39.0	58.1	3.2e-154
+227	TR	A0A5D3BG37	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin) OS=Cucumis melo var. makuwa OX=1194695 GN=E5676_scaffold690G00320 PE=3 SV=1	Cucumis melo var. makuwa	741	1228	38.4	58.8	3.3e-154
+228	TR	A0A1S4E4C1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Cucumis melo OX=3656 GN=LOC103501942 PE=3 SV=1	Cucumis melo	741	1228	38.4	58.8	3.3e-154
+229	TR	A0A314Y765	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin) chloroplastic OS=Prunus yedoensis var. nudiflora OX=2094558 GN=Pyn_23861 PE=3 SV=1	Prunus yedoensis var. nudiflora	713	1225	39.9	58.2	4e-154
+230	TR	A0A2R6WYN8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Marchantia polymorpha OX=3197 GN=MARPO_0048s0084 PE=3 SV=1	Marchantia polymorpha	750	1228	38.4	58.1	4.3e-154
+231	TR	A0A176WGN2	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Marchantia polymorpha subsp. ruderalis OX=1480154 GN=AXG93_4874s1380 PE=3 SV=1	Marchantia polymorpha subsp. ruderalis	750	1228	38.4	58.1	4.3e-154
+232	TR	A0A2R6QTE0	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Actinidia chinensis var. chinensis OX=1590841 GN=CEY00_Acc33463 PE=3 SV=1	Actinidia chinensis var. chinensis	740	1227	38.7	59.1	4.5e-154
+233	TR	A0A9E7EDC6	GcpE protein OS=Musa troglodytarum OX=320322 GN=MUK42_08373 PE=3 SV=1	Musa troglodytarum	745	1227	38.7	58.3	5.3e-154
+234	TR	A0A7J0GQP9	4-hydroxy-3-methylbut-2-enyl diphosphate synthase OS=Actinidia rufa OX=165716 GN=Acr_23g0015300 PE=3 SV=1	Actinidia rufa	740	1226	38.9	58.9	6.4e-154
+235	TR	A0A7J0DC28	4-hydroxy-3-methylbut-2-enyl diphosphate synthase OS=Actinidia rufa OX=165716 GN=Acr_00g0014550 PE=3 SV=1	Actinidia rufa	740	1226	38.7	59.2	6.4e-154
+236	TR	A0A251SJU5	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (Ferredoxin) OS=Helianthus annuus OX=4232 GN=ISPG PE=3 SV=1	Helianthus annuus	740	1226	38.8	58.9	6.4e-154
+237	TR	A0A498KAV7	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Malus domestica OX=3750 GN=DVH24_038845 PE=3 SV=1	Malus domestica	768	1228	38.8	57.8	7.4e-154
+238	TR	A0A6J0ZVQ6	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Herrania umbratica OX=108875 GN=LOC110412527 PE=3 SV=1	Herrania umbratica	740	1225	38.7	58.6	9e-154
+239	TR	U5D150	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Amborella trichopoda OX=13333 GN=AMTR_s00175p00057810 PE=3 SV=1	Amborella trichopoda	741	1225	39.0	58.5	9.3e-154
+240	TR	A0A8T0XK97	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Panicum virgatum OX=38727 GN=PVAP13_1KG371600 PE=3 SV=1	Panicum virgatum	746	1225	38.7	59.0	1.1e-153
+241	TR	A0A9W7I918	CONSTITUTIVE SUBTILISIN 3, 4-hydroxy-3-methylbut-2-enyl diphosphate synthase OS=Hibiscus trionum OX=183268 GN=HRI_002879300 PE=3 SV=1	Hibiscus trionum	735	1224	38.3	58.7	1.1e-153
+242	TR	A0AA88CKG0	Threonylcarbamoyl-AMP synthase OS=Ficus carica OX=3494 GN=TIFTF001_000676 PE=3 SV=1	Ficus carica	1022	1247	39.0	58.5	1.1e-153
+243	TR	A0AA38F3I3	Uncharacterized protein OS=Taxus chinensis OX=29808 GN=KI387_032425 PE=3 SV=1	Taxus chinensis	737	1224	38.2	58.5	1.2e-153
+244	TR	A0A199VIN1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Ferredoxin), chloroplastic OS=Ananas comosus OX=4615 GN=ACMD2_07434 PE=3 SV=1	Ananas comosus	745	1224	38.1	58.9	1.5e-153
+245	TR	A0A165A8M1	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase OS=Daucus carota subsp. sativus OX=79200 GN=HDS-2 PE=3 SV=1	Daucus carota subsp. sativus	740	1223	38.3	58.3	1.8e-153
+246	TR	A0A3S3QE72	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase ferredoxin, chloroplastic OS=Cinnamomum micranthum f. kanehirae OX=337451 GN=CKAN_01272500 PE=3 SV=1	Cinnamomum micranthum f. kanehirae	742	1223	38.6	58.1	1.9e-153
+247	TR	A0A7J6V443	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (Flavodoxin) OS=Thalictrum thalictroides OX=46969 GN=FRX31_031495 PE=3 SV=1	Thalictrum thalictroides	738	1222	38.4	58.7	2.4e-153
+248	TR	A0A8T0WY57	Uncharacterized protein OS=Panicum virgatum OX=38727 GN=PVAP13_1NG340100 PE=3 SV=1	Panicum virgatum	745	1222	38.4	58.6	2.9e-153
+249	TR	A0A9E7JAT5	GcpE protein OS=Musa troglodytarum OX=320322 GN=MUK42_08373 PE=3 SV=1	Musa troglodytarum	805	1227	38.7	58.3	3e-153
+250	TR	W9RH53	Threonylcarbamoyl-AMP synthase OS=Morus notabilis OX=981085 GN=L484_007660 PE=3 SV=1	Morus notabilis	978	1240	39.1	58.8	3.9e-153

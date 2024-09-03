@@ -1,0 +1,251 @@
+Hit	DB	Accession	Description	Organism	Length	Score(Bits)	Identities(%)	Positives(%)	E()
+1	TR	W7KNE8	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=CK202_2234 PE=3 SV=1	Plasmodium falciparum (isolate NF54)	737	3898	100.0	100.0	0.0
+2	TR	Q8I273	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0106900 PE=3 SV=2	Plasmodium falciparum (isolate 3D7)	734	3868	99.6	99.6	0.0
+3	TR	A0A024WEN0	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_00074 PE=3 SV=1	Plasmodium falciparum Tanzania (2000708)	734	3863	99.5	99.6	0.0
+4	TR	W7JK43	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_00061 PE=3 SV=1	Plasmodium falciparum UGT5.1	734	3862	99.3	99.6	0.0
+5	TR	W4J774	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_00052 PE=3 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	737	3855	99.1	99.6	0.0
+6	TR	A0A024XFG2	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_00051 PE=3 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	737	3855	99.1	99.6	0.0
+7	TR	A0A024VI53	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_04364 PE=3 SV=1	Plasmodium falciparum FCH/4	731	3823	98.5	99.2	0.0
+8	TR	A0A0L7K697	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_00351 PE=3 SV=1	Plasmodium falciparum (isolate HB3)	594	3105	99.3	99.5	0.0
+9	TR	A0A0L1I9D1	Centrin OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_01644 PE=3 SV=1	Plasmodium falciparum IGH-CR14	394	2048	99.2	99.2	0.0
+10	TR	A0A024WFW5	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_05927 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	323	1684	99.7	100.0	0.0
+11	TR	A0A024WGD4	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_05926 PE=3 SV=1	Plasmodium falciparum MaliPS096_E11	298	1568	100.0	100.0	0.0
+12	TR	A0A1J1HCA1	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative OS=Plasmodium relictum OX=85471 GN=IspD PE=3 SV=1	Plasmodium relictum	659	1435	45.6	61.1	0.0
+13	TR	A0A1A8YIY4	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative (IspD) OS=Plasmodium ovale wallikeri OX=864142 GN=POVWA1_003230 PE=3 SV=1	Plasmodium ovale wallikeri	667	1167	38.9	56.0	3.3e-147
+14	TR	A0A509AEN7	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative OS=Plasmodium berghei (strain Anka) OX=5823 GN=PBANKA_0206400 PE=3 SV=1	Plasmodium berghei (strain Anka)	642	1157	42.1	57.1	4.9e-146
+15	TR	A0A1D3KWX7	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative OS=Plasmodium ovale OX=36330 GN=IspD PE=3 SV=1	Plasmodium ovale	650	1148	44.4	62.6	1.4e-144
+16	TR	A0A1Y1JD14	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium gonderi OX=77519 GN=PGO_020770 PE=3 SV=1	Plasmodium gonderi	693	1109	36.5	54.5	3.2e-138
+17	TR	A0A653GZQ3	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00109900 PE=3 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	842	1075	39.2	56.6	2.2e-131
+18	TR	Q7R8Z9	non-specific serine/threonine protein kinase OS=Plasmodium yoelii yoelii OX=73239 GN=PY07071 PE=3 SV=1	Plasmodium yoelii yoelii	732	1021	39.8	53.3	1.1e-124
+19	TR	A0A384L3Z4	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative OS=Plasmodium knowlesi (strain H) OX=5851 GN=PKNH_0206600 PE=3 SV=1	Plasmodium knowlesi (strain H)	637	938	37.4	54.5	1.6e-113
+20	TR	A5K9U5	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium vivax (strain Salvador I) OX=126793 GN=PVX_081425 PE=3 SV=1	Plasmodium vivax (strain Salvador I)	618	916	37.8	54.1	1.6e-110
+21	TR	A0A1D3JL28	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative OS=Plasmodium malariae OX=5858 GN=PmUG01_02016800 PE=4 SV=1	Plasmodium malariae	833	929	32.1	48.2	4.9e-110
+22	TR	K6V684	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase OS=Plasmodium cynomolgi (strain B) OX=1120755 GN=PCYB_021710 PE=3 SV=1	Plasmodium cynomolgi (strain B)	415	822	37.8	55.8	3.1e-99
+23	TR	A0A024WB57	Uncharacterized protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_01697 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	2073	290	25.3	42.6	5.7e-23
+24	TR	A0A024WT29	Uncharacterized protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_01645 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	3563	276	23.2	41.4	3e-21
+25	TR	G0QMF1	Uncharacterized protein OS=Ichthyophthirius multifiliis OX=5932 GN=IMG5_048190 PE=4 SV=1	Ichthyophthirius multifiliis	943	269	26.6	43.3	1.3e-20
+26	TR	A0A024WVI7	Uncharacterized protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_00678 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	2279	270	23.0	39.7	1.4e-20
+27	TR	A0A0L7K8Q6	Uncharacterized protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_01405 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	3571	270	25.3	42.4	1.6e-20
+28	TR	W7JRE0	Uncharacterized protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_01719 PE=4 SV=1	Plasmodium falciparum UGT5.1	2519	269	24.2	41.3	1.9e-20
+29	TR	A0A0L0CST9	Transcription factor with AP2 domain(S) OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_00269 PE=4 SV=1	Plasmodium falciparum RAJ116	2859	269	25.1	42.3	2e-20
+30	TR	A0A1Y1V2A8	Uncharacterized protein OS=Piromyces finnis OX=1754191 GN=BCR36DRAFT_121356 PE=4 SV=1	Piromyces finnis	2912	267	25.7	41.6	3.5e-20
+31	TR	A0A0L7LYM0	Uncharacterized protein OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_01216 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	3521	267	25.2	42.4	3.6e-20
+32	TR	W7JWR8	Uncharacterized protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_01675 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	2875	265	24.7	42.1	6e-20
+33	TR	A0A024XA81	Uncharacterized protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_01626 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	3468	265	24.7	42.1	6.2e-20
+34	TR	C0H4K4	Basal complex transmembrane protein 2 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0704100 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	3559	265	24.7	42.1	6.2e-20
+35	TR	A0A1J1H2G8	Transcription factor with AP2 domain(S) OS=Plasmodium relictum OX=85471 GN=PRELSG_0602700 PE=4 SV=1	Plasmodium relictum	1883	264	21.8	41.7	7.2e-20
+36	TR	A0A653HE34	SET domain protein, putative OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00066700 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	5573	259	22.0	42.2	3.4e-19
+37	TR	A0A653HCH7	Patatin-like phospholipase, putative OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00009000 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	2484	257	22.5	41.3	5.3e-19
+38	TR	A0A509AJU1	Uncharacterized protein OS=Plasmodium berghei (strain Anka) OX=5823 GN=PBANKA_1019900 PE=4 SV=1	Plasmodium berghei (strain Anka)	1225	256	23.5	40.8	5.5e-19
+39	TR	Q8IIG8	Protein transport protein SEC16, putative OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_1119900 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	1749	254	26.9	45.4	1.1e-18
+40	TR	A0A1J1H596	Transcription factor with AP2 domain(S) OS=Plasmodium relictum OX=85471 GN=PRELSG_0308200 PE=4 SV=1	Plasmodium relictum	1154	253	21.8	39.2	1.2e-18
+41	TR	A0A0L1I822	Uncharacterized protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_01428 PE=4 SV=1	Plasmodium falciparum IGH-CR14	3554	253	24.2	42.3	1.7e-18
+42	TR	A0A1J1HHK7	Lysine-specific histone demethylase 1, putative OS=Plasmodium relictum OX=85471 GN=LSD1 PE=4 SV=1	Plasmodium relictum	2637	251	24.3	40.1	2.8e-18
+43	TR	W4J4K1	Uncharacterized protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_00716 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	701	248	24.8	42.2	3.1e-18
+44	TR	A0A0L7KB59	Ancestral coatomer element 1 Sec16/Sec31 domain-containing protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_01947 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	1634	250	24.6	41.4	3.2e-18
+45	TR	A0A024W715	Ancestral coatomer element 1 Sec16/Sec31 domain-containing protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_03333 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	1739	250	27.0	44.4	3.3e-18
+46	TR	A0A024VUN2	PHD-type domain-containing protein (Fragment) OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_00167 PE=4 SV=1	Plasmodium falciparum FCH/4	1978	250	22.9	40.8	3.4e-18
+47	TR	A0A653HEJ5	Uncharacterized protein OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00082900 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	537	245	26.1	43.2	4.2e-18
+48	TR	W4IZW7	Uncharacterized protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_02333 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	667	246	21.3	42.4	5e-18
+49	TR	W7JSN1	Uncharacterized protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_04789 PE=4 SV=1	Plasmodium falciparum UGT5.1	677	246	21.3	42.4	5.1e-18
+50	TR	Q8ILL7	Uncharacterized protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_1423500 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	1621	248	23.2	40.6	5.6e-18
+51	TR	A0A1J1H2B7	Protein kinase, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_0418800 PE=4 SV=1	Plasmodium relictum	2197	248	25.5	38.7	6e-18
+52	TR	A0A1J1HAG4	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1024700 PE=4 SV=1	Plasmodium relictum	1349	246	23.8	43.9	9e-18
+53	TR	A0A0L0CVM7	Pb-reticulocyte binding protein OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_00376 PE=4 SV=1	Plasmodium falciparum RAJ116	1903	246	25.9	42.0	1e-17
+54	TR	A0A0L0CX66	CCAAT-box DNA binding protein subunit B OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_01654 PE=4 SV=1	Plasmodium falciparum RAJ116	773	244	24.2	43.6	1.1e-17
+55	TR	A0A0L1IH24	Ancestral coatomer element 1 Sec16/Sec31 domain-containing protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_04573 PE=4 SV=1	Plasmodium falciparum IGH-CR14	1727	245	24.0	44.6	1.3e-17
+56	TR	A0A1J1H2U9	Schizont egress antigen-1, putative OS=Plasmodium relictum OX=85471 GN=SEA1 PE=4 SV=1	Plasmodium relictum	1923	244	21.2	40.4	1.8e-17
+57	TR	A0A1J1H6A0	Reticulocyte binding protein OS=Plasmodium relictum OX=85471 GN=PRELSG_0917500 PE=4 SV=1	Plasmodium relictum	1091	243	24.9	40.5	1.8e-17
+58	TR	W7K298	Uncharacterized protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_03584 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	1097	243	21.6	40.0	1.8e-17
+59	TR	A0A1Y1WK74	Uncharacterized protein OS=Anaeromyces robustus OX=1754192 GN=BCR32DRAFT_272173 PE=4 SV=1	Anaeromyces robustus	1135	243	25.0	41.7	1.9e-17
+60	TR	W7K143	AP2/ERF domain-containing protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_04689 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	3773	244	21.5	42.5	2e-17
+61	TR	A0A024X2T4	AP2/ERF domain-containing protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_04662 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	3741	243	21.2	42.4	2.6e-17
+62	TR	A0A0L0CT96	Uncharacterized protein OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_00579 PE=4 SV=1	Plasmodium falciparum RAJ116	829	241	22.4	42.4	2.6e-17
+63	TR	A0A0L1I744	Uncharacterized protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_01563 PE=4 SV=1	Plasmodium falciparum IGH-CR14	1318	242	21.4	39.8	2.7e-17
+64	TR	A0A1J1H7G7	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1107900 PE=4 SV=1	Plasmodium relictum	1379	242	23.1	39.6	2.7e-17
+65	TR	A0A0L1I9J5	CG2 omega OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_02169 PE=4 SV=1	Plasmodium falciparum IGH-CR14	3785	242	21.8	42.6	3.4e-17
+66	TR	W4IS76	Ancestral coatomer element 1 Sec16/Sec31 domain-containing protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_05136 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1743	241	23.7	44.3	3.9e-17
+67	TR	W7JDW6	Uncharacterized protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_02247 PE=4 SV=1	Plasmodium falciparum UGT5.1	964	240	22.4	40.3	3.9e-17
+68	TR	A0A1J1HEF4	Transcription factor with AP2 domain(S) OS=Plasmodium relictum OX=85471 GN=PRELSG_1268600 PE=4 SV=1	Plasmodium relictum	2771	241	23.5	39.6	4.3e-17
+69	TR	A0A1J1HBX4	HTH OST-type domain-containing protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1140600 PE=4 SV=1	Plasmodium relictum	3007	241	22.1	37.4	4.4e-17
+70	TR	C0H5G5	AP2 domain transcription factor, putative OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_1342900 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	3858	241	21.2	43.0	4.5e-17
+71	TR	A0A1J1H9U7	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1258200 PE=4 SV=1	Plasmodium relictum	1473	240	23.6	42.6	4.8e-17
+72	TR	A0A0L1IBR0	Uncharacterized protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_03164 PE=4 SV=1	Plasmodium falciparum IGH-CR14	1499	240	23.5	40.1	4.9e-17
+73	TR	A0A024WD99	Zinc finger PHD-type domain-containing protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_00541 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	2487	240	22.5	40.3	5.6e-17
+74	TR	A0A024VSF1	Uncharacterized protein OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_01403 PE=4 SV=1	Plasmodium falciparum FCH/4	1380	239	22.2	39.1	6.2e-17
+75	TR	A0A024X6D1	Ancestral coatomer element 1 Sec16/Sec31 domain-containing protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_03264 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	1746	239	24.1	44.0	6.7e-17
+76	TR	A0A1J1H7U0	Ribonuclease, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_1132700 PE=4 SV=1	Plasmodium relictum	2564	239	22.0	38.9	7.4e-17
+77	TR	A0A1J1H522	Kinesin motor domain-containing protein OS=Plasmodium relictum OX=85471 GN=PRELSG_0807700 PE=3 SV=1	Plasmodium relictum	2907	239	24.5	39.9	7.5e-17
+78	TR	A0A024VZ97	Uncharacterized protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_05610 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	3230	239	23.0	37.7	7.6e-17
+79	TR	A0A024WLK0	CCR4-NOT transcription complex subunit 4 OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_03907 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	1477	238	22.3	42.1	8.4e-17
+80	TR	A0A9Q0LJ45	Cyclin-related protein OS=Anaeramoeba ignava OX=1746090 GN=M0811_01382 PE=4 SV=1	Anaeramoeba ignava	1556	238	24.0	41.5	8.5e-17
+81	TR	A0A1J1HC10	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1422700 PE=4 SV=1	Plasmodium relictum	1792	238	25.6	41.6	8.9e-17
+82	TR	A0A024W506	Uncharacterized protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_03516 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	1851	238	22.6	38.6	9e-17
+83	TR	A0A509AJL5	Uncharacterized protein OS=Plasmodium berghei (strain Anka) OX=5823 GN=PBANKA_0914100 PE=4 SV=1	Plasmodium berghei (strain Anka)	2095	238	23.0	39.8	9.3e-17
+84	TR	A0A024VNM0	Bromo domain-containing protein OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_02651 PE=4 SV=1	Plasmodium falciparum FCH/4	2273	238	24.4	41.3	9.4e-17
+85	TR	A0A024W829	Chorein N-terminal domain-containing protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_02971 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	2424	238	23.0	40.3	9.6e-17
+86	TR	A0A9Q0LNR1	Beach domain-containing protein c2 OS=Anaeramoeba ignava OX=1746090 GN=M0811_06288 PE=4 SV=1	Anaeramoeba ignava	3170	238	21.8	41.4	1e-16
+87	TR	W7JV03	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=CK202_2481 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	1276	237	22.7	38.9	1e-16
+88	TR	Q8IB82	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0824800 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	1276	237	22.7	38.9	1e-16
+89	TR	A0A0L7M619	Zinc finger PHD-type domain-containing protein OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_00995 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	4392	238	23.0	39.4	1e-16
+90	TR	A0A0L7LZU8	Uncharacterized protein OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_01664 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	455	232	23.3	43.2	1e-16
+91	TR	W7JQQ3	Repetitive organellar protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=CK202_1697 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	5767	238	22.7	42.1	1.1e-16
+92	TR	Q8I525	Repetitive organellar protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_1239800 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	5767	238	22.7	42.1	1.1e-16
+93	TR	A0A0L7M2W7	Ancestral coatomer element 1 Sec16/Sec31 domain-containing protein OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_03154 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	1666	237	24.5	45.2	1.1e-16
+94	TR	W7JAX2	Ancestral coatomer element 1 Sec16/Sec31 domain-containing protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_03389 PE=4 SV=1	Plasmodium falciparum UGT5.1	1773	237	27.7	44.3	1.2e-16
+95	TR	A0A1Y1VV41	Uncharacterized protein OS=Anaeromyces robustus OX=1754192 GN=BCR32DRAFT_116701 PE=4 SV=1	Anaeromyces robustus	989	236	21.5	40.3	1.2e-16
+96	TR	A0A024W0Z7	NOT family protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_05133 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	4434	237	23.6	40.3	1.4e-16
+97	TR	W4IR03	Uncharacterized protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_05467 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1372	236	22.4	40.1	1.4e-16
+98	TR	A0A024XB41	Uncharacterized protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_02102 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	1372	236	22.4	40.1	1.4e-16
+99	TR	A0A0L1I570	Uncharacterized protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_00883 PE=4 SV=1	Plasmodium falciparum IGH-CR14	6842	237	22.1	39.8	1.4e-16
+100	TR	Q8IB33	Uncharacterized protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0819800 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	1408	236	22.1	38.7	1.4e-16
+101	TR	A0A653H155	Formin 2, putative OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00177900 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	3407	236	23.9	42.8	1.7e-16
+102	TR	A0A024VMK3	AP2/ERF domain-containing protein OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_03138 PE=4 SV=1	Plasmodium falciparum FCH/4	3862	236	21.4	42.6	1.8e-16
+103	TR	W4ISJ4	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_05415 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1271	235	22.6	38.5	1.8e-16
+104	TR	A0A024XAE4	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_02155 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	1271	235	22.6	38.5	1.8e-16
+105	TR	W7K1R9	Phd finger protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_00446 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	2436	235	22.5	40.0	2.2e-16
+106	TR	W4IR55	Zinc finger PHD-type domain-containing protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_05839 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	3865	235	22.5	40.0	2.3e-16
+107	TR	A0A0L1I3G5	Zinc finger PHD-type domain-containing protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_00250 PE=4 SV=1	Plasmodium falciparum IGH-CR14	4402	235	22.3	40.2	2.4e-16
+108	TR	O77336	Phd finger protein, putative OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0310200 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	4550	235	22.5	40.0	2.4e-16
+109	TR	A0A024X9L7	Uncharacterized protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_02891 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	6947	235	22.6	39.6	2.4e-16
+110	TR	A0A0L7KB85	Uncharacterized protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_02299 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	1514	234	22.5	38.6	2.5e-16
+111	TR	A0A0L1I2Y1	Uncharacterized protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_00106 PE=4 SV=1	Plasmodium falciparum IGH-CR14	1654	234	24.1	41.5	2.6e-16
+112	TR	A0A0L7KAM5	Uncharacterized protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_02128 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	368	226	24.1	43.6	2.6e-16
+113	TR	A0A0L1I5H0	Uncharacterized protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_01007 PE=4 SV=1	Plasmodium falciparum IGH-CR14	3314	234	23.0	37.5	3e-16
+114	TR	A0A1Y2EL54	protein-tyrosine-phosphatase OS=Neocallimastix californiae OX=1754190 GN=LY90DRAFT_667172 PE=4 SV=1	Neocallimastix californiae	1861	233	23.1	41.1	3.5e-16
+115	TR	A0A1J1H7K7	Reticulocyte binding protein, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_0733800 PE=4 SV=1	Plasmodium relictum	2675	233	23.8	40.3	3.8e-16
+116	TR	A0A653H0Z7	Uncharacterized protein (Fragment) OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00171800 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	538	229	25.4	45.8	3.9e-16
+117	TR	Q7RJB3	Erythrocyte membrane-associated giant protein antigen 332 OS=Plasmodium yoelii yoelii OX=73239 GN=PY03350 PE=4 SV=1	Plasmodium yoelii yoelii	3404	233	20.4	41.4	4e-16
+118	TR	W7JPL4	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_02302 PE=4 SV=1	Plasmodium falciparum UGT5.1	1272	232	22.9	38.2	4.1e-16
+119	TR	A0A024WR06	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_02207 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	1272	232	22.7	38.6	4.1e-16
+120	TR	W7JRA1	Uncharacterized protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_05335 PE=4 SV=1	Plasmodium falciparum UGT5.1	1639	232	22.3	38.7	4.5e-16
+121	TR	C0H475	Transcription factor with AP2 domain(S) OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0314800 PE=4 SV=2	Plasmodium falciparum (isolate 3D7)	1040	231	22.0	40.3	4.9e-16
+122	TR	W7JKR0	Fork-head domain-containing protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_03786 PE=4 SV=1	Plasmodium falciparum UGT5.1	2556	232	22.6	41.4	5e-16
+123	TR	Q8I605	Uncharacterized protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_1204100 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	1089	231	21.7	39.1	5e-16
+124	TR	A0A0L7KJU8	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_05103 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	1193	231	22.2	38.5	5.2e-16
+125	TR	A0A024W8U4	CCAAT-binding factor domain-containing protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_02262 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	1272	231	22.9	38.2	5.4e-16
+126	TR	W7JL37	Uncharacterized protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_05260 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	949	230	23.3	40.8	6.1e-16
+127	TR	A0A1Y2E981	Uncharacterized protein OS=Neocallimastix californiae OX=1754190 GN=LY90DRAFT_667586 PE=4 SV=1	Neocallimastix californiae	1010	230	21.6	41.7	6.3e-16
+128	TR	W4ITR7	Uncharacterized protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_05023 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1460	230	21.4	39.6	7.5e-16
+129	TR	A0A024X5X3	Uncharacterized protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_03153 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	1460	230	21.4	39.6	7.5e-16
+130	SP	Q54G05	Putative leucine-rich repeat-containing protein DDB_G0290503 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0290503 PE=4 SV=1	Dictyostelium discoideum	1492	230	23.9	42.8	7.6e-16
+131	TR	A0A1J1H501	Protein kinase domain-containing protein OS=Plasmodium relictum OX=85471 GN=PRELSG_0909100 PE=4 SV=1	Plasmodium relictum	2341	230	23.1	41.3	8.5e-16
+132	TR	W7JM69	Translation initiation factor beta propellor-like domain-containing protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_05463 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	2352	230	21.4	39.6	8.5e-16
+133	TR	A0A024WLU5	SPX domain-containing protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_03854 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	1065	229	21.7	40.2	8.6e-16
+134	TR	A0A143ZVB6	Uncharacterized protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0903600.1 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	760	228	25.3	43.2	8.8e-16
+135	TR	A0A1J1H621	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_0930600 PE=4 SV=1	Plasmodium relictum	1132	229	22.4	41.6	8.9e-16
+136	TR	A0A024VS22	U3 small nucleolar RNA-associated protein 14 OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_01277 PE=4 SV=1	Plasmodium falciparum FCH/4	1137	229	21.8	40.6	8.9e-16
+137	TR	A0A0L0CV07	Zinc finger PHD-type domain-containing protein OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_00181 PE=4 SV=1	Plasmodium falciparum RAJ116	4306	230	22.9	40.0	9.3e-16
+138	TR	A0A0L1IFD3	CCAAT-box DNA binding protein subunit B OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_04415 PE=4 SV=1	Plasmodium falciparum IGH-CR14	1271	229	22.9	38.1	9.3e-16
+139	TR	A0A1J1H5J3	Phd finger protein, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_0825500 PE=4 SV=1	Plasmodium relictum	4957	230	22.8	41.2	9.4e-16
+140	TR	A0A1J1H2W9	Zinc finger protein, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_0602900 PE=4 SV=1	Plasmodium relictum	1580	229	20.9	38.5	1e-15
+141	TR	A0A1J1H7E5	poly(A)-specific ribonuclease OS=Plasmodium relictum OX=85471 GN=CCR4 PE=4 SV=1	Plasmodium relictum	1882	229	24.6	40.1	1.1e-15
+142	TR	A0A0L7LVY5	Uncharacterized protein OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_00002 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	2036	229	24.6	41.4	1.1e-15
+143	TR	A0A1Y1XQR3	Uncharacterized protein OS=Anaeromyces robustus OX=1754192 GN=BCR32DRAFT_263753 PE=4 SV=1	Anaeromyces robustus	2072	229	22.9	41.8	1.1e-15
+144	TR	A0A653H7T6	Vacuolar protein sorting-associated protein 52, putative (Fragment) OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00413900 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	604	226	23.3	42.4	1.1e-15
+145	TR	A0A1J1HD97	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1310900 PE=4 SV=1	Plasmodium relictum	632	226	25.5	42.8	1.2e-15
+146	TR	A0A024VQN3	Lipase maturation factor 2 OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_01488 PE=3 SV=1	Plasmodium falciparum FCH/4	1540	228	21.9	38.4	1.3e-15
+147	TR	A0A1J1H9K6	E1-E2 ATPase, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_1249100 PE=4 SV=1	Plasmodium relictum	1821	228	21.2	43.8	1.4e-15
+148	TR	A0A0V0QUA3	Uncharacterized protein OS=Pseudocohnilembus persalinus OX=266149 GN=PPERSA_02335 PE=4 SV=1	Pseudocohnilembus persalinus	2316	228	22.5	40.2	1.5e-15
+149	TR	A0A0L0CUA2	Transcription factor with AP2 domain(S) OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_00876 PE=4 SV=1	Plasmodium falciparum RAJ116	2565	228	23.1	38.4	1.5e-15
+150	TR	Q8IBY8	Uncharacterized protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0710200 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	2910	228	23.3	39.9	1.5e-15
+151	TR	A0A653HME7	phosphoinositide 5-phosphatase (Fragment) OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00360500 PE=3 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	3115	228	24.4	46.5	1.5e-15
+152	TR	A0A1J1H741	Transcription factor with AP2 domain(S) OS=Plasmodium relictum OX=85471 GN=PRELSG_1026000 PE=4 SV=1	Plasmodium relictum	3590	228	24.9	40.2	1.6e-15
+153	TR	A0A0L7M6Q8	NOT family protein OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_02848 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	4464	228	23.6	39.6	1.6e-15
+154	TR	A0A1Y1XEA2	Transforming acidic coiled-coil-containing protein C-terminal domain-containing protein OS=Anaeromyces robustus OX=1754192 GN=BCR32DRAFT_266609 PE=4 SV=1	Anaeromyces robustus	1330	227	22.7	42.4	1.6e-15
+155	TR	A0A0L7K8H2	Major facilitator superfamily (MFS) profile domain-containing protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_01437 PE=3 SV=1	Plasmodium falciparum (isolate HB3)	1374	227	22.9	39.4	1.7e-15
+156	TR	A0A024VFJ7	Uncharacterized protein OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_05644 PE=4 SV=1	Plasmodium falciparum FCH/4	1406	227	22.3	37.9	1.7e-15
+157	TR	A0A1Y1VL76	Uncharacterized protein OS=Piromyces finnis OX=1754191 GN=BCR36DRAFT_409027 PE=4 SV=1	Piromyces finnis	1613	227	24.0	42.5	1.8e-15
+158	TR	W4IQL7	GRIP domain-containing protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_05886 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1082	226	22.3	43.4	2e-15
+159	TR	A0A1A9AQ60	Reticulocyte binding protein 2b (RBP2b) OS=Plasmodium ovale wallikeri OX=864142 GN=POVWA1_074450 PE=4 SV=1	Plasmodium ovale wallikeri	2729	227	22.3	40.4	2e-15
+160	TR	A0A1J1HA17	NLI interacting factor-like phosphatase, putative OS=Plasmodium relictum OX=85471 GN=NIF1 PE=4 SV=1	Plasmodium relictum	1364	226	23.8	39.4	2.2e-15
+161	TR	A0A024W432	CCR4-NOT transcription complex subunit 4 OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_03992 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	1548	226	21.9	41.5	2.3e-15
+162	TR	A0A024X4Y3	Uncharacterized protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_03927 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	2046	226	24.4	40.8	2.5e-15
+163	TR	A0A0L7KB27	Uncharacterized protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_02074 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	2051	226	24.8	40.3	2.5e-15
+164	TR	A0A0L1I4B9	CCR4-NOT transcription complex subunit 1 domain-containing protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_00200 PE=4 SV=1	Plasmodium falciparum IGH-CR14	2213	226	23.1	40.0	2.5e-15
+165	TR	A0A653HEA9	Rhoptry protein OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00051400 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	3517	226	22.0	38.7	2.7e-15
+166	TR	W7JA70	DDRGK domain-containing protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_03396 PE=4 SV=1	Plasmodium falciparum UGT5.1	1346	225	22.5	40.8	2.9e-15
+167	TR	A0A1J1H759	Translation initiation factor IF-2, chloroplastic OS=Plasmodium relictum OX=85471 GN=MB2 PE=3 SV=1	Plasmodium relictum	1427	225	24.0	40.6	2.9e-15
+168	TR	A0A1J1HC73	OST-HTH associated domain-containing protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1463800 PE=4 SV=1	Plasmodium relictum	1815	225	23.7	40.5	3.2e-15
+169	TR	W7K208	Uncharacterized protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_03849 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	2033	225	24.7	41.2	3.2e-15
+170	TR	A0A0L0CZE9	RTR1-type domain-containing protein OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_03037 PE=3 SV=1	Plasmodium falciparum RAJ116	584	222	25.6	44.0	3.3e-15
+171	TR	A0A1J1H2B1	Zinc finger protein, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_0515300 PE=4 SV=1	Plasmodium relictum	3071	225	23.0	40.8	3.5e-15
+172	TR	A0A9Q0LVD2	Uncharacterized protein OS=Anaeramoeba ignava OX=1746090 GN=M0811_04372 PE=4 SV=1	Anaeramoeba ignava	1313	224	23.4	43.2	3.7e-15
+173	TR	A0A0L0CVS3	Eukaryotic translation initiation factor 2A OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_00475 PE=4 SV=1	Plasmodium falciparum RAJ116	2371	224	23.1	39.4	4.4e-15
+174	TR	A0A653H7Z5	Zinc finger protein, putative (Fragment) OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00398900 PE=4 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	1190	223	23.0	37.3	4.7e-15
+175	TR	A0A024WFK8	NOT family protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_06118 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	4121	224	23.7	40.1	4.7e-15
+176	TR	J9DAA3	Uncharacterized protein (Fragment) OS=Edhazardia aedis (strain USNM 41457) OX=1003232 GN=EDEG_01138 PE=4 SV=1	Edhazardia aedis (strain USNM 41457)	1398	223	23.1	41.0	5e-15
+177	TR	W7K4Y4	protein-serine/threonine phosphatase OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_00307 PE=3 SV=1	Plasmodium falciparum UGT5.1	869	222	25.6	44.0	5.2e-15
+178	TR	A0A1J1H7C2	Repetitive organellar protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1009900 PE=4 SV=1	Plasmodium relictum	1727	223	22.4	40.7	5.4e-15
+179	TR	W7K136	ERYTHROCYTE MEMBRANE PROTEIN PFEMP3 OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_01722 PE=4 SV=1	Plasmodium falciparum UGT5.1	1807	223	22.1	37.7	5.4e-15
+180	TR	A0A0L7M6Q9	ERYTHROCYTE MEMBRANE PROTEIN PFEMP3 OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_02518 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	1888	223	22.1	37.7	5.5e-15
+181	TR	A0A024WND4	Uncharacterized protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_03896 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	2057	223	24.4	41.0	5.6e-15
+182	TR	A0A1J1H468	Transcription factor with AP2 domain(S) OS=Plasmodium relictum OX=85471 GN=PRELSG_0812800 PE=4 SV=1	Plasmodium relictum	2103	223	22.9	41.3	5.6e-15
+183	TR	W4J711	protein-serine/threonine phosphatase OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_00289 PE=3 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1041	222	25.6	44.0	5.8e-15
+184	TR	A0A024VIK4	protein-serine/threonine phosphatase OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_04573 PE=3 SV=1	Plasmodium falciparum FCH/4	1079	222	25.6	44.0	5.9e-15
+185	TR	W4ITV3	Protein kinase OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_04862 PE=3 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	2946	223	21.7	40.4	6e-15
+186	TR	Q8I350	Uncharacterized protein OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0910200 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	3069	223	22.7	40.1	6e-15
+187	TR	O96219	protein-serine/threonine phosphatase OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0213900 PE=3 SV=1	Plasmodium falciparum (isolate 3D7)	1166	222	25.6	44.0	6.1e-15
+188	TR	A0A0L1I5A8	RTR1-type domain-containing protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_00558 PE=3 SV=1	Plasmodium falciparum IGH-CR14	1200	222	25.6	44.0	6.2e-15
+189	TR	A0A0L7M7B4	RTR1-type domain-containing protein OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_02390 PE=3 SV=1	Plasmodium falciparum (isolate Dd2)	1218	222	25.6	44.0	6.3e-15
+190	TR	A0A0L7KE19	RTR1-type domain-containing protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_03103 PE=3 SV=1	Plasmodium falciparum (isolate HB3)	1240	222	25.6	44.0	6.3e-15
+191	TR	A0A1J1HEL6	ubiquitinyl hydrolase 1 OS=Plasmodium relictum OX=85471 GN=PRELSG_1336400 PE=3 SV=1	Plasmodium relictum	1377	222	24.8	42.2	6.6e-15
+192	TR	A0A9Q0RBL7	Uncharacterized protein OS=Anaeramoeba ignava OX=1746090 GN=M0811_09300 PE=4 SV=1	Anaeramoeba ignava	672	220	26.2	42.3	7.1e-15
+193	TR	A0A1J1HD79	Asparagine-rich antigen OS=Plasmodium relictum OX=85471 GN=PRELSG_1463900 PE=4 SV=1	Plasmodium relictum	1942	222	23.2	38.6	7.3e-15
+194	TR	A0A0L7M7D7	Origin recognition complex subunit 1 OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_03444 PE=3 SV=1	Plasmodium falciparum (isolate Dd2)	1145	221	25.5	42.5	8e-15
+195	TR	A0A0L7KM28	Uncharacterized protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_05394 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	607	219	24.6	41.9	8.1e-15
+196	TR	W7JN13	Uncharacterized protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_02993 PE=4 SV=1	Plasmodium falciparum UGT5.1	6735	222	22.9	40.6	8.5e-15
+197	TR	W4J0Z9	Asparagine-rich protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_01972 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1453	221	23.7	40.8	8.8e-15
+198	TR	A0A0L7KE65	Asparagine-rich protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_02932 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	1453	221	23.7	40.8	8.8e-15
+199	TR	A0A0L1IDR4	Asparagine-rich protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_03544 PE=4 SV=1	Plasmodium falciparum IGH-CR14	1453	221	23.7	40.8	8.8e-15
+200	TR	A0A024X5A3	Asparagine-rich protein OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_03823 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	1453	221	23.7	40.8	8.8e-15
+201	TR	A0A024W4Y7	Uncharacterized protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_03346 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	1455	221	21.0	41.4	8.8e-15
+202	TR	W7JTD1	Rhoptry protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_03182 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	1455	221	21.0	41.4	8.8e-15
+203	TR	A0A1Y3NC73	Uncharacterized protein (Fragment) OS=Piromyces sp. (strain E2) OX=73868 GN=PIROE2DRAFT_7922 PE=4 SV=1	Piromyces sp. (strain E2)	1528	221	24.4	41.1	9e-15
+204	TR	A0A1Y3NHX9	SET domain-containing protein OS=Piromyces sp. (strain E2) OX=73868 GN=PIROE2DRAFT_8490 PE=4 SV=1	Piromyces sp. (strain E2)	2129	221	22.3	39.8	9.8e-15
+205	TR	Q7RR45	Uncharacterized protein OS=Plasmodium yoelii yoelii OX=73239 GN=PY00892 PE=4 SV=1	Plasmodium yoelii yoelii	2341	221	25.4	42.2	1e-14
+206	TR	A0A024WJ55	Uncharacterized protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_04996 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	602	218	25.8	43.0	1.1e-14
+207	TR	W7JRD9	NOT family protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_05272 PE=4 SV=1	Plasmodium falciparum UGT5.1	4393	221	24.1	40.4	1.1e-14
+208	TR	A0A1J1HBX7	Trafficking protein particle complex subunit 8 OS=Plasmodium relictum OX=85471 GN=PRELSG_0203500 PE=4 SV=1	Plasmodium relictum	2616	220	23.6	38.4	1.3e-14
+209	TR	W7JXL2	Major facilitator superfamily (MFS) profile domain-containing protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_05526 PE=3 SV=1	Plasmodium falciparum (isolate NF54)	1301	219	22.6	39.0	1.5e-14
+210	TR	A0A1J1H169	Autophagy-related protein 23 OS=Plasmodium relictum OX=85471 GN=PRELSG_0308100 PE=4 SV=1	Plasmodium relictum	821	218	23.6	42.4	1.5e-14
+211	TR	Q8I2Z2	Major facilitator superfamily domain-containing protein, putative OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0916000 PE=3 SV=1	Plasmodium falciparum (isolate 3D7)	1379	219	22.6	39.0	1.5e-14
+212	TR	A0A024VMU3	Uncharacterized protein OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_02542 PE=4 SV=1	Plasmodium falciparum FCH/4	1454	219	23.9	40.8	1.5e-14
+213	TR	W7KJR7	Uncharacterized protein OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_01356 PE=3 SV=1	Plasmodium falciparum (isolate NF54)	1734	219	23.6	42.4	1.6e-14
+214	TR	W7KJY0	Protein kinase OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=PFNF54_01420 PE=4 SV=1	Plasmodium falciparum (isolate NF54)	1766	219	21.6	40.4	1.6e-14
+215	TR	A0A024VTU2	Protein kinase OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_00894 PE=4 SV=1	Plasmodium falciparum FCH/4	1897	219	21.6	40.4	1.6e-14
+216	TR	A0A0L7M667	Asparagine-rich antigen Pfa35-2 OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_01515 PE=4 SV=1	Plasmodium falciparum (isolate Dd2)	2039	219	21.5	40.3	1.7e-14
+217	TR	W7K3Y9	Uncharacterized protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_00587 PE=4 SV=1	Plasmodium falciparum UGT5.1	986	218	21.6	38.9	1.7e-14
+218	TR	A0A1Y1W720	Zinc finger PHD-type domain-containing protein OS=Anaeromyces robustus OX=1754192 GN=BCR32DRAFT_250272 PE=4 SV=1	Anaeromyces robustus	2642	219	24.3	40.2	1.8e-14
+219	TR	A0A4Z2FHX0	Uncharacterized protein OS=Liparis tanakae OX=230148 GN=EYF80_049074 PE=4 SV=1	Liparis tanakae	166	200	41.4	60.9	1.8e-14
+220	TR	A0A024XAX1	Protein kinase OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_01381 PE=4 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	2917	219	21.6	40.4	1.8e-14
+221	TR	A0A0L7K6U8	Protein kinase OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_00538 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	3239	219	21.7	39.9	1.8e-14
+222	TR	C6KSW2	Protein kinase OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF3D7_0611800 PE=4 SV=1	Plasmodium falciparum (isolate 3D7)	3248	219	21.6	40.4	1.8e-14
+223	TR	A0A024W1J3	Uncharacterized protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_05196 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	1329	218	22.9	39.5	1.9e-14
+224	TR	A0A024WLP0	Uncharacterized protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_03794 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	1453	218	23.6	40.8	2e-14
+225	TR	A0A0L0CVM8	Uncharacterized protein OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_01479 PE=4 SV=1	Plasmodium falciparum RAJ116	1733	218	22.1	40.8	2.1e-14
+226	TR	W4IYD8	Uncharacterized protein OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_02798 PE=4 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	1917	218	21.3	40.2	2.2e-14
+227	TR	A0A0L7KFX6	SANT domain-containing protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_03765 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	2471	218	21.9	39.4	2.3e-14
+228	TR	A0A0L7K8I7	Protein kinase OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_00938 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	2502	218	23.8	39.0	2.3e-14
+229	TR	A0A1J1H963	Serine/threonine protein kinase, putative OS=Plasmodium relictum OX=85471 GN=PRELSG_1239700 PE=4 SV=1	Plasmodium relictum	2890	218	22.6	37.7	2.3e-14
+230	TR	A2FD36	Viral A-type inclusion protein, putative OS=Trichomonas vaginalis (strain ATCC PRA-98 / G3) OX=412133 GN=TVAG_355490 PE=4 SV=1	Trichomonas vaginalis (strain ATCC PRA-98 / G3)	3977	218	22.6	43.9	2.4e-14
+231	TR	W7JIN5	Uncharacterized protein (Fragment) OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_00499 PE=4 SV=1	Plasmodium falciparum UGT5.1	1198	217	23.2	40.1	2.5e-14
+232	TR	W7JV94	Uncharacterized protein (Fragment) OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_00500 PE=4 SV=1	Plasmodium falciparum UGT5.1	1205	217	23.2	40.1	2.5e-14
+233	TR	A0A1J1HDU7	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_1348200 PE=4 SV=1	Plasmodium relictum	1277	217	23.1	39.8	2.5e-14
+234	TR	W7J5K1	Tubby C-terminal domain-containing protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_05153 PE=3 SV=1	Plasmodium falciparum UGT5.1	1375	217	22.8	37.6	2.6e-14
+235	TR	A0A0L1I6C9	Uncharacterized protein OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_01376 PE=4 SV=1	Plasmodium falciparum IGH-CR14	1501	217	22.2	37.5	2.7e-14
+236	TR	A0A024W6Z9	Peptidase M16 N-terminal domain-containing protein (Fragment) OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_03354 PE=3 SV=1	Plasmodium falciparum Tanzania (2000708)	1538	217	25.8	43.7	2.7e-14
+237	TR	A0A1J1H354	Uncharacterized protein OS=Plasmodium relictum OX=85471 GN=PRELSG_0712000 PE=4 SV=1	Plasmodium relictum	1554	217	23.6	40.4	2.7e-14
+238	TR	A0A024WV97	Protein kinase OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_01388 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	1747	217	21.4	40.1	2.8e-14
+239	TR	A0A0L7KEE8	Uncharacterized protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_03442 PE=4 SV=1	Plasmodium falciparum (isolate HB3)	1749	217	21.9	40.4	2.8e-14
+240	TR	A0A024WAZ0	AP2/ERF domain-containing protein OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_01333 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	1987	217	22.8	41.2	2.9e-14
+241	TR	A0A024WMV9	Chromo domain-containing protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_03476 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	2009	217	22.5	38.7	2.9e-14
+242	TR	A0A024WP48	Peptidase M16 N-terminal domain-containing protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_03296 PE=3 SV=1	Plasmodium falciparum MaliPS096_E11	2022	217	25.8	43.7	2.9e-14
+243	TR	A0A0L7KLF4	Peptidase M16 N-terminal domain-containing protein OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_05153 PE=3 SV=1	Plasmodium falciparum (isolate HB3)	2024	217	25.8	43.7	2.9e-14
+244	TR	W7JAY9	Peptidase M16 N-terminal domain-containing protein OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_03409 PE=3 SV=1	Plasmodium falciparum UGT5.1	2024	217	25.8	43.7	2.9e-14
+245	TR	A0A0L1IE27	Erythrocyte membrane protein pfemp3 OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_03484 PE=3 SV=1	Plasmodium falciparum IGH-CR14	2024	217	25.8	43.7	2.9e-14
+246	TR	A0A0L0CV31	Erythrocyte membrane protein pfemp3 OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_01361 PE=3 SV=1	Plasmodium falciparum RAJ116	2024	217	25.8	43.7	2.9e-14
+247	TR	A0A024WBW2	Protein kinase OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_01427 PE=4 SV=1	Plasmodium falciparum Tanzania (2000708)	2025	217	21.5	39.5	2.9e-14
+248	TR	A0A024WXU8	Uncharacterized protein OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_00515 PE=4 SV=1	Plasmodium falciparum MaliPS096_E11	986	216	21.6	38.9	2.9e-14
+249	TR	A0A1J1H3I2	Allantoicase OS=Plasmodium relictum OX=85471 GN=PRELSG_0707600 PE=4 SV=1	Plasmodium relictum	2223	217	24.6	41.8	2.9e-14
+250	TR	A0A024VQE2	Uncharacterized protein OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_02165 PE=4 SV=1	Plasmodium falciparum FCH/4	2418	217	22.2	42.8	3e-14

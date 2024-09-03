@@ -1,0 +1,251 @@
+Hit	DB	Accession	Description	Organism	Length	Score(Bits)	Identities(%)	Positives(%)	E()
+1	TR	W4IWG8	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum (isolate Palo Alto / Uganda) OX=57270 GN=PFUGPA_04209 PE=3 SV=1	Plasmodium falciparum (isolate Palo Alto / Uganda)	488	2540	100.0	100.0	0.0
+2	TR	W7JLE6	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum (isolate NF54) OX=5843 GN=CK202_0413 PE=3 SV=1	Plasmodium falciparum (isolate NF54)	488	2540	100.0	100.0	0.0
+3	SP	O96693	1-deoxy-D-xylulose 5-phosphate reductoisomerase, apicoplastic OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=DXR PE=1 SV=1	Plasmodium falciparum (isolate HB3)	488	2540	100.0	100.0	0.0
+4	SP	Q8IKG4	1-deoxy-D-xylulose 5-phosphate reductoisomerase, apicoplastic OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=DXR PE=1 SV=1	Plasmodium falciparum (isolate 3D7)	488	2540	100.0	100.0	0.0
+5	TR	W7JFS8	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum UGT5.1 OX=1237627 GN=C923_05795 PE=3 SV=1	Plasmodium falciparum UGT5.1	488	2540	100.0	100.0	0.0
+6	TR	A0A024WHA3	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum MaliPS096_E11 OX=1036727 GN=PFMALIP_05517 PE=3 SV=1	Plasmodium falciparum MaliPS096_E11	488	2540	100.0	100.0	0.0
+7	TR	A0A0L1I9Z9	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum IGH-CR14 OX=580059 GN=PFMG_02690 PE=3 SV=1	Plasmodium falciparum IGH-CR14	488	2540	100.0	100.0	0.0
+8	TR	A0A024X1G0	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum (isolate Camp / Malaysia) OX=5835 GN=PFMC_05758 PE=3 SV=1	Plasmodium falciparum (isolate Camp / Malaysia)	488	2540	100.0	100.0	0.0
+9	TR	A0A024VJS7	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum FCH/4 OX=1036724 GN=PFFCH_03618 PE=3 SV=1	Plasmodium falciparum FCH/4	488	2533	99.8	99.8	0.0
+10	TR	A0A024W0E0	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum Tanzania (2000708) OX=1036725 GN=PFTANZ_05662 PE=3 SV=1	Plasmodium falciparum Tanzania (2000708)	461	2387	100.0	100.0	0.0
+11	TR	A0A0L7LXY6	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum (isolate Dd2) OX=57267 GN=PFDG_00980 PE=3 SV=1	Plasmodium falciparum (isolate Dd2)	370	1902	99.7	100.0	0.0
+12	TR	A0A1J1H8L4	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium relictum OX=85471 GN=DXR PE=3 SV=1	Plasmodium relictum	484	1885	74.8	87.2	0.0
+13	TR	A0A1D3SQT3	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium malariae OX=5858 GN=DXR PE=3 SV=1	Plasmodium malariae	498	1827	72.9	84.5	0.0
+14	TR	A0A509APU7	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium berghei (strain Anka) OX=5823 GN=PBANKA_1330600 PE=3 SV=1	Plasmodium berghei (strain Anka)	495	1792	71.5	83.3	0.0
+15	TR	A0A1A8WUX8	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium ovale curtisi OX=864141 GN=POVCU1_033810 PE=3 SV=1	Plasmodium ovale curtisi	478	1786	74.5	86.4	0.0
+16	TR	A0A1D3TKY3	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium ovale OX=36330 GN=DXR PE=3 SV=1	Plasmodium ovale	478	1786	74.5	86.4	0.0
+17	TR	Q7RD47	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium yoelii yoelii OX=73239 GN=PY05578 PE=3 SV=1	Plasmodium yoelii yoelii	493	1784	73.5	85.4	0.0
+18	TR	A0A1Y1JNK7	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium gonderi OX=77519 GN=PGO_124100 PE=3 SV=1	Plasmodium gonderi	508	1783	73.5	86.4	0.0
+19	TR	A0A1A8ZDB9	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium ovale wallikeri OX=864142 GN=POVWA1_045050 PE=3 SV=1	Plasmodium ovale wallikeri	478	1768	73.6	85.7	0.0
+20	TR	A0A653H3D7	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Hepatocystis sp. ex Piliocolobus tephrosceles OX=2600580 GN=HEP_00258200 PE=3 SV=1	Hepatocystis sp. ex Piliocolobus tephrosceles	512	1664	74.4	88.3	0.0
+21	TR	A0A384LP43	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium knowlesi (strain H) OX=5851 GN=PKNH_1214000 PE=3 SV=1	Plasmodium knowlesi (strain H)	519	1654	75.6	88.2	0.0
+22	TR	A5K384	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium vivax (strain Salvador I) OX=126793 GN=PVX_117100 PE=3 SV=1	Plasmodium vivax (strain Salvador I)	528	1623	73.7	86.6	0.0
+23	TR	A0A0L7K5C9	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum (isolate HB3) OX=137071 GN=PFHG_05625 PE=3 SV=1	Plasmodium falciparum (isolate HB3)	294	1531	100.0	100.0	0.0
+24	TR	K6UE85	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium cynomolgi (strain B) OX=1120755 GN=PCYB_124770 PE=3 SV=1	Plasmodium cynomolgi (strain B)	518	1514	71.7	82.8	0.0
+25	TR	A0A0L0CZX2	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Plasmodium falciparum RAJ116 OX=580058 GN=PFLG_03055 PE=3 SV=1	Plasmodium falciparum RAJ116	191	995	100.0	100.0	1.1e-131
+26	TR	A0A1M5NVC0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Tepidibacter thalassicus DSM 15285 OX=1123350 GN=dxr PE=3 SV=1	Tepidibacter thalassicus DSM 15285	383	877	46.9	66.7	5.5e-111
+27	TR	A0A1V4IB18	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Alkalithermobacter paradoxus OX=29349 GN=dxr PE=3 SV=1	Alkalithermobacter paradoxus	381	872	46.3	67.8	2.9e-110
+28	TR	A0A1M5Q507	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Asaccharospora irregularis DSM 2635 OX=1121321 GN=dxr PE=3 SV=1	Asaccharospora irregularis DSM 2635	382	850	44.2	65.0	6.2e-107
+29	TR	A0A6H1WYP8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Romboutsia sp. CE17 OX=2724150 GN=dxr PE=3 SV=1	Romboutsia sp. CE17	383	848	46.3	63.7	1.3e-106
+30	TR	A0A1T4WGJ0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium sp. USBA 49 OX=1881060 GN=dxr PE=3 SV=1	Clostridium sp. USBA 49	385	840	46.8	64.8	2.2e-105
+31	TR	A0A419TB87	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Thermohalobacter berrensis OX=99594 GN=dxr PE=3 SV=1	Thermohalobacter berrensis	383	839	46.1	64.0	2.9e-105
+32	TR	A0A6I6D8E1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Candidatus Syntrophocurvum alkaliphilum OX=2293317 GN=dxr PE=3 SV=1	Candidatus Syntrophocurvum alkaliphilum	382	836	44.3	64.6	7.9e-105
+33	TR	A0A061CZI3	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Babesia bigemina OX=5866 GN=BBBOND_0101220 PE=3 SV=1	Babesia bigemina	409	830	46.5	64.9	1.5e-103
+34	SP	B0JWW6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Microcystis aeruginosa (strain NIES-843 / IAM M-2473) OX=449447 GN=dxr PE=3 SV=1	Microcystis aeruginosa (strain NIES-843 / IAM M-2473)	390	828	43.1	62.8	1.6e-103
+35	TR	A0A0P1MXQ5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Candidatus Chrysopegis kryptomonas OX=1633643 GN=dxr PE=3 SV=1	Candidatus Chrysopegis kryptomonas	383	826	46.1	63.0	2.6e-103
+36	SP	Q895K5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium tetani (strain Massachusetts / E88) OX=212717 GN=dxr PE=3 SV=1	Clostridium tetani (strain Massachusetts / E88)	384	826	48.5	65.4	2.7e-103
+37	TR	A0A0B3VGG0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Terrisporobacter othiniensis OX=1577792 GN=dxr PE=3 SV=1	Terrisporobacter othiniensis	391	826	44.8	65.8	3.4e-103
+38	TR	A0A544QWC8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Peptacetobacter hominis OX=2743610 GN=dxr PE=3 SV=1	Peptacetobacter hominis	386	824	44.3	63.2	5.7e-103
+39	TR	A0A1M6L913	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Caminicella sporogenes DSM 14501 OX=1121266 GN=dxr PE=3 SV=1	Caminicella sporogenes DSM 14501	381	823	46.5	65.2	6.9e-103
+40	TR	A0A2P2BSL3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Romboutsia hominis OX=1507512 GN=dxr PE=3 SV=1	Romboutsia hominis	383	823	44.6	64.2	7.4e-103
+41	TR	A0A5J4F9M5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Microcystis aeruginosa NIES-4325 OX=2569534 GN=dxr PE=3 SV=1	Microcystis aeruginosa NIES-4325	390	823	42.6	62.8	9.2e-103
+42	TR	D3EMS7	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Atelocyanobacterium thalassa (isolate ALOHA) OX=1453429 GN=dxr PE=3 SV=1	Atelocyanobacterium thalassa (isolate ALOHA)	388	822	42.2	64.0	1.2e-102
+43	TR	A7APZ2	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Babesia bovis OX=5865 GN=BBOV_III010740 PE=3 SV=1	Babesia bovis	447	827	41.8	64.1	1.4e-102
+44	TR	Q4UDD7	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Theileria annulata OX=5874 GN=TA14290 PE=3 SV=1	Theileria annulata	442	826	42.2	61.4	1.7e-102
+45	TR	A0A0M3DE16	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paraclostridium benzoelyticum OX=1629550 GN=dxr PE=3 SV=1	Paraclostridium benzoelyticum	383	820	43.6	64.7	2.1e-102
+46	TR	A0A5B7TBT5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Caloramator sp. E03 OX=2576307 GN=dxr PE=3 SV=1	Caloramator sp. E03	382	818	46.1	65.1	4e-102
+47	TR	A0A1G9KU92	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Romboutsia lituseburensis DSM 797 OX=1121325 GN=dxr PE=3 SV=1	Romboutsia lituseburensis DSM 797	383	818	44.6	64.0	4.2e-102
+48	TR	K9SZU0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pleurocapsa sp. PCC 7327 OX=118163 GN=dxr PE=3 SV=1	Pleurocapsa sp. PCC 7327	397	817	42.0	63.1	9.2e-102
+49	TR	K9Z3D0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Cyanobacterium aponinum (strain PCC 10605) OX=755178 GN=dxr PE=3 SV=1	Cyanobacterium aponinum (strain PCC 10605)	389	816	43.4	62.4	1e-101
+50	TR	A0A5C0SES3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Crassaminicella thermophila OX=2599308 GN=dxr PE=3 SV=1	Crassaminicella thermophila	382	815	45.0	62.6	1.1e-101
+51	TR	L0ATJ1	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Theileria equi strain WA OX=1537102 GN=BEWA_017980 PE=3 SV=1	Theileria equi strain WA	449	821	43.2	61.2	1.2e-101
+52	TR	A0A2T0B8Q0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium liquoris OX=1289519 GN=dxr PE=3 SV=1	Clostridium liquoris	385	815	44.6	63.7	1.3e-101
+53	TR	A0A942V4T8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Anaeromonas frigoriresistens OX=2683708 GN=dxr PE=3 SV=1	Anaeromonas frigoriresistens	383	814	44.0	64.0	1.7e-101
+54	TR	A0A255IFM9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Romboutsia maritimum OX=2020948 GN=dxr PE=3 SV=1	Romboutsia maritimum	383	814	44.8	64.2	1.7e-101
+55	TR	A0A1M6I4E2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Lutispora thermophila DSM 19022 OX=1122184 GN=dxr PE=3 SV=1	Lutispora thermophila DSM 19022	385	814	42.4	62.6	1.8e-101
+56	TR	K9YPN4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Cyanobacterium stanieri (strain ATCC 29140 / PCC 7202) OX=292563 GN=dxr PE=3 SV=1	Cyanobacterium stanieri (strain ATCC 29140 / PCC 7202)	389	814	43.3	64.5	2e-101
+57	TR	A0A1M6DB05	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium amylolyticum OX=1121298 GN=dxr PE=3 SV=1	Clostridium amylolyticum	383	813	44.8	64.5	2.3e-101
+58	TR	A0A934HUV4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium aciditolerans OX=339861 GN=dxr PE=3 SV=1	Clostridium aciditolerans	385	813	43.8	62.1	2.5e-101
+59	TR	A0A0D6ABJ2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Geminocystis sp. NIES-3708 OX=1615909 GN=dxr PE=3 SV=1	Geminocystis sp. NIES-3708	389	813	43.1	61.8	2.8e-101
+60	TR	A0A401IJ48	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Aphanothece sacrum FPU1 OX=1920663 GN=dxr PE=3 SV=1	Aphanothece sacrum FPU1	398	813	43.4	62.9	3.8e-101
+61	TR	A0A1M4V2I9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium fallax OX=1533 GN=dxr PE=3 SV=1	Clostridium fallax	384	811	44.5	62.9	4.8e-101
+62	TR	A0A845R0W7	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Senegalia massiliensis OX=1720316 GN=dxr PE=3 SV=1	Senegalia massiliensis	383	810	45.2	63.5	6.6e-101
+63	SP	B1WNP5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Crocosphaera subtropica (strain ATCC 51142 / BH68) OX=43989 GN=dxr PE=3 SV=1	Crocosphaera subtropica (strain ATCC 51142 / BH68)	398	811	41.8	63.5	7.5e-101
+64	TR	A0A927A8G3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Oscillatoria sp. FACHB-1407 OX=2692847 GN=dxr PE=3 SV=1	Oscillatoria sp. FACHB-1407	396	809	41.5	61.5	1.4e-100
+65	TR	A0A2T1M300	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Aphanothece hegewaldii CCALA 016 OX=2107694 GN=dxr PE=3 SV=1	Aphanothece hegewaldii CCALA 016	398	809	42.0	63.2	1.5e-100
+66	TR	A0A371IXI3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Romboutsia weinsteinii OX=2020949 GN=dxr PE=3 SV=1	Romboutsia weinsteinii	383	807	44.1	63.2	1.9e-100
+67	TR	A0A151AQN2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium colicanis DSM 13634 OX=1121305 GN=dxr PE=3 SV=1	Clostridium colicanis DSM 13634	385	806	41.1	65.2	2.8e-100
+68	TR	A0A1B7LL35	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Candidatus Arthromitus sp. SFB-turkey OX=1840217 GN=dxr PE=3 SV=1	Candidatus Arthromitus sp. SFB-turkey	387	806	46.1	64.3	3e-100
+69	TR	A0A4R8GZB5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Orenia marismortui OX=46469 GN=dxr PE=3 SV=1	Orenia marismortui	385	805	44.6	62.7	4e-100
+70	TR	A0A2G4F4D5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Tychonema bourrellyi FEM_GT703 OX=2040638 GN=dxr PE=3 SV=1	Tychonema bourrellyi FEM_GT703	396	805	42.5	61.6	5.6e-100
+71	TR	Q0YQP6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Chlorobium ferrooxidans DSM 13031 OX=377431 GN=dxr PE=3 SV=1	Chlorobium ferrooxidans DSM 13031	382	803	43.6	62.6	7.2e-100
+72	SP	A0Q0R4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium novyi (strain NT) OX=386415 GN=dxr PE=3 SV=1	Clostridium novyi (strain NT)	385	801	42.6	62.4	1.6e-99
+73	TR	U2EJ62	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridiales bacterium oral taxon 876 str. F0540 OX=1321778 GN=dxr PE=3 SV=1	Clostridiales bacterium oral taxon 876 str. F0540	385	801	41.4	63.1	1.6e-99
+74	TR	T0N016	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium sp. BL8 OX=1354301 GN=dxr PE=3 SV=1	Clostridium sp. BL8	385	800	42.6	59.9	2.2e-99
+75	TR	J4CCQ1	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Theileria orientalis strain Shintoku OX=869250 GN=TOT_020001022 PE=3 SV=1	Theileria orientalis strain Shintoku	408	801	41.4	59.8	3.3e-99
+76	TR	Q4C5Q5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Crocosphaera watsonii WH 8501 OX=165597 GN=dxr PE=3 SV=1	Crocosphaera watsonii WH 8501	398	800	41.7	62.1	3.4e-99
+77	TR	B4WQ44	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Synechococcus sp. (strain ATCC 29403 / PCC 7335) OX=91464 GN=dxr PE=3 SV=1	Synechococcus sp. (strain ATCC 29403 / PCC 7335)	389	799	41.3	61.7	3.6e-99
+78	TR	R7RRN0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Thermobrachium celere DSM 8682 OX=941824 GN=dxr PE=3 SV=1	Thermobrachium celere DSM 8682	381	797	45.8	65.4	5.6e-99
+79	TR	A0A964FG91	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Waterburya agarophytonicola KI4 OX=2874699 GN=dxr PE=3 SV=1	Waterburya agarophytonicola KI4	387	797	42.9	61.3	6.7e-99
+80	TR	U9VND4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbya sp. Heron Island J OX=1385935 GN=dxr PE=3 SV=1	Leptolyngbya sp. Heron Island J	398	798	41.6	62.1	6.7e-99
+81	TR	A0A4R2U6T1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Serpentinicella alkaliphila OX=1734049 GN=dxr PE=3 SV=1	Serpentinicella alkaliphila	382	796	43.5	62.3	8.1e-99
+82	SP	Q8XJR1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium perfringens (strain 13 / Type A) OX=195102 GN=dxr PE=3 SV=1	Clostridium perfringens (strain 13 / Type A)	384	796	42.3	61.9	8.6e-99
+83	TR	A0A6M0R8S2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium niameyense OX=1622073 GN=dxr PE=3 SV=1	Clostridium niameyense	385	796	44.1	63.6	8.9e-99
+84	TR	D5E4H3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Priestia megaterium (strain ATCC 12872 / QMB1551) OX=545693 GN=dxr PE=3 SV=1	Priestia megaterium (strain ATCC 12872 / QMB1551)	388	796	40.2	63.8	9.8e-99
+85	TR	A0A1M5QXC1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium grantii DSM 8605 OX=1121316 GN=dxr PE=3 SV=1	Clostridium grantii DSM 8605	469	803	43.9	62.7	1e-98
+86	TR	R1ATZ4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Caldisalinibacter kiritimatiensis OX=1304284 GN=dxr PE=3 SV=1	Caldisalinibacter kiritimatiensis	382	794	44.1	62.9	1.6e-98
+87	TR	A0A842J4N8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Cetobacterium sp. 2A OX=2754723 GN=dxr PE=3 SV=1	Cetobacterium sp. 2A	383	794	42.6	61.3	1.7e-98
+88	TR	A0A1V1I4C8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Romboutsia ilealis OX=1115758 GN=dxr PE=3 SV=1	Romboutsia ilealis	383	794	43.0	64.3	1.7e-98
+89	TR	A0A073CJL9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Planktothrix agardhii NIVA-CYA 126/8 OX=388467 GN=dxr PE=3 SV=1	Planktothrix agardhii NIVA-CYA 126/8	394	794	41.0	59.3	2.4e-98
+90	SP	Q0TPQ9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium perfringens (strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 8237 / Type A) OX=195103 GN=dxr PE=3 SV=1	Clostridium perfringens (strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 8237 / Type A)	384	793	42.3	61.6	2.4e-98
+91	TR	A0A949TL63	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium thailandense OX=2794346 GN=dxr PE=3 SV=1	Clostridium thailandense	385	793	43.6	63.2	2.5e-98
+92	TR	A0A135L3H2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Tepidibacillus decaturensis OX=1413211 GN=dxr PE=3 SV=1	Tepidibacillus decaturensis	386	793	42.9	63.1	2.6e-98
+93	TR	E0UDV4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Gloeothece verrucosa (strain PCC 7822) OX=497965 GN=dxr PE=3 SV=1	Gloeothece verrucosa (strain PCC 7822)	398	794	41.2	61.3	2.7e-98
+94	TR	A0A1J1LR02	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Planktothrix tepida PCC 9214 OX=671072 GN=dxr PE=3 SV=1	Planktothrix tepida PCC 9214	394	793	41.2	61.6	3.3e-98
+95	TR	A0A381J975	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium putrefaciens OX=99675 GN=dxr PE=3 SV=1	Clostridium putrefaciens	384	792	45.9	62.7	3.4e-98
+96	TR	A0A8J6WUY9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Trichocoleus sp. FACHB-262 OX=2692869 GN=dxr PE=3 SV=1	Trichocoleus sp. FACHB-262	398	793	40.7	62.3	3.8e-98
+97	TR	A0A928WTC0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=cf. Phormidesmis sp. LEGE 11477 OX=1828680 GN=dxr PE=3 SV=1	cf. Phormidesmis sp. LEGE 11477	389	792	41.0	61.7	4e-98
+98	TR	A0A251W961	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Alkalinema sp. CACIAM 70d OX=1934309 GN=dxr PE=3 SV=1	Alkalinema sp. CACIAM 70d	393	792	41.4	62.6	4.6e-98
+99	TR	A0A1D2YXE6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Vulcanibacillus modesticaldus OX=337097 GN=dxr PE=3 SV=1	Vulcanibacillus modesticaldus	385	791	42.8	61.9	5e-98
+100	TR	A0A1E8F243	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium acetireducens DSM 10703 OX=1121290 GN=dxr PE=3 SV=1	Clostridium acetireducens DSM 10703	388	791	42.4	62.6	5.5e-98
+101	TR	A0A9X3WR63	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Aquibacillus koreensis OX=279446 GN=dxr PE=3 SV=1	Aquibacillus koreensis	388	791	43.0	62.2	5.5e-98
+102	TR	A0A1Z4JMN6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbya boryana NIES-2135 OX=1973484 GN=dxr PE=3 SV=1	Leptolyngbya boryana NIES-2135	390	791	42.1	61.5	5.9e-98
+103	TR	A0A1M6N5X8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paramaledivibacter caminithermalis (strain DSM 15212 / CIP 107654 / DViRD3) OX=1121301 GN=dxr PE=3 SV=1	Paramaledivibacter caminithermalis (strain DSM 15212 / CIP 107654 / DViRD3)	381	790	43.9	64.9	6.2e-98
+104	SP	Q8KG43	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) OX=194439 GN=dxr PE=3 SV=1	Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)	382	790	42.7	61.5	6.4e-98
+105	TR	A0A926V090	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbya sp. FACHB-16 OX=2692800 GN=dxr PE=3 SV=1	Leptolyngbya sp. FACHB-16	393	791	41.5	60.7	6.5e-98
+106	TR	A0A656D9E0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Kryptobacter tengchongensis OX=1643429 GN=dxr PE=3 SV=1	Kryptobacter tengchongensis	383	790	42.2	61.8	6.7e-98
+107	TR	A0A267MR34	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Anaeromicrobium sediminis OX=1478221 GN=dxr PE=3 SV=1	Anaeromicrobium sediminis	384	790	44.0	61.8	6.9e-98
+108	TR	A0A928W8B5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pleurocapsales cyanobacterium LEGE 10410 OX=1828828 GN=dxr PE=3 SV=1	Pleurocapsales cyanobacterium LEGE 10410	395	791	41.2	60.8	6.9e-98
+109	TR	K9VA17	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Oscillatoria nigro-viridis PCC 7112 OX=179408 GN=dxr PE=3 SV=1	Oscillatoria nigro-viridis PCC 7112	396	791	41.2	61.1	7.1e-98
+110	TR	A0A1Z4RQP6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Chondrocystis sp. NIES-4102 OX=2005460 GN=dxr PE=3 SV=1	Chondrocystis sp. NIES-4102	396	791	42.1	62.1	7.1e-98
+111	SP	A2BXK2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=dxr PE=3 SV=1	Prochlorococcus marinus (strain MIT 9515)	409	792	41.2	62.8	7.5e-98
+112	SP	B7KAT5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Gloeothece citriformis (strain PCC 7424) OX=65393 GN=dxr PE=3 SV=1	Gloeothece citriformis (strain PCC 7424)	398	791	42.2	61.1	7.6e-98
+113	TR	A0A926XGA3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Coleofasciculus sp. FACHB-SPT36 OX=2692790 GN=dxr PE=3 SV=1	Coleofasciculus sp. FACHB-SPT36	398	791	41.8	61.4	7.6e-98
+114	TR	A0A098BYB3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Fermentimonas caenicola OX=1562970 GN=dxr PE=3 SV=1	Fermentimonas caenicola	391	790	42.3	61.1	8.6e-98
+115	TR	D5XF01	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Thermincola potens (strain JR) OX=635013 GN=dxr PE=3 SV=1	Thermincola potens (strain JR)	381	789	42.6	62.7	8.8e-98
+116	TR	A0A942QYA0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Alkaliphilus sp. OX=1872455 GN=dxr PE=3 SV=1	Alkaliphilus sp.	383	789	45.2	62.2	9.4e-98
+117	TR	C6PQX7	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium carboxidivorans P7 OX=536227 GN=dxr PE=3 SV=1	Clostridium carboxidivorans P7	384	789	42.7	63.1	9.7e-98
+118	TR	A0A2M8TGW0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium sp. CT7 OX=2052574 GN=dxr PE=3 SV=1	Clostridium sp. CT7	385	789	44.1	60.9	1e-97
+119	TR	A0A8I0AB72	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium lentum OX=2763037 GN=dxr PE=3 SV=1	Clostridium lentum	386	789	43.9	62.9	1e-97
+120	TR	A0A1M6J6A2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Hathewaya proteolytica DSM 3090 OX=1121331 GN=dxr PE=3 SV=1	Hathewaya proteolytica DSM 3090	388	789	44.4	63.2	1.1e-97
+121	TR	A0A367PW23	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Nostoc sp. ATCC 43529 OX=1840705 GN=dxr PE=3 SV=1	Nostoc sp. ATCC 43529	401	790	41.4	61.3	1.2e-97
+122	TR	L8LIP9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Gloeocapsa sp. PCC 73106 OX=102232 GN=dxr PE=3 SV=1	Gloeocapsa sp. PCC 73106	391	789	41.2	60.6	1.2e-97
+123	TR	A0A0P8V1S1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Caloranaerobacter sp. TR13 OX=1302151 GN=dxr PE=3 SV=1	Caloranaerobacter sp. TR13	382	788	42.6	63.5	1.3e-97
+124	TR	D3MSZ4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Peptostreptococcus anaerobius 653-L OX=596329 GN=dxr PE=3 SV=1	Peptostreptococcus anaerobius 653-L	395	789	44.1	63.5	1.4e-97
+125	TR	A0A947DFR8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptothoe spongobia TAU-MAC 1115 OX=1967444 GN=dxr PE=3 SV=1	Leptothoe spongobia TAU-MAC 1115	398	789	41.0	61.2	1.5e-97
+126	TR	A0A926PMC8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Cyanobacteria bacterium FACHB-DQ100 OX=2692767 GN=dxr PE=3 SV=1	Cyanobacteria bacterium FACHB-DQ100	390	788	41.9	61.9	1.7e-97
+127	TR	A0A923EBV6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium tetanomorphum OX=1553 GN=dxr PE=3 SV=1	Clostridium tetanomorphum	384	787	44.0	62.6	1.9e-97
+128	TR	A0A2K8SJ82	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Nostoc flagelliforme CCNUN1 OX=2038116 GN=dxr PE=3 SV=1	Nostoc flagelliforme CCNUN1	395	788	40.7	61.6	1.9e-97
+129	TR	A0A4Q7EHG1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbya sp. LK OX=2294035 GN=dxr PE=3 SV=1	Leptolyngbya sp. LK	396	788	40.5	61.4	2e-97
+130	TR	A0A929F9D3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbya cf. ectocarpi LEGE 11479 OX=1828722 GN=dxr PE=3 SV=1	Leptolyngbya cf. ectocarpi LEGE 11479	396	788	41.0	61.7	2e-97
+131	TR	A0A1E5QCS2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Desertifilum tharense IPPAS B-1220 OX=1781255 GN=dxr PE=3 SV=1	Desertifilum tharense IPPAS B-1220	397	788	41.2	61.9	2.1e-97
+132	TR	A0A929B2W3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pleurocapsales cyanobacterium LEGE 06147 OX=1828827 GN=dxr PE=3 SV=1	Pleurocapsales cyanobacterium LEGE 06147	398	788	41.9	60.3	2.1e-97
+133	TR	A0A1L9QMD2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Roseofilum reptotaenium AO1-A OX=1925591 GN=dxr PE=3 SV=1	Roseofilum reptotaenium AO1-A	396	787	41.0	60.2	2.8e-97
+134	TR	A0A1Y4USY8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Tyzzerella sp. An114 OX=1965545 GN=dxr PE=3 SV=1	Tyzzerella sp. An114	385	786	43.2	63.5	2.8e-97
+135	TR	A0A7W2IZY0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium sp. cel8 OX=2663123 GN=dxr PE=3 SV=1	Clostridium sp. cel8	387	786	42.9	62.7	3e-97
+136	TR	K9SKY0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pseudanabaena sp. PCC 7367 OX=82654 GN=dxr PE=3 SV=1	Pseudanabaena sp. PCC 7367	387	786	41.8	61.7	3e-97
+137	TR	A0A8J8CMY5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Myxacorys almedinensis A OX=2690445 GN=dxr PE=3 SV=1	Myxacorys almedinensis A	394	786	40.5	61.5	3.7e-97
+138	TR	E0E183	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Peptostreptococcus stomatis DSM 17678 OX=596315 GN=dxr PE=3 SV=1	Peptostreptococcus stomatis DSM 17678	395	786	45.5	63.8	3.9e-97
+139	TR	A0A927ALY3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Oscillatoria sp. FACHB-1406 OX=2692846 GN=dxr PE=3 SV=1	Oscillatoria sp. FACHB-1406	560	800	43.0	60.8	4e-97
+140	TR	B6FZH9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Peptacetobacter hiranonis (strain DSM 13275 / JCM 10541 / KCTC 15199 / TO-931) OX=500633 GN=dxr PE=3 SV=1	Peptacetobacter hiranonis (strain DSM 13275 / JCM 10541 / KCTC 15199 / TO-931)	385	785	44.2	63.2	4e-97
+141	SP	B5YI09	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Thermodesulfovibrio yellowstonii (strain ATCC 51303 / DSM 11347 / YP87) OX=289376 GN=dxr PE=3 SV=1	Thermodesulfovibrio yellowstonii (strain ATCC 51303 / DSM 11347 / YP87)	381	784	43.8	61.3	5e-97
+142	SP	Q0SSC6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium perfringens (strain SM101 / Type A) OX=289380 GN=dxr PE=3 SV=1	Clostridium perfringens (strain SM101 / Type A)	384	784	42.1	61.4	5.5e-97
+143	TR	B4W3A1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Coleofasciculus chthonoplastes PCC 7420 OX=118168 GN=dxr PE=3 SV=1	Coleofasciculus chthonoplastes PCC 7420	398	785	40.2	60.7	6e-97
+144	TR	L1QFQ9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium celatum DSM 1785 OX=545697 GN=dxr PE=3 SV=1	Clostridium celatum DSM 1785	391	784	45.3	62.8	6.8e-97
+145	TR	A0A285BKG5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Thermoanaerobacterium sp. RBIITD OX=1550240 GN=dxr PE=3 SV=1	Thermoanaerobacterium sp. RBIITD	382	783	44.2	64.2	7.2e-97
+146	TR	A0A1C0V0S5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Oscillatoriales cyanobacterium USR001 OX=1880991 GN=dxr PE=3 SV=1	Oscillatoriales cyanobacterium USR001	396	784	40.6	61.7	8e-97
+147	TR	A0A1R1BXN9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paenibacillus sp. FSL H7-0331 OX=1920421 GN=dxr PE=3 SV=1	Paenibacillus sp. FSL H7-0331	381	782	42.4	61.3	9.9e-97
+148	TR	A0A9W5TCS8	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Babesia ovis OX=5869 GN=BaOVIS_025340 PE=3 SV=1	Babesia ovis	990	825	41.9	61.1	1.1e-96
+149	TR	A0A8J7JQW8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Oculatella sp. LEGE 06141 OX=1828648 GN=dxr PE=3 SV=1	Oculatella sp. LEGE 06141	406	784	42.2	62.3	1.1e-96
+150	TR	A0A2T1CLY8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pleurocapsa sp. CCALA 161 OX=2107688 GN=dxr PE=3 SV=1	Pleurocapsa sp. CCALA 161	395	783	41.8	61.2	1.1e-96
+151	TR	A0A2T1G5Z4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=filamentous cyanobacterium Phorm 6 OX=2107706 GN=dxr PE=3 SV=1	filamentous cyanobacterium Phorm 6	396	783	40.7	61.9	1.1e-96
+152	TR	A0A974BK76	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Sedimentibacter hydroxybenzoicus DSM 7310 OX=1123245 GN=dxr PE=3 SV=1	Sedimentibacter hydroxybenzoicus DSM 7310	386	782	43.6	60.3	1.2e-96
+153	TR	A0A926TZ36	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Microcoleus sp. FACHB-1515 OX=2692821 GN=dxr PE=3 SV=1	Microcoleus sp. FACHB-1515	398	783	41.5	60.8	1.2e-96
+154	TR	A0A2Z5T276	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=cyanobacterium endosymbiont of Rhopalodia gibberula OX=1763363 GN=dxr PE=3 SV=1	cyanobacterium endosymbiont of Rhopalodia gibberula	398	783	41.0	61.0	1.2e-96
+155	TR	A0AA46DYY7	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Hypnocyclicus thermotrophus OX=1627895 GN=dxr PE=3 SV=1	Hypnocyclicus thermotrophus	381	781	44.8	62.3	1.4e-96
+156	SP	B7K5G6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Rippkaea orientalis (strain PCC 8801 / RF-1) OX=41431 GN=dxr PE=3 SV=1	Rippkaea orientalis (strain PCC 8801 / RF-1)	398	782	40.5	62.1	1.7e-96
+157	TR	A0A916PZD1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pseudanabaena sp. lw0831 OX=1357935 GN=dxr PE=3 SV=1	Pseudanabaena sp. lw0831	387	781	41.8	60.5	1.7e-96
+158	TR	K9UHJ1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Chamaesiphon minutus (strain ATCC 27169 / PCC 6605) OX=1173020 GN=dxr PE=3 SV=1	Chamaesiphon minutus (strain ATCC 27169 / PCC 6605)	390	781	41.7	60.1	1.9e-96
+159	TR	A3PDX9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=dxr PE=3 SV=1	Prochlorococcus marinus (strain MIT 9301)	404	782	42.2	61.6	2e-96
+160	TR	A0A7G9GW23	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Fusobacterium hominis OX=2764326 GN=dxr PE=3 SV=1	Fusobacterium hominis	383	780	44.0	63.5	2.1e-96
+161	TR	A0A919VDB5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium polyendosporum OX=69208 GN=dxr PE=3 SV=1	Clostridium polyendosporum	384	780	42.0	61.4	2.2e-96
+162	TR	E3PSG4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF) OX=499177 GN=dxr PE=3 SV=1	Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF)	389	780	44.8	61.2	2.5e-96
+163	SP	B0CD21	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Acaryochloris marina (strain MBIC 11017) OX=329726 GN=dxr PE=3 SV=1	Acaryochloris marina (strain MBIC 11017)	401	781	39.6	60.9	2.6e-96
+164	TR	F3B001	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Lachnospiraceae oral taxon 107 str. F0167 OX=575593 GN=dxr PE=3 SV=1	Lachnospiraceae oral taxon 107 str. F0167	379	779	44.3	60.5	2.6e-96
+165	TR	A0A972JZA2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paenibacillus foliorum OX=2654974 GN=dxr PE=3 SV=1	Paenibacillus foliorum	380	779	42.0	63.2	2.7e-96
+166	TR	D1AJN1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Sebaldella termitidis (strain ATCC 33386 / NCTC 11300) OX=526218 GN=dxr PE=3 SV=1	Sebaldella termitidis (strain ATCC 33386 / NCTC 11300)	382	779	44.0	60.5	2.9e-96
+167	SP	Q55663	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=dxr PE=3 SV=1	Synechocystis sp. (strain PCC 6803 / Kazusa)	394	780	41.7	60.9	3e-96
+168	TR	A0A1T4Q590	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Cetobacterium ceti OX=180163 GN=dxr PE=3 SV=1	Cetobacterium ceti	383	779	43.0	63.3	3e-96
+169	TR	C6JI16	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Fusobacterium varium ATCC 27725 OX=469618 GN=dxr PE=3 SV=1	Fusobacterium varium ATCC 27725	383	779	43.4	62.0	3e-96
+170	TR	A0A151B7N6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium tepidiprofundi DSM 19306 OX=1121338 GN=dxr PE=3 SV=1	Clostridium tepidiprofundi DSM 19306	385	779	40.9	61.4	3.2e-96
+171	TR	V9W9X2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paenibacillus larvae subsp. larvae DSM 25430 OX=697284 GN=dxr PE=3 SV=1	Paenibacillus larvae subsp. larvae DSM 25430	385	779	41.9	61.0	3.2e-96
+172	TR	A0A856MRK5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Brasilonema sennae CENA114 OX=415709 GN=dxr PE=3 SV=1	Brasilonema sennae CENA114	398	780	41.2	59.5	3.4e-96
+173	TR	A0A139WZZ6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Scytonema hofmannii PCC 7110 OX=128403 GN=dxr PE=3 SV=1	Scytonema hofmannii PCC 7110	398	780	42.3	59.7	3.4e-96
+174	TR	A0A7G1GYR5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Dissulfurispira thermophila OX=2715679 GN=dxr PE=3 SV=1	Dissulfurispira thermophila	388	779	40.9	60.3	3.5e-96
+175	TR	A0YX76	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Lyngbya sp. (strain PCC 8106) OX=313612 GN=dxr PE=3 SV=1	Lyngbya sp. (strain PCC 8106)	394	779	40.6	61.7	4.2e-96
+176	TR	A0A162KI39	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium ljungdahlii OX=1538 GN=dxr PE=3 SV=1	Clostridium ljungdahlii	385	778	42.5	60.3	4.5e-96
+177	TR	A0A8J6T1Q1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Oculatella sp. FACHB-28 OX=2692845 GN=dxr PE=3 SV=1	Oculatella sp. FACHB-28	397	779	40.2	60.5	4.6e-96
+178	TR	A0A0C1N6M0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Tolypothrix bouteillei VB521301 OX=1479485 GN=dxr PE=3 SV=1	Tolypothrix bouteillei VB521301	397	779	42.2	59.1	4.6e-96
+179	TR	A0A916RCY7	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Okeania sp. KiyG1 OX=2720165 GN=dxr PE=3 SV=1	Okeania sp. KiyG1	421	781	42.1	61.7	4.8e-96
+180	TR	A0A081BZF2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Vecturithrix granuli OX=1499967 GN=dxr PE=3 SV=1	Vecturithrix granuli	391	778	39.1	63.4	5.4e-96
+181	TR	A0A937UY16	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbya sp. Cla-17 OX=2803751 GN=dxr PE=3 SV=1	Leptolyngbya sp. Cla-17	392	778	41.2	61.1	5.6e-96
+182	SP	B4SAR7	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pelodictyon phaeoclathratiforme (strain DSM 5477 / BU-1) OX=324925 GN=dxr PE=3 SV=1	Pelodictyon phaeoclathratiforme (strain DSM 5477 / BU-1)	382	777	42.8	61.8	5.8e-96
+183	TR	A0A4V6KD95	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Hathewaya histolytica OX=1498 GN=dxr PE=3 SV=1	Hathewaya histolytica	384	777	42.8	63.5	6.1e-96
+184	TR	A0A2P8WKN4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=filamentous cyanobacterium CCP5 OX=2107701 GN=dxr PE=3 SV=1	filamentous cyanobacterium CCP5	396	778	40.2	61.9	6.3e-96
+185	SP	Q319Z8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=dxr PE=3 SV=1	Prochlorococcus marinus (strain MIT 9312)	408	779	41.2	61.3	6.5e-96
+186	TR	W6N2V2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium tyrobutyricum DIVETGP OX=1408889 GN=dxr PE=3 SV=1	Clostridium tyrobutyricum DIVETGP	391	777	44.1	62.4	7.6e-96
+187	TR	A0A5J4YGT7	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Porphyridium purpureum OX=35688 GN=FVE85_9576 PE=3 SV=1	Porphyridium purpureum	492	785	42.9	63.7	1e-95
+188	TR	A0A3S1A1K9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Chlorogloeopsis fritschii PCC 6912 OX=211165 GN=dxr PE=3 SV=1	Chlorogloeopsis fritschii PCC 6912	400	777	42.5	60.8	1e-95
+189	TR	A0A4Q9DNU5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paenibacillus thalictri OX=2527873 GN=dxr PE=3 SV=1	Paenibacillus thalictri	378	775	42.5	60.8	1e-95
+190	TR	G8LZU5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Acetivibrio clariflavus (strain DSM 19732 / NBRC 101661 / EBR45) OX=720554 GN=dxr PE=3 SV=1	Acetivibrio clariflavus (strain DSM 19732 / NBRC 101661 / EBR45)	381	775	42.6	61.1	1.1e-95
+191	TR	A0A1X4G7F9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Cylindrospermopsis raciborskii CENA303 OX=1170769 GN=dxr PE=3 SV=1	Cylindrospermopsis raciborskii CENA303	396	776	42.0	59.5	1.3e-95
+192	TR	D8FYL0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Kamptonema sp. PCC 6506 OX=272129 GN=dxr PE=3 SV=1	Kamptonema sp. PCC 6506	396	776	40.4	60.9	1.3e-95
+193	TR	K9SWZ0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Synechococcus sp. PCC 7502 OX=1173263 GN=dxr PE=3 SV=1	Synechococcus sp. PCC 7502	387	775	41.3	60.0	1.3e-95
+194	TR	A0A0S3U7G5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbya sp. NIES-3755 OX=1752064 GN=dxr PE=3 SV=1	Leptolyngbya sp. NIES-3755	390	775	41.4	61.6	1.5e-95
+195	TR	A0A2W1P5M5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paenibacillus xerothermodurans OX=1977292 GN=dxr PE=3 SV=1	Paenibacillus xerothermodurans	380	774	43.3	61.7	1.5e-95
+196	TR	K9WPB9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Allocoleopsis franciscana PCC 7113 OX=1173027 GN=dxr PE=3 SV=1	Allocoleopsis franciscana PCC 7113	403	776	42.0	60.8	1.6e-95
+197	TR	K8GPW2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Leptolyngbyaceae cyanobacterium JSC-12 OX=864702 GN=dxr PE=3 SV=1	Leptolyngbyaceae cyanobacterium JSC-12	393	775	39.9	63.6	1.6e-95
+198	TR	A0A099S7F0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium sp. HMP27 OX=1487921 GN=dxr PE=3 SV=1	Clostridium sp. HMP27	383	774	44.7	63.1	1.7e-95
+199	TR	A0A125V7G8	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Peptoclostridium phage phiCDIF1296T OX=1677909 GN=dxr PE=3 SV=1	Peptoclostridium phage phiCDIF1296T	384	774	40.7	62.7	1.7e-95
+200	TR	A0A174CAH6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium paraputrificum OX=29363 GN=dxr PE=3 SV=1	Clostridium paraputrificum	386	774	44.1	62.1	1.8e-95
+201	TR	K9R966	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Rivularia sp. PCC 7116 OX=373994 GN=dxr PE=3 SV=1	Rivularia sp. PCC 7116	398	775	40.3	60.6	1.9e-95
+202	TR	A0A563W132	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Hyella patelloides LEGE 07179 OX=945734 GN=dxr PE=3 SV=1	Hyella patelloides LEGE 07179	391	774	41.3	59.5	2.1e-95
+203	TR	A0A841KRZ5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Anaerosolibacter carboniphilus OX=1417629 GN=dxr PE=3 SV=1	Anaerosolibacter carboniphilus	382	773	43.2	62.9	2.3e-95
+204	TR	A0A140L5G2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Thermotalea metallivorans OX=520762 GN=dxr PE=3 SV=1	Thermotalea metallivorans	382	773	42.1	62.7	2.3e-95
+205	SP	Q185R8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridioides difficile (strain 630) OX=272563 GN=dxr PE=3 SV=1	Clostridioides difficile (strain 630)	384	773	40.7	62.7	2.4e-95
+206	TR	A0A369XYP2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Psychrilyobacter sp. S5 OX=2283384 GN=dxr PE=3 SV=1	Psychrilyobacter sp. S5	385	773	43.3	62.6	2.5e-95
+207	TR	A0A343JBL5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium isatidis OX=182773 GN=dxr PE=3 SV=1	Clostridium isatidis	386	773	43.4	61.3	2.6e-95
+208	TR	A0A3N6PIW5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Okeania hirsuta OX=1458930 GN=dxr PE=3 SV=1	Okeania hirsuta	551	787	42.4	61.2	2.7e-95
+209	TR	A0A367QLT6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Nostoc sp. ATCC 43529 OX=1840705 GN=dxr PE=3 SV=1	Nostoc sp. ATCC 43529	398	774	41.5	60.2	2.7e-95
+210	TR	A0A926TEE3	1-deoxy-D-xylulose-5-phosphate reductoisomerase (Fragment) OS=Leptolyngbya sp. FACHB-36 OX=2692808 GN=H6F43_09815 PE=3 SV=1	Leptolyngbya sp. FACHB-36	357	770	42.6	63.5	2.9e-95
+211	TR	A0A928VLJ1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Romeriopsis navalis LEGE 11480 OX=2777977 GN=dxr PE=3 SV=1	Romeriopsis navalis LEGE 11480	390	773	40.3	62.2	2.9e-95
+212	SP	A3DE52	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) OX=203119 GN=dxr PE=3 SV=1	Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372)	381	772	42.9	60.5	3.1e-95
+213	TR	A0A929FHT3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=filamentous cyanobacterium LEGE 07170 OX=1828880 GN=dxr PE=3 SV=1	filamentous cyanobacterium LEGE 07170	393	773	40.7	60.0	3.2e-95
+214	TR	A0A5J4Z546	1-deoxy-D-xylulose-5-phosphate reductoisomerase OS=Porphyridium purpureum OX=35688 GN=FVE85_6586 PE=3 SV=1	Porphyridium purpureum	534	785	42.9	63.7	3.3e-95
+215	TR	A0A8J6RRZ0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Trichocoleus sp. FACHB-832 OX=2692875 GN=dxr PE=3 SV=1	Trichocoleus sp. FACHB-832	397	773	41.2	60.6	3.7e-95
+216	TR	A0A2T1DJ54	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Phormidesmis priestleyi ULC007 OX=1920490 GN=dxr PE=3 SV=1	Phormidesmis priestleyi ULC007	397	773	40.9	61.6	3.7e-95
+217	TR	A0A8J7JFF9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Lusitaniella coriacea LEGE 07157 OX=945747 GN=dxr PE=3 SV=1	Lusitaniella coriacea LEGE 07157	398	773	40.8	59.7	3.8e-95
+218	TR	A0A069RDQ4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Peptoclostridium litorale DSM 5388 OX=1121324 GN=dxr PE=3 SV=1	Peptoclostridium litorale DSM 5388	389	772	41.6	61.2	4e-95
+219	TR	A0A1D8GBI6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Geosporobacter ferrireducens OX=1424294 GN=dxr PE=3 SV=1	Geosporobacter ferrireducens	384	771	41.3	62.0	4.9e-95
+220	TR	A0A926W329	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Pseudanabaena sp. FACHB-2040 OX=2692859 GN=dxr PE=3 SV=1	Pseudanabaena sp. FACHB-2040	396	772	39.4	62.9	5e-95
+221	TR	A0A094K1H8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Smithella sp. D17 OX=1538639 GN=dxr PE=3 SV=1	Smithella sp. D17	386	771	43.0	59.8	5.2e-95
+222	TR	A0A2D0HH85	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Nostoc sp. 'Peltigera malacea cyanobiont' DB3992 OX=1206980 GN=dxr PE=3 SV=1	Nostoc sp. 'Peltigera malacea cyanobiont' DB3992	398	772	41.7	59.8	5.3e-95
+223	SP	A6LSP7	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium beijerinckii (strain ATCC 51743 / NCIMB 8052) OX=290402 GN=dxr PE=3 SV=1	Clostridium beijerinckii (strain ATCC 51743 / NCIMB 8052)	387	771	42.2	61.8	5.3e-95
+224	TR	A0A2T1BZY5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Merismopedia glauca CCAP 1448/3 OX=1296344 GN=dxr PE=3 SV=1	Merismopedia glauca CCAP 1448/3	390	771	41.4	61.6	5.9e-95
+225	TR	A0A559KET1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Paenibacillus cremeus OX=2163881 GN=dxr PE=3 SV=1	Paenibacillus cremeus	379	770	41.2	62.0	5.9e-95
+226	TR	A0A371JIF3	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Lachnotalea glycerini OX=1763509 GN=dxr PE=3 SV=1	Lachnotalea glycerini	380	770	43.5	63.7	6.1e-95
+227	TR	B1XIF1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Picosynechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) OX=32049 GN=dxr PE=3 SV=1	Picosynechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6)	392	771	40.7	61.0	6.2e-95
+228	TR	A0A2T1DYV0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Stenomitos frigidus ULC18 OX=2107698 GN=dxr PE=3 SV=1	Stenomitos frigidus ULC18	395	771	41.7	62.6	6.9e-95
+229	TR	A0A6N9PWV9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Chengkuizengella marina OX=2507566 GN=dxr PE=3 SV=1	Chengkuizengella marina	384	770	40.7	62.5	6.9e-95
+230	TR	A0A8J7BZ00	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Iningainema tapete BLCC-T55 OX=2748662 GN=dxr PE=3 SV=1	Iningainema tapete BLCC-T55	396	771	40.9	60.0	7.1e-95
+231	TR	A0A1H8IF26	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Peptostreptococcus russellii OX=215200 GN=dxr PE=3 SV=1	Peptostreptococcus russellii	388	770	42.8	62.5	7.8e-95
+232	TR	A0A1E5LK94	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Bacillus solimangrovi OX=1305675 GN=dxr PE=3 SV=1	Bacillus solimangrovi	390	770	40.6	62.2	8.3e-95
+233	SP	Q7V0W0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4) OX=59919 GN=dxr PE=3 SV=1	Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4)	404	771	41.0	62.3	9.1e-95
+234	TR	A0A377GYW1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Fusobacterium necrogenes OX=858 GN=dxr PE=3 SV=1	Fusobacterium necrogenes	383	769	42.4	62.4	9.4e-95
+235	TR	L8LY47	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Xenococcus sp. PCC 7305 OX=102125 GN=dxr PE=3 SV=1	Xenococcus sp. PCC 7305	396	770	40.7	61.4	1e-94
+236	SP	C3L0C4	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium botulinum (strain 657 / Type Ba4) OX=515621 GN=dxr PE=3 SV=1	Clostridium botulinum (strain 657 / Type Ba4)	385	769	43.6	63.6	1e-94
+237	TR	A0A1T4MDP0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Selenihalanaerobacter shriftii OX=142842 GN=dxr PE=3 SV=1	Selenihalanaerobacter shriftii	385	769	41.2	61.1	1e-94
+238	TR	S6EQW0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium chauvoei JF4335 OX=1351755 GN=dxr PE=3 SV=1	Clostridium chauvoei JF4335	386	769	43.8	61.7	1e-94
+239	TR	A0AA91GVK2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Scytonema sp. HK-05 OX=1137095 GN=dxr PE=3 SV=1	Scytonema sp. HK-05	398	770	42.1	60.1	1.1e-94
+240	TR	K9S6F6	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Geitlerinema sp. PCC 7407 OX=1173025 GN=dxr PE=3 SV=1	Geitlerinema sp. PCC 7407	398	770	40.2	61.1	1.1e-94
+241	TR	A0A1D8U3A5	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Moorena producens PAL-8-15-08-1 OX=1458985 GN=dxr PE=3 SV=1	Moorena producens PAL-8-15-08-1	402	770	41.2	60.1	1.2e-94
+242	TR	W4V439	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Acetivibrio straminisolvens JCM 21531 OX=1294263 GN=dxr PE=3 SV=1	Acetivibrio straminisolvens JCM 21531	381	768	42.5	60.5	1.2e-94
+243	TR	A0A0R3JTW0	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Caloramator mitchellensis OX=908809 GN=dxr PE=3 SV=1	Caloramator mitchellensis	382	768	43.0	61.4	1.3e-94
+244	TR	A0A0A7FZ62	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium baratii str. Sullivan OX=1415775 GN=dxr PE=3 SV=1	Clostridium baratii str. Sullivan	385	768	42.2	60.5	1.4e-94
+245	TR	A0A6M0GXY2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Clostridium senegalense OX=1465809 GN=dxr PE=3 SV=1	Clostridium senegalense	385	768	41.4	61.4	1.4e-94
+246	SP	Q3MDL2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=240292 GN=dxr PE=3 SV=1	Trichormus variabilis (strain ATCC 29413 / PCC 7937)	398	769	41.4	60.4	1.5e-94
+247	TR	A0A2R5FJU9	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Nostoc commune NIES-4072 OX=2005467 GN=dxr PE=3 SV=1	Nostoc commune NIES-4072	398	769	41.2	59.8	1.5e-94
+248	TR	A0A928ZKH2	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Nostocales cyanobacterium LEGE 11386 OX=1828825 GN=dxr PE=3 SV=1	Nostocales cyanobacterium LEGE 11386	398	769	41.0	60.2	1.5e-94
+249	SP	B8HVK1	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Cyanothece sp. (strain PCC 7425 / ATCC 29141) OX=395961 GN=dxr PE=3 SV=1	Cyanothece sp. (strain PCC 7425 / ATCC 29141)	387	768	39.9	61.3	1.5e-94
+250	TR	K0AXM8	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Gottschalkia acidurici (strain ATCC 7906 / DSM 604 / BCRC 14475 / CIP 104303 / KCTC 5404 / NCIMB 10678 / 9a) OX=1128398 GN=dxr PE=3 SV=1	Gottschalkia acidurici (strain ATCC 7906 / DSM 604 / BCRC 14475 / CIP 104303 / KCTC 5404 / NCIMB 10678 / 9a)	387	768	42.6	62.4	1.5e-94
