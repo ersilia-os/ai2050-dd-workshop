@@ -3,6 +3,7 @@ import sys
 import random
 import pandas as pd
 import numpy as np
+import requests
 from sklearn import metrics
 import altair as alt
 import streamlit as st
@@ -98,8 +99,17 @@ if st.session_state['step1_button']:
         st.header("Step 3: Featurise molecules")
 
         @st.cache_data(show_spinner=False)
-        def load_dataframe(url):
-            return pd.read_csv(url)
+        def load_dataframe(url, filename):
+            if not os.path.exists(filename):
+                response = requests.get(url)
+                response.raise_for_status() 
+                print(response)
+                with open(filename, 'wb') as f:
+                    f.write(response.content)
+            print(filename)
+            df = pd.read_csv(filename)
+            print(df.head())
+            return df
     
         @st.cache_data(show_spinner=False)
         def do_plot_lolp(X, y):
@@ -124,7 +134,7 @@ if st.session_state['step1_button']:
             else:
                 with st.spinner("Running Ersilia model..."):
                     url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4wt0_preds.csv"
-                    desc1 = load_dataframe(url)
+                    desc1 = load_dataframe(url, "eos4wt0_preds.csv")
                     st.session_state['desc1_results'] = desc1
                     X = desc1.iloc[:, 2:]
                     st.session_state["desc1_lolp"] = lolp_reducer(X, y)
@@ -148,7 +158,7 @@ if st.session_state['step1_button']:
             else:
                 with st.spinner("Running Ersilia model..."):
                     url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds.csv"
-                    desc2 = load_dataframe(url)
+                    desc2 = load_dataframe(url, "eos4u6p_preds.csv")
                     st.session_state['desc2_results'] = desc2
                     X = desc2.iloc[:, 2:]
                     st.session_state['desc2_lolp'] = lolp_reducer(X, y)
