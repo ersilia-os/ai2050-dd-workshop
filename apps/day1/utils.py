@@ -3,6 +3,7 @@ import pandas as pd
 import os
 import copy
 
+import streamlit as st
 from io import BytesIO
 from PIL import Image
 from rdkit import Chem
@@ -24,6 +25,7 @@ def clean_df(df):
 
     return df
 
+@st.cache_data
 def featurize_morgan(smiles_list):
     mfpgen = rdFingerprintGenerator.GetMorganGenerator(radius=3, fpSize=2048)
     X = []
@@ -36,6 +38,7 @@ def featurize_morgan(smiles_list):
             X.append(None)
     return X
 
+@st.cache_data
 def process_csv_files(filename_list):
     filenames, df_list = [], []
     for i, file in enumerate(filename_list):
@@ -53,7 +56,8 @@ def process_csv_files(filename_list):
         df = df.loc[:,~df.columns.duplicated()].copy()
         df_list.append(df)
     return filenames, df_list
-        
+
+@st.cache_data
 def process_smiles(df):
     tmp_df = copy.copy(df)
     tmp_df["fp"] = featurize_morgan(tmp_df["SMILES"])
@@ -66,14 +70,17 @@ def combine_dfs(df_list):
         combined_df = pd.concat([combined_df, df[["SMILES", "fp", "file_name", "molecule_index"]]], axis=0)
     return combined_df
 
+@st.cache_data
 def create_umap(fp_list):
     umap_transformer = umap.UMAP(a=0.001, b=1.5, min_dist=0.1)
     return umap_transformer.fit_transform(fp_list)
 
+@st.cache_data
 def create_pca(fp_list):
     pca_transformer = PCA(n_components = 2)
     return pca_transformer.fit_transform(fp_list)
 
+@st.cache_data
 def image_formatter(smiles):
     mol = Chem.MolFromSmiles(smiles)
     image = Draw.MolToImage(mol, size=(150,150))
@@ -82,6 +89,7 @@ def image_formatter(smiles):
         data = base64.encodebytes(buffer.getvalue()).decode('utf-8')
     return f"data:image/png;base64,{data}"
 
+@st.cache_data
 def calc_mol_props(df):
     mols = [Chem.MolFromSmiles(smi) for smi in df["SMILES"]]
     df['mol weight'] = [Descriptors.ExactMolWt(m) for m in mols]

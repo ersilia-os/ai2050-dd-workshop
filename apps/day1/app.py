@@ -18,6 +18,7 @@ st.set_page_config(layout="wide", page_title='AI/ML DD Workshop', page_icon=':mi
 if "random_seed" not in st.session_state:
     st.session_state.random_seed = random.randint(0, 10000)
 
+@st.cache_data
 def describe_mols(df_list, filenames):
     prepared_dfs = []
     for i, df in enumerate(df_list):
