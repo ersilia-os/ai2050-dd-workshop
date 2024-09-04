@@ -149,7 +149,8 @@ if st.session_state['step1_button']:
                 pass
             else:
                 with st.spinner("Running Ersilia model..."):
-                    desc1 = pd.read_csv(os.path.join(data_dir, "eos4wt0_preds.csv"))  
+                    url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4wt0_preds.csv"
+                    desc1 = pd.read_csv(url)  
                     st.session_state['desc1_results'] = desc1
                     X = desc1.iloc[:, 2:]
                     st.session_state["desc1_lolp"] = lolp_reducer(X, y)
@@ -172,8 +173,8 @@ if st.session_state['step1_button']:
                 pass
             else:
                 with st.spinner("Running Ersilia model..."):
-                    #dp = run_predictive_models(["eos4u6p"], smiles_list)
-                    desc2 = pd.read_csv(os.path.join(data_dir, "eos4u6p_preds.csv"))
+                    url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds.csv"
+                    desc2 = pd.read_csv(url)
                     st.session_state['desc2_results'] = desc2
                     X = desc2.iloc[:, 2:]
                     st.session_state['desc2_lolp'] = lolp_reducer(X, y)
