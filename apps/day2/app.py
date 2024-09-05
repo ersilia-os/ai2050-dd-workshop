@@ -157,7 +157,8 @@ if st.session_state['step1_button']:
                 pass
             else:
                 with st.spinner("Running Ersilia model..."):
-                    url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds.csv"
+                    #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds.csv"
+                    url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds_red.csv"
                     desc2 = load_dataframe(url, "eos4u6p_preds.csv")
                     st.session_state['desc2_results'] = desc2
                     X = desc2.iloc[:, 2:]
