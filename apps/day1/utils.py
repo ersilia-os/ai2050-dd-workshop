@@ -89,7 +89,6 @@ def image_formatter(smiles):
         data = base64.encodebytes(buffer.getvalue()).decode('utf-8')
     return f"data:image/png;base64,{data}"
 
-@st.cache_data
 def calc_mol_props(df):
     mols = [Chem.MolFromSmiles(smi) for smi in df["SMILES"]]
     df['mol weight'] = [Descriptors.ExactMolWt(m) for m in mols]

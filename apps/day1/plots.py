@@ -37,7 +37,6 @@ def plot_pca(df):
     ).interactive()
     return fig
 
-@st.cache_data
 def plot_mol_weights(df):
     fig = alt.Chart(df).transform_density('mol weight', as_=['MOL WEIGHT', 'DENSITY'], groupby=['file_name']).mark_area(opacity=0, line=True).encode(
         x=alt.X('MOL WEIGHT:Q', title="Mol. Weight"),
@@ -46,7 +45,6 @@ def plot_mol_weights(df):
     ).interactive()
     return fig
 
-@st.cache_data
 def plot_logp(df):
     fig = alt.Chart(df).transform_density('logp', as_=['LOGP', 'DENSITY'], groupby=['file_name']).mark_area(opacity=0, line=True).encode(
         x=alt.X('LOGP:Q', title="LogP"),
@@ -55,7 +53,6 @@ def plot_logp(df):
     ).interactive()
     return fig
 
-@st.cache_data
 def plot_qed(df):
     fig = alt.Chart(df).transform_density('qed', as_=['QED', 'DENSITY'], groupby=['file_name']).mark_area(opacity=0, line=True).encode(
         x=alt.X('QED:Q', title="QED"),
