@@ -30,7 +30,7 @@ ersilia -v run -i data/drugrepurposinghub_subset4.csv -o data/drugrepurposinghub
 ersilia -v run -i data/drugrepurposinghub_subset5.csv -o data/drugrepurposinghub_subset5_eos43at.csv
 ersilia close
 
-ersilia serve eos4e41
+ersilia serve eos4e40
 ersilia -v run -i data/drugrepurposinghub_subset1.csv -o data/drugrepurposinghub_subset1_eos4e40.csv
 ersilia -v run -i data/drugrepurposinghub_subset2.csv -o data/drugrepurposinghub_subset2_eos4e40.csv
 ersilia -v run -i data/drugrepurposinghub_subset3.csv -o data/drugrepurposinghub_subset3_eos4e40.csv
