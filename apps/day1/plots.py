@@ -6,8 +6,8 @@ import streamlit as st
 def plot_umap(df):
     # Create the Altair scatter plot
     fig = alt.Chart(df).mark_circle(size=20).properties(
-    width = 600,
-    height = 600,
+    width = 500,
+    height = 500,
     ).encode(
         x=alt.X('UMAP1', title='UMAP 1'),
         y=alt.Y('UMAP2', title='UMAP 2'),
@@ -23,8 +23,8 @@ def plot_umap(df):
 def plot_pca(df):
     # Create the Altair scatter plot
     fig = alt.Chart(df).mark_circle(size=20).properties(
-    width = 600,
-    height = 600,
+    width = 500,
+    height = 500,
     ).encode(
         x=alt.X('PCA1', title='PCA 1'),
         y=alt.Y('PCA2', title='PCA 2'),

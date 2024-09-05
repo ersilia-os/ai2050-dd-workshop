@@ -13,6 +13,8 @@ import base64
 import umap
 from sklearn.decomposition import PCA
 
+from info import library_checkbox_names, library_filenames
+
 def clean_df(df):
     """
     df: a Pandas dataframe with a column "SMILES"
@@ -45,7 +47,8 @@ def process_csv_files(filename_list):
         try:
             filenames.append(file.name.split(".csv")[0])
         except:
-            filenames.append(file[5:].split(".csv")[0])
+            file_index = library_filenames.index(file[5:])
+            filenames.append(library_checkbox_names[file_index])
         try:
             df = pd.read_csv(file, sep=None)
         except:
