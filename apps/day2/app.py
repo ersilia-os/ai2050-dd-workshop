@@ -158,7 +158,8 @@ if st.session_state['step1_button']:
             else:
                 with st.spinner("Running Ersilia model..."):
                     #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds.csv"
-                    url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds_red.csv"
+                    #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds_red.csv"
+                    url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos8aox_preds.csv"
                     desc2 = load_dataframe(url, "eos4u6p_preds.csv")
                     st.session_state['desc2_results'] = desc2
                     X = desc2.iloc[:, 2:]
@@ -333,7 +334,8 @@ if st.session_state['step1_button']:
                                     abau_preds = predict_acinetobacter_ml_model(X, mdl)
                                 elif descriptor_choice == "Chemical Checker":
                                     st.toast("Running the Acinetobacter model")
-                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos4u6p_red.csv"))
+                                    #descs = pd.read_csv(os.path.join("data", "subset250_0_eos4u6p_red.csv"))
+                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos8aox.csv"))
                                     X = descs.iloc[:, 2:]
                                     mdl = st.session_state.model_results_desc2["model"]
                                     abau_preds = predict_acinetobacter_ml_model(X, mdl)
