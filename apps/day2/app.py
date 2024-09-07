@@ -18,7 +18,7 @@ from info import about, intro, exp, q1, q2, q3, q4, q4_followup, q5, library_fil
 from info import model_urls as model_urls_list
 
 from utils import load_acinetobacter_training_data, binarize_acinetobacter_data, lolp_reducer, train_acinetobacter_ml_model, predict_acinetobacter_ml_model 
-from utils import draw_molecule, calculate_sensitivity_recall
+from utils import draw_molecule, calculate_precision_recall
 
 from plots import plot_act_inact, plot_lolp, plot_roc_curve, plot_contingency_table
 
@@ -270,11 +270,11 @@ if st.session_state['step1_button']:
                 cols[1].success("Threshold of probability")
                 proba_cutoff = cols[1].slider("Proba cutoff", min_value=0.1, max_value=1., value=0.5, step=0.001, format="%.2f")
                 st.session_state.proba_cutoff = proba_cutoff
-                sensitivity, specificity = calculate_sensitivity_recall(cv_data["ytest"], cv_data["ypred"], cutoff = proba_cutoff)
-                cols[1].write("Sensitivity: ")
-                cols[1].write(sensitivity)
-                cols[1].write("Specficity: ")
-                cols[1].write(specificity)
+                precision, recall  = calculate_precision_recall(cv_data["ytest"], cv_data["ypred"], cutoff = proba_cutoff)
+                cols[1].write("Precision: ")
+                cols[1].write(precision)
+                cols[1].write("Recall: ")
+                cols[1].write(recall)
 
                 cols[2].success("Contingency table")
                 chart = plot_contingency_table(cv_data["ytest"], cv_data["ypred"], cutoff = proba_cutoff)
@@ -333,7 +333,7 @@ if st.session_state['step1_button']:
                                     abau_preds = predict_acinetobacter_ml_model(X, mdl)
                                 elif descriptor_choice == "Chemical Checker":
                                     st.toast("Running the Acinetobacter model")
-                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos4u6p.csv"))
+                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos4u6p_red.csv"))
                                     X = descs.iloc[:, 2:]
                                     mdl = st.session_state.model_results_desc2["model"]
                                     abau_preds = predict_acinetobacter_ml_model(X, mdl)

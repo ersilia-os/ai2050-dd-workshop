@@ -76,16 +76,16 @@ def draw_molecule(smiles):
     mol = Chem.MolFromSmiles(smiles)
     return Draw.MolToImage(mol, size=(200, 200))
 
-def calculate_sensitivity_recall(y_true, y_pred, cutoff=0.5):
+def calculate_precision_recall(y_true, y_pred, cutoff=0.5):
     y_pred_bin = (y_pred >= cutoff).astype(int)
     cm = confusion_matrix(y_true, y_pred_bin)
     TP = cm[1, 1]
     TN = cm[0, 0]
     FP = cm[0, 1]
     FN = cm[1, 0]
-    sensitivity = TP/(TP + FN) if (TP + FN) > 0 else 0.0
-    specificity = TN/(TN + FP) if (TN + FP) > 0 else 0.0
-    sensitivity = round(sensitivity, 3)
-    specificity = round(specificity, 3)
-    return sensitivity, specificity
+    recall = TP/(TP + FN) if (TP + FN) > 0 else 0.0
+    precision = TP / (TP + FP) if (TP + FP) > 0 else 0.0
+    recall = round(recall, 3)
+    precision = round(precision, 3)
+    return precision, recall
     
