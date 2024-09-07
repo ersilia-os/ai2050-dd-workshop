@@ -3,3 +3,4 @@ rdkit==2023.09.6
 plotly==5.23.0
 mols2grid==2.0.0
 git+https://github.com/ersilia-os/ersilia-client.git
+numpy==1.24.6

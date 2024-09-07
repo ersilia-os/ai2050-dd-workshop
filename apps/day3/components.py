@@ -149,7 +149,6 @@ def general_setup():
 
 
 def select_seed_molecule(col):
-    st.header("Sample the chemical space around a seed molecule")
     long_seed_molecules = sorted(["`{0}`: {1}".format(k, v) for k, v in seed_molecules.items()])
     col.subheader("Select a seed molecule")
     sel_smiles = col.radio(label="Seed molecules", options=long_seed_molecules).split(": ")[1]
@@ -169,7 +168,7 @@ def select_model_sampler(col_0, col_1, models_info):
 def step_1_blurbs(col):
     col.success(step_1_explanation)
     col.info(step_1_questions)
-    button = col.button("Sample molecules!", key="sample_molecules")
+    button = col.button("Sample molecules! :crystal_ball:", key="sample_molecules")
     return button
 
 
@@ -180,7 +179,6 @@ def sample_molecules_from_selected_model(sel_model, sel_inchikey, sel_smiles, cl
         if sampled_smiles is None:
             sampled_smiles = random_molecules(100)
     df = basic_molecules_dataframe(sampled_smiles, sel_smiles)
-    basic_mols2grid_plot(df)
     return df
 
 
@@ -222,13 +220,15 @@ def wishlist(col, sel_smiles, sel_inchikey):
         st.info("Enter at least one valid molecule! Copy-paste SMILES strings from the table on the left.")
         st.stop()
         return None
+    if dl.shape[0] > 1000:
+        st.warning("You have entered more than 1000 molecules ({0}). We will only show the first 1000.".format(dl.shape[0]))
+        dl = dl.head(1000)
     st.subheader("Your molecules wishlist ({0})".format(dl.shape[0]))
     basic_mols2grid_plot(dl)
     return dl
 
 
 def prediction_model_selector(col_0, col_1, col_2, activity_models_urls, activity_models_info, adme_models_urls, adme_models_info):
-    st.header(":pill: Predict properties of your molecules wishlist")
     activity_model_keys = sorted(activity_models_urls.keys())
     activity_model_labels = ["`{0}`: {1}".format(k, activity_models_info[k]["Title"]) for k in activity_model_keys]
     sel_activity_model = col_0.radio(label="Select an activity model", options=activity_model_labels, index=0).split("`:")[0].split("`")[1]
@@ -263,6 +263,8 @@ def prediction_model_selector(col_0, col_1, col_2, activity_models_urls, activit
 def step_2_blurbs(col):
     col.success(step_2_explanation)
     col.info(step_2_questions)
+    button = col.button("Calculate properties! :rocket:")
+    return button
 
 
 def calculate_properties(dl, sel_inchikey, activity_clients, sel_activity_model, adme_clients, sel_adme_model, sel_adme_prop_1, sel_adme_prop_2, sel_adme_prop_3, sel_adme_prop_4, sel_adme_prop_5):
@@ -295,13 +297,12 @@ def calculate_properties(dl, sel_inchikey, activity_clients, sel_activity_model,
 
 
 def explore_predictions(col_0, col_1, col_2, dl, activity_column):
-    st.subheader(":star: Here are your molecules with some predicted properties!")
-    col_0.success("These are your selected molecules with their calculated properties. Feel free to explore them further!")
-    scols = col_0.columns(4)
-    min_activity, max_activity = scols[1].slider(activity_column, min_value=0.0, max_value=1.0, value=(0.0, 1.0))
+    col_0.subheader(":star: Here are your molecules with some predicted properties!")
+    min_activity, max_activity = col_0.slider(activity_column, min_value=0.0, max_value=1.0, value=(0.0, 1.0))
     dl_ = dl[(dl[activity_column] >= min_activity) & (dl[activity_column] <= max_activity)]
     col_0.dataframe(dl_, height=600)
-    molecule_index_to_show = col_1.number_input("Index of the molecule to explore", min_value=0, max_value=dl.shape[0]-1, value=0)
+    col_0.success("These are your selected molecules with their calculated properties. Feel free to explore them further!")
+    molecule_index_to_show = col_1.number_input("Index of the molecule to select", min_value=0, max_value=dl.shape[0]-1, value=0)
     explore_smiles = dl.iloc[molecule_index_to_show]["SMILES"]
     molecule_card(col_1, explore_smiles, dl, activity_column)
     column = col_2.selectbox("Explore the distribution of column values", options=list(dl.columns)[2:])

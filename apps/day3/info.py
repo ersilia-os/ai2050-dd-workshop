@@ -81,10 +81,26 @@ adme_models_urls = {
     "eos7d58": None
 }
 
-ds = pd.read_csv(os.path.join(root, "data", "atb_screening_data_top100.csv")).head(4)
+
+seed_molecules_inchikeys = []
+for fn in os.listdir(os.path.join(root, "data", "cache_lite")):
+    if fn.startswith("predictions_"):
+        seed_molecules_inchikeys += [fn.split("_")[1].split(".")[0]]
+seed_molecules_inchikeys = seed_molecules_inchikeys
+idxs = [
+    7,
+    3,
+    8,
+    9
+]
+seed_molecules_inchikeys = [seed_molecules_inchikeys[i] for i in idxs]
+
+ds = pd.read_csv(os.path.join(root, "data", "atb_screening_data_top100.csv"))
 seed_molecules = collections.OrderedDict()
 for v in ds.values:
     seed_molecules[v[0]] = v[1]
+
+seed_molecules = dict((k, seed_molecules[k]) for k in seed_molecules_inchikeys)
 
 raw_adme_header = "molecular_weight,logP,hydrogen_bond_acceptors,hydrogen_bond_donors,Lipinski,QED,stereo_centers,tpsa,AMES,BBB_Martins,Bioavailability_Ma,CYP1A2_Veith,CYP2C19_Veith,CYP2C9_Substrate_CarbonMangels,CYP2C9_Veith,CYP2D6_Substrate_CarbonMangels,CYP2D6_Veith,CYP3A4_Substrate_CarbonMangels,CYP3A4_Veith,Carcinogens_Lagunin,ClinTox,DILI,HIA_Hou,NR-AR-LBD,NR-AR,NR-AhR,NR-Aromatase,NR-ER-LBD,NR-ER,NR-PPAR-gamma,PAMPA_NCATS,Pgp_Broccatelli,SR-ARE,SR-ATAD5,SR-HSE,SR-MMP,SR-p53,Skin_Reaction,hERG,Caco2_Wang,Clearance_Hepatocyte_AZ,Clearance_Microsome_AZ,Half_Life_Obach,HydrationFreeEnergy_FreeSolv,LD50_Zhu,Lipophilicity_AstraZeneca,PPBR_AZ,Solubility_AqSolDB,VDss_Lombardo,molecular_weight_drugbank_approved_percentile,logP_drugbank_approved_percentile,hydrogen_bond_acceptors_drugbank_approved_percentile,hydrogen_bond_donors_drugbank_approved_percentile,Lipinski_drugbank_approved_percentile,QED_drugbank_approved_percentile,stereo_centers_drugbank_approved_percentile,tpsa_drugbank_approved_percentile,AMES_drugbank_approved_percentile,BBB_Martins_drugbank_approved_percentile,Bioavailability_Ma_drugbank_approved_percentile,CYP1A2_Veith_drugbank_approved_percentile,CYP2C19_Veith_drugbank_approved_percentile,CYP2C9_Substrate_CarbonMangels_drugbank_approved_percentile,CYP2C9_Veith_drugbank_approved_percentile,CYP2D6_Substrate_CarbonMangels_drugbank_approved_percentile,CYP2D6_Veith_drugbank_approved_percentile,CYP3A4_Substrate_CarbonMangels_drugbank_approved_percentile,CYP3A4_Veith_drugbank_approved_percentile,Carcinogens_Lagunin_drugbank_approved_percentile,ClinTox_drugbank_approved_percentile,DILI_drugbank_approved_percentile,HIA_Hou_drugbank_approved_percentile,NR-AR-LBD_drugbank_approved_percentile,NR-AR_drugbank_approved_percentile,NR-AhR_drugbank_approved_percentile,NR-Aromatase_drugbank_approved_percentile,NR-ER-LBD_drugbank_approved_percentile,NR-ER_drugbank_approved_percentile,NR-PPAR-gamma_drugbank_approved_percentile,PAMPA_NCATS_drugbank_approved_percentile,Pgp_Broccatelli_drugbank_approved_percentile,SR-ARE_drugbank_approved_percentile,SR-ATAD5_drugbank_approved_percentile,SR-HSE_drugbank_approved_percentile,SR-MMP_drugbank_approved_percentile,SR-p53_drugbank_approved_percentile,Skin_Reaction_drugbank_approved_percentile,hERG_drugbank_approved_percentile,Caco2_Wang_drugbank_approved_percentile,Clearance_Hepatocyte_AZ_drugbank_approved_percentile,Clearance_Microsome_AZ_drugbank_approved_percentile,Half_Life_Obach_drugbank_approved_percentile,HydrationFreeEnergy_FreeSolv_drugbank_approved_percentile,LD50_Zhu_drugbank_approved_percentile,Lipophilicity_AstraZeneca_drugbank_approved_percentile,PPBR_AZ_drugbank_approved_percentile,Solubility_AqSolDB_drugbank_approved_percentile,VDss_Lombardo_drugbank_approved_percentile"
 raw_adme_header = raw_adme_header.split(",")
