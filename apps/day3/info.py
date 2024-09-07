@@ -81,19 +81,12 @@ adme_models_urls = {
     "eos7d58": None
 }
 
-
-seed_molecules_inchikeys = []
-for fn in os.listdir(os.path.join(root, "data", "cache_lite")):
-    if fn.startswith("predictions_"):
-        seed_molecules_inchikeys += [fn.split("_")[1].split(".")[0]]
-seed_molecules_inchikeys = seed_molecules_inchikeys
-idxs = [
-    7,
-    3,
-    8,
-    9
+seed_molecules_inchikeys = [
+    "AYIRNRDRBQJXIF-NXEZZACHSA-N",
+    "FWNUVOSMTKZAFI-HGSUGFHJSA-N",
+    "SNBUBQHDYVFSQF-HIFRSBDPSA-N",
+    "WZOZEZRFJCJXNZ-ZBFHGGJFSA-N"
 ]
-seed_molecules_inchikeys = [seed_molecules_inchikeys[i] for i in idxs]
 
 ds = pd.read_csv(os.path.join(root, "data", "atb_screening_data_top100.csv"))
 seed_molecules = collections.OrderedDict()
