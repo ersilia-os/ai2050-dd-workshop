@@ -159,7 +159,7 @@ if st.session_state['chem_space_button']:
         # Section 3
         st.divider()
         st.header("Distributions of Chemical Properties")
-        cols3 = st.columns([2,2,2,1])
+        cols3 = st.columns([2,2,2,0.1,1])
         
         combined_df = st.session_state["combined_df"]
         combined_props = calc_mol_props(combined_df)
@@ -171,5 +171,5 @@ if st.session_state['chem_space_button']:
         fig_qed = plot_qed(combined_props)
         cols3[2].altair_chart(fig_qed)
         fig_legend = plot_legend(combined_props)
-        cols3[3].altair_chart(fig_legend)
+        cols3[4].altair_chart(fig_legend)
         
