@@ -64,7 +64,7 @@ def plot_qed(df):
 def plot_legend(df):
     fig = alt.Chart(df).mark_point(size=0).properties(
     width = 200,
-    height = 200,
+    height = 100,
     ).encode(
         color=alt.Color('file_name:N', scale=alt.Scale(scheme="category10"))
     )
