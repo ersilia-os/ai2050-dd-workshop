@@ -68,7 +68,7 @@ if cols[0].button("Check Files and Featurize"):
         st.toast("Loading files")
         for i, lib in enumerate(example_libraries):
             if lib:
-                file_list.append(os.path.join("data", library_filenames[i]))
+                file_list.append(os.path.join(root, "data", library_filenames[i]))
         filenames, df_list = process_csv_files(file_list)
         
         st.toast("Describing molecules")
