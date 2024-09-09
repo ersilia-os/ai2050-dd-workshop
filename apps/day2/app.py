@@ -18,7 +18,7 @@ from info import about, intro, exp, q1, q2, q3, q4, q4_followup, q5, library_fil
 from info import model_urls as model_urls_list
 
 from utils import load_acinetobacter_training_data, binarize_acinetobacter_data, lolp_reducer, train_acinetobacter_ml_model, predict_acinetobacter_ml_model 
-from utils import draw_molecule, calculate_precision_recall
+from utils import draw_molecule, calculate_precision_recall, pca_reducer
 
 from plots import plot_act_inact, plot_lolp, plot_roc_curve, plot_contingency_table
 
@@ -137,7 +137,7 @@ if st.session_state['step1_button']:
                     desc1 = load_dataframe(url, "eos4wt0_preds.csv")
                     st.session_state['desc1_results'] = desc1
                     X = desc1.iloc[:, 2:]
-                    st.session_state["desc1_lolp"] = lolp_reducer(X, y)
+                    st.session_state["desc1_lolp"] = pca_reducer(X, y)
         if st.session_state['desc1_results'] is not None:
             cols[0].write(st.session_state['desc1_results'])
             fig1 = do_plot_lolp(st.session_state["desc1_lolp"]["X"], y)
@@ -163,7 +163,7 @@ if st.session_state['step1_button']:
                     desc2 = load_dataframe(url, "eos4u6p_preds.csv")
                     st.session_state['desc2_results'] = desc2
                     X = desc2.iloc[:, 2:]
-                    st.session_state['desc2_lolp'] = lolp_reducer(X, y)
+                    st.session_state['desc2_lolp'] = pca_reducer(X, y)
         if st.session_state['desc2_results'] is not None:
             cols[0].write(st.session_state['desc2_results'])
             fig1 = do_plot_lolp(st.session_state["desc2_lolp"]["X"], y)

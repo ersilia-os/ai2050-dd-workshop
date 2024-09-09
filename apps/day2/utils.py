@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
+from sklearn.decomposition import PCA
 from lol import LOL
 
 
@@ -28,7 +29,17 @@ def binarize_acinetobacter_data(data, cutoff):
     return data
 
 def lolp_reducer(X, y):
-    reducer = LOL(100)
+    reducer = LOL(2)
+    X_ = reducer.fit_transform(X, y)
+    results = {
+        "reducer": reducer,
+        "X": X_,
+        "y": y
+    }
+    return results
+
+def pca_reducer(X, y):
+    reducer = PCA(n_components=2)
     X_ = reducer.fit_transform(X, y)
     results = {
         "reducer": reducer,
