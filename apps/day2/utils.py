@@ -8,8 +8,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
-from sklearn.decomposition import PCA
 from lol import LOL
+import joblib
+
+root = os.path.abspath(os.path.dirname(__file__))
 
 
 def load_acinetobacter_training_data(datapath):
@@ -28,25 +30,30 @@ def binarize_acinetobacter_data(data, cutoff):
     data["Binary"] = y
     return data
 
-def lolp_reducer(X, y):
-    reducer = LOL(2)
+def lolp_reducer(X, y, activity_cutoff=None):
+    print("Doing lolP reducer")
+    if activity_cutoff is not None:
+        cache_name = "lolp_{0}.joblib".join(round(activity_cutoff, 1)*10)
+        cache_file = os.path.join(root, "cache", cache_name)
+    else:
+        cache_name = None
+    if cache_name is not None:
+        if os.path.exists(cache_file):
+            print("Cache file exists for reducer")
+            results = joblib.load(cache_file)
+            return results
+    reducer = LOL(n_components=100)
     X_ = reducer.fit_transform(X, y)
     results = {
-        "reducer": reducer,
+        "reducer": None,
         "X": X_,
         "y": y
     }
+    if cache_name is not None:
+        print("Dumping cache file for reducer")
+        joblib.dump(results, cache_file)
     return results
 
-def pca_reducer(X, y):
-    reducer = PCA(n_components=2)
-    X_ = reducer.fit_transform(X, y)
-    results = {
-        "reducer": reducer,
-        "X": X_,
-        "y": y
-    }
-    return results
 
 def train_acinetobacter_ml_model(X,y):
     X = np.array(X)

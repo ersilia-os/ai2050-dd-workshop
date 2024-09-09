@@ -3,10 +3,12 @@ import sys
 import random
 import pandas as pd
 import numpy as np
-import requests
+import wget
 from sklearn import metrics
 import altair as alt
 import streamlit as st
+import zipfile
+import joblib
 
 from ersilia_client import ErsiliaClient
 
@@ -18,7 +20,7 @@ from info import about, intro, exp, q1, q2, q3, q4, q4_followup, q5, library_fil
 from info import model_urls as model_urls_list
 
 from utils import load_acinetobacter_training_data, binarize_acinetobacter_data, lolp_reducer, train_acinetobacter_ml_model, predict_acinetobacter_ml_model 
-from utils import draw_molecule, calculate_precision_recall, pca_reducer
+from utils import draw_molecule, calculate_precision_recall
 
 from plots import plot_act_inact, plot_lolp, plot_roc_curve, plot_contingency_table
 
@@ -78,7 +80,7 @@ if st.session_state['step1_button']:
 
     # display data and graph according to activity cut-off
     cols = st.columns([0.45,0.275,0.275])
-    dt_ = dt[["SMILES","Mean", "Binary"]]
+    dt_ = pd.DataFrame(dt[["SMILES","Mean", "Binary"]])
     cols[0].write(dt_)
     dt_["Molecule index"] = dt_.index
     fig = plot_act_inact(dt_)
@@ -100,16 +102,30 @@ if st.session_state['step1_button']:
 
         @st.cache_data(show_spinner=False)
         def load_dataframe(url, filename):
+            filename = os.path.join(root, "data", filename)
+            print("Loading dataframe", filename)
+            print("This is the URL:", url)
             if not os.path.exists(filename):
-                response = requests.get(url)
-                response.raise_for_status() 
-                print(response)
-                with open(filename, 'wb') as f:
-                    f.write(response.content)
+                print("Getting from url")
+                wget.download(url, out=filename)
             print(filename)
             df = pd.read_csv(filename)
             print(df.head())
             return df
+        
+        @st.cache_data(show_spinner=False)
+        def load_dataframe_from_zip(file_name_without_zip):
+            filename = file_name_without_zip
+            zip_filename = filename+".zip"
+            with zipfile.ZipFile(zip_filename, 'r') as zipf:
+                with zipf.open("data/"+filename.split("/")[-1]) as source_file:
+                    with open(filename, 'wb') as output_file:
+                        output_file.write(source_file.read())
+            data = joblib.load(filename)
+            df_0 = pd.DataFrame({"key": data[1], "input": data[2]})
+            df_1 = pd.DataFrame(data[3], columns=data[0])
+            os.remove(filename)
+            return pd.concat([df_0, df_1], axis=1)
     
         @st.cache_data(show_spinner=False)
         def do_plot_lolp(X, y):
@@ -134,10 +150,11 @@ if st.session_state['step1_button']:
             else:
                 with st.spinner("Running Ersilia model..."):
                     url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4wt0_preds.csv"
-                    desc1 = load_dataframe(url, "eos4wt0_preds.csv")
+                    #desc1 = load_dataframe(url, "eos4wt0_preds.csv")
+                    desc1 = load_dataframe_from_zip(os.path.join(root, "data", "eos4wt0_preds.joblib"))
                     st.session_state['desc1_results'] = desc1
                     X = desc1.iloc[:, 2:]
-                    st.session_state["desc1_lolp"] = pca_reducer(X, y)
+                    st.session_state["desc1_lolp"] = lolp_reducer(X, y)
         if st.session_state['desc1_results'] is not None:
             cols[0].write(st.session_state['desc1_results'])
             fig1 = do_plot_lolp(st.session_state["desc1_lolp"]["X"], y)
@@ -160,10 +177,11 @@ if st.session_state['step1_button']:
                     #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds.csv"
                     #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds_red.csv"
                     url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos8aox_preds.csv"
-                    desc2 = load_dataframe(url, "eos4u6p_preds.csv")
+                    #desc2 = load_dataframe(url, "eos4u6p_preds.csv")
+                    desc2 = load_dataframe_from_zip(os.path.join(root, "data", "eos4u6p_preds.joblib"))
                     st.session_state['desc2_results'] = desc2
                     X = desc2.iloc[:, 2:]
-                    st.session_state['desc2_lolp'] = pca_reducer(X, y)
+                    st.session_state['desc2_lolp'] = lolp_reducer(X, y)
         if st.session_state['desc2_results'] is not None:
             cols[0].write(st.session_state['desc2_results'])
             fig1 = do_plot_lolp(st.session_state["desc2_lolp"]["X"], y)

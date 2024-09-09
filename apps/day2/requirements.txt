@@ -7,3 +7,4 @@ altair
 scikit-learn
 lolP
 requests
+wget
