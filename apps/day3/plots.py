@@ -17,10 +17,10 @@ def markdown_card(container, model_id, models_info):
     markdown_text += f"- **Input**: {inp}\n"
     out = ", ".join(model_info['Output'])
     markdown_text += f"- **Output**: {out}\n"
-    markdown_text += f"- **Publication**: {model_info['Publication']}\n"
-    markdown_text += f"- **Source Code**: {model_info['Source Code']}\n"
+    markdown_text += f"- [**Publication**]({model_info['Publication']})\n"
+    markdown_text += f"- [**Source Code**]({model_info['Source Code']})\n"
     github_repo = f"https://github.com/ersilia-os/{model_id}"
-    markdown_text += f"- **Ersilia Repository**: {github_repo}" + "\n"
+    markdown_text += f"- [**Ersilia Repository**]({github_repo})" + "\n"
     markdown_text += "\n"
     markdown_text += model_info['Description'] + "\n"
     container.markdown(markdown_text)
