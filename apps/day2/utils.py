@@ -30,18 +30,8 @@ def binarize_acinetobacter_data(data, cutoff):
     data["Binary"] = y
     return data
 
-def lolp_reducer(X, y, activity_cutoff=None):
-    print("Doing lolP reducer")
-    if activity_cutoff is not None:
-        cache_name = "lolp_{0}.joblib".join(round(activity_cutoff, 1)*10)
-        cache_file = os.path.join(root, "cache", cache_name)
-    else:
-        cache_name = None
-    if cache_name is not None:
-        if os.path.exists(cache_file):
-            print("Cache file exists for reducer")
-            results = joblib.load(cache_file)
-            return results
+
+def lolp_reducer(X, y):
     reducer = LOL(n_components=100)
     X_ = reducer.fit_transform(X, y)
     results = {
@@ -49,9 +39,6 @@ def lolp_reducer(X, y, activity_cutoff=None):
         "X": X_,
         "y": y
     }
-    if cache_name is not None:
-        print("Dumping cache file for reducer")
-        joblib.dump(results, cache_file)
     return results
 
 
