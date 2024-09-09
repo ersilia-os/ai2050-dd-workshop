@@ -15,6 +15,8 @@ from sklearn.decomposition import PCA
 
 from info import library_checkbox_names, library_filenames
 
+root = os.path.abspath(os.path.dirname(__file__))
+
 def clean_df(df):
     """
     df: a Pandas dataframe with a column "SMILES"
@@ -40,6 +42,14 @@ def featurize_morgan(smiles_list):
             X.append(None)
     return X
 
+def _try_to_read_dataframe(file):
+    try:
+        df = pd.read_csv(file, sep=None)
+    except:
+        df = pd.read_csv(file, sep=",")
+    return df
+
+
 @st.cache_data
 def process_csv_files(filename_list):
     filenames, df_list = [], []
@@ -49,10 +59,14 @@ def process_csv_files(filename_list):
         except:
             file_index = library_filenames.index(file[5:])
             filenames.append(library_checkbox_names[file_index])
-        try:
-            df = pd.read_csv(file, sep=None)
-        except:
-            df = pd.read_csv(file, sep=",")
+        if type(file) is str:
+            if os.path.exists(file):
+                df = _try_to_read_dataframe(file)
+            else:
+                file = os.path.join(root, file)
+                df = _try_to_read_dataframe(file)
+        else:
+            df = _try_to_read_dataframe(file)
         for col in df.columns:
             if "SMILES" in col.upper():
                 df.rename(columns = {col : "SMILES"}, inplace=True)
