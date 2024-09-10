@@ -122,7 +122,7 @@ if st.session_state['step1_button']:
                     with open(filename, 'wb') as output_file:
                         output_file.write(source_file.read())
             data = joblib.load(filename)
-            df_0 = pd.DataFrame({"key": data[1][:1000], "input": data[2][:1000]})
+            df_0 = pd.DataFrame({"key": data[1][:100], "input": data[2][:100]})
             df_1 = pd.DataFrame(data[3][:1000], columns=data[0])
             os.remove(filename)
             return pd.concat([df_0, df_1], axis=1)
@@ -167,7 +167,6 @@ if st.session_state['step1_button']:
                     st.session_state['desc1_results'] = desc1
                     X = load_X_from_zip(os.path.join(root, "data", "eos4wt0_preds.joblib"))
                     st.session_state["desc1_lolp"] = lolp_reducer(X, y)
-                    st.session_state["desc1_X"] = X
         if st.session_state['desc1_results'] is not None:
             cols[0].write(st.session_state['desc1_results'])
             fig1 = do_plot_lolp(st.session_state["desc1_lolp"]["X"], y)
@@ -195,7 +194,6 @@ if st.session_state['step1_button']:
                     st.session_state['desc2_results'] = desc2
                     X = load_X_from_zip(os.path.join(root, "data", "eos4u6p_preds.joblib"))
                     st.session_state['desc2_lolp'] = lolp_reducer(X, y)
-                    st.session_state['desc2_X'] = X
         if st.session_state['desc2_results'] is not None:
             cols[0].write(st.session_state['desc2_results'])
             fig1 = do_plot_lolp(st.session_state["desc2_lolp"]["X"], y)
@@ -220,7 +218,7 @@ if st.session_state['step1_button']:
                     pass
                 else:
                     with st.spinner("Training the model..."):
-                        st.session_state.model_results_desc1 = train_acinetobacter_ml_model(st.session_state['desc1_X'], y)
+                        st.session_state.model_results_desc1 = train_acinetobacter_ml_model(st.session_state['desc1_lolp']["X"], y)
             if st.session_state["train_desc1_model_active"]:
                 if "model_results_desc1" in st.session_state:
                     aurocs = st.session_state.model_results_desc1["aurocs"]
@@ -259,7 +257,7 @@ if st.session_state['step1_button']:
                     pass
                 else:
                     with st.spinner("Training the model..."):
-                        st.session_state.model_results_desc2 = train_acinetobacter_ml_model(st.session_state['desc2_X'], y)
+                        st.session_state.model_results_desc2 = train_acinetobacter_ml_model(st.session_state['desc2_lolp']["X"], y)
             if st.session_state["train_desc2_model_active"]:
                 if "model_results_desc2" in st.session_state:
                     aurocs = st.session_state.model_results_desc2["aurocs"]
