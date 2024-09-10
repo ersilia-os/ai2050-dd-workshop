@@ -35,7 +35,7 @@ def lolp_reducer(X, y):
     reducer = LOL(n_components=100)
     X_ = reducer.fit_transform(X, y)
     results = {
-        "reducer": None,
+        "reducer": reducer,
         "X": X_,
         "y": y
     }

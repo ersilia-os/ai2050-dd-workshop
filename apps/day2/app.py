@@ -123,7 +123,7 @@ if st.session_state['step1_button']:
                         output_file.write(source_file.read())
             data = joblib.load(filename)
             df_0 = pd.DataFrame({"key": data[1][:100], "input": data[2][:100]})
-            df_1 = pd.DataFrame(data[3][:1000], columns=data[0])
+            df_1 = pd.DataFrame(data[3][:100], columns=data[0])
             os.remove(filename)
             return pd.concat([df_0, df_1], axis=1)
         
@@ -188,7 +188,7 @@ if st.session_state['step1_button']:
                 with st.spinner("Running Ersilia model..."):
                     #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds.csv"
                     #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos4u6p_preds_red.csv"
-                    url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos8aox_preds.csv"
+                    #url = "https://ai2050-workshops.s3.eu-central-1.amazonaws.com/eos8aox_preds.csv"
                     #desc2 = load_dataframe(url, "eos4u6p_preds.csv")
                     desc2 = load_dataframe_from_zip(os.path.join(root, "data", "eos4u6p_preds.joblib"))
                     st.session_state['desc2_results'] = desc2
@@ -358,15 +358,19 @@ if st.session_state['step1_button']:
                             with st.spinner("Running model..."):
                                 if descriptor_choice == "Morgan":
                                     st.toast("Running the Acinetobacter model")
-                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos4wt0.csv"))
+                                    descs = pd.read_csv(os.path.join(root, "data", "subset250_0_eos4wt0.csv"))
+                                    reducer = st.session_state.desc1_lolp["reducer"]
                                     X = descs.iloc[:, 2:]
+                                    X = reducer.transform(X)
                                     mdl = st.session_state.model_results_desc1["model"]
                                     abau_preds = predict_acinetobacter_ml_model(X, mdl)
                                 elif descriptor_choice == "Chemical Checker":
                                     st.toast("Running the Acinetobacter model")
                                     #descs = pd.read_csv(os.path.join("data", "subset250_0_eos4u6p_red.csv"))
-                                    descs = pd.read_csv(os.path.join("data", "subset250_0_eos8aox.csv"))
+                                    descs = pd.read_csv(os.path.join(root, "data", "subset250_0_eos4u6p.csv"))
+                                    reducer = st.session_state.desc2_lolp["reducer"]
                                     X = descs.iloc[:, 2:]
+                                    X = reducer.transform(X)
                                     mdl = st.session_state.model_results_desc2["model"]
                                     abau_preds = predict_acinetobacter_ml_model(X, mdl)
                                 abau_df = pd.DataFrame({"smiles": smiles_list, "proba1": abau_preds})
