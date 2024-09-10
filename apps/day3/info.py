@@ -16,10 +16,10 @@ In this session, we will explore sampling methods to expand the chemical space a
 """.strip()
 
 step_1_explanation = """
-1. **Seed molecules**: Select a seed molecule from the list of seed molecules.
+1. **Seed molecules**: Select a seed molecule from the list of seed molecules. Do not modify your choice.
 1. **Ersilia Model Hub identifiers**: Select an Ersilia model from the list of models. Read model descriptions to understand the model's capabilities.
-1. **Sample molecules!**: Click this button to sample molecules from the selected model.
-1. **Candidates library**: Create a small chemical library by **copy-pasting** SMILES strings from the table on the left into the input text area below.
+1. **Sample molecules!**: Click the button below to sample molecules from the selected model.
+1. **Candidates library**: Create a wishlist of molecules by **copy-pasting** sampled SMILES strings into the input text area.
 """.strip()
 
 step_1_questions = """
@@ -27,31 +27,30 @@ step_1_questions = """
 - Qualitatively, how diverse are the generated molecules?
 - How do the sampled molecules compare to the seed molecule?
 - Do model results overlap?
-- What is the rationale for selecting molecules for the candidates library?
+- What is the rationale for selecting molecules?
 """.strip()
 
 step_2_explanation = """
 1. **Select a primary activity predictor**: Select the activity prediction model that is best suited to your task. Read the model description carefully.
-1. **Select ADMET properties**: Select up to 5 ADMET properties to predict.
-1. **Predict properties**: Click the button to predict the properties of the molecules in your wishlist. Results will be visible in a table below.
+1. **Select ADMET properties**: Select up to 5 ADMET properties to predict/calculate.
+1. **Predict properties**: Click the button to predict the properties of the molecules in your wishlist.
 """.strip()
 
 step_2_questions = """
 - What is the rationale for selecting the activity predictor?
 - What is the rationale for selecting the ADMET properties?
-- Are there other properties that you would like to predict?
 """.strip()
 
 step_3_explanation = """
-1. **Explore molecules**: Explore individual molecules by copy-pasting their SMILES strings into the input text area.
-1. **Inspect property distributions**: Critically analyze the distribution of properties one by one.
-1. **Make the final selection**: Select 5 candidates for further analysis. Discuss this selection with your colleagues.
+1. **Explore molecules**: Explore individual molecules by using their index number.
+1. **Inspect property distributions**: Critically analyze the distribution of properties.
+1. **Make the final selection**: Select 3-5 candidates for further analysis. Discuss this selection with your colleagues.
 """.strip()
 
 step_3_questions = """
 - What are the most important properties for your task?
 - How do ADMET properties of the molecules in your wishlist compare to the properties of known drugs?
-- How did you select your top 5 candidates?
+- How did you select your top candidates?
 - Was it easy to reach a consensus with your colleagues?
 - What are the limitations of the models used in this session?
 - What would you do next?
