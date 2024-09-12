@@ -37,8 +37,10 @@ def random_molecules(n=100):
 
 def cached_molecules(inchikey, model_id, n=100):
     cache_file = os.path.join(cache_dir, "sampling_{0}.csv".format(inchikey))
+    print(cache_file)
     if model_id in deterministic_models:
         if not os.path.exists(cache_file):
+            print("PATH NOT EXISTING")
             return None
         print(cache_file)
         df = pd.read_csv(cache_file)
