@@ -71,6 +71,10 @@ def cached_molecules(inchikey, model_id, n=100):
         df = pd.read_csv(cache_file)
         df = df[df["model_id"] == model_id].reset_index(drop=True)
         smiles_list = set(df["smiles"].tolist())
+        print("SMILES LIST")
+        print(len(smiles_list))
+        print(type(smiles_list))
+        print(smiles_list)
         return random.sample(smiles_list, k=np.min([n, len(smiles_list)]))
 
 
