@@ -2,7 +2,7 @@
 H3D Foundation & Ersilia Open Source Initiative
 
 Welcome to the AI/ML Tools for Drug Discovery Workshop repository! This repository contains all the necessary apps for the 4-day workshop held in Ghana in September 2024.
-Read all the documentation around the course [here]([https://ersilia.gitbook.](https://ersilia.gitbook.io/ersilia-book/training-materials/ai2050-ai-for-drug-discovery).
+Read all the documentation around the course [here]([https://ersilia.gitbook.](https://ersilia.gitbook.io/ersilia-book/training-materials/ai2050-ai-for-drug-discovery)
 
 ## Content
 - [Day 1: Chemical space exploration](apps/day1)
