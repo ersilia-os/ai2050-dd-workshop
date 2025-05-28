@@ -10,9 +10,7 @@ def markdown_card(container, model_id, models_info):
     markdown_text = f"### :robot_face: {model_info['Title']}\n"
     markdown_text += f"- **EOS ID**: {model_id}\n"
     markdown_text += f"- **Slug**: {model_info['Slug']}\n"
-    markdown_text += f"- **Mode**: {model_info['Mode']}\n"
-    task = ", ".join(model_info['Task'])
-    markdown_text += f"- **Task**: {task}\n"
+    markdown_text += f"- **Task**: {model_info['Task']}\n"
     inp = ", ".join(model_info['Input'])
     markdown_text += f"- **Input**: {inp}\n"
     out = ", ".join(model_info['Output'])
