@@ -11,7 +11,7 @@ root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
 data_dir = os.path.abspath(os.path.join(root, "data"))
 
-from info import about, intro, questions, library_checkbox_names, library_filenames
+from info import about, intro, chem_space_questions, properties_questions, library_checkbox_names, library_filenames
 
 st.set_page_config(layout="wide", page_title='AI/ML DD Workshop', page_icon=':microbe:', initial_sidebar_state='collapsed')
 
@@ -23,7 +23,7 @@ def describe_mols(df_list, filenames):
     prepared_dfs = []
     for i, df in enumerate(df_list):
         tmp_df = process_smiles(df)
-        tmp_df["file_name"] = filenames[i]
+        tmp_df["Dataset"] = filenames[i]
         prepared_dfs.append(tmp_df)
     return prepared_dfs    
 
@@ -100,9 +100,11 @@ if "cleaned_dfs" in st.session_state:
 
 def toggle_chem_space():
     st.session_state['chem_space_button'] = not st.session_state['chem_space_button']
+    st.session_state['chem_prop_button'] = False
 
 if 'chem_space_button' not in st.session_state:
     st.session_state['chem_space_button'] = False
+    st.session_state["chem_prop_button"] = False
 if "prepared_dfs" in st.session_state:
     if st.button('View Chemical Space', on_click=toggle_chem_space) and st.session_state['chem_space_button'] == False:
         del st.session_state['umap']
@@ -145,15 +147,15 @@ if st.session_state['chem_space_button']:
             fig_legend = plot_legend(combined_df)
             st.write("#")
             st.altair_chart(fig_legend)
-            questions_comb = '  \n'.join(questions)
+            questions_comb = '  \n'.join(chem_space_questions)
             st.info(questions_comb, icon=":material/quiz:")
 
 
 def toggle_chem_prop():
     st.session_state['chem_prop_button'] = not st.session_state['chem_prop_button']
     
-if 'chem_prop_button' not in st.session_state:
-    st.session_state['chem_prop_button'] = False
+#if 'chem_prop_button' not in st.session_state:
+#    st.session_state['chem_prop_button'] = False
 if st.session_state['chem_space_button']:
     if st.button('Plot Chemical Properties', on_click=toggle_chem_prop) and st.session_state['chem_prop_button']:
         # Section 3
@@ -171,5 +173,6 @@ if st.session_state['chem_space_button']:
         fig_qed = plot_qed(combined_props)
         cols3[2].altair_chart(fig_qed)
         fig_legend = plot_legend(combined_props)
-        cols3[3].altair_chart(fig_legend)
-        
+        questions_comb2 = '  \n'.join(properties_questions)
+        st.info(questions_comb2, icon=":material/quiz:")
+

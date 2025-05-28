@@ -82,9 +82,9 @@ def process_smiles(df):
     return tmp_df
 
 def combine_dfs(df_list):
-    combined_df = pd.DataFrame(columns=["SMILES", "fp", "file_name", "molecule_index"])
+    combined_df = pd.DataFrame(columns=["SMILES", "fp", "Dataset", "molecule_index"])
     for df in df_list:
-        combined_df = pd.concat([combined_df, df[["SMILES", "fp", "file_name", "molecule_index"]]], axis=0)
+        combined_df = pd.concat([combined_df, df[["SMILES", "fp", "Dataset", "molecule_index"]]], axis=0)
     return combined_df
 
 @st.cache_data

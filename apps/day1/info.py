@@ -7,13 +7,19 @@ about = [
 
 intro = "DAY 1 Activity: We will focus on plotting and comparing the chemical space of different datasets from literature."
 
-questions = [
-    "- Do the datasets overlap?",
-    "- How similar are the nearest compounds to the chemical space we're interested in?",
+chem_space_questions = [
+    "- Does the chemical space overlap?",
+    "- Are there similar compounds in the chemical space we're interested in predicting?",
     "- Are the trends consistent between the UMAP and PCA plots?", 
-    "- How clustered is each dataset?",
-    "- Are our observations what we expect to see?",
+    "- How clustered/dispersed is each dataset?",
+    "- Are our observations what we expected to see?",
     "- Do we expect that a model produced from the data will be predictive for our chemical space of interest?"
+]
+
+properties_questions = [
+    "Do the datasets have compounds with similar or dissimilar properties?",
+    "Do the plots make sense for the chemical space of the datasets?",
+    "Do your observations align with the chemical space visualisations above?"
 ]
 
 library_checkbox_names = [
