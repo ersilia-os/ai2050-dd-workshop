@@ -20,12 +20,15 @@ if "random_seed" not in st.session_state:
 
 @st.cache_data
 def describe_mols(df_list, filenames):
-    prepared_dfs = []
+    prepared_dfs, error_dfs = [], []
     for i, df in enumerate(df_list):
-        tmp_df = process_smiles(df)
-        tmp_df["Dataset"] = filenames[i]
-        prepared_dfs.append(tmp_df)
-    return prepared_dfs    
+        try:
+            tmp_df = process_smiles(df)
+            tmp_df["Dataset"] = filenames[i]
+            prepared_dfs.append(tmp_df)
+        except:
+            error_dfs.append(filenames[i])
+    return prepared_dfs, error_dfs    
 
 def process_umap(combined_df):
     transformed_data = create_umap(combined_df["fp"].tolist())
@@ -72,7 +75,10 @@ if cols[0].button("Check Files and Featurize"):
         filenames, df_list = process_csv_files(file_list)
         
         st.toast("Describing molecules")
-        prepared_dfs = describe_mols(df_list, filenames)
+        prepared_dfs, error_dfs = describe_mols(df_list, filenames)
+        if error_dfs != []:
+            
+            st.info("Could not process the SMILES column in the following files: " + str(error_dfs))
 
         st.session_state["filenames"] = filenames
         st.session_state["raw_dfs"] = df_list
