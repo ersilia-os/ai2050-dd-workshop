@@ -2,10 +2,12 @@ import streamlit as st
 import pandas as pd
 import csv
 import io
+import requests
 from rdkit import Chem
 from rdkit.Chem import Draw
 from io import BytesIO
 import matplotlib.pyplot as plt
+from xlsxwriter.utility import xl_col_to_name
 
 st.set_page_config(
     page_title="Assemble model predictions from Ersilia",
@@ -42,6 +44,24 @@ def clean_dataframe(model_id, df):
     df = df.rename(columns=dict(zip(list(df.columns), columns)))
     return df
 
+def get_slug(model_id):
+    file_name = "https://raw.githubusercontent.com/ersilia-os/{0}/refs/heads/main/README.md".format(model_id)
+    response = requests.get(file_name)
+    if response.status_code == 200:
+        file_text = response.text
+    else:
+        file_text = ""
+    for line in file_text.split("\n"):
+        if line.startswith("- **Slug:**"):
+            slug = line.split("`")[1]
+            return slug
+    st.error(f"Could not find slug for model {model_id}. Please check the model ID.")
+        
+def get_columns(model_id):
+    csv_file = "https://raw.githubusercontent.com/ersilia-os/{0}/refs/heads/main/model/framework/columns/run_columns.csv".format(model_id)
+    df = pd.read_csv(csv_file)
+    return df
+
 smiles_list = []
 if uploaded_input is not None:
     smiles_list = []
@@ -76,7 +96,7 @@ if len(smiles_list) > 0:
                 model_id = fn[:7]
                 model_ids += [model_id]
                 df = pd.read_csv(file)
-                dataframes.append(df)
+                dataframes += [df]
 
             if len(model_ids) != len(set(model_ids)):
                 st.error("Duplicate model IDs found in the uploaded files. Please ensure each file has a unique model ID.")
@@ -99,7 +119,6 @@ if len(smiles_list) > 0:
 
             df["identifier"] = cpd_ids
 
-    
             # Convert SMILES to RDKit Mol objects
             df["molecule"] = df["smiles"].apply(lambda x: Chem.MolFromSmiles(x))
 
@@ -117,7 +136,7 @@ if len(smiles_list) > 0:
             left_align_format = workbook.add_format({'align': 'left', 'valign': 'vcenter', 'text_wrap': True})
 
             # Apply left_align_format to all columns except C (molecule image)
-            from xlsxwriter.utility import xl_col_to_name
+            
             num_cols = len(df.columns)
             for col_idx in range(num_cols):
                 col_letter = xl_col_to_name(col_idx)
@@ -152,8 +171,6 @@ if len(smiles_list) > 0:
                         }
                     )
 
-            
-
             # Generate a color palette for the model_ids
             palette = plt.get_cmap('tab10')
             model_colors = {model_id: palette(i % 10) for i, model_id in enumerate(model_ids)}
@@ -177,6 +194,46 @@ if len(smiles_list) > 0:
             # Freeze the first row and apply autofilter
             worksheet.freeze_panes(1, 0)
             worksheet.autofilter(0, 0, len(df), num_cols - 1)
+
+            # Add a second worksheet for the legend
+            legend_ws = workbook.add_worksheet("Legend")
+            legend_ws.write(0, 0, "model_id", workbook.add_format({'bold': True}))
+
+            df = None
+            for model_id in model_ids:
+                slug = get_slug(model_id)
+                dc = get_columns(model_id)
+                data = {"model_id": [model_id]*len(dc), "slug": [slug]*len(dc), "col_num": [i+1 for i in range(len(dc))]}
+                data = pd.DataFrame(data)
+                data = pd.concat([data, dc], axis=1)
+                if df is None:
+                    df = data
+                else:
+                    df = pd.concat([df, data], axis=0).reset_index(drop=True)
+
+            # Write DataFrame to legend worksheet
+            for row_idx, row in df.iterrows():
+                model_id = row["model_id"]
+                color = model_colors.get(model_id, "#FFFFFF")
+                cell_format = workbook.add_format({'bg_color': color, 'align': 'left', 'valign': 'vcenter'})
+                legend_ws.write(row_idx + 1, 0, row["model_id"], cell_format)
+                legend_ws.write(row_idx + 1, 1, row["slug"])
+                legend_ws.write(row_idx + 1, 2, row["col_num"])
+                legend_ws.write(row_idx + 1, 3, row["name"])
+                legend_ws.write(row_idx + 1, 4, row["description"])
+            # Set column headers
+            legend_ws.write(0, 1, "slug", workbook.add_format({'bold': True}))
+            legend_ws.write(0, 2, "col_num", workbook.add_format({'bold': True}))
+            legend_ws.write(0, 3, "name", workbook.add_format({'bold': True}))
+            legend_ws.write(0, 4, "description", workbook.add_format({'bold': True}))
+
+            # Set column widths
+            legend_ws.set_column('B:B', 20)  # slug column
+            legend_ws.set_column('D:D', 30)  # name column
+            legend_ws.set_column('E:E', 60)  # description column
+            
+            # Freeze first row
+            legend_ws.freeze_panes(1, 0)
 
             writer.close()
             output.seek(0)
