@@ -91,7 +91,7 @@ if len(smiles_list) > 0:
             for file in uploaded_files:
                 fn = file.name
                 if "eos" not in fn or not fn.endswith(".csv"):
-                    st.error(f"Invalid file name: {fn}. Please upload files with names starting with 'eos' and ending with '.csv'.")
+                    st.error(f"Invalid file name: {fn}. Please upload files with names containing 'eos' identifier and ending with '.csv'.")
                     st.stop()
                 for x in fn.split("_"):
                     if x.startswith("eos") and len(x) == 7:
