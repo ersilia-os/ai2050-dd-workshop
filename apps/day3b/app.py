@@ -94,6 +94,7 @@ if len(smiles_list) > 0:
                     st.error(f"Invalid file name: {fn}. Please upload files with names containing 'eos' identifier and ending with '.csv'.")
                     st.stop()
                 for x in fn.split("_"):
+                    x = x.replace(".csv", "")
                     if x.startswith("eos") and len(x) == 7:
                         model_id = x
                 model_ids += [model_id]
