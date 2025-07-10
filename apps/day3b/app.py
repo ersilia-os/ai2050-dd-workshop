@@ -90,10 +90,12 @@ if len(smiles_list) > 0:
             dataframes = []
             for file in uploaded_files:
                 fn = file.name
-                if not fn.startswith("eos") or not fn.endswith(".csv"):
+                if "eos" not in fn or not fn.endswith(".csv"):
                     st.error(f"Invalid file name: {fn}. Please upload files with names starting with 'eos' and ending with '.csv'.")
                     st.stop()
-                model_id = fn[:7]
+                for x in fn.split("_"):
+                    if x.startswith("eos") and len(x) == 7:
+                        model_id = x
                 model_ids += [model_id]
                 df = pd.read_csv(file)
                 dataframes += [df]
